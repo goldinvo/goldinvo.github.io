@@ -1,0 +1,17 @@
+{% assign title = page.title | default: site.title %}
+{% assign description = page.desc | default: site.desc %}
+
+<head>
+    <title>{{ title }}</title>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="{{ description }}">
+
+    <link href="/style.css" rel="stylesheet">
+    <script src="/script.js" defer></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicons/favicon.ico">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
