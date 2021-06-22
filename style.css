@@ -1,19 +1,17 @@
 /* General */
-
 html {
     font-family: 'Roboto Mono', monospace;
     background-color: lightgoldenrodyellow;
     overflow-y: scroll;
 }
-
 img {
     width: 300px;
     display: block;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
-/* Default Layout (sidebar and content container) */
-
+/* Sidebar Layout (sidebar and content container) */
 .sidebar {
     position: fixed;
     top: 0px;
@@ -23,34 +21,27 @@ img {
     background-color: gold;
     text-align: right;
 }
-
 .sidebar header {
     padding: 20px;
 }
-
 .sidebar #sitetitle {
     font-weight: bold;
     font-size: 40px;
 }
-
 .sidebar a {
     text-decoration: none;
     color: black;
     font-size: 30px;
 }
-
 .sidebar a:hover {
     color: darkgoldenrod;
 }
-
 .sidebar ul {
     list-style-type: none;
 }
-
 .sidebar li {
     margin: 7px 0px;
 }
-
 #saucyboy {
     position: relative;
     z-index: -1;
@@ -58,13 +49,6 @@ img {
     top: -60px;
     left: 20px;
 }
-
-main { /* content container */
-    position: absolute;
-    top: 0px;
-    left: 270px;
-}
-
 footer {
     position: absolute;
     bottom: 0;
@@ -72,32 +56,42 @@ footer {
     padding: 20px;
 }
 
+/* Page Layout (content container) */
+main {
+    position: absolute;
+    top: 0px;
+    left: 270px;
+}
 
+/* PAGE: Gallery */
+.gallery {
+    padding: 20px;
+    column-count: 3;
+    column-gap: 20px;
+    
+}
 
-/* short-post content */
+/* short-post layout (content) */
 #shortpost {
     display: flex;
     flex-flow: row nowrap;
 }
-
 .imagereel {
     flex: 0 1 350px;
     padding: 20px;
 }
-
 .imagereel img {
     width: 100%;
-    margin-bottom: 20px;
 }
-
 .shortdesc {
     flex: 0 2 500px;
 }
-
 #sd-content {
     border-bottom: 1px solid black;
     margin-bottom: 5px;
 }
+
+
 
 
 
