@@ -11,3 +11,9 @@ layout: page
     </a>
   {% endfor %}
 </div>
+
+<script>
+  const parent = document.querySelector(".gallery");
+  const shuffled = shuffle(Array.from(parent.children));
+  shuffled.forEach(child => parent.appendChild(child));
+</script>
