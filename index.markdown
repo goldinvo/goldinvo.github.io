@@ -3,17 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Gallery
 layout: page
+script: /scripts/index.js
 ---
+<div class="gallery-settings">
+  <button type="button" id="gal-shuffle">Shuffle</button>
+</div>
 <div class="gallery">
+  
   {% for post in site.posts %}
-    <a href="{{ post.url }}">
+    <a id="{{ forloop.index0 }}" href="{{ post.url }}">
       <img src="{{ post.featured-image }}">
     </a>
   {% endfor %}
 </div>
-
-<script>
-  const parent = document.querySelector(".gallery");
-  const shuffled = shuffle(Array.from(parent.children));
-  shuffled.forEach(child => parent.appendChild(child));
-</script>
