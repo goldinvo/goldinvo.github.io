@@ -7,7 +7,7 @@ images:
 - /assets/2018-12-05/irish-crochet-leaf-and-flowers.jpg
 - /assets/2018-12-05/irish-crochet-flowers.jpg
 - /assets/2018-12-05/large-irish-crochet-flower.jpg
-featured-image: assets/2018-12-05/irish-crochet-motifs.jpeg
+featured-image: /assets/2018-12-05/small-irish-crochet-flowers.jpg
 ---
 These are some motifs that I made for use in [Irish crochet lace](https://en.wikipedia.org/wiki/Irish_crochet_lace){:target="_blank"} projects. All of the patterns, with the exception of the largest flower in the third image, can be found in [Kathryn White's "The Go-To Book for Irish Crochet Motifs](https://www.amazon.com/Go-Book-Irish-Crochet-Motifs/dp/1596359234){:target="_blank"}. Overall, I found the patterns in this book to be well-written and produce appealing designs.
 
