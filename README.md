@@ -1,4 +1,4 @@
-#goldinvo.com
+# goldinvo.com
 My personal website 
 
 ## Usage of Layouts
@@ -12,7 +12,7 @@ My personal website
         - *images*: array of image paths to feature in gallery reel
         - *featured-image*: the image to be featured on post listings
 - **long-post** extends **page**: (TODO: add support for long-form blog posts)
-- both short-post and long-post posts should be named YYYY-MM-DD-TITLE-MORETITLE.md . The title and date properties from this file name are used in the website.
+- both short-post and long-post posts should be named `YYYY-MM-DD-TITLE-MORETITLE.md`. The title and date properties from this file name are used in the website.
 
 ## Pages
 - **index.md**: gallery for discovering content
