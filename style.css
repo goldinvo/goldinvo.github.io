@@ -57,13 +57,19 @@ button:hover {
     padding: 20px;
 }
 .sidebar #sitetitle {
+    text-decoration: none;
+    color: black;
+    
     font-weight: bold;
     font-size: 40px;
 }
-.sidebar a {
+.sidebar li a {
     text-decoration: none;
     color: black;
     font-size: 30px;
+}
+.sidebar .current-page {
+    text-decoration: underline;
 }
 .sidebar a:hover {
     color: darkgoldenrod;
@@ -87,6 +93,7 @@ button:hover {
     right: 0;
     padding: 20px;
 }
+
 
 /* Page Layout (content container) */
 main {
