@@ -4,7 +4,6 @@
     --accent-border: #dabf2a;
     --background-color: #ffffe9;
     --highlight-color: #f2f4f7;
-
 }
 html {
     font-family: 'Roboto Mono', monospace;
@@ -24,12 +23,23 @@ code {
     margin: 0;
     padding: .2em .4em;
 }
-
 .highlight pre {
     overflow-x: scroll;
     background-color: var(--highlight-color);
     border-radius: 6px;
     padding: 20px;
+}
+button {
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: inherit;
+    font: inherit;
+}
+button:hover {
+    background-color: var(--accent-border);
+    cursor: pointer;
 }
 
 /* Sidebar Layout (sidebar and content container) */
@@ -89,9 +99,13 @@ main {
 /* PAGE: Gallery */
 .gallery {
     padding: 20px;
+}
+.gallery .buttons {
+    margin-bottom: 20px;
+}
+.gallery .posts {
     column-count: 3;
     column-gap: 20px;
-    
 }
 .gallery img {
     width: 300px;

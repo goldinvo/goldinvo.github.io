@@ -1,5 +1,5 @@
 // On load: obtain gallery root and rearrange images
-const gallery = document.querySelector(".gallery");
+const gallery = document.querySelector(".posts");
 arrangeGallery(gallery, false);
 
 // On shuffle: force rearrangement of images

@@ -5,14 +5,19 @@ title: Gallery
 layout: page
 script: /scripts/index.js
 ---
-<div class="gallery-settings">
-  <button type="button" id="gal-shuffle">Shuffle</button>
-</div>
+
 <div class="gallery">
-  
-  {% for post in site.posts %}
-    <a id="{{ forloop.index0 }}" href="{{ post.url }}">
-      <img src="{{ post.featured-image }}">
-    </a>
-  {% endfor %}
+
+  <div class="buttons">
+    <button type="button" id="gal-shuffle">Shuffle</button>
+  </div>
+
+  <div class="posts">
+    {% for post in site.posts %}
+      <a id="{{ forloop.index0 }}" href="{{ post.url }}">
+        <img src="{{ post.featured-image }}">
+      </a>
+    {% endfor %}
+  </div>
+
 </div>
