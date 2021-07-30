@@ -59,7 +59,6 @@ button:hover {
 .sidebar #sitetitle {
     text-decoration: none;
     color: black;
-    
     font-weight: bold;
     font-size: 40px;
 }
@@ -121,6 +120,32 @@ main {
 }
 .gallery img:hover{
     border: 2px solid var(--accent-border);
+}
+
+/* PAGE: Tools */
+.tools {
+    padding: 20px;
+}
+.tools a  {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: var(--highlight-color);
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.card:hover {
+    border: 2px solid var(--accent-color)
+}
+
+.tools .card img {
+    width: 300px;
 }
 
 /* short-post layout (content) */

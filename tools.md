@@ -7,5 +7,7 @@ title: Tools
     <img src="assets/pattern-counter.jpg">
     <span>Pattern Counter</span>
   </div></a>
+
+  <p>(More to come!)</p>
 </div>
 
