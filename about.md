@@ -2,16 +2,16 @@
 layout: page
 title: About
 ---
+{::options parse_block_html="true" /}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div style="padding-left: 20px; max-width: 700px;">
+# Welcome to my blog!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+On this website you'll find some of my crafting endeavors and fun little web development projects. I'm constantly learning new ways to create things, and I hope that you can find some content here that you enjoy :)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Please feel free to send any comments and feedback my way! I would really appreciate it!    
 
+Email: goldin@goldinvo.com    
+Github: [Profile](https://github.com/goldinvo)
+</div>
 
-[jekyll-organization]: https://github.com/jekyll
