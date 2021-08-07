@@ -1,9 +1,9 @@
 /* General */
 :root {
     --accent-color: #ffd700;
-    --accent-border: #dabf2a;
+    --accent-darker: #dabf2a;
     --background-color: #ffffe9;
-    --highlight-color: #f2f4f7;
+    --highlight-color: #f0f2ff;
 }
 html {
     font-family: 'Roboto Mono', monospace;
@@ -26,7 +26,7 @@ code {
 .highlight pre {
     overflow-x: scroll;
     background-color: var(--highlight-color);
-    border-radius: 6px;
+    border-left: solid 4px var(--accent-color);
     padding: 20px;
 }
 button {
@@ -38,7 +38,7 @@ button {
     font: inherit;
 }
 button:hover {
-    background-color: var(--accent-border);
+    background-color: var(--accent-darker);
     cursor: pointer;
 }
 
@@ -50,7 +50,6 @@ button:hover {
     height: 100vh;
     width: 270px;
     background-color: var(--accent-color);
-    border-right: 2px solid var(--accent-border);
     text-align: right;
 }
 .sidebar header {
@@ -119,7 +118,7 @@ main {
     box-sizing: border-box;
 }
 .gallery img:hover{
-    border: 2px solid var(--accent-border);
+    border: 2px solid var(--accent-color);
 }
 
 /* PAGE: Tools */
