@@ -19,7 +19,7 @@ My personal website
 ## Some categories (not really used, for now)
 crochet, knitting, tatting, bobbin-lace, weaving, misc
 
-Run using `jekyll serve`
+Run using `bundle exec jekyll serve`
 
 
 
