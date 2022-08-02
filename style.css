@@ -104,6 +104,7 @@ main {
 /* PAGE: Gallery */
 .gallery {
     padding: 20px;
+    width: 940px;
 }
 .gallery .buttons {
     margin-bottom: 20px;
@@ -113,6 +114,7 @@ main {
     column-gap: 20px;
 }
 .gallery img {
+    display: inline-block;
     width: 300px;
     border: 2px solid transparent;
     box-sizing: border-box;
