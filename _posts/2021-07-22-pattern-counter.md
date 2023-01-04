@@ -33,7 +33,7 @@ You will need to use the 'Exit repeat' button in the next instruction
 Cut and weave in ends (Now try your own pattern!)
 ```
 
-Stepping through this example should give you enough intuition about the tool to start writing your own patterns to use. When using the different buttons, keep note of how they change the different repeat counts, and how it changes your position relative to where you currently are. Also, see how the tool acts as expected when you type in different numbers into the counters. Also note the format of the input pattern itself, such as how instruction numbers are written, how comments are written (without separators!), and how newline characters are significant.
+Stepping through this example should give you enough intuition about the tool to start using other patterns. When using the different buttons, keep note of how they change the different repeat counts, and how it changes your position relative to where you currently are. Also, see how the tool acts as expected when you type in different numbers into the counters. Also note the format of the input pattern itself, such as how instruction numbers are written, how comments are written (without separators!), and how newline characters are significant.
 
 For more specific details, see the following section.
 

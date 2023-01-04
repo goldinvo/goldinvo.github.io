@@ -9,9 +9,14 @@ images:
 - /assets/2019-02-02/lace-bag-lining-removed.jpg
 featured-image: /assets/2019-02-02/background-netting-in-progress.jpg
 ---
-This lace bag is a modern and fun approach to Irish crochet lace making. First, I arranged my motifs onto some heavy fabric to make up the front of the bag. The motifs are basted in place and connected using an Irish crochet background netting. This piece is a little unusual in that the background netting wraps around the back of the fabric to create a volume rather than a surface (typically, you would only create a single layer of lace on the surface of the heavy fabric). I did this by sewing on an identical back panel of heavy fabric and filling in the backside with a simple net as I worked my way down the piece. Note that the top motif (the trim) is actually a loop that serves as the starting point for both sides of the bag. 
+A fun little bag using my [Irish Crochet Motifs]({% post_url 2018-12-05-irish-crochet-motifs %}).
+To avoid any seaming, I made it so that the fabric that the appliqués were attached to was a 
+roughly sewn pouch. All sides of the bag were sewn at the same time from the top down, with 
+the back filled in with a simple netting. The top trim is a loop that wrapped around the
+pouch and has holes to fit a ribbon. A Romanian cord strap was attached to the inside of the trim.
 
-For the final touches, I added a Romanian cord strap, gold-colored lining, and some pink ribbon to cinch the top closed. The bag pairs really beautifully with some tulle as well. However, I ended up not liking the gold lining and removed it, which looked much better. Sorry about the poor angle in the last photo; I've lost most of the photos I took of the bag without the lining, and I've already given the bag away so I cannot take any more pictures.
+I initially put in a gold lining but have sinced removed it. I sadly gave it
+away without remembering to take pictures without it. It was so light and pretty!
 
 
-See also: [Irish Crochet Motifs]({% post_url 2018-12-05-irish-crochet-motifs %})
+
