@@ -1,6 +1,12 @@
 # goldinvo.com
 My personal website 
 
+## Build
+[Jekyll Reference](https://jekyllrb.com/docs/)  
+Run: `bundle exec jekyll serve`  
+- `--livereload`
+- `--drafts`
+
 ## Usage of Layouts
 - **`default`** includes *`head`*: for webpages where you don't want the sidebar
     - include scripts using `script: [path]` 
@@ -19,7 +25,7 @@ My personal website
 ## Some categories (not really used, for now)
 crochet, knitting, tatting, bobbin-lace, weaving, misc
 
-Run using `bundle exec jekyll serve`
+
 
 
 
