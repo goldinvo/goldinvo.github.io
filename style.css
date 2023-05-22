@@ -1,4 +1,6 @@
+/* ####### */
 /* General */
+/* ####### */
 :root {
     --accent-color: #ffd700;
     --accent-darker: #dabf2a;
@@ -41,8 +43,9 @@ button:hover {
     background-color: var(--accent-darker);
     cursor: pointer;
 }
-
+/* ############################################## */
 /* Sidebar Layout (sidebar and content container) */
+/* ############################################## */
 .sidebar {
     position: fixed;
     top: 0px;
@@ -59,7 +62,7 @@ button:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
 }
 .sidebar li a {
     text-decoration: none;
@@ -92,8 +95,9 @@ button:hover {
     padding: 20px;
 }
 
-
+/* ############################### */
 /* Page Layout (content container) */
+/* ############################### */
 main {
     position: absolute;
     top: 0px;
@@ -101,7 +105,9 @@ main {
     z-index: -1;
 }
 
+/* ############# */
 /* PAGE: Gallery */
+/* ############# */
 .gallery {
     padding: 20px;
     width: 940px;
@@ -123,7 +129,9 @@ main {
     border: 2px solid var(--accent-color);
 }
 
+/* ############# */
 /* PAGE: Tools */
+/* ############# */
 .tools {
     padding: 20px;
 }
@@ -149,7 +157,9 @@ main {
     width: 300px;
 }
 
+/* ############# */
 /* short-post layout (content) */
+/* ############# */
 #shortpost {
     display: flex;
     flex-flow: row nowrap;
@@ -169,7 +179,9 @@ main {
     margin-bottom: 5px;
 }
 
+/* ############# */
 /* long-post layout */
+/* ############# */
 .long-post {
     padding: 0px 20px 30px 20px;
     box-sizing: border-box;
