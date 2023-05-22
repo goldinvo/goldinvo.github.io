@@ -9,7 +9,6 @@ Run: `bundle exec jekyll serve`
 
 ## Usage of Layouts
 - **`default`** includes *`head`*: for webpages where you don't want the sidebar
-    - include scripts using `script: [path]` 
 - **`page`** extends **`default`** includes *sidebar*: Contains the sidebar and a reserved space for content.
     - Required properties:
         - `title`:

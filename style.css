@@ -112,9 +112,6 @@ main {
     padding: 20px;
     width: 940px;
 }
-.gallery .buttons {
-    margin-bottom: 20px;
-}
 .gallery .posts {
     column-count: 3;
     column-gap: 20px;
