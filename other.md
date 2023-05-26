@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Tools
+title: Other
 ---
-<div class="tools">
+<div class="other">
   <a href="https://goldinvo.com/pattern-counter"><div class="card">
     <img src="assets/pattern-counter.jpg">
     <span>Pattern Counter</span>

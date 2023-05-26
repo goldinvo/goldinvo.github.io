@@ -127,12 +127,12 @@ main {
 }
 
 /* ############# */
-/* PAGE: Tools */
+/* PAGE: Other */
 /* ############# */
-.tools {
+.other {
     padding: 20px;
 }
-.tools a  {
+.other a  {
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
@@ -150,7 +150,7 @@ main {
     border: 2px solid var(--accent-color)
 }
 
-.tools .card img {
+.other .card img {
     width: 300px;
 }
 
