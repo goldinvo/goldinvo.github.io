@@ -1,34 +1,33 @@
-/* ############# */
-/* PAGE: Blog    */
-/* ############# */
-.blog-list ul {
-    padding: 10px 20px;
-    width: 940px
-}
-.blog-list li {
-    display: flex;
-    align-items: start;
-    flex-direction: row;
-    margin-bottom: 20px
-}
-.blog-list img {
-    display: inline-block;
-    width: 200px;
-    border: 2px solid transparent;
-    box-sizing: border-box;
-    margin: 0px;
-}
-.blog-list h1 {
-    margin: 0px;
-    font-size: 30px;
-}
-.blog-list a {
-    text-decoration: none;
-    color: black;
-}
-.blog-list a:hover {
-    color: darkgoldenrod;
-}
-.blog-list .meta{
-    padding: 0 0 10px 10px;
+.blog-list {
+    padding: $spacing-unit;
+    margin-right: 10%;
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    li {
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+        margin-bottom: $spacing-unit;
+    }
+    img {
+        width: 200px;
+    }
+    .meta{
+        margin-left: $spacing-unit/2;
+        a {
+            text-decoration: none;
+            color: black;
+            h1 {
+                font-size: 30px;
+            }
+            &:hover {
+                color: $accent-darker;
+            }
+        }  
+        #date{
+            filter: opacity(0.5);
+        }
+    }
 }

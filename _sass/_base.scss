@@ -1,45 +1,80 @@
-/* ####### */
-/* General */
-/* ####### */
-:root {
-    --accent-color: #ffd700;
-    --accent-darker: #dabf2a;
-    --background-color: #ffffe9;
-    --highlight-color: #f0f2ff;
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
 }
-html {
-    font-family: 'Roboto Mono', monospace;
-    background-color: var(--background-color);
-    overflow-y: scroll;
-    font-size: 18px;
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+    margin-bottom: $spacing-unit / 2;
 }
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $text-color;
+    background-color: $background-color;
+}
+
 img {
     display: block;
     border-radius: 15px;
-    margin-bottom: 20px;
+}
+
+pre,
+code {
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #eef;
 }
 code {
-    background-color: var(--highlight-color);
-    border-radius: 6px;
-    font-size: 85%;
-    margin: 0;
-    padding: .2em .4em;
+    padding: 1px 5px;
 }
-.highlight pre {
+pre {
+    padding: 8px 12px;
     overflow-x: scroll;
-    background-color: var(--highlight-color);
-    border-left: solid 4px var(--accent-color);
-    padding: 20px;
-}
-button {
-    background-color: var(--accent-color);
-    border: none;
     border-radius: 15px;
-    padding: 10px 15px;
-    font-size: inherit;
-    font: inherit;
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
-button:hover {
-    background-color: var(--accent-darker);
-    cursor: pointer;
+
+// button {
+//     background-color: var(--accent-color);
+//     border: none;
+//     border-radius: 15px;
+//     padding: 10px 15px;
+//     font-size: inherit;
+//     font: inherit;
+// }
+// button:hover {
+// //    background-color: $accent-darker;
+//     cursor: pointer;
+// }
+
+ul, ol {
+    margin-left: $spacing-unit;
+}
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+a {
+    color: $accent-darker;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($accent-darker, 10%);
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
 }

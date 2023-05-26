@@ -10,7 +10,7 @@ title: Blog
         <div class="meta">
             <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
             <span>{{ post.excerpt }}</span>
-            <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span id="date">{{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
       </li>
     {% endfor %}

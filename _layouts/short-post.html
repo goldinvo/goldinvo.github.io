@@ -1,16 +1,16 @@
 ---
 layout: page
 ---
-<div id="shortpost">
-    <div class="imagereel">
+<div class="shortpost">
+    <div id="imagereel">
         {% for image in page.images %}
         <img src="{{ image }}">
         {% endfor %}
     </div>
 
-    <div class="shortdesc">
+    <div id="shortdesc">
         <h1>{{ page.title }}</h1>
-        <div id="sd-content">{{ content }}</div>
+        <div id="content">{{ content }}</div>
         {{ page.date | date: "%b %Y"}}
     </div>
 </div>

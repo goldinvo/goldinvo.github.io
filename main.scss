@@ -2,23 +2,23 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'Roboto Mono', monospace;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$background-color: #ffffe9;
+$accent-color:      #ffd700;
+$accent-darker: darken($accent-color, 10%);
+// --accent-color: #ffd700;
+// --accent-darker: #dabf2a;
+// --background-color: #ffffe9;
+// --highlight-color: #f0f2ff;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -42,13 +42,13 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "blog",
-        "gallery",
-        "long-post",
-        "normalize",
-        "other",
-        "page",
-        "short-post",
-        "sidebar"
+    "normalize",
+    "base",
+    "blog",
+    "gallery",
+    "long-post",
+    "other",
+    "page",
+    "short-post",
+    "sidebar"
 ;
