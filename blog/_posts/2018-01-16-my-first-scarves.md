@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: crochet
+tag: crochet
 images: 
 - /assets/2018-01-16/gray-waffle-stitch-scarf.jpg
 - /assets/2018-01-16/red-waffle-stitch-scarf.jpg

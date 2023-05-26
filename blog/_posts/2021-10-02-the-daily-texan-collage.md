@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: misc
+tag: misc
 images:
 - /assets/2021-10-02/collage.jpeg
 featured-image: /assets/2021-10-02/collage.jpeg

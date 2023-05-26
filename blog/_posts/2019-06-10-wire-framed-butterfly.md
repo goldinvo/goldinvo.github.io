@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: crochet
+tag: crochet
 images:
 - /assets/2019-06-10/crochet-wire-framed-butterfly.jpg
 - /assets/2019-06-10/crochet-butterfly-hanging.jpeg

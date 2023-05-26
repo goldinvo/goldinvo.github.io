@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: bobbin-lace
+tag: bobbin-lace
 images:
 - /assets/2022-07-21/bookmark.jpeg
 - /assets/2022-07-21/book_tail.jpeg

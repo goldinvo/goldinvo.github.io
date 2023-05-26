@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: weaving
+tag: weaving
 images: 
 - /assets/2020-08-13/maroon-and-yellow-woven-scarf.jpeg
 - /assets/2020-08-13/maroon-yellow-weave.jpeg

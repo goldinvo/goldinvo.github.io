@@ -1,6 +1,6 @@
 --- 
 layout: short-post
-category: bobbin-lace
+tag: bobbin-lace
 images: 
 - /assets/2020-04-02/lace-on-bulletin-board.jpeg
 - /assets/2020-04-02/bobbin-lace-samples.jpg

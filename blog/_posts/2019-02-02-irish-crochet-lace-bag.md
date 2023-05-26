@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: crochet
+tag: crochet
 images: 
 - /assets/2019-02-02/motif-arrangement.jpg
 - /assets/2019-02-02/starting-background-netting.jpg

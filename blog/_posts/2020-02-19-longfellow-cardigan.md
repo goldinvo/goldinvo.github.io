@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: knitting
+tag: knitting
 images: 
 - /assets/2020-02-19/longfellow-cardigan.jpg
 - /assets/2020-02-19/longfellow-caredigan-pocket.jpg

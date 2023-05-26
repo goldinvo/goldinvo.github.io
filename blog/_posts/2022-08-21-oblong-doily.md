@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: bobbin-lace
+tag: bobbin-lace
 images:
 - /assets/2022-08-21/oblong-doily.jpg
 - /assets/2022-08-21/wip-1.jpeg

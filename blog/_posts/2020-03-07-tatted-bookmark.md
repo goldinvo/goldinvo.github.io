@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: tatting
+tag: tatting
 images: 
 - /assets/2020-03-07/tatted-bookmark.jpg
 - /assets/2020-03-07/tatted-bookmark-tassel.jpg

@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: knitting
+tag: knitting
 images:
 - /assets/2020-02-12/wild-swan-shawl.jpg
 - /assets/2020-02-12/wild-swan-shawl-back.jpg

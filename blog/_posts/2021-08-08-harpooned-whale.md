@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: crochet
+tag: crochet
 images:
 - /assets/2021-08-08/whale.jpeg
 featured-image: /assets/2021-08-08/whale.jpeg

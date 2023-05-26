@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: 
+tag: 
 - weaving
 - crochet
 images:

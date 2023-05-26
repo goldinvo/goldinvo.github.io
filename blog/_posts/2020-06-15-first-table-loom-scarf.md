@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: weaving
+tag: weaving
 images:
 - /assets/2020-06-15/table-loom-scarf.jpeg
 - /assets/2020-06-15/table-loom-scarf-weave.jpeg

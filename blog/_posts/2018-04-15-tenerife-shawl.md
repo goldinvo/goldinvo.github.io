@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: crochet
+tag: crochet
 images: 
 - /assets/2018-04-15/tenerife-shawl.jpg
 # - /assets/2018-04-15/making-bobbin-lace-spider.mp4 TODO: add support for .mp4

@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: crochet
+tag: crochet
 images:
 - /assets/2018-12-05/irish-crochet-motifs.jpeg
 - /assets/2018-12-05/small-irish-crochet-flowers.jpg

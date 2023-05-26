@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: cooking
+tag: cooking
 images:
 - /assets/2023-05-22/1.jpeg
 - /assets/2023-05-22/2.jpeg

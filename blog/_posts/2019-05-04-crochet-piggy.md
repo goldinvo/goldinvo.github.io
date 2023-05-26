@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: crochet
+tag: crochet
 images: 
 - /assets/2019-05-04/crochet-pig.gif
 - /assets/2019-05-04/crochet-pig.jpg

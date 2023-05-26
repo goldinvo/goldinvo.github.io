@@ -1,6 +1,6 @@
 ---
 layout: short-post
-category: weaving
+tag: weaving
 images:
 - /assets/2020-07-10/woven-pillow.jpeg
 - /assets/2020-07-10/pink-weave.jpeg

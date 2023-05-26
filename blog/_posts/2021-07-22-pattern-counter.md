@@ -1,5 +1,6 @@
 ---
 layout: long-post
+tag: misc
 featured-image: /assets/2021-07-22/pattern-counter.jpg
 ---
 My favorite thing about knitting and crochet is that they are some of the most simple, relaxing, and meditative hobbies--so much so that the biggest challenge is simply counting stitches and keeping track of your pattern! And while complaining about counting may seem silly, I think most stitchers would agree that having to keep track of stitches (and loosing count of them) can quickly become an incredibly frustrating part of an otherwise idyllic experience. *Pattern Counter* is a tool I made to help allieviate this problem.
