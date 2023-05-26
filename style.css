@@ -171,8 +171,6 @@ main {
 }
 .shortdesc {
     flex: 0 2 500px;
-    position: sticky;
-    top: 0;
 }
 #sd-content {
     border-bottom: 1px solid black;
