@@ -127,6 +127,23 @@ main {
 }
 
 /* ############# */
+/* PAGE: Blog    */
+/* ############# */
+.blog-list li {
+    display: flex;
+    flex-direction: row;
+}
+.blog-list img {
+    display: inline-block;
+    width: 200px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+.blog-list .meta {
+    margin: 0;
+}
+
+/* ############# */
 /* PAGE: Other */
 /* ############# */
 .other {
