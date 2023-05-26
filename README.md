@@ -1,9 +1,14 @@
 # goldinvo.com
 My personal website 
 
+## Build
+[Jekyll Reference](https://jekyllrb.com/docs/)  
+Run: `bundle exec jekyll serve`  
+- `--livereload`
+- `--drafts`
+
 ## Usage of Layouts
 - **`default`** includes *`head`*: for webpages where you don't want the sidebar
-    - include scripts using `script: [path]` 
 - **`page`** extends **`default`** includes *sidebar*: Contains the sidebar and a reserved space for content.
     - Required properties:
         - `title`:
@@ -16,10 +21,10 @@ My personal website
         -`featured-image`
 - both short-post and long-post posts should be named `YYYY-MM-DD-TITLE-MORETITLE.md`. The title and date properties from this file name are used in the website.
 
-## Some categories (not really used, for now)
-crochet, knitting, tatting, bobbin-lace, weaving, misc
+## Some tags (not really used, for now)
+crochet, knitting, tatting, bobbin-lace, weaving, cooking, misc
 
-Run using `bundle exec jekyll serve`
+
 
 
 

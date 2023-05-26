@@ -1,4 +1,6 @@
+/* ####### */
 /* General */
+/* ####### */
 :root {
     --accent-color: #ffd700;
     --accent-darker: #dabf2a;
@@ -41,8 +43,9 @@ button:hover {
     background-color: var(--accent-darker);
     cursor: pointer;
 }
-
+/* ############################################## */
 /* Sidebar Layout (sidebar and content container) */
+/* ############################################## */
 .sidebar {
     position: fixed;
     top: 0px;
@@ -59,7 +62,7 @@ button:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
 }
 .sidebar li a {
     text-decoration: none;
@@ -92,8 +95,9 @@ button:hover {
     padding: 20px;
 }
 
-
+/* ############################### */
 /* Page Layout (content container) */
+/* ############################### */
 main {
     position: absolute;
     top: 0px;
@@ -101,13 +105,12 @@ main {
     z-index: -1;
 }
 
+/* ############# */
 /* PAGE: Gallery */
+/* ############# */
 .gallery {
     padding: 20px;
     width: 940px;
-}
-.gallery .buttons {
-    margin-bottom: 20px;
 }
 .gallery .posts {
     column-count: 3;
@@ -123,11 +126,48 @@ main {
     border: 2px solid var(--accent-color);
 }
 
-/* PAGE: Tools */
-.tools {
+/* ############# */
+/* PAGE: Blog    */
+/* ############# */
+.blog-list ul {
+    padding: 10px 20px;
+    width: 940px
+}
+.blog-list li {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    margin-bottom: 20px
+}
+.blog-list img {
+    display: inline-block;
+    width: 200px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.blog-list h1 {
+    margin: 0px;
+    font-size: 30px;
+}
+.blog-list a {
+    text-decoration: none;
+    color: black;
+}
+.blog-list a:hover {
+    color: darkgoldenrod;
+}
+.blog-list .meta{
+    padding: 0 0 10px 10px;
+}
+
+/* ############# */
+/* PAGE: Other */
+/* ############# */
+.other {
     padding: 20px;
 }
-.tools a  {
+.other a  {
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
@@ -145,14 +185,17 @@ main {
     border: 2px solid var(--accent-color)
 }
 
-.tools .card img {
+.other .card img {
     width: 300px;
 }
 
+/* ############# */
 /* short-post layout (content) */
+/* ############# */
 #shortpost {
     display: flex;
     flex-flow: row nowrap;
+    align-items: flex-start;
 }
 .imagereel {
     flex: 0 1 350px;
@@ -169,7 +212,9 @@ main {
     margin-bottom: 5px;
 }
 
+/* ############# */
 /* long-post layout */
+/* ############# */
 .long-post {
     padding: 0px 20px 30px 20px;
     box-sizing: border-box;
