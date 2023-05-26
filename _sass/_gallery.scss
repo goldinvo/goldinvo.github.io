@@ -1,0 +1,20 @@
+/* ############# */
+/* PAGE: Gallery */
+/* ############# */
+.gallery {
+    padding: 20px;
+    width: 940px;
+}
+.gallery .posts {
+    column-count: 3;
+    column-gap: 20px;
+}
+.gallery img {
+    display: inline-block;
+    width: 300px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+.gallery img:hover{
+    border: 2px solid var(--accent-color);
+}

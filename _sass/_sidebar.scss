@@ -1,0 +1,51 @@
+/* ############################################## */
+/* Sidebar Layout (sidebar and content container) */
+/* ############################################## */
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 270px;
+    background-color: var(--accent-color);
+    text-align: right;
+}
+.sidebar header {
+    padding: 20px;
+}
+.sidebar #sitetitle {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sidebar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.sidebar .current-page {
+    text-decoration: underline;
+}
+.sidebar a:hover {
+    color: darkgoldenrod;
+}
+.sidebar ul {
+    list-style-type: none;
+}
+.sidebar li {
+    margin: 7px 0px;
+}
+.sidebar #saucyboy {
+    position: relative;
+    z-index: -1;
+    width: 200px;
+    top: -60px;
+    left: 20px;
+}
+.sidebar footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}

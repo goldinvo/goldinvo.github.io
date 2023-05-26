@@ -1,0 +1,16 @@
+/* ############# */
+/* long-post layout */
+/* ############# */
+.long-post {
+    padding: 0px 20px 30px 20px;
+    box-sizing: border-box;
+    max-width: 800px;
+}
+.long-post .content {
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+.long-post img {
+    max-width: 100%;
+    height: 50vh;
+}

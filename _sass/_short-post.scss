@@ -1,0 +1,22 @@
+/* ############# */
+/* short-post layout (content) */
+/* ############# */
+#shortpost {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+.imagereel {
+    flex: 0 1 350px;
+    padding: 20px;
+}
+.imagereel img {
+    width: 100%;
+}
+.shortdesc {
+    flex: 0 2 500px;
+}
+#sd-content {
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
