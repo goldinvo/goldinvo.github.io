@@ -1,8 +1,5 @@
-@include media-query($large) {
-    .other {
-        padding: 20px;
-    }
-    .other a  {
+.other {
+    a  {
         text-decoration: none;
         color: black;
         font-size: 1.5rem;
@@ -15,12 +12,15 @@
         border-radius: 15px;
         padding: 10px;
         border: 2px solid transparent;
+        &:hover {
+            border: 2px solid var(--accent-color)
+        }
+        img {
+            max-width: 300px;
+        }
     }
-    .card:hover {
-        border: 2px solid var(--accent-color)
-    }
+}
 
-    .other .card img {
-        width: 300px;
-    }
+@include media-query($large) {
+
 }

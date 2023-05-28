@@ -1,6 +1,20 @@
+.short-post {
+    #short-desc {
+        margin-bottom: $spacing-unit;
+        #date {
+            font-size: .75em;
+        }
+    }
+    #image-reel {
+        img {
+            margin-bottom: $spacing-unit;
+        }
+    }
+}
+
+
 @include media-query($large) {
     .shortpost {
-        padding: $spacing-unit;
         display: flex;
         flex-flow: row nowrap;
         align-items: flex-start;
