@@ -4,7 +4,7 @@ title: About
 ---
 {::options parse_block_html="true" /}
 
-<div style="padding: 30px; max-width: 700px;">
+<div>
 # Welcome to my blog!
 
 On this website you'll find some of my crafting endeavors and fun little web development projects. I'm constantly learning new ways to create things, and I hope that you can find some content here that you enjoy :)

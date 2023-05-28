@@ -1,0 +1,97 @@
+header {
+    button {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        height: 40px;
+    }
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: $spacing-unit/2;
+    height: 50px;
+
+    background-color: $accent-color;
+
+    span {
+        font-size: 22px;
+    }
+}
+.navbar-menu{
+    height: 0;
+    overflow-y: hidden;
+
+    position: fixed;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: $accent-color;
+
+    nav {
+        box-sizing: border-box;
+        padding: $spacing-unit;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #sitetitle {
+        display: none;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    li a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        &:hover {
+            color: darkgoldenrod;
+        }
+        &.current-page {
+            text-decoration: underline;
+        }
+    }
+    #close-menu {
+        box-sizing: content-box;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: $spacing-unit/2;
+    }
+    #saucyboy {
+        display: none;
+    }
+}
+
+@include media-query($large) {
+    .navbar-menu {
+        height: 100vh;
+        width: 270px;
+        text-align: right;
+        #sitetitle {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        li {
+            margin: 7px 0px;
+        }
+        #saucyboy {
+            position: relative;
+            z-index: -1;
+            width: 200px;
+            top: -60px;
+            left: 20px;
+        }
+    } 
+}

@@ -1,24 +1,23 @@
-/* ############# */
-/* short-post layout (content) */
-/* ############# */
-.shortpost {
-    padding: $spacing-unit;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-start;
-    #imagereel {
-        flex: 0 1 350px;
-        img {
-            width: 100%;
-            margin-bottom: $spacing-unit;
+@include media-query($large) {
+    .shortpost {
+        padding: $spacing-unit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        #imagereel {
+            flex: 0 1 350px;
+            img {
+                width: 100%;
+                margin-bottom: $spacing-unit;
+            }
         }
-    }
-    #shortdesc {
-        margin-left: $spacing-unit;
-        flex: 0 2 500px;
-        #content {
-            border-bottom: 1px solid black;
-            margin-bottom: $spacing-unit/2;
+        #shortdesc {
+            margin-left: $spacing-unit;
+            flex: 0 2 500px;
+            #content {
+                border-bottom: 1px solid black;
+                margin-bottom: $spacing-unit/2;
+            }
         }
     }
 }

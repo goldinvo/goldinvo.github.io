@@ -1,27 +1,26 @@
-/* ############# */
-/* PAGE: Other */
-/* ############# */
-.other {
-    padding: 20px;
-}
-.other a  {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-}
-.card {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    background-color: var(--highlight-color);
-    border-radius: 15px;
-    padding: 10px;
-    border: 2px solid transparent;
-}
-.card:hover {
-    border: 2px solid var(--accent-color)
-}
+@include media-query($large) {
+    .other {
+        padding: 20px;
+    }
+    .other a  {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+    .card {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-color: var(--highlight-color);
+        border-radius: 15px;
+        padding: 10px;
+        border: 2px solid transparent;
+    }
+    .card:hover {
+        border: 2px solid var(--accent-color)
+    }
 
-.other .card img {
-    width: 300px;
+    .other .card img {
+        width: 300px;
+    }
 }

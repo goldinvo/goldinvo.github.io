@@ -6,10 +6,11 @@ My personal website
 Run: `bundle exec jekyll serve`  
 - `--livereload`
 - `--drafts`
+- `--host 0.0.0.0`
 
 ## Usage of Layouts
-- **`default`** includes *`head`*: for webpages where you don't want the sidebar
-- **`page`** extends **`default`** includes *sidebar*: Contains the sidebar and a reserved space for content.
+- **`default`** includes *`head`*: for webpages where you don't want the navbar
+- **`page`** extends **`default`** includes *navbar*: Contains the navbar and a reserved space for content.
     - Required properties:
         - `title`:
 - **`short-post`** extends **`page`**: For posts with a one/a few pictures and a short description/caption

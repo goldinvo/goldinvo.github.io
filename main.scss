@@ -20,8 +20,7 @@ $accent-darker: darken($accent-color, 10%);
 // $grey-color-light: lighten($grey-color, 40%);
 // $grey-color-dark:  darken($grey-color, 25%);
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$large:          1800px;
 
 
 
@@ -33,7 +32,7 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }
@@ -47,8 +46,8 @@ $on-laptop:        800px;
     "blog",
     "gallery",
     "long-post",
+    "navbar",
     "other",
     "page",
-    "short-post",
-    "sidebar"
+    "short-post"
 ;
