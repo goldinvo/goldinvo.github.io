@@ -28,21 +28,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  golidnvo
 
-
-
-# defaults:
-#   - scope:
-#       path: "assets/img"
-#     values: 
-#       image: true
-# defaults:
-#   -
-#     score: 
-#       path: ""
-#       type: "post"
-#     values:
-#         layout: "post"
-#         title: "My Title"
+defaults:
+  - scope:
+      path: ""
+    values: 
+      excerpt_separator: <!--more-->
 
 
 
