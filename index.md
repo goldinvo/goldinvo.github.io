@@ -6,11 +6,11 @@ layout: page
 ---
 
 <div class="gallery">
-  <div class="posts">
+  <!-- <div class="posts"> -->
     {% for post in site.posts %}
-      <a id="{{ forloop.index0 }}" href="{{ post.url }}">
+      <a href="{{ post.url }}">
         <img src="{{ post.featured-image }}">
       </a>
     {% endfor %}
-  </div>
+  <!-- </div> -->
 </div>

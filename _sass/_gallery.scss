@@ -1,20 +1,23 @@
+.gallery {
+    width: 100%;
+    // overflow-x: hidden; for desktop?
+    img {
+        width: 100%;
+        margin-bottom: $spacing-unit;
+        border: 2px solid transparent;
+        &:hover{
+            border: 2px solid $accent-color;
+        }
+    }
+}
+
 @include media-query($large) {
     .gallery {
-        padding: $spacing-unit;
         width: 200px;
-        overflow-x: hidden;
-        .posts {
+        //.posts {
             column-count: 3;
             column-gap: $spacing-unit;
-        }
-        img {
-            width: 300px;
-            margin-bottom: $spacing-unit;
-            border: 2px solid transparent;
-            &:hover{
-                border: 2px solid $accent-color;
-            }
-        }
+        //}
     }
 }
 
