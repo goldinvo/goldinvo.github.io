@@ -5,6 +5,7 @@ images:
 - /assets/2019-05-04/crochet-pig.gif
 - /assets/2019-05-04/crochet-pig.jpg
 featured-image: /assets/2019-05-04/crochet-pig.jpg
+featured: true
 ---
 A cute little amigurumi doll for Year of the Pig<!--more-->. The use of the largest-sized safety eyes makes it extra cute :).
 

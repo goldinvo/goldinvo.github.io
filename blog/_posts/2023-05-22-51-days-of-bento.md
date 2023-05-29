@@ -55,5 +55,6 @@ images:
 - /assets/2023-05-22/51.jpeg
 
 featured-image: /assets/2023-05-22/19.jpeg
+featured: true
 ---
 Some bento boxes I've made the past two semesters :)

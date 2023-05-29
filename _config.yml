@@ -33,7 +33,7 @@ defaults:
       path: ""
     values: 
       excerpt_separator: <!--more-->
-
+      featured: false
 
 
 # Exclude from processing.

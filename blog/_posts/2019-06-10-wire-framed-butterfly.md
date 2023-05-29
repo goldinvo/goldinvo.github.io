@@ -6,6 +6,7 @@ images:
 - /assets/2019-06-10/crochet-butterfly-hanging.jpeg
 - /assets/2019-06-10/crochet-butterfly-backside.jpeg
 featured-image: /assets/2019-06-10/crochet-wire-framed-butterfly.jpg
+featured: true
 ---
 A crochet lace butterfly<!--more-->.
 

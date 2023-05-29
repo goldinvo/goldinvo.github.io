@@ -6,6 +6,7 @@ images:
 - /assets/2020-04-02/bobbin-lace-samples.jpg
 - /assets/2020-04-02/beginning-setup.jpg
 featured-image: /assets/2020-04-02/lace-on-bulletin-board.jpeg
+featured: true
 ---
 A few sample trims from my foray into bobbin lacemaking<!--more-->. All of these patterns are sequential lessons from the book [Lessons in Bobbin Lacemaking](https://books.google.com/books/about/Lessons_in_Bobbin_Lacemaking.html?id=ZH2GwtfD5BUC){:target="_blank"} by Doris Southard. I'm about halfway through, and can't imagine a better resource than this one. The lessons that are easy to follow and the pacing/ordering of lessons is very well thought out. I'm so excited to get to the section with doilies.
 

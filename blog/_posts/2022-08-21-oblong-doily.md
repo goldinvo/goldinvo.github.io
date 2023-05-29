@@ -7,6 +7,7 @@ images:
 - /assets/2022-08-21/wip-2.jpeg
 - /assets/2022-08-21/finished.jpg
 featured-image: /assets/2022-08-21/oblong-doily.jpg
+featured: true
 ---
 A torchon lace rectangular doily<!--more-->.
 

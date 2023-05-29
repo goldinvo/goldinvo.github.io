@@ -6,6 +6,7 @@ images:
 - /assets/2020-02-12/wild-swan-shawl-back.jpg
 - /assets/2020-02-12/wild-swan-shawl-blocking.jpg
 featured-image: /assets/2020-02-12/wild-swan-shawl.jpg
+featured: true
 ---
 A beaded lace shawl<!--more--> made using the wonderful and well-written [Wild Swan pattern](https://www.ravelry.com/patterns/library/wild-swan){:target="_blank"} by Anne-Lise Maigaard & Nim Teasdale. It is almost completely charted, making it easy to follow, and it requires minimal counting. Combined with a design that is beautiful, intricate, and engaging, this pattern is an absolute joy to knit. 
 

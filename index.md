@@ -8,9 +8,11 @@ layout: page
 <div class="gallery">
   <!-- <div class="posts"> -->
     {% for post in site.posts %}
-      <a href="{{ post.url }}">
-        <img src="{{ post.featured-image }}">
-      </a>
+      {% if post.featured %}
+        <a href="{{ post.url }}">
+          <img src="{{ post.featured-image }}">
+        </a>
+      {% endif %}
     {% endfor %}
   <!-- </div> -->
 </div>
