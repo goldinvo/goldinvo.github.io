@@ -77,8 +77,10 @@ header {
     #myNavbar {
         display: none;
     }
+    .navbar-menu, #myMenu {
+        height: 100vh !important;
+    }
     .navbar-menu {
-        height: 100vh;
         width: $large-sidebar-width;
         text-align: right;
         #close-menu {

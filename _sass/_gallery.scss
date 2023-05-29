@@ -13,6 +13,7 @@
 
 @include media-query($large) {
     .gallery {
+        max-width: $large*1.4;
         column-count: 3;
         column-gap: $spacing-unit/2;
         img {
