@@ -13,11 +13,11 @@
 
 @include media-query($large) {
     .gallery {
-        width: 200px;
-        //.posts {
-            column-count: 3;
-            column-gap: $spacing-unit;
-        //}
+        column-count: 3;
+        column-gap: $spacing-unit/2;
+        img {
+            margin-bottom: $spacing-unit/2;
+        }
     }
 }
 

@@ -12,20 +12,19 @@
     }
 }
 
-
 @include media-query($large) {
-    .shortpost {
+    .short-post {
         display: flex;
-        flex-flow: row nowrap;
-        align-items: flex-start;
-        #imagereel {
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+        #image-reel {
             flex: 0 1 350px;
             img {
                 width: 100%;
-                margin-bottom: $spacing-unit;
+                margin-bottom: $spacing-unit/2;
             }
         }
-        #shortdesc {
+        #short-desc {
             margin-left: $spacing-unit;
             flex: 0 2 500px;
             #content {

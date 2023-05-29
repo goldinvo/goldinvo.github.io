@@ -15,6 +15,7 @@
         gap: $spacing-unit/2;
         #title {
             text-decoration: underline;
+            font-size: 1.25em;
         }
         #date {
             font-size: .75em;
@@ -25,29 +26,17 @@
 
 @include media-query($large) {
     .blog-list {
-        margin-right: 10%;
+        img {
+            display: block;
+            width: 200px;
+            max-width: none;
+            max-height: none;
+        }
         li {
             display: flex;
-            align-items: start;
-            flex-direction: row;
-            margin-bottom: $spacing-unit;
-        }
-        img {
-            width: 200px;
-        }
-        .meta{
-            margin-left: $spacing-unit/2;
-            a {
-                text-decoration: none;
-                color: black;
-                h1 {
-                    font-size: 30px;
-                }
-                &:hover {
-                    color: $accent-darker;
-                }
-            }  
-            
+            .meta{
+                margin-left: $spacing-unit/2;
+            }
         }
     }    
 }
