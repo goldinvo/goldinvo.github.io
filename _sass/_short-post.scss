@@ -1,0 +1,38 @@
+.short-post {
+    #short-desc {
+        margin-bottom: $spacing-unit;
+        #date {
+            font-size: .75em;
+        }
+    }
+    #image-reel {
+        img {
+            margin-bottom: $spacing-unit;
+        }
+    }
+}
+
+@include media-query($large) {
+    .short-post {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+        #image-reel {
+            flex: 0 1 350px;
+            img {
+                width: 100%;
+                margin-bottom: $spacing-unit/2;
+            }
+        }
+        #short-desc {
+            margin-left: $spacing-unit;
+            flex: 0 2 500px;
+            #content {
+                border-bottom: 1px solid black;
+                margin-bottom: $spacing-unit/2;
+            }
+        }
+    }
+}
+
+

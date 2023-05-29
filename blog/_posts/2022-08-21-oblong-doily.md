@@ -7,7 +7,10 @@ images:
 - /assets/2022-08-21/wip-2.jpeg
 - /assets/2022-08-21/finished.jpg
 featured-image: /assets/2022-08-21/oblong-doily.jpg
+featured: true
 ---
+A torchon lace rectangular doily<!--more-->.
+
 This pattern is from the book *Lessons in Bobbin Lacemaking* by Doris Southard.
 
 Was my first time making sewings with bobbins and I can't believe I've been avoiding

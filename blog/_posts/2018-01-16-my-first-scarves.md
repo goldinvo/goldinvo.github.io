@@ -7,6 +7,6 @@ images:
 - /assets/2018-01-16/two-tone-scarf.jpg
 featured-image: /assets/2018-01-16/first-crochet-scarves-beginner.jpg
 ---
-My very first crochet projects :)
+My very first few crochet projects <!--more-->
 
 Featuring waffle stitch and some sewn on crochet flowers.

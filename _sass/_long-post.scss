@@ -1,0 +1,23 @@
+.long-post {
+    img {
+        margin-bottom: $spacing-unit/2
+    }
+    .content {
+        border-bottom: 1px solid black;
+        margin-bottom: $spacing-unit/2;
+    }
+    #date {
+        font-size: .75em;
+    }
+}
+
+
+
+@include media-query($large) {
+    .long-post {
+        max-width: 800px;
+        img {
+            max-width: 400px;
+        }
+    }
+}

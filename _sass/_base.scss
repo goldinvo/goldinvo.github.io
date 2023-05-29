@@ -1,0 +1,82 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+    margin-bottom: $spacing-unit / 2;
+}
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+img {
+    display: block;
+    border-radius: 15px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+pre,
+code {
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #eef;
+}
+code {
+    padding: 1px 5px;
+}
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+    border-radius: 15px;
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+// button {
+//     background-color: var(--accent-color);
+//     border: none;
+//     border-radius: 15px;
+//     padding: 10px 15px;
+//     font-size: inherit;
+//     font: inherit;
+// }
+// button:hover {
+// //    background-color: $accent-darker;
+//     cursor: pointer;
+// }
+
+ul, ol {
+    margin-left: $spacing-unit;
+}
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+a {
+    color: $accent-darker;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($accent-darker, 10%);
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

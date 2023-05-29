@@ -8,8 +8,9 @@ images:
 - /assets/2019-02-02/irish-crochet-lace-bag.jpg
 - /assets/2019-02-02/lace-bag-lining-removed.jpg
 featured-image: /assets/2019-02-02/background-netting-in-progress.jpg
+featured: true
 ---
-A fun little bag using my [Irish Crochet Motifs]({% post_url 2018-12-05-irish-crochet-motifs %}).
+A fun little bag using my [Irish Crochet Motifs]({% post_url 2018-12-05-irish-crochet-motifs %})<!--more-->.
 To avoid any seaming, I made it so that the fabric that the appliqués were attached to was a 
 roughly sewn pouch. All sides of the bag were sewn at the same time from the top down, with 
 the back filled in with a simple netting. The top trim is a loop that wrapped around the
