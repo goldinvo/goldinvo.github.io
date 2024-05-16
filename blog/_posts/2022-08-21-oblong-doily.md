@@ -18,4 +18,4 @@ them for so long! Being able to hold a finished lace doily in your hands without
 any loose ends is such a magical feeling.
 
 
-See also: [Bobbin Lace Edging Samples]({% post_url 2020-04-02-bobbin-lace-edging-samples %})
+See also: [Bobbin Lace Edging Samples]({% post_url blog/2020-04-02-bobbin-lace-edging-samples %})
