@@ -23,6 +23,9 @@
                 width: 100%;
                 margin-bottom: $spacing-unit/2;
             }
+            &:empty {
+                flex: 0 1 0;
+            }
         }
         #short-desc {
             margin-left: $spacing-unit;

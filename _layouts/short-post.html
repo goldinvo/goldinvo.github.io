@@ -7,9 +7,5 @@ layout: page
         <div id="content">{{ content }}</div>
         <div id="date">{{ page.date | date: "%b %Y"}}</div>
     </div>
-    <div id="image-reel">
-        {% for image in page.images %}
-        <img src="{{ image }}">
-        {% endfor %}
-    </div>
+    <div id="image-reel">{% for image in page.images %}<img src="{{ image }}">{% endfor %}</div>
 </div>
