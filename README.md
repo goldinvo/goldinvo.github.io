@@ -23,7 +23,7 @@ Run: `bundle exec jekyll serve`
 - both short-post and long-post posts should be named `YYYY-MM-DD-TITLE-MORETITLE.md`. The title and date properties from this file name are used in the website.
 
 ## Some tags (not really used, for now)
-crochet, knitting, tatting, bobbin-lace, weaving, cooking, misc
+crochet, knitting, tatting, bobbin-lace, weaving, sewing, cooking, misc
 
 
 
