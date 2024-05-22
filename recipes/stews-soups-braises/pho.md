@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: Pho
+---
+
 Recipe
 - char onions and ginger, blackened all all sides
 - boil all stew meat

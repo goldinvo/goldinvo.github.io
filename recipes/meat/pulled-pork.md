@@ -1,3 +1,7 @@
+---
+layout: recipe
+title: Pulled Pork
+---
 2 shallots
 2 heads peeled garlic
 2 oranges of zest
