@@ -14,7 +14,7 @@ layout: page
   {% for node in site.pages %}
     {% assign node_level = node.url | split:'/' | size %}
     {% if node.url contains page.url and node_level == level and node.path contains "index" %}
-    {% unless node.url contains "$misc" %}{% assign has_folder = true %}{% endunless %}
+    {% unless node.path contains "$misc" %}{% assign has_folder = true %}{% endunless %}
     {% endif %}
   {% endfor %}
 
@@ -23,7 +23,7 @@ layout: page
   {% for node in site.pages %}
     {% assign node_level = node.url | split:'/' | size %}
     {% if node.url contains page.url and node_level == level %}
-    {% unless node.url contains "$misc" %}  
+    {% unless node.path contains "$misc" %}  
       {% unless node.path contains "index" %} {% assign has_file = true %} {% endunless %}
       {% if node.path contains "index" %} <a href="{{node.url}}"><li>{{node.title}}</li></a> {% endif %}
     {% endunless %}
@@ -40,7 +40,7 @@ layout: page
   {% for node in site.pages %}
     {% assign node_level = node.url | split:'/' | size %}
     {% if node.url contains page.url and node_level == level %}
-    {% unless node.url contains "$misc" or node.path contains "index" %}  
+    {% unless node.path contains "$misc" or node.path contains "index" %}  
       <li>{% include stub.html src=node.path %}</li>  
     {% endunless %}
     {% endif %}
