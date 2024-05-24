@@ -1,5 +1,4 @@
 ---
-layout: page
+layout: recipe-nav
 title: Desserts
 ---
-{% include recipe_nav.md %}

@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: recipe-nav
 title: Spices and Spice Mixtures
 ---
-{% include recipe_nav.md %}
 
 ### Spices
 - Buy whole and grind in small batches as necessary. Toasting the spices whole

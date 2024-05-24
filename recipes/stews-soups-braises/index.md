@@ -1,5 +1,4 @@
 ---
-layout: page
+layout: recipe-nav
 title: Stews, Soups, and Braises
 ---
-{% include recipe_nav.md %}

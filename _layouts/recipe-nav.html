@@ -1,0 +1,50 @@
+---
+layout: page
+---
+<div class="recipe-nav">
+  <h1>{{page.title}}</h1>
+
+  <!-- Very fugly code but I can't be bothered dealing with the limitations
+  of Liquid anymore than this -->
+  
+  {% assign level = page.url | split:'/' | size | plus:1 %}
+
+  <!-- See if there are any folders at all-->
+  {% assign has_folder = false %}
+  {% for node in site.pages %}
+    {% assign node_level = node.url | split:'/' | size %}
+    {% if node.url contains page.url and node_level == level and node.path contains "index" %}
+    {% unless node.url contains "$misc" %}{% assign has_folder = true %}{% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign has_file = false %}
+  {% if has_folder == true %}<ul class="folders">{% endif %}
+  {% for node in site.pages %}
+    {% assign node_level = node.url | split:'/' | size %}
+    {% if node.url contains page.url and node_level == level %}
+    {% unless node.url contains "$misc" %}  
+      {% unless node.path contains "index" %} {% assign has_file = true %} {% endunless %}
+      {% if node.path contains "index" %} <a href="{{node.url}}"><li>{{node.title}}</li></a> {% endif %}
+    {% endunless %}
+    {% endif %}
+  {% endfor %}
+  {% if has_folder == true %}</ul>{% endif %}
+
+  
+  {{content}}
+
+  {% if has_file == true %}
+  <h2>Recipes</h2>
+  <ul class="files">
+  {% for node in site.pages %}
+    {% assign node_level = node.url | split:'/' | size %}
+    {% if node.url contains page.url and node_level == level %}
+    {% unless node.url contains "$misc" or node.path contains "index" %}  
+      <li>{% include stub.html src=node.path %}</li>  
+    {% endunless %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+  {% endif %}
+</div>

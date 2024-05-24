@@ -1,0 +1,59 @@
+.stub {
+    a {
+        display: inline-block;
+        color: $text-color;
+        background-color: $accent-color;
+        padding: 0 $spacing-unit/4;
+    }
+    a:visited {
+        color: $text-color;
+    }
+}
+
+.recipe-nav {
+    .folders {
+        display: inline-block;
+
+        list-style-type: none;
+        margin-left: 0;
+
+        li {
+            background-color: $accent-color;
+            padding: $spacing-unit/4 $spacing-unit/2;
+            margin-bottom: $spacing-unit/2;
+        }
+        a {
+            color: $text-color;    
+        }
+    }
+    .files {
+        list-style-type: none;
+        margin-left: 0;
+
+        > li {
+            break-inside: avoid;
+            margin-bottom: $spacing-unit/2;
+        }
+    }
+    .stub-content {
+        font-size: .85em;
+    }
+}
+
+@include media-query($large) {
+    .recipe-nav {
+        .folders {
+            // min-width: 50%;
+            column-count: 2;
+            column-gap: $spacing-unit;
+        }
+
+        .files{
+            width: 100%;
+            column-count: 2;
+            column-gap: $spacing-unit;
+        }
+        
+    }
+}
+

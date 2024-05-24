@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Recipes | About
+permalink: /recipes/about
 ---
 
 ## About my Recipes

@@ -1,5 +1,4 @@
 ---
-layout: page
+layout: recipe-nav
 title: Sauces, Condiments, and Marinades
 ---
-{% include recipe_nav.md %}

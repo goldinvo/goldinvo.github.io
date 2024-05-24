@@ -1,5 +1,4 @@
 ---
-layout: page
+layout: recipe-nav
 title: Pasta
 ---
-{% include recipe_nav.md %}
