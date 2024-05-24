@@ -1,0 +1,11 @@
+<!-- /recipes/sauces-condiments/oils/ -->
+{% assign my_list = page.url | replace: '/', ' ' | strip | split:' ' %}
+{% assign temp = my_list | size | minus: 1 %}
+{% assign my_list = my_list | slice: 0, temp %}
+<!-- [sauces-condiments, oils] -->
+{% assign temp = my_list | size %}
+{% if temp != 0 %}  
+<div id="file-path">
+/{% for item in my_list %}{% for node in site.pages %}{% assign temp = item | append: "/index" %}{% if node.path contains temp %}<a href="{{node.url}}">{{node.title}}</a>/{% endif %}{% endfor %}{% endfor %}
+</div>
+{% endif %}

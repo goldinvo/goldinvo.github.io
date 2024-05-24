@@ -10,6 +10,16 @@
     }
 }
 
+#file-path {
+    text-align: left; 
+    a {
+        padding: 0 $spacing-unit/4;
+    }
+    a:visited {
+        color: $accent-darker;
+    }
+}
+
 .recipe-nav {
     .folders {
         display: inline-block;
