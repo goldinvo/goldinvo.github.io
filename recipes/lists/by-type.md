@@ -1,5 +1,11 @@
 ---
+layout: recipe
+title: By Type
+grade: D
 ---
+<!-- stub -->
+
+<!-- endstub -->
 
 ## Marinades, Sauces, and Condiments
 - hollandaise

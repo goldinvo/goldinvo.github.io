@@ -32,7 +32,10 @@ defaults:
     values: 
       excerpt_separator: <!--more-->
       featured: false
-
+  - scope:
+      path: "recipes"
+    values: 
+      grade: D
 
 # Exclude from processing.
 # The following items will not be processed, by default.

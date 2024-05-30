@@ -1,6 +1,11 @@
 ---
+layout: recipe
+title: Bento
+grade: D
 ---
+<!-- stub -->
 
+<!-- endstub -->
 ## Prep day before
 -   karaage
 

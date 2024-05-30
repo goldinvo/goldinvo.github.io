@@ -1,4 +1,5 @@
 ---
 layout: recipe-nav
-title: "Lists"
+title: Vegetables
 ---
+
