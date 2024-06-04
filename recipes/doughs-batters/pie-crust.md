@@ -10,6 +10,9 @@ NYT (2 9-inch crusts):
 - 20 Tbsp cold butter, cubed
 - 4-8 Tbsp ice water
 <!-- endstub -->
-In food processor, pulse flour and salt, then pulse with butter until lima-bean 
-clumps. Add barely enough water too hold. Gather into 2 plastic wrapped disks.
+
+In a food processor, pulse flour and salt, then pulse with butter until you get lima-bean 
+clumps. Add barely enough water so dough can clump together. Gather into 2 plastic-wrapped disks.
 Rest in fridge for 1 hour to 2 days or freeze. Thaw overnight.
+
+TODO: traditional by-hand method
