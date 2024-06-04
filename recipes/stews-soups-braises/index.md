@@ -1,4 +1,4 @@
 ---
 layout: recipe-nav
-title: Stews, Soups, and Braises
+title: "4: Stews, Soups, and Braises"
 ---

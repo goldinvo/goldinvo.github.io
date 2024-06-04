@@ -23,7 +23,8 @@ of Liquid anymore than this -->
 
   {% assign has_file = false %}
   {% if has_folder == true %}<ul class="folders">{% endif %}
-  {% for node in site.pages %}
+  {% assign sorted = site.pages | sort: "title" %}
+  {% for node in sorted %}
     {% assign node_level = node.url | split:'/' | size %}
     {% if node.url contains page.url and node_level == level %}
     {% unless node.path contains "$misc" %}  
