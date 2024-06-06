@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Fun little script for opening the development environment
+
+PORT=4321
+CUR_PATH=/Users/goldinbaokimvo/Projects/gv_blog/
+
+# Start the server on PORT if not already done, then open in browser.
+open_server() {
+    check=$(curl -s -w "%{http_code}\n" -L "localhost:$PORT/" -o /dev/null)
+    if [[ $check != 200 && $check != 403 ]]; then
+        osascript -e 'tell app "Terminal" to do script "cd '$CUR_PATH' && bundle exec jekyll serve --PORT '$PORT'"'
+        sleep 4
+    fi
+    open http://localhost:$PORT/
+}
+
+if [ "$1" = "help" ]; then
+    echo "\
+Usage:
+help    display this message
+serve   open server
+code [serve]   open development environment [and open server]"
+elif [ "$1" = "serve" ]; then
+    open_server
+elif [ "$1" = "code" ]; then
+    to_code=""
+    select input in "Open page in recipes/" "Open page in blog/" "None"; do
+        case $input in
+            "Open page in recipes/" ) 
+                read -p "Recipe title: " input
+                to_code=$(find ./recipes -type f -name "*.md" -exec grep -E -l "(?i)title:\s*$input" {} + | head -n 1)
+                break;;
+            "Open page in blog/" ) 
+                read -p "Blog title: " input
+                input="${input// /-}" # strip whitespace
+                input=$(echo "$input" | tr -s '-') # kebab case
+                to_code=$(find ./blog -type f -iname "*$input*" | head -n 1)
+                break;;
+            "None" ) break;;
+        esac
+    done
+    if [ "$2" = "serve" ]; then
+        open_server
+    fi
+    code $CUR_PATH
+    if [[ -n $to_code ]]; then
+        code -r $to_code
+    fi
+else
+    echo "Missing/incorrect arguments"
+fi
