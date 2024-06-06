@@ -1,5 +1,5 @@
 ---
 layout: recipe-nav
-title: "3: Vegetables"
+title: "Vegetables"
 ---
 

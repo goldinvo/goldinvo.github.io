@@ -1,4 +1,4 @@
 ---
 layout: recipe-nav
-title: "1: Sauces, Condiments, and Marinades"
+title: "Sauces, Condiments, and Marinades"
 ---

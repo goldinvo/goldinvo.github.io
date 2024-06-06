@@ -1,8 +1,8 @@
 ---
 layout: page
 ---
-<!-- Very fugly code but I can't be bothered dealing with the limitations
-of Liquid anymore than this -->
+<!-- Very fugly code but it works for my purposes and I can't be bothered 
+ dealing with the limitations of Liquid anymore than this -->
 
 <div class="recipe-nav">
   {% include file-path.html %}
@@ -21,21 +21,42 @@ of Liquid anymore than this -->
     {% endif %}
   {% endfor %}
 
+  <!-- See if there are any files at all-->
   {% assign has_file = false %}
-  {% if has_folder == true %}<ul class="folders">{% endif %}
-  {% assign sorted = site.pages | sort: "title" %}
-  {% for node in sorted %}
+  {% for node in site.pages %}
     {% assign node_level = node.url | split:'/' | size %}
     {% if node.url contains page.url and node_level == level %}
     {% unless node.path contains "$misc" %}  
       {% unless node.path contains "index" %} {% assign has_file = true %} {% endunless %}
-      {% if node.path contains "index" %} <a href="{{node.url}}"><li>{{node.title}}</li></a> {% endif %}
     {% endunless %}
     {% endif %}
   {% endfor %}
+
+  {% if has_folder == true %}<ul class="folders">{% endif %}
+
+  {% if page.custom_folder_order %}
+    {% for folder_path in page.custom_folder_order %}
+      {% for node in site.pages %}
+        {% if node.path contains folder_path %}
+          <a href="{{node.url}}"><li>{{node.title}}</li></a> 
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% else %}
+    {% assign sorted = site.pages | sort: "title" %}
+    {% for node in sorted %}
+      {% assign node_level = node.url | split:'/' | size %}
+      {% if node.url contains page.url and node_level == level %}
+      {% unless node.path contains "$misc" %}  
+        {% if node.path contains "index" %} <a href="{{node.url}}"><li>{{node.title}}</li></a> {% endif %}
+      {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   {% if has_folder == true %}</ul>{% endif %}
 
-  
+
   {{content}}
 
   {% if has_file == true %}

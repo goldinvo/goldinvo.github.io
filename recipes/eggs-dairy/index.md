@@ -1,4 +1,4 @@
 ---
 layout: page
-title: "2: Eggs and Dairy"
+title: "Eggs and Dairy"
 ---
