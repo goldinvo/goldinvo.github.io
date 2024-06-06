@@ -1,18 +1,25 @@
 ---
 layout: recipe
 title: Chicken Pot Pie
+grade: B
 ---
-1/3c butter
-1/3c onion
-1c carrots
-1/2c celery
-1/3c flour
-salt and pepper
-1 3/4c chicken broth
-1/2 c milk
-2c. chicken
-peas/frozen veg
-2 pie crusts
-425F 35-40 min
+<!-- stub -->
+A thick chicken and vegetable soup in a pie crust
+<!-- endstub -->
+
+- 5 Tbsp butter
+- 1 diced onion
+- 1 cup carrots
+- 1/2 cup celery
+- 1/3 cup flour
+- 1 3/4 cup chicken broth
+- 1/2 cup milk
+- 2 cups shredded chicken
+- peas/frozen veggies
+- salt and pepper, tabasco hot sauce
+- 2 pie crusts
+
+Saute mirepoix, cook in flour, add liquid and simmer until thick. 
+Let filling cool before putting into pie crust. Bake at 425ºF for 35-40 min.
 
 
