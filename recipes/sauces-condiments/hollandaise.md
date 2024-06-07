@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: Hollandaise
+grade: B
 ---
 <!-- stub -->
 - egg yolks
