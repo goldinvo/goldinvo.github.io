@@ -1,5 +1,5 @@
 ---
 layout: recipe-nav
-title: "Vegetables"
+title: Salad
 ---
 

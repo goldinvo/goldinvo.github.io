@@ -1,4 +1,4 @@
 ---
 layout: recipe-nav
-title: Bakery Items
+title: "Cereal Doughs and Batters"
 ---
