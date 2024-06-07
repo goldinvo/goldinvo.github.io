@@ -10,6 +10,13 @@ ul, ol, dl, figure {
     margin-bottom: $spacing-unit / 2;
 }
 
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid black;
+    margin: $spacing-unit / 2 0;
+}
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
