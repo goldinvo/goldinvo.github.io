@@ -18,9 +18,10 @@ open_server() {
 if [ "$1" = "help" ]; then
     echo "\
 Usage:
-help    display this message
-serve   open server
-code [serve]   open development environment [and open server]"
+help            display this message
+serve           open server
+code [serve]    open development environment [and open server]
+template        get templates for writing posts"
 elif [ "$1" = "serve" ]; then
     open_server
 elif [ "$1" = "code" ]; then
@@ -47,6 +48,15 @@ elif [ "$1" = "code" ]; then
     if [[ -n $to_code ]]; then
         code -r $to_code
     fi
+elif [ "$1" = "template" ]; then
+    select input in "recipe-nav" "recipe" "stub" "post"; do
+        case $input in
+            "recipe-nav" ) cat _drafts/recipe-nav-template.md; break;;
+            "recipe" ) cat _drafts/recipe-template.md; break;;
+            "stub" ) cat _drafts/stub-template.txt; break;;
+            "post" ) cat _drafts/blog-template.md; break;;
+        esac
+    done
 else
     echo "Missing/incorrect arguments"
 fi
