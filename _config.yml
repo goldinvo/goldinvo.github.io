@@ -35,7 +35,7 @@ defaults:
   - scope:
       path: "recipes"
     values: 
-      grade: D
+      grade: B
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: Five Spice
+grade: D
 ---
 A blend commonly found in Chinese cuisine. 
 <!-- stub -->

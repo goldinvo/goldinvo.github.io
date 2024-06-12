@@ -3,7 +3,7 @@ layout: page
 title: Index
 permalink: /recipes/all-recipes
 ---
-[grading](/recipes/grading)
+See also: [Graded Index](/recipes/graded)
 # Index
 {% for node in site.pages %}
 {% if node.path contains "recipes" and node.grade %}

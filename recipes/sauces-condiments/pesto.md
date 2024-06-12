@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: Pesto
+grade: D
 ---
 <!-- stub -->
 Puree 2 c. basil, 2 T pine nuts, 1/2 c. olive oil, and garlic in a food processor.

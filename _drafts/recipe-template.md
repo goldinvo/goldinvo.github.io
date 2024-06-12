@@ -1,12 +1,11 @@
 ---
 layout: recipe
 title: recipe title
-grade: D
+grade: B
 ---
 <!-- stub -->
-- S: extensive revisions and information
-- A: tested and significant revisions
-- B: tested before and meets standard
-- C: untested; basic info
-- D: little to no info; TODO
+E: In-depth & high quality 
+A: Meets standard 
+D: In development 
+B: On to-do list; no content 
 <!-- endstub -->

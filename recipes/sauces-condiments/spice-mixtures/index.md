@@ -1,6 +1,7 @@
 ---
 layout: recipe-nav
 title: Spices and Spice Mixtures
+grade: D
 ---
 
 ### Spices

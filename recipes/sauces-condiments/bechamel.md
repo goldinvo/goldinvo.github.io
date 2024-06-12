@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: Bechamel
+grade: D
 ---
 A creamy white French "Mother" sauce.
 

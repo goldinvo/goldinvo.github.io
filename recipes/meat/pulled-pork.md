@@ -1,7 +1,10 @@
 ---
 layout: recipe
 title: Pulled Pork
+grade: D
 ---
+<!-- stub -->
+<!-- endstub -->
 2 shallots
 2 heads peeled garlic
 2 oranges of zest

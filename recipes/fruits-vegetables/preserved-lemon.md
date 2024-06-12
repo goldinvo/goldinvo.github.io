@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: recipe title
-grade: D
+grade: B
 ---
 <!-- stub -->
 TODO

@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Lasagna Bolognese
-grade: C
+grade: A
 ---
 <!-- stub -->
 - Bechamel, with nutmeg, salt & pepper

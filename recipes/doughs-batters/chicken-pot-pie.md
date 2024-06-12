@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Chicken Pot Pie
-grade: B
+grade: A
 ---
 <!-- stub -->
 A thick chicken and vegetable soup in a pie crust

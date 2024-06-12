@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Dưa Giá
-grade: C
+grade: D
 ---
 <!-- stub -->
 Vietnamese pickled bean sprouts

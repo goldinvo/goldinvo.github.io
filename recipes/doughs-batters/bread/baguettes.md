@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Baguettes
-grade: D
+grade: B
 ---
 <!-- stub -->
 TODO; baguettes, cubans, banh mi

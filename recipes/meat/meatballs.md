@@ -1,12 +1,10 @@
 ---
 layout: recipe
 title: Meatballs
+grade: D
 ---
-Meatballs
-
-put generic meatball
-
-Kenji:
+<!-- stub -->
+<!-- endstub -->
 Mix 1# beef/lamb, 1# pork, 1T salt, and rest
 
 In 1c buttermilk, hydrate 1/4oz packet gelatin and also soak 4 white bread slices (no crust). 

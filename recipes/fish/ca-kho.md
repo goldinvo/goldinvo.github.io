@@ -10,6 +10,7 @@ images:
     - /assets/2023-05-28/6.jpeg
 featured-image: /assets/2023-05-28/6.jpeg
 title: Ca Trung Kho Tieu
+grade: D
 ---
 This sweet, salty, and intensely savory Vietnamese-style braised capelin is
 one of my childhood favorites<!--more-->. For me, the best part was always the sac of roe 

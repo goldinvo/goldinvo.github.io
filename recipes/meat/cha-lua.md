@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Chả Lụa
-grade: D
+grade: B
 ---
 aka giò lụa
 <!-- stub -->

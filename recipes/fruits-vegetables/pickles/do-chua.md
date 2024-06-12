@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Đồ Chua
-grade: C
+grade: D
 ---
 <!-- stub -->
 Vietnamese pickles

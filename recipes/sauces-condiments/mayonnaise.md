@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: Mayonnaise
+grade: D
 ---
 <!-- stub -->
 - 1 egg yolk

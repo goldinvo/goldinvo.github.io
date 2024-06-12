@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Eggs Benedict
-grade: C
+grade: D
 ---
 <!-- stub -->
 - Hollandaise 

@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: No-Knead Bread
+grade: D
 ---
 <!-- stub -->
 Jim Lahey's popular no-knead bread recipe that doesn't require any attention 

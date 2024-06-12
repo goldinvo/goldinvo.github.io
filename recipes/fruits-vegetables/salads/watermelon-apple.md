@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: recipe title
-grade: C
+grade: D
 ---
 <!-- stub -->
 - watermelon, in sticks

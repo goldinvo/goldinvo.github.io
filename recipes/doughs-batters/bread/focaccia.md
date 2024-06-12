@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: foccacia
-grade: D
+grade: B
 ---
 <!-- stub -->
 TODO

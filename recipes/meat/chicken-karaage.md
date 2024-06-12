@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: Chicken Karaage
+grade: D
 ---
 japanese book:
 - chicken thigh chunks
@@ -9,9 +10,11 @@ japanese book:
 - sugar
 - crushed garlic
 - beaten egg
+<!-- stub -->
 1. marinade chicken thighs
 2. coat chicken in flour
 3. fry 
+<!-- endstub -->
 Comments:
 The chicken pieces developed a surprisingly nice 
 craggly coating. Interested to see what it would
