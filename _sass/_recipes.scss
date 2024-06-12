@@ -20,6 +20,31 @@
     }
 }
 
+.recipes-index {
+    a:visited {
+        color: $accent-darker;
+    }
+    .folder {
+        a {
+            color: $text-color;
+            background-color: $accent-color;
+        }
+        a:visited {
+            color: $text-color;
+        }
+    }
+    
+}
+
+@include media-query($large) {
+    .recipes-index {
+        ul {
+            column-count: 2;
+            column-gap: $spacing-unit;
+        }
+    }
+}  
+
 .recipe-nav {
     max-width: 900px;
 
