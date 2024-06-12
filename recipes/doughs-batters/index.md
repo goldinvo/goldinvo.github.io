@@ -1,4 +1,4 @@
 ---
 layout: recipe-nav
-title: "Cereal Doughs and Batters"
+title: "Doughs and Batters"
 ---
