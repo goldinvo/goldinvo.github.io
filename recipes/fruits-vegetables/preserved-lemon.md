@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: recipe title
+title: Preserved Lemon
 grade: B
 ---
 <!-- stub -->
