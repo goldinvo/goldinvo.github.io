@@ -1,64 +1,45 @@
 ---
 layout: recipe
 title: Phở
-grade: D
+grade: A
 ---
 <!-- stub -->
 Vietnamese noodle soup with a clean, aromatic beef broth base.
 <!-- endstub -->
 
-<u>For the broth:</u>
-- 2 onions, 1 hand of ginger (bruise). Well-charred and rinsed of blackened bits.
-- Beef bones e.g. leg bones, preferably with marrow
+<u>For the broth (1 big pot):</u>
+- 2 onions, 1 hand of ginger (bruise). Well-charred and rinsed of blackened bits
+- Beef bones, e.g. leg bones, preferably some with marrow
 - Meats:
-    - 
+    - **Fully simmered:** bone-in cuts with a lot of connective tissue cooked until very tender and served in chunks, e.g. beef shin, oxtail
+    - **Partially simmered:** boneless cuts that shouldn't be overcooked, served sliced against the grain, e.g. chuck, brisket
 - Spices (whole, toasted), in order of importance:
     - 5 star anise
     - 6 cloves
     - 1 stick cinnamon
-    - Black cardamom
-    - coriander seeds
-    - fennel seeds
-- Salt, rock sugar, fish sauce
+    - 1 Black cardamom
+    - Coriander seeds
+    - Fennel seeds
+- Salt, (yellow rock) sugar, fish sauce, pinch MSG
 
 <u>For the bowls:</u>
-- Rice noodles (buy in refrigerated section), soaked/parboiled. 
-- Thinly sliced raw beef (easier to slice when slightly frozen)
+- Rice noodles (not dried), soaked in hot water or parboiled 
+- Thinly sliced raw beef (easier to slice when slightly frozen) e.g. flank, sirloin
 - Meat/tendons from broth, and any additions (beef ball, tripe, etc)
 - Sliced white onion, scallions
 - On the side: bean sprouts, thai basil, culantro, lime, hoisin/sriracha etc.
 
 
-To remove impurities, bring bones and broth meat covered in water to a vigorous boil for a couple minutes. Dump water and rinse bones/meat clean. Simmer everything for about 5 hours. Take the partially simmered meats out after 1½ hours and refrigerate covered under cold water to prevent drying out.
+To purify scum, bring bones (and optionally broth meat) covered in water to a vigorous boil for a couple minutes. Dump water and rinse bones/meat clean. Simmer all broth ingredients for about 5 hours, but take the partially simmered meats out early after 1.5-2 hours and refrigerate covered under cold water to prevent drying out (or wrap in plastic wrap after soaking in water).
 
-Strain broth and pick out meat. Simmer broth and reduce/dilute as necessary. 
+Strain broth. Pick out meat or anything else you want to serve, including tendons and bones with marrow. Maintain broth at simmer, season, and reduce/dilute as necessary. 
 
+To serve, place noodles and toppings in bowl and ladle in hot broth. 
 
+***
 
-for my bowl:
-    480 g broth
-    100-130 g noods
-
-Long cooked meats
-    - oxtail expensive
-    - shins with bone in middle
-
-Medium cooked meats
-    - brisket!!!!
-
-Short cooked meats
-    - flank
-    - sirloin
-
-vacuum seal everything except short cooked meats and toppings, and seal
-noodles divided in pouch
-
-Toppings
-    - onion
-    - bean sprouts >:(
-    - thai basil
-
-omit fennel if not using tea bag
-    
-skim oil from top of broth and place in dish with green onion whites
-try oil poaching by placing small ceramic dish in shallow pan of water?
+Notes:
+- Fennel tends to get stuck in meat crevices. Keep spices in something like cheesecloth or omit entirely
+- I like to freeze individual portions (no toppings), to use when I have some raw steak I can use a bit of. For one bowl:
+    - 480g broth
+    - 100-130g noodles (frozen separately)
