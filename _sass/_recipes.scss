@@ -24,16 +24,12 @@
     a:visited {
         color: $accent-darker;
     }
-    .folder {
-        a {
-            color: $text-color;
-            background-color: $accent-color;
-        }
-        a:visited {
-            color: $text-color;
-        }
+    img {
+        display: inline;
+        margin-right: 0.3em;
+        vertical-align: text-bottom;
+        height: 22px;
     }
-    
 }
 
 @include media-query($large) {

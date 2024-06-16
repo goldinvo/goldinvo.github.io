@@ -14,7 +14,7 @@ See also: [Index (Ungraded)](/recipes/all-recipes)
 {% for node in sorted %}
 {% if node.path contains "recipes" and node.grade == 'E' %}
 {% unless node.path contains "$misc" %}
-<li {% if node.path contains "index" %}class="folder"{% endif %}><a href="{{node.url}}">{{node.title}}</a></li>
+<li><a href="{{node.url}}">{% if node.path contains "index" %}<img src="/assets/icons/folder.svg">{% endif %}{{node.title}}</a></li>
 {% endunless %}
 {% endif %}
 {% endfor %}
@@ -26,7 +26,7 @@ See also: [Index (Ungraded)](/recipes/all-recipes)
 {% for node in sorted %}
 {% if node.path contains "recipes" and node.grade == 'A' %}
 {% unless node.path contains "$misc" %}
-<li {% if node.path contains "index" %}class="folder"{% endif %}><a href="{{node.url}}">{{node.title}}</a></li>
+<li><a href="{{node.url}}">{% if node.path contains "index" %}<img src="/assets/icons/folder.svg">{% endif %}{{node.title}}</a></li>
 {% endunless %}
 {% endif %}
 {% endfor %}
@@ -38,7 +38,7 @@ See also: [Index (Ungraded)](/recipes/all-recipes)
 {% for node in sorted %}
 {% if node.path contains "recipes" and node.grade == 'D' %}
 {% unless node.path contains "$misc" %}
-<li {% if node.path contains "index" %}class="folder"{% endif %}><a href="{{node.url}}">{{node.title}}</a></li>
+<li><a href="{{node.url}}">{% if node.path contains "index" %}<img src="/assets/icons/folder.svg">{% endif %}{{node.title}}</a></li>
 {% endunless %}
 {% endif %}
 {% endfor %}
@@ -50,7 +50,7 @@ See also: [Index (Ungraded)](/recipes/all-recipes)
 {% for node in sorted %}
 {% if node.path contains "recipes" and node.grade == 'B' %}
 {% unless node.path contains "$misc" %}
-<li {% if node.path contains "index" %}class="folder"{% endif %}><a href="{{node.url}}">{{node.title}}</a></li>
+<li><a href="{{node.url}}">{% if node.path contains "index" %}<img src="/assets/icons/folder.svg">{% endif %}{{node.title}}</a></li>
 {% endunless %}
 {% endif %}
 {% endfor %}
