@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Beef Stew
-grade: A
+grade: E
 ---
 <!-- stub -->
 Classic beef stew. Beef braised in thickened stock with carrots, potatoes, and onion.
@@ -10,14 +10,14 @@ Classic beef stew. Beef braised in thickened stock with carrots, potatoes, and o
 
 - Beef, seared, in chunks. Use cuts with lots of connective tissue eg. chuck roast
 - Flour, for thickening (toss beef chunks in this)
-- Carrots, potato, onion, maybe peas (added at end)
+- Carrots, potato, onion, and maybe peas at the end
 - Dry red wine to deglaze, stock
-- Additions: tomato paste, worcestershire sauce, vinegar, bay, thyme, etc.
+- Additions: tomato paste, worcestershire sauce, vinegar, bay, thyme, etc. Can thicken further with a cornstarch slurry.
 
-In a low oven (~300F) braise for more than an hour. Then add veggies and potatoes 
-and continue to braise until almost desired tenderness (~1hr). Finish by reducing on stovetop. 
+Simmering on a stove or in a low oven (~300F), stew for more than an hour. Then add veggies and potatoes 
+and continue to stew until almost desired tenderness (~1hr). Finish by reducing uncovered on stove-top. 
 
-Tidbits:
+Notes:
 - Can sear beef as steaks first to reduce water loss/overcooking, then cut 
 into cubes
 - There is a compromise between adding vegetables early to flavor the broth, and
@@ -45,4 +45,4 @@ blacken the broth veggies. Deglaze with red wine, reduce, and add stock.
 
 Use this to braise the beef (add bay leaves and thyme) in a 300F oven for 90 minutes.
 Fish out everything except the beef, and add the sauted veggies and potatoes. Continue 
-braising for upwards of an hour until everything is tender. Reduce. Season and add peas.
+braising for upwards of an hour until everything is tender. Reduce. Add peas and season.
