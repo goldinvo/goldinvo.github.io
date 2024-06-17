@@ -41,6 +41,40 @@
     }
 }  
 
+.recipe {
+    max-width: 800px;
+    text-align: left;
+    .ls-box {
+        display: flex;
+        align-items: stretch;
+
+        #short {
+            display: none;
+        }
+
+        #ls-side {
+            width: fit-content;
+            border-right: 2px solid $accent-color;
+            margin-right: 5px;
+        }
+        // TODO: generalize button styling if adding more buttons in future
+        button {
+            background-color: $accent-color;
+            padding: 4px 0;
+            border: none;
+
+            font-size: $small-font-size;
+            // writing-mode: sideways-lr; [no browser support]
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+        }
+        button:hover {
+            background-color: $accent-darker;
+            cursor: pointer;
+        }
+    }
+}
+
 .recipe-nav {
     max-width: 900px;
 
