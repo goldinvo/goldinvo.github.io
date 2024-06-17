@@ -49,10 +49,10 @@ elif [ "$1" = "code" ]; then
         code -r $to_code
     fi
 elif [ "$1" = "template" ]; then
-    select input in "recipe-nav" "recipe" "stub" "post"; do
+    select input in "recipe" "recipe-nav" "stub" "post"; do
         case $input in
-            "recipe-nav" ) cat _drafts/recipe-nav-template.md; break;;
             "recipe" ) cat _drafts/recipe-template.md; break;;
+            "recipe-nav" ) cat _drafts/recipe-nav-template.md; break;;
             "stub" ) cat _drafts/stub-template.txt; break;;
             "post" ) cat _drafts/blog-template.md; break;;
         esac
