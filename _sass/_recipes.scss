@@ -41,6 +41,13 @@
     }
 }  
 
+.recipe, .recipe-nav {
+    footer {
+        text-align: center;
+        font-size: $small-font-size;
+    }
+}
+
 .recipe {
     max-width: 800px;
     text-align: left;
