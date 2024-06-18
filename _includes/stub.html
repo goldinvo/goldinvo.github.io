@@ -1,23 +1,40 @@
 <!-- {% comment %}
     To use: 
-    {% include stub.html src="relative/path.md"%}
+    {% include stub.html src="relative/path.md"%} 
+    OR
+    {% include stub.html title="Title" %}
 {% endcomment %} -->
 
-<!-- TODO: currently search through site.pages for target post. Maybe there is a better way to reference? -->
-{% for node in site.pages %}
-{% if node.path == include.src %}
-    
+{% assign found = false %}
 <div class="stub">
-    <a class="secondary-font" href={{node.url}}>{{node.title}}</a>
+{% if include.src %}
+    {% for node in site.pages %}
+    {% if node.path == include.src %} {% assign found = true %}
+    <a class="secondary-font" href="{{node.url}}">{{node.title}}</a>
     <div class="stub-content">
         {% if node.content contains "<!-- stub -->" %}
-        <!-- used markdownify to fix some arcane bug I couldn't isolate -->
-        {{ node.content | markdownify | split: "<!-- endstub -->" | first | split: "<!-- stub -->" | last }}
+        {{ node.content | split: "<!-- endstub -->" | first | split: "<!-- stub -->" | last | markdownify }}
         {% endif %}
     </div>
+    {% break %}
+    {% endif %}
+    {% endfor %}
+{% elsif include.title %}
+    {% for node in site.pages %} 
+    {% if node.path contains "recipes/" and node.title == include.title %} {% assign found = true %}
+    <a class="secondary-font" href="{{node.url}}">{{node.title}}</a>
+    <div class="stub-content">
+        {% if node.content contains "<!-- stub -->" %}
+        {{ node.content | split: "<!-- endstub -->" | first | split: "<!-- stub -->" | last | markdownify }}
+        {% endif %}
+    </div>
+    {% break %}
+    {% endif %}
+    {% endfor %}
+{% endif %}
 </div>
 
-{% endif %}
-{% endfor %}
+{% if found == false %}{% link error_could_not_find_stub %}{% endif %}
+
 
 

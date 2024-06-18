@@ -17,7 +17,4 @@ butter.
 Combine wet into dry until dough is barely together. Press/roll and cut into 
 biscuits. Brush with butter and bake 15 minutes at 425ºF
 
-{% include stub.html src="recipes/sauces-condiments/biscuit-gravy.md"%}
-
-
-
+{% include stub.html title="Biscuit Gravy"%} 

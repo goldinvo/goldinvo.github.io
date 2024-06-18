@@ -9,3 +9,5 @@ grade: D
 - Butter
 - Salt, pepper
 <!-- endstub -->
+
+{% include stub.html title="Boiled or Steamed Potatoes"%}
