@@ -15,4 +15,6 @@ I have enough content for it to be useful. I'll update this about page to be all
 spiffy when that happens.
 
 Please send any feedback, comments, and suggestions to goldin@goldinvo.com
+
+[Return to Recipes](/recipes/)
 </div>
