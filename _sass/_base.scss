@@ -22,9 +22,21 @@ hr {
 }
 
 body {
-    font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
+    
+    font-family: $base-font-family;
+    font-optical-sizing: auto;
+    font-weight: $base-font-weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    .secondary-font, h1, h2, h3, h4, h5, h6  {
+        font-family: "IBM Plex Mono", monospace;
+        font-style: normal;
+    }
+
     color: $text-color;
     background-color: $background-color;
 }

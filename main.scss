@@ -2,7 +2,11 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'Roboto Mono', monospace;
+$base-font-family: "Noto Serif", "Noto Serif SC", serif;
+$base-font-weight: 400;
+$secondary-font-family: "IBM Plex Mono", monospace;
+$secondary-font-weight: 400;
+
 $base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;

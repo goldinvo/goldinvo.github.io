@@ -5,7 +5,7 @@
 <!-- [recipes, noodles-pasta, pasta] -->
 {% assign temp = my_list | size %}
 {% if temp != 0 %}
-<div id="file-path">
+<div id="file-path" class="secondary-font">
  <!-- Match "pasta" with path ".../pasta/index.md". Need special case for "recipes/index.md"-->
 /{%- for item in my_list -%}
     {%- for node in site.pages -%}

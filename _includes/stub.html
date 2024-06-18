@@ -8,7 +8,7 @@
 {% if node.path == include.src %}
     
 <div class="stub">
-    <a href={{node.url}}>{{node.title}}</a>
+    <a class="secondary-font" href={{node.url}}>{{node.title}}</a>
     <div class="stub-content">
         {% if node.content contains "<!-- stub -->" %}
         <!-- used markdownify to fix some arcane bug I couldn't isolate -->
