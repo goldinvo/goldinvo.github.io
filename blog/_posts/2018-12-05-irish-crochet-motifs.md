@@ -10,6 +10,6 @@ images:
 featured-image: /assets/2018-12-05/small-irish-crochet-flowers.jpg
 featured: true
 ---
-Some flower motifs <!--more-->that I made to use in my Irish Crochet projects. All of the patterns, with the exception of the largest flower in the third image, can be found in [Kathryn White's "The Go-To Book for Irish Crochet Motifs](https://www.amazon.com/Go-Book-Irish-Crochet-Motifs/dp/1596359234){:target="_blank"}. Overall, I love the patterns in this book, and can only wish that it was longer.
+Some flower motifs <!--more-->that I made to use in my Irish Crochet projects. All of the patterns, with the exception of the largest flower in the third image, can be found in [Kathryn White's "The Go-To Book for Irish Crochet Motifs](https://www.amazon.com/Go-Book-Irish-Crochet-Motifs/dp/1596359234).
 
 See also: [Irish Crochet Lace Bag]({% post_url blog/2019-02-02-irish-crochet-lace-bag %})

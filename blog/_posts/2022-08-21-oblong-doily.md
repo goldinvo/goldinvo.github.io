@@ -14,8 +14,7 @@ A torchon lace rectangular doily<!--more-->.
 This pattern is from the book *Lessons in Bobbin Lacemaking* by Doris Southard.
 
 Was my first time making sewings with bobbins and I can't believe I've been avoiding
-them for so long! Being able to hold a finished lace doily in your hands without
-any loose ends is such a magical feeling.
+them for so long! Holding a finished piece of lace is such a magical feeling.
 
 
 See also: [Bobbin Lace Edging Samples]({% post_url blog/2020-04-02-bobbin-lace-edging-samples %})

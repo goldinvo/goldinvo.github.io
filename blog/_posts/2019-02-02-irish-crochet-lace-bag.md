@@ -11,13 +11,12 @@ featured-image: /assets/2019-02-02/background-netting-in-progress.jpg
 featured: true
 ---
 A fun little bag using my [Irish Crochet Motifs]({% post_url blog/2018-12-05-irish-crochet-motifs %})<!--more-->.
-To avoid any seaming, I made it so that the fabric that the appliqués were attached to was a 
-roughly sewn pouch. All sides of the bag were sewn at the same time from the top down, with 
-the back filled in with a simple netting. The top trim is a loop that wrapped around the
-pouch and has holes to fit a ribbon. A Romanian cord strap was attached to the inside of the trim.
+The bag was filled in from the top trim, which is a loop. The netting wrapped 
+around the backing fabric. I attached a Romanian cord strap and fed a ribbon through
+the trim. 
 
-I initially put in a gold lining but have sinced removed it. I sadly gave it
-away without remembering to take pictures without it. It was so light and pretty!
+I initially put in a gold lining but have since removed it. I sadly gave it
+away without remembering to take a picture sans lining. 
 
 
 
