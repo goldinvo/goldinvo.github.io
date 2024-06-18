@@ -33,7 +33,8 @@ body {
         "wdth" 100;
 
     .secondary-font, h1, h2, h3, h4, h5, h6  {
-        font-family: "IBM Plex Mono", monospace;
+        font-family: $secondary-font-family;
+        font-weight: $secondary-font-weight;
         font-style: normal;
     }
 
