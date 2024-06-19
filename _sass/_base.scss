@@ -23,11 +23,11 @@ hr {
 
 body {
     font-size: $base-font-size;
-    line-height: $base-line-height;
     
     font-family: $base-font-family;
     font-optical-sizing: auto;
     font-weight: $base-font-weight;
+    line-height: $base-line-height;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -35,6 +35,7 @@ body {
     .secondary-font, h1, h2, h3, h4, h5, h6  {
         font-family: $secondary-font-family;
         font-weight: $secondary-font-weight;
+        line-height: $secondary-line-height;
         font-style: normal;
     }
 
