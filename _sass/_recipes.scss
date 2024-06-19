@@ -15,16 +15,6 @@
     }
 }
 
-#file-path {
-    text-align: left; 
-    a {
-        padding: 0 $spacing-unit/4;
-    }
-    a:visited {
-        color: $accent-darker;
-    }
-}
-
 .recipes-index {
     a:visited {
         color: $accent-darker;
@@ -46,9 +36,17 @@
     }
 }  
 
-.recipe-nav {
-    max-width: 900px;
+#file-path {
+    text-align: left; 
+    a {
+        padding: 0 $spacing-unit/4;
+    }
+    a:visited {
+        color: $accent-darker;
+    }
+}
 
+.recipe-nav {
     .folders {
         display: inline-block;
 
@@ -97,3 +95,28 @@
     }
 }
 
+.recipe {
+    #image-reel {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include media-query($large) {
+            column-count: 2;
+
+            &:has(> img:only-child) {  // what a great time to be alive
+                column-count: 1;
+            }
+        }
+    }
+}
+
+.recipe, .recipe-nav {
+    max-width: 900px; 
+    text-align: left;
+    footer {
+        text-align: center; 
+        font-size: $base-font-size * .85;
+        margin-bottom: $spacing-unit;
+    }
+}
