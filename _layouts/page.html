@@ -1,7 +1,11 @@
 ---
 layout: default
+# Parameters: 
+#   disable-hidden-nav: bool
+#   content: text | media | mixed
 ---
-{% include navbar.html %}
+
+{% include navbar.html disable-hidden-nav=page.disable-hidden-nav %}
 <main>
     {{ content }}
 </main>

@@ -1,36 +1,14 @@
-<header class="secondary-font">
-    <div id="myNavbar" class="navbar">
-        <span>
-            {% if page.url == "/" %}
-            Gallery
-            {% elsif page.url contains "/blog" %}
-            Blog
-            {% elsif page.url contains "/recipes" %}
-            Recipes
-            {% elsif page.url == "/other.html" %}
-            Other
-            {% elsif page.url == "/about.html" %}
-            About
-            {% endif %}
-        </span>
-        <button id="menu-button" onclick="openNav()"><img  src="/assets/icons/menu.svg"></button>
-    </div>
-    <div id="myMenu" class="navbar-menu">
-        <button id="close-menu" onclick="closeNav()"><img src="/assets/icons/close.svg"></button>
-        <nav>
-            <a href="/" id="sitetitle"><span >goldinvo.com</span></a>
-            <div>
-                <ul>     
-                    <li><a href="/" {% if page.url == "/" %}class="current-page"{% endif %}>Gallery</a></li>
-                    <li><a href="/blog" {% if page.url contains "/blog" %}class="current-page"{% endif %}>Blog</a></li>
-                    <li><a href="/recipes" {% if page.url contains "/recipes" %}class="current-page"{% endif %}>Recipes</a></li>
-                    <!-- <li><a href="/other" {% if page.url == "/other.html" %}class="current-page"{% endif %}>Other</a></li> -->
-                    <li><a href="/about" {% if page.url == "/about.html" %}class="current-page"{% endif %}>About</a></li>
-                </ul>
-            </div>
-        </nav>
-        <img id="saucyboy" src="/assets/icons/saucyboy.svg">        
-    </div>
-</header>
+<!--
+Parameters:
+    disable-hidden-nav: bool
+-->
 
-
+<nav class="secondary-font link-highlight">
+    {% unless include.disable-hidden-nav %}{% endunless %}
+    <div><a href="/">goldinvo.com</a></div>
+    <ul> 
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/recipes">Recipes</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+</nav>

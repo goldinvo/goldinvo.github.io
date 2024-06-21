@@ -2,42 +2,6 @@
     max-width: $max-content-width-non-textual;
     margin-left: auto;
     margin-right: auto;
-
-    nav {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        gap: 1rem;
-
-
-        width: MIN(calc(100vw - 100px), $max-content-width-non-textual/2);
-        margin: 30px auto;
-        padding: 20px;
-
-        background-color: $accent-color;
-
-        a[href="/"]{
-            font-size: 2rem;
-            font-weight: 700;
-
-            &:hover {
-                text-decoration: none;
-            }
-        }
-
-        & > ul {
-            font-size: 1.3rem;
-            
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
-            gap: 1em;
-            
-            width: 100%;
-            margin: 0;
-            list-style-type: none;
-        }
-    }
     
     .gallery {
         margin: 0 7.5px;
