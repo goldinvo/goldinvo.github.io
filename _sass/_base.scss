@@ -22,7 +22,8 @@ hr {
 }
 
 body {
-    font-size: $base-font-size;
+    // TODO: set html font size to use rem
+    // font-size: $base-font-size;
     
     font-family: $base-font-family;
     font-optical-sizing: auto;
@@ -45,7 +46,6 @@ body {
 
 img {
     display: block;
-    border-radius: 15px;
     max-height: 100%;
     max-width: 100%;
 }
@@ -103,5 +103,13 @@ a {
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+a.link-highlight, .link-highlight a {
+    background-color: $accent-color;
+    color: $text-color;
+    &:visited {
+        color: $text-color;
     }
 }
