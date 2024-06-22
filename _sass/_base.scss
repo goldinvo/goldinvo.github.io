@@ -113,3 +113,18 @@ a.link-highlight, .link-highlight a {
         color: $text-color;
     }
 }
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+
+    &.text-content {
+        max-width: 1000px;
+    }
+    &.media-content {
+        max-width: 1000px;
+    }
+    &.mixed-content {
+        max-width: 1000px;
+    }
+}

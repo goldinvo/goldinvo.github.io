@@ -6,6 +6,9 @@ layout: default
 ---
 
 {% include navbar.html disable-hidden-nav=page.disable-hidden-nav %}
-<main>
+
+<main   {% if page.content== "text" %} class="text-content"
+        {% elsif page.content=="media" %} class="media-content"
+        {% else %} class="mixed-content" {% endif %}>
     {{ content }}
 </main>

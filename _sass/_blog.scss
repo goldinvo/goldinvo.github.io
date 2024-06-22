@@ -24,9 +24,9 @@
 }
 
 
-@include media-query($large) {
+@include media-query(1000px) {
     .blog-list {
-        max-width: $large*.9;
+        max-width: 1000px*.9;
         img {
             display: block;
             width: 200px;

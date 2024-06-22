@@ -12,7 +12,7 @@
     }
 }
 
-@include media-query($large) {
+@include media-query(1000px) {
     .short-post {
         display: flex;
         flex-flow: row-reverse nowrap;

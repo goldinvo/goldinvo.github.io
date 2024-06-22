@@ -27,7 +27,7 @@
     }
 }
 
-@include media-query($large) {
+@include media-query(1000px) {
     .recipes-index {
         ul {
             column-count: 2;
@@ -78,7 +78,7 @@
     }
 }
 
-@include media-query($large) {
+@include media-query(1000px) {
     .recipe-nav {
         .folders {
             // min-width: 50%;
@@ -101,7 +101,7 @@
         margin-left: auto;
         margin-right: auto;
 
-        @include media-query($large) {
+        @include media-query(1000px) {
             column-count: 2;
 
             &:has(> img:only-child) {  // what a great time to be alive

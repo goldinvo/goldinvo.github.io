@@ -1,27 +1,22 @@
 .homepage {
-    max-width: $max-content-width-non-textual;
-    margin-left: auto;
-    margin-right: auto;
-    
-    .gallery {
-        margin: 0 7.5px;
+    margin: 0 7.5px;
 
-        column-gap: 15px;
-        column-count: 3;
-        @include media-query(850px) {
-            column-count: 2;
-        }
-        @include media-query(525px) {
-            column-count: 1;
-        }
+    column-gap: 15px;
+    column-count: 3;
+    @include media-query(850px) {
+        column-count: 2;
+    }
+    @include media-query(525px) {
+        column-count: 1;
+    }
 
-        img {
-            margin-bottom: 15px;
-            &:hover{
-                // TODO: Make image look clickable on hover. Maybe slight zoom animation?
-                // box-shadow: 0px 0px 4px 2px $accent-color;
-            }
+    img {
+        margin-bottom: 15px;
+        &:hover{
+            // TODO: Make image look clickable on hover. Maybe slight zoom animation?
+            // box-shadow: 0px 0px 4px 2px $accent-color;
         }
-    }   
-}
+    }
+}   
+
 

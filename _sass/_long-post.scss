@@ -13,7 +13,7 @@
 
 
 
-@include media-query($large) {
+@include media-query(1000px) {
     .long-post {
         max-width: 800px;
         img {

@@ -3,8 +3,8 @@ nav {
     flex-flow: column nowrap;
     align-items: center;
     gap: 1rem;
-    
-    width: MIN(calc(100vw - 100px), $max-content-width-non-textual/2);
+
+    width: MIN(calc(100vw - 100px), 500px);
     margin: 30px auto;
     padding: 20px;
 
