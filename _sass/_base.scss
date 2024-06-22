@@ -115,11 +115,17 @@ a.link-highlight, .link-highlight a {
 }
 
 main {
+    font-size: calc(18rem / 16);
+    
     margin-left: auto;
     margin-right: auto;
+    padding: 0 7.5px;
 
     &.text-content {
-        max-width: 1000px;
+        max-width: calc(750rem / 16);
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+        }
     }
     &.media-content {
         max-width: 1000px;

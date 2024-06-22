@@ -1,6 +1,4 @@
 .homepage {
-    margin: 0 7.5px;
-
     column-gap: 15px;
     column-count: 3;
     @include media-query(850px) {

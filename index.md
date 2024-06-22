@@ -2,7 +2,7 @@
 title: goldinvo.com
 layout: page
 disable-hidden-nav: true
-content: media
+content-type: media
 ---
 
 <div class="homepage">

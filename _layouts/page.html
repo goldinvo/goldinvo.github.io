@@ -2,13 +2,12 @@
 layout: default
 # Parameters: 
 #   disable-hidden-nav: bool
-#   content: text | media | mixed
+#   content-type: text | media | mixed
 ---
 
 {% include navbar.html disable-hidden-nav=page.disable-hidden-nav %}
-
-<main   {% if page.content== "text" %} class="text-content"
-        {% elsif page.content=="media" %} class="media-content"
+<main   {% if page.content-type == "text" %} class="text-content"
+        {% elsif page.content-type == "media" %} class="media-content"
         {% else %} class="mixed-content" {% endif %}>
     {{ content }}
 </main>
