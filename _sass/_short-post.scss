@@ -1,41 +1,47 @@
 .short-post {
-    #short-desc {
-        margin-bottom: $spacing-unit;
-        #date {
-            font-size: .75em;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: $spacing-unit-px * 2;
+        
+    text-align: justify;
+    h1, h2, h3, h4, h5, h6 {
+        text-align: left;
+    }
+
+    #image-reel {
+        flex: 0 3 350px;
+        // overflow: scroll; TODO: https://stackoverflow.com/questions/10626503/scroll-an-overflowing-div-by-scrolling-anywhere-on-the-page
+        img {
+            margin-bottom: $spacing-unit-px;
         }
     }
-    #image-reel {
+
+    #short-desc {
+        flex: 0 4 30rem;
+        #date {
+            font-size: calc(14rem / 16);
+        }
+    }
+
+    @include media-query(650px) {
+        
+
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        #image-reel, #short-desc {
+            flex: 0 1 auto;
+        }
         img {
-            margin-bottom: $spacing-unit;
+            max-width: MIN(100%, 350px);
+            margin: 0 auto;
         }
     }
 }
 
-@include media-query(1000px) {
-    .short-post {
-        display: flex;
-        flex-flow: row-reverse nowrap;
-        justify-content: flex-end;
-        #image-reel {
-            flex: 0 1 350px;
-            img {
-                width: 100%;
-                margin-bottom: $spacing-unit/2;
-            }
-            &:empty {
-                flex: 0 1 0;
-            }
-        }
-        #short-desc {
-            margin-left: $spacing-unit;
-            flex: 0 2 500px;
-            #content {
-                border-bottom: 1px solid black;
-                margin-bottom: $spacing-unit/2;
-            }
-        }
-    }
-}
 
 

@@ -1,5 +1,5 @@
 .homepage {
-    column-gap: 15px;
+    column-gap: $spacing-unit-px;
     column-count: 3;
     @include media-query(850px) {
         column-count: 2;
@@ -9,7 +9,7 @@
     }
 
     img {
-        margin-bottom: 15px;
+        margin-bottom: $spacing-unit-px;
         &:hover{
             // TODO: Make image look clickable on hover. Maybe slight zoom animation?
             // box-shadow: 0px 0px 4px 2px $accent-color;
