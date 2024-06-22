@@ -120,17 +120,15 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding: 0 $spacing-unit-px*2;
+    margin-bottom: $spacing-unit-px;
 
     &.text-content {
-        max-width: MIN(100vw, calc(750rem / 16));
-        h1, h2, h3, h4, h5, h6 {
-            text-align: center;
-        }
+        max-width: calc(750rem / 16);
     }
     &.media-content {
         max-width: 1000px;
     }
     &.mixed-content {
-        max-width: MIN(100vw, calc(380px + 30rem))
+        max-width: calc(380px + 30rem)
     }
 }

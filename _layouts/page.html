@@ -4,10 +4,18 @@ layout: default
 #   disable-hidden-nav: bool
 #   content-type: text | media | mixed
 ---
+{% if page.content-type %}
+    {% if page.content-type == "text" %} {% assign class = "text-content" %}
+    {% elsif page.content-type == "media" %} {% assign class = "media-content" %}
+    {% elsif page.content-type == "mixed" %}d {% assign class= "mixed-content" %} {% endif %}
+{% elsif layout.content-type %}
+    {% if layout.content-type == "text" %} {% assign class = "text-content" %}
+    {% elsif layout.content-type == "media" %} {% assign class = "media-content" %}
+    {% elsif layout.content-type == "mixed" %} {% assign class= "mixed-content" %} {% endif %}
+{% endif %}
 
 {% include navbar.html disable-hidden-nav=page.disable-hidden-nav %}
-<main   {% if page.content-type == "text" %} class="text-content"
-        {% elsif page.content-type == "media" %} class="media-content"
-        {% else %} class="mixed-content" {% endif %}>
+
+<main class={{class}}>
     {{ content }}
 </main>
