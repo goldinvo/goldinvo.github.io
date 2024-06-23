@@ -2,6 +2,7 @@
 layout: page
 title: Grading
 permalink: /recipes/graded
+content-type: text-two-columns
 ---
 <!-- I am definitely not using Jekyll tools the way they were supposed to be used here -->
 See also: [Index (Ungraded)](/recipes/all-recipes)

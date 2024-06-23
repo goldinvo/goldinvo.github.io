@@ -33,6 +33,10 @@ body {
     font-variation-settings:
         "wdth" 100;
 
+    .secondary-font {
+        font-size: $secondary-font-size;
+    }
+
     .secondary-font, h1, h2, h3, h4, h5, h6  {
         font-family: $secondary-font-family;
         font-weight: $secondary-font-weight;
@@ -115,15 +119,18 @@ a.link-highlight, .link-highlight a {
 }
 
 main {
-    font-size: calc(18rem / 16);
+    font-size: $base-font-size;
     
     margin-left: auto;
     margin-right: auto;
     padding: 0 $spacing-unit-px*2;
-    margin-bottom: $spacing-unit-px;
+    margin-bottom: $spacing-unit-px*2;
 
     &.text-content {
         max-width: calc(750rem / 16);
+    }
+    &.text-two-col-content {
+        max-width: (875rem / 16);
     }
     &.media-content {
         max-width: 1000px;

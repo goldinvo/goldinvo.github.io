@@ -6,10 +6,11 @@
 // Fonts
 $base-font-family: "Noto Serif", "Noto Serif SC", serif;
 $base-font-weight: 425;
-$base-font-size:   18px;
+$base-font-size:   (18rem / 16);
 $base-line-height: 1.5;
 $secondary-font-family: "Inconsolata", monospace;
 $secondary-font-weight: 500;
+$secondary-font-size: (20rem / 16);
 $secondary-line-height: 1.35;
 
 $text-color:       #111;
