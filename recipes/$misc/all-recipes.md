@@ -2,6 +2,7 @@
 layout: page
 title: Index
 permalink: /recipes/all-recipes
+content-type: text-two-columns
 ---
 See also: [Index (Graded)](/recipes/graded)
 

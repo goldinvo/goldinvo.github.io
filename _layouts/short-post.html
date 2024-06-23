@@ -1,10 +1,12 @@
 ---
 layout: page
+content-type: mixed
 ---
 <div class="short-post">
     <div id="short-desc">
         <h1>{{ page.title }}</h1>
-        <div id="content">{{ content }}</div>
+        <div>{{ content }}</div>
+        <hr>
         <div id="date">{{ page.date | date: "%b %Y"}}</div>
     </div>
     <div id="image-reel">{% for image in page.images %}<img src="{{ image }}">{% endfor %}</div>

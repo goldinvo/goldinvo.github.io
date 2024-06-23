@@ -2,8 +2,8 @@
 layout: page
 title: Recipes | About
 permalink: /recipes/about
+content-type: text
 ---
-<div markdown="1" style="max-width: 700px;">
 ## About my Recipes
 Hi! Welcome to my recipes page. This is a long-term project where I intend to 
 catalog (hoard) recipes and other cooking tidbits. It's basically my equivalent
@@ -17,4 +17,3 @@ spiffy when that happens.
 Please send any feedback, comments, and suggestions to goldin@goldinvo.com
 
 [Return to Recipes](/recipes/)
-</div>

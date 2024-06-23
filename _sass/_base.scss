@@ -7,22 +7,23 @@ dl, dd, ol, ul, figure {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure, table {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit-rem;
 }
 
 td, th {
-    padding-right: $spacing-unit / 2;
+    padding-right: $spacing-unit-rem;
 }
 
 hr {
     border: 0;
     height: 0;
     border-top: 1px solid black;
-    margin: $spacing-unit / 2 0;
+    margin: $spacing-unit-px 0;
 }
 
 body {
-    font-size: $base-font-size;
+    // TODO: set html font size to use rem
+    // font-size: $base-font-size;
     
     font-family: $base-font-family;
     font-optical-sizing: auto;
@@ -31,6 +32,10 @@ body {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+
+    .secondary-font {
+        font-size: $secondary-font-size;
+    }
 
     .secondary-font, h1, h2, h3, h4, h5, h6  {
         font-family: $secondary-font-family;
@@ -45,7 +50,6 @@ body {
 
 img {
     display: block;
-    border-radius: 15px;
     max-height: 100%;
     max-width: 100%;
 }
@@ -103,5 +107,35 @@ a {
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+a.link-highlight, .link-highlight a {
+    background-color: $accent-color;
+    color: $text-color;
+    &:visited {
+        color: $text-color;
+    }
+}
+
+main {
+    font-size: $base-font-size;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $spacing-unit-px*2;
+    margin-bottom: $spacing-unit-px*2;
+
+    &.text-content {
+        max-width: calc(750rem / 16);
+    }
+    &.text-two-col-content {
+        max-width: (875rem / 16);
+    }
+    &.media-content {
+        max-width: 1000px;
+    }
+    &.mixed-content {
+        max-width: calc(380px + 30rem)
     }
 }

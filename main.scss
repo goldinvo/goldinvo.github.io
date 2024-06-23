@@ -3,60 +3,45 @@
 
 @charset "utf-8";
 
+// Fonts
 $base-font-family: "Noto Serif", "Noto Serif SC", serif;
 $base-font-weight: 425;
-$base-font-size:   18px;
+$base-font-size:   (18rem / 16);
 $base-line-height: 1.5;
-
-$secondary-font-family: "IBM Plex Mono", monospace;
+$secondary-font-family: "Inconsolata", monospace;
 $secondary-font-weight: 500;
+$secondary-font-size: (20rem / 16);
 $secondary-line-height: 1.35;
-
-
-$spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #ffffe9;
 $accent-color:      #ffd700;
 $accent-darker: darken($accent-color, 10%);
-// --accent-color: #ffd700;
-// --accent-darker: #dabf2a;
-// --background-color: #ffffe9;
-// --highlight-color: #f0f2ff;
-// $grey-color-light: lighten($grey-color, 40%);
-// $grey-color-dark:  darken($grey-color, 25%);
 
-$large:     950px;
-$medium:    450px;
-
-$large-sidebar-width: 270px;
-
-
+$spacing-unit-px:   15px;
+$spacing-unit-rem:  15rem / 16;
+$spacing-unit: 30px;
 
 // Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
+// @include media-query($large) {
+//     ...
 // }
-@mixin media-query($device) {
-    @media screen and (min-width: $device) {
+@mixin media-query($width) {
+    @media screen and (max-width: $width) {
         @content;
     }
 }
 
+$max-content-width-non-textual: 1000px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "normalize",
     "base",
-    "page",
     "navbar",
-    "gallery",
+    "homepage",
     "blog",
-    "other",
     "recipes",
     "long-post",
     "short-post"

@@ -1,44 +1,32 @@
 .blog-list {
-    img {
-        display: none;
-    }
     ul {
         list-style-type: none;
         margin: 0;
         li {
-            margin-bottom: $spacing-unit;
-        }
-    }
-    .meta {
-        display: flex;
-        flex-flow: column nowrap;
-        gap: $spacing-unit/2;
-        #title {
-            text-decoration: underline;
-            font-size: 1.25em;
-        }
-        #date {
-            font-size: .75em;
-        }
-    }
-}
-
-
-@include media-query($large) {
-    .blog-list {
-        max-width: $large*.9;
-        img {
-            display: block;
-            width: 200px;
-            max-width: none;
-            max-height: none;
-        }
-        li {
+            margin-bottom: $spacing-unit-px *2;
             display: flex;
-            .meta{
-                margin-left: $spacing-unit/2;
+            gap: $spacing-unit-px;
+
+
+            #thumbnail {
+                flex: 0 2 200px;
+            }
+
+            .meta {
+                flex: 0 3 30rem;
+
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: flex-start;
+                gap: $spacing-unit-px;
+                #title {
+                    font-size: (22rem / 16);
+                    padding: 0 $spacing-unit-rem/2;
+                }
+                #date {
+                    font-size: (14rem / 16);
+                }
             }
         }
-    }    
+    }
 }
-
