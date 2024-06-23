@@ -9,12 +9,19 @@
     }
 
     img {
-        margin-bottom: $spacing-unit-px;
         &:hover{
             // TODO: Make image look clickable on hover. Maybe slight zoom animation?
             // box-shadow: 0px 0px 4px 2px $accent-color;
         }
     }
+
+    a {
+        // Safari cuts off img bottom-margin to next col
+        display: block;
+        break-inside: avoid;
+        padding-bottom: $spacing-unit-px;
+    }
+
 }   
 
 

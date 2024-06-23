@@ -43,7 +43,7 @@
 
 .recipe-nav {
     .folders {
-        display: inline-block;
+        display: block;
         list-style-type: none;
         margin-left: 0;
         width: 100%;
@@ -59,10 +59,12 @@
         li {
             background-color: $accent-color;
             padding: $spacing-unit-px/2 $spacing-unit-px;
-            margin-bottom: $spacing-unit-px;
+            color: $text-color;     
         }
         a {
-            color: $text-color;    
+            display: block;
+            break-inside: avoid;
+            padding-bottom: $spacing-unit-px;
         }
     }
     .files {
