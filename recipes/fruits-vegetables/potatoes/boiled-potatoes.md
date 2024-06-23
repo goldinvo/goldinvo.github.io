@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Boiled or Steamed Potatoes
-grade: S
+grade: D
 ---
 <!-- stub -->
 **Pressure cook:** Bring to high pressure and cook for 8-20 minutes depending

@@ -57,4 +57,17 @@ See also: [Index (Ungraded)](/recipes/all-recipes)
 {% endfor %}
 </ul>
 
+<h3> S: Stub; pages that are not intended to present stand-alone content </h3>
+<ul>
+{% assign sorted = site.pages | sort: "title" %}
+{% for node in sorted %}
+{% if node.path contains "recipes" and node.grade == 'S' %}
+{% unless node.path contains "$misc" %}
+<li><a href="{{node.url}}">{% if node.path contains "index" %}<img src="/assets/icons/folder.svg">{% endif %}{{node.title}}</a></li>
+{% endunless %}
+{% endif %}
+{% endfor %}
+</ul>
+
+
 </div>

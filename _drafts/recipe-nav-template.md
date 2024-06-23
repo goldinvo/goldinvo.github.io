@@ -1,7 +1,7 @@
 ---
 layout: recipe-nav
 title: Title
-grade: B
+grade: S
 custom_folder_order:
 - paths
 - to
