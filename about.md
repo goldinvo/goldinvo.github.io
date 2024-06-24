@@ -3,7 +3,6 @@ layout: page
 title: About
 content-type: text
 ---
-<div style="text-align: justify;" markdown="1">
 # Welcome to my blog!
 
 On this website you'll find some of my crafting endeavors and other fun projects.
@@ -16,4 +15,3 @@ Please feel free to send any comments and feedback my way. I would really apprec
 
 Email: goldin@goldinvo.com    
 Github: [Profile](https://github.com/goldinvo)
-</div>
