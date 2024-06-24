@@ -1,5 +1,5 @@
 ---
 layout: recipe-nav
 title: Beverages
-grade: B
+grade: S
 ---
