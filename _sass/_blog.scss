@@ -30,3 +30,18 @@
         }
     }
 }
+
+.pagination {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1em;
+
+    margin: $spacing-unit-px*2 0;
+    justify-content: center;
+    align-items: baseline;
+    
+    .paginate-end {
+        color: darken($accent-darker, 10%);
+        opacity: 0.5;
+    }
+}
