@@ -9,9 +9,9 @@
     }
 
     img {
+        transition: transform 200ms;
         &:hover{
-            // TODO: Make image look clickable on hover. Maybe slight zoom animation?
-            // box-shadow: 0px 0px 4px 2px $accent-color;
+            transform: scale(1.02);
         }
     }
 
