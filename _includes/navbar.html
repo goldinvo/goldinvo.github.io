@@ -7,8 +7,8 @@ Parameters:
     {% unless include.disable-hidden-nav %}{% endunless %}
     <div><a href="/">goldinvo.com</a></div>
     <ul> 
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/recipes">Recipes</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="/blog" {% if page.url contains "/blog" %}style="text-decoration: underline;"{% endif %}>Blog</a></li>
+        <li><a href="/recipes" {% if page.url contains "/recipes" %}style="text-decoration: underline;"{% endif %}>Recipes</a></li>
+        <li><a href="/about" {% if page.url contains "/about" %}style="text-decoration: underline;"{% endif %}>About</a></li>
     </ul>
 </nav>
