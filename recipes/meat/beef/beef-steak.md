@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Beef Steak
+title: Steak
 grade: D
 ---
 <!-- stub -->
