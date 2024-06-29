@@ -7,7 +7,7 @@ grade: A
 Tenderized steak breaded and fried like chicken.
 <!-- endstub -->
 
-1. Use tenderized cube steak, or tenderize and pound flat a flavorful cut. 
+1. Use tenderized cube steak, or tenderize and pound flat a flavorful cut. Can pound flour into the meat.
 2. Dredge and fry as you would shallow-fried chicken. Either: 
     - Marinade the meat in seasoned buttermilk, then dredge in seasoned flour (add buttermilk to make craggily)
         - Buttermilk (+ 1 egg), flour, paprika, garlic powder, cayenne, salt and pepper, etc.

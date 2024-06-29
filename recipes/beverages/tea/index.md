@@ -1,7 +1,7 @@
 ---
 layout: recipe-nav
 title: Tea
-grade: S
+grade: A
 ---
 [Jump to Recipes](#recipes)
 ## What is Tea?
