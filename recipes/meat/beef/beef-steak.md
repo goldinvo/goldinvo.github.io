@@ -2,6 +2,8 @@
 layout: recipe
 title: Steak
 grade: D
+images:
+    - /assets/recipes/steak-chimichurri.jpeg
 ---
 <!-- stub -->
 

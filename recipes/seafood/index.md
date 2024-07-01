@@ -1,5 +1,4 @@
 ---
 layout: recipe-nav
-title: Desserts
-grade: S
+title: Seafood
 ---

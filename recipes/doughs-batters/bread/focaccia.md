@@ -1,7 +1,9 @@
 ---
 layout: recipe
-title: foccacia
+title: Focaccia
 grade: B
+image: 
+    - /assets/recipes/focaccia.jpeg
 ---
 <!-- stub -->
 TODO

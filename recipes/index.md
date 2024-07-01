@@ -7,7 +7,7 @@ custom_folder_order:
 - recipes/fruits-vegetables/index.md
 - recipes/soups-stews/index.md
 - recipes/meat/index.md
-- recipes/fish/index.md
+- recipes/seafood/index.md
 - recipes/noodles-pasta/index.md
 - recipes/grains-legumes-nuts/index.md
 - recipes/doughs-batters/index.md

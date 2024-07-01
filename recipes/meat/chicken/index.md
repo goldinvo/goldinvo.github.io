@@ -1,5 +1,5 @@
 ---
 layout: recipe-nav
-title: Desserts
+title: Chicken
 grade: S
 ---

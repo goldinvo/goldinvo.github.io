@@ -2,6 +2,8 @@
 layout: recipe
 title: Kombucha
 grade: D
+images: 
+    - /assets/recipes/kombucha.jpeg
 ---
 <!-- stub -->
 For half gallon:
