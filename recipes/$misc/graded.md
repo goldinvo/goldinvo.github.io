@@ -9,7 +9,7 @@ See also: [Index (Ungraded)](/recipes/all-recipes)
 
 # Index (Graded):
 <div class="recipes-index">
-<h3> E: In-depth & high quality </h3>
+<h3> E: Posts that I'm happy with </h3>
 <ul>
 {% assign sorted = site.pages | sort: "title" %}
 {% for node in sorted %}
@@ -57,7 +57,7 @@ See also: [Index (Ungraded)](/recipes/all-recipes)
 {% endfor %}
 </ul>
 
-<h3> S: Stub; pages that are not intended to present stand-alone content </h3>
+<h3> S: Stubs </h3>
 <ul>
 {% assign sorted = site.pages | sort: "title" %}
 {% for node in sorted %}

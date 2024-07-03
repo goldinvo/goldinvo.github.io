@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Cá Trứng Kho Tiêu
-grade: E
+grade: A
 images:
     - /assets/recipes/ca-trung-kho-tieu/1.jpeg
     - /assets/recipes/ca-trung-kho-tieu/2.jpeg

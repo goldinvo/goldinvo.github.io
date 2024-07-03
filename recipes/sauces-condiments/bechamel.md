@@ -3,8 +3,6 @@ layout: recipe
 title: Bechamel
 grade: D
 ---
-A creamy white French "Mother" sauce.
-
 <!-- stub -->
 - 2 Tbsp butter
 - 2 Tbsp flour

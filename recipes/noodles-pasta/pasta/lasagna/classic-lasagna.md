@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Classic Lasagna
-grade: A
+grade: S
 ---
 <!-- stub -->
 - Ragu bolognese or some tomato-meat sauce

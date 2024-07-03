@@ -22,7 +22,7 @@ A thick chicken and vegetable soup in a pie crust
 - salt and pepper, tabasco hot sauce
 - 2 pie crusts
 
-Saute mirepoix, cook in flour, add liquid and simmer until thick. 
+Saute mirepoix, cook in flour, add liquid and simmer until thick. Add chicken and peas.
 Let filling cool before putting into pie crust. Bake at 425ºF for 35-40 min.
 
 
