@@ -15,4 +15,4 @@ custom_folder_order:
 - recipes/beverages/index.md
 # - recipes/lists/index.md
 ---
-**To any visitors:** The structure of this portion of my website is part of a long-term project that is still a work in progress. Feel free to visit the [graded index](/recipes/graded) or explore as you wish, but please be aware that I make no promises regarding the quality at this stage!
+**To any visitors:** The structure of this portion of my website represents a long-term project that is still a work in progress. Feel free to visit the [graded index](/recipes/graded) or explore as you wish, but please be aware that I make no promises regarding the quality at this stage!
