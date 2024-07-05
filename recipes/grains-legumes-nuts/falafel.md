@@ -2,6 +2,8 @@
 layout: recipe
 title: Falafel
 grade: A
+images:
+    - /assets/recipes/falafel.jpeg
 ---
 <!-- stub -->
 Recipe from *Jerusalem*, Ottolenghi:
