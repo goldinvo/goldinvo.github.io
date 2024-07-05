@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Falafel
-grade: D
+grade: A
 ---
 <!-- stub -->
 Recipe from *Jerusalem*, Ottolenghi:

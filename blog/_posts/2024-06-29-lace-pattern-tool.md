@@ -5,13 +5,15 @@ featured-image: /assets/2024-06-29/screenshot.png
 featured: false
 ---
 **Lace Pattern Tool** is an interactive canvas designed for making torchon bobbin lace 
-patterns. <!--more--> Digital pattern files have the advantages of easy rescaling, 
+patterns. <!--more--> Digital pattern have the advantages of easy rescaling, 
 reproduction, and modification. My objective is to create purpose-built digital tool that is 
 easy to learn and free, unlike standard graphic design apps. 
 
-Both this post and the pattern tool are currently work-in-progresses. Updates will frequently be published: [Visit the App](https://goldinvo.com/lace-pattern-tool).
+Both this post and the pattern tool are currently being improved. Keep an eye out for updates!
 
-*This post was last updated June 29, 2024*
+[Visit the App](https://goldinvo.com/lace-pattern-tool).
+
+*This post was last updated July 4, 2024*
 
 ## Usage
 ### Modes
@@ -43,20 +45,26 @@ to delete a highlighted selection.
 Click on an object to select an object. Hold `Shift` and click on other objects
 to add/remove them to/from your selection. Click and drag to make a group selection.
 
-With a highlighted selection, you can choose to delete or copy your selection. To
-paste, you must have a control point on the canvas that marks where to paste.
+With a highlighted selection, you can choose to delete or copy your selection. Copy
+and paste requires that you place a "control point." Objects are copy/pasted 
+relative to the control point.
 
-Click on the canvas at an empty position to place your blue control point. Click
-again on an empty position to remove it. 
+Double-click to place your blue control point. A new coordinate display should appear
+in the toolbar, showing the coordinate of the control point. You may also remove your 
+control point by clicking the 'x' icon. 
+
+### Other features
+Using the top toolbar, you can export/import your canvas, or print your pattern.
 
 ## Development
 Please contact me (see my About page) if you have any feedback, bug reports, or feature 
 requests. Listed below are features that I have planned, somewhat in order of priority.
 
-- Import/Export and Printing
-- Improve snapping, including implement snapping on drag and on paste.
-- Undo/Redo and/or save-states.
+- Performance improvements
+- Saving to localStorage
+- Bugfixes
+    - Import/export is pretty buggy right now
+- Styling and UI: Improve aesthetics and usability
 - Copy multiple "motifs" to clipboard, select different motifs to paste to canvas.
-- Styling and UI: improve aesthetics and add keybindings, tooltips, explanations, etc.
-- Backend for user accounts and saving patterns/motifs (likely just as an exercise).
 - Mobile support
+- Backend for user accounts and saving patterns/motifs (likely just as an exercise).
