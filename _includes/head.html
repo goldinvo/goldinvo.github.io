@@ -7,6 +7,15 @@ Parameters:
 {% assign description = page.desc | default: site.desc %}
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TX66Q5BBBR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TX66Q5BBBR');
+    </script>
     <title>{{ title }}</title>
     
     <meta charset="utf-8">
