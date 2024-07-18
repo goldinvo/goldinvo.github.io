@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Bún Bò Huế
+title: Bánh Tiêu
 grade: B
 ---
 <!-- stub -->

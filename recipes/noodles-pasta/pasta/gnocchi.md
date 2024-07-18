@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Bún Bò Huế
+title: Gnocchi
 grade: B
 ---
 <!-- stub -->

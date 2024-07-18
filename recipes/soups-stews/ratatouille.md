@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Bún Bò Huế
+title: Ratatouille
 grade: B
 ---
 <!-- stub -->

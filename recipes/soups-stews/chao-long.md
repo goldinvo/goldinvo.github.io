@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Bún Bò Huế
+title: Cháo Lòng 
 grade: B
 ---
 <!-- stub -->
