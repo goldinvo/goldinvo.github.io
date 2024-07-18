@@ -21,7 +21,8 @@ Usage:
 help            display this message
 serve           open server
 code [serve]    open development environment [and open server]
-template        get templates for writing posts"
+template        get templates for writing posts
+compress        compress new images in assets_original"
 elif [ "$1" = "serve" ]; then
     open_server
 elif [ "$1" = "code" ]; then
@@ -57,6 +58,8 @@ elif [ "$1" = "template" ]; then
             "post" ) cat _drafts/blog-template.md; break;;
         esac
     done
+elif [ "$1" = "compress" ]; then
+    python3 compress.py assets_original assets
 else
     echo "Missing/incorrect arguments"
 fi
