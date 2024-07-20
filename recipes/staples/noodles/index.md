@@ -1,5 +1,5 @@
 ---
 layout: recipe-nav
-title: Noodles and Pasta
+title: Noodles
 grade: B
 ---

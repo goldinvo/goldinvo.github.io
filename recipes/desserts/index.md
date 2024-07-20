@@ -1,5 +1,5 @@
 ---
 layout: recipe-nav
-title: Desserts
+title: Sweets and Desserts
 grade: S
 ---

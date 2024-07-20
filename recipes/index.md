@@ -8,9 +8,7 @@ custom_folder_order:
 - recipes/soups-stews/index.md
 - recipes/meat/index.md
 - recipes/seafood/index.md
-- recipes/noodles-pasta/index.md
-- recipes/grains-legumes-nuts/index.md
-- recipes/doughs-batters/index.md
+- recipes/staples/index.md
 - recipes/desserts/index.md
 - recipes/beverages/index.md
 # - recipes/lists/index.md
