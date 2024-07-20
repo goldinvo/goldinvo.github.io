@@ -10,7 +10,8 @@
 
     img {
         transition: transform 200ms;
-        &:hover{
+        will-change: transform; // fixes safari image crop, somehow
+        &:hover, &:focus {
             transform: scale(1.02);
         }
     }
