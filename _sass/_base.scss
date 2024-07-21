@@ -4,14 +4,17 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure, table {
     margin-bottom: $spacing-unit-rem;
 }
-
-td, th {
-    padding-right: $spacing-unit-rem;
+h1 {
+    font-weight: bolder;
+    margin-bottom: $spacing-unit-rem;
+}
+h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    margin-bottom: $spacing-unit-rem * .70;
 }
 
 hr {
@@ -20,6 +23,31 @@ hr {
     border-top: 1px solid black;
     margin: $spacing-unit-px 0;
 }
+
+// Lists
+ul, ol {
+    margin-left: $spacing-unit-rem * 2;
+}
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+// Description lists
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: calc(40rem/16);
+}
+
+// Tables
+td, th {
+    padding-right: $spacing-unit-rem;
+}
+
 
 body {
     // TODO: set html font size to use rem
@@ -87,15 +115,6 @@ pre {
 //     cursor: pointer;
 // }
 
-ul, ol {
-    margin-left: $spacing-unit;
-}
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
 
 a {
     color: $accent-darker;
