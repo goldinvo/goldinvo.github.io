@@ -1,4 +1,5 @@
 ---
 layout: recipe-nav
-title: "Eggs and Dairy"
+title: Eggs
+grade: S
 ---

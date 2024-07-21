@@ -3,7 +3,8 @@ layout: recipe-nav
 title: Recipes
 custom_folder_order:
 - recipes/sauces-condiments/index.md
-- recipes/eggs-dairy/index.md
+- recipes/dairy/index.md
+- recipes/eggs/index.md
 - recipes/fruits-vegetables/index.md
 - recipes/soups-stews/index.md
 - recipes/meat/index.md
