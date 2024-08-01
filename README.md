@@ -8,7 +8,7 @@ Built using [Jekyll](https://jekyllrb.com/docs/)
 - `./run code [serve]`: open file to code [and serve]
 - `./run template`: documentation for expected metadata in new page entries
 - `./run help`
-- `python3 compress.py assets_original assets`
+- `python3 compress.py assets_original assets [--hard]`
 
 ## Deploy:
 `git push origin HEAD:gh-pages`
