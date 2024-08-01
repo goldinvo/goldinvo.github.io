@@ -42,6 +42,46 @@
 }
 
 .recipe-nav {
+    .divider {
+        display: flex;
+        align-items: baseline;
+        
+        img {
+            width: 24px;
+        }
+        
+        #chevron {
+            background-color: $accent-color;
+            border: 1px solid $accent-color;
+            box-sizing: border-box;
+            
+            img {
+                transform: rotate(90deg);
+                transition: transform 0.3s ease, border-color 0.3s ease;
+            }
+            
+            &:hover {
+                cursor: pointer;
+                border-color: $text-color;
+            }
+        }
+
+        #chevron.closed {
+            img {
+                transform: rotate(0deg);
+            }
+        }
+        
+        hr {
+            flex-grow: 1;
+            margin-left: $spacing-unit-px/2;
+        }
+    }
+
+    #content.closed {
+        display: none;
+    }
+    
     .folders {
         display: block;
         list-style-type: none;
