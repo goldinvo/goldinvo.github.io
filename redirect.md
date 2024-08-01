@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Redirect | Lace Pattern Tool
+title: Redirect | Lace Pattern Maker
 content-type: text
 permalink: /lace-pattern-tool
 ---

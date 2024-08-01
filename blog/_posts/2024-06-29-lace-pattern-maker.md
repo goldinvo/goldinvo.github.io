@@ -4,12 +4,12 @@ tag: other
 featured-image: /assets/2024-06-29/screenshot.png
 featured: false
 ---
-**Lace Pattern Tool** is an interactive canvas designed for making torchon bobbin lace 
+**Lace Pattern Maker** is an interactive canvas designed for making torchon bobbin lace 
 patterns. <!--more--> This tool allows you to quickly produce, modify, rescale, and reproduce lace patterns.
 
 Both this post and the pattern tool are currently being improved. Keep an eye out for updates!
 
-[Visit the App](https://goldinvo.com/lace-pattern-tool).
+[Visit the App](https://goldinvo.com/lace-pattern-maker).
 
 *This post was last updated July 9, 2024*
 
