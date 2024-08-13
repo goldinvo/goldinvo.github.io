@@ -22,8 +22,6 @@ Whey
 Lactose
 : Milk sugar, giving milk its sweet taste. Often indigestible.
 
-~~Lactic acid bacteria, acidic~~
-
 ## Milk Treatments
 
 Raw Milk
@@ -41,7 +39,7 @@ Extends shelf life while minimizing changes in flavor.
     : Milk is pumped through a heat exchanger, being exposed to more heat for a 
     brief period of time. Develops a cooked flavor.
 
-    Ultra-high temperature
+    Ultra-high Temperature
     : Milk is heated at a very high temperature almost instantaneously. Becomes more
     cooked but is also shelf stable. 
 
@@ -50,5 +48,5 @@ Homogenization
 of fat globules, preventing creaming.
 
 Low-Fat Milks
-: Centrifuges separate milk and cream, allowing for milk at different fat contents.
+: Centrifuges separate milk and cream, allowing for milk to be made with different fat content.
 (Skim, 1%, 2%, and whole milk at about 3.5%).
