@@ -1,6 +1,6 @@
 ---
 layout: long-post
-tag: other
+tag: tool
 featured-image: /assets/2024-06-29/screenshot.png
 featured: false
 ---

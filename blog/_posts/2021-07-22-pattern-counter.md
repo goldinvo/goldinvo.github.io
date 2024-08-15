@@ -1,6 +1,6 @@
 ---
 layout: long-post
-tag: misc
+tag: tool
 featured-image: /assets/2021-07-22/pattern-counter.jpg
 ---
 A stitch counting/pattern tracking app<!--more-->.
