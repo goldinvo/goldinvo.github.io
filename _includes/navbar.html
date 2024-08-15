@@ -4,11 +4,27 @@ Parameters:
 -->
 
 <nav class="secondary-font link-highlight">
-    {% unless include.disable-hidden-nav %}{% endunless %}
-    <div><a href="/">goldinvo.com</a></div>
-    <ul> 
-        <li><a href="/blog" {% if page.url contains "/blog" %}style="text-decoration: underline;"{% endif %}>Blog</a></li>
-        <li><a href="/recipes" {% if page.url contains "/recipes" %}style="text-decoration: underline;"{% endif %}>Recipes</a></li>
-        <li><a href="/about" {% if page.url contains "/about" %}style="text-decoration: underline;"{% endif %}>About</a></li>
-    </ul>
+    <div class="main-card">
+        <a class="title" href="/">goldinvo.com</a>
+        <ul> 
+            <li><a class="nav-item" id="blog" href="#">blog</a></li>
+            <li><a class="nav-item" id="notebooks" href="#">notebooks</a></li>
+            <li><a class="nav-item" id="about" href="#">about</a></li>
+        </ul>
+    </div>
+    <div class="sub-menus"> 
+        <ul class="inner-nav blog" style="margin-right: auto; text-align: start;">
+            <li><a href="/">gallery</a></li>
+            <li><a href="/blog">posts</a></li>
+            <li><a href="#">in-browser tools</a></li>
+        </ul>
+        <ul class="inner-nav notebooks" style="margin-left: auto; margin-right: auto; text-align: center;">
+            <li><a href="/recipes">recipes</a></li>
+        </ul>
+        <ul class="inner-nav about" style="margin-left: auto; text-align: end">
+            <li><a href="/about">about page</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">site map</a></li>
+        </ul>
+    </div>
 </nav>
