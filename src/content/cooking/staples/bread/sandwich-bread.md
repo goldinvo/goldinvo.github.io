@@ -2,9 +2,9 @@
 grade: D
 title: Sandwich Bread
 ---
-<!-- stub -->
+
 A basic grocery-store style (but better) bread
-<!-- endstub -->
+
 - test 9g instant yeast in body temp 3/4 c water and 1/2 c milk
 - (stand mixer) incorporate into 440g bread flour, 9g salt, 13g sugar
 - mix on low till smooth (won't take that long)

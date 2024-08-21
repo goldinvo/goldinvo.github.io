@@ -2,8 +2,8 @@
 grade: D
 title: Scallion Pancake
 ---
-<!-- stub -->
-<!-- endstub -->
+
+
 for 4 balls:
 10 oz AP flour add 3/4-1c boiling water until barely combined. Wrap ball and rest
 

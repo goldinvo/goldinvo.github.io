@@ -5,9 +5,9 @@ images:
 - /assets/recipes/pho/2.jpeg
 title: Phở
 ---
-<!-- stub -->
+
 Vietnamese noodle soup with a clean, aromatic beef broth base.
-<!-- endstub -->
+
 
 <u>For the broth (1 big pot):</u>
 - 2 onions, 1 hand of ginger (bruise). Well-charred and rinsed of blackened bits

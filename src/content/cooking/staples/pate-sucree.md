@@ -2,9 +2,9 @@
 grade: A
 title: Pâte Sucrée (Sweet Tart Dough)
 ---
-<!-- stub -->
+
 A sweet shortbread crust used in tarts.
-<!-- endstub -->
+
 
 [Serious Eats](https://www.seriouseats.com/pate-sucree-tart-shell-recipe) (Yields 2 crusts):
 - 2 sticks soft unsalted butter, cut into 1-inch-thick slices

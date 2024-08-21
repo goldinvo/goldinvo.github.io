@@ -1,0 +1,19 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Page from './Page.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+interface Props {
+    title: string;
+    description?: string;
+}
+
+const { title, description=title } = Astro.props;
+---
+<Page title={title} description={description} contentType="text">
+    <Breadcrumbs path={Astro.url.pathname}/>
+    <h1>{title}</h1>
+    <slot />
+</Page>
+
+

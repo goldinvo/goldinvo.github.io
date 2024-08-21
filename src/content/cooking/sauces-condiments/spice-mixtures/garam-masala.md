@@ -2,8 +2,8 @@
 grade: D
 title: Garam Masala
 ---
-<!-- stub -->A blend of spices, literally meaning "hot spices", used in cuisine 
-from the Indian subcontinent.<!-- endstub --> There are many variations; here is 
+A blend of spices, literally meaning "hot spices", used in cuisine 
+from the Indian subcontinent. There are many variations; here is 
 one by [Chef Ranveer Brar](https://www.youtube.com/watch?v=f5_E0SknU7Q):
 
 - 1 cup Coriander seeds

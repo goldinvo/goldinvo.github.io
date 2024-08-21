@@ -4,5 +4,4 @@ images:
 - /assets/recipes/roast-chicken-leg.jpeg
 title: Roast Chicken
 ---
-<!-- stub -->
-<!-- endstub -->
+

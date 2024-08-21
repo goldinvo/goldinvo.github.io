@@ -2,10 +2,10 @@
 grade: D
 title: No-Knead Bread
 ---
-<!-- stub -->
+
 Jim Lahey's popular no-knead bread recipe that doesn't require any attention 
 during bulk fermentation. 
-<!-- endstub -->
+
 
 - 430 g AP/bread flour
 - 1/4+ tsp yeast

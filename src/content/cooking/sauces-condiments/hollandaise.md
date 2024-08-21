@@ -2,12 +2,12 @@
 grade: A
 title: Hollandaise
 ---
-<!-- stub -->
+
 - egg yolks
 - lemon juice
 - melted butter
 - cayenne
-<!-- endstub -->
+
 
 Whisk egg yolks and lemon juice in a double boiler until thickening. Gradually
 pour in melted butter, whisking constantly. Avoid breaking the sauce. Adjust

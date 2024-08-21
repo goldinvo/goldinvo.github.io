@@ -4,6 +4,5 @@ images:
 - /assets/recipes/croissants.jpeg
 title: Croissants
 ---
-<!-- stub -->
 
-<!-- endstub -->
+

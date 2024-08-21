@@ -2,7 +2,7 @@
 grade: D
 title: Banana Bread
 ---
-<!-- stub -->
+
 - 3 banana
 - 1/3c butter melted
 - 1/2tsp baking soda
@@ -12,4 +12,3 @@ title: Banana Bread
 - 1 tsp vanilla
 - 1 1/2c flour
 - 1+ hr at 350F
-<!-- endstub -->

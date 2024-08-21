@@ -4,5 +4,4 @@ images:
 - /assets/recipes/poke.jpeg
 title: Poke
 ---
-<!-- stub -->
-<!-- endstub -->
+

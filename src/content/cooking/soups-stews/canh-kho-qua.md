@@ -4,7 +4,7 @@ images:
 - /assets/recipes/recipe-file-name/1.jpeg
 title: Canh Khổ Qua
 ---
-<!-- stub -->
+
 - Bitter melon
 - Stock or water
 - Cilantro, scallions
@@ -15,7 +15,7 @@ Filling:
 - Fish sauce, sugar, salt, pepper
     - *about 1 tsp fish sauce, 1/4 tsp salt per pound pork*
 - (Onions, garlic, soy sauce, etc.)
-<!-- endstub -->
+
 
 1. Combine filling ingredients and mix well (product should be bouncy).
 2. Cut a seam into the bitter melon and scoop out the seeds. Stuff

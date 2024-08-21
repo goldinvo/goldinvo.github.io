@@ -4,9 +4,9 @@ images:
 - /assets/recipes/falafel.jpeg
 title: Falafel
 ---
-<!-- stub -->
+
 Recipe from *Jerusalem*, Ottolenghi:
-<!-- endstub -->
+
 1. Soak 1 1/4 cup **dried chickpeas** in water overnight
 2. Combine with following ingredients and grind with food processor (or meat grinder) until holds together (fine but not pasty)
     - 1 clove garlic, minced

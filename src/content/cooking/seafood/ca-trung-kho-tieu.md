@@ -9,9 +9,9 @@ images:
 - /assets/recipes/ca-trung-kho-tieu/6.jpeg
 title: Cá Trứng Kho Tiêu
 ---
-<!-- stub -->
+
 Vietnamese braised capelin
-<!-- endstub -->
+
 
 1. Marinade **capelin** in **fish sauce**, **sugar**, **black pepper**, **scallion whites**, **garlic** and **thai chili** on a plate. Could also add MSG.
 2. Melt **yellow rock sugar** in **oil** until you have an even, deep brown layer of caramel. This gives the dish a rich brown color. I do this in a small dutch oven.

@@ -4,9 +4,9 @@ images:
 - /assets/recipes/french-omelette.jpeg
 title: French Omelette
 ---
-<!-- stub -->
+
 A blonde, rolled omelette with a soft (but not runny!) interior.
-<!-- endstub -->
+
 
 Whisk 3 eggs, optionally with a splash of cream/milk and/or chopped herbs, and season.
 Melt a generous amount of butter on medium to medium-high until foaming subsides. 

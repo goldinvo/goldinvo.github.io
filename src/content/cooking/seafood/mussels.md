@@ -4,5 +4,4 @@ images:
 - /assets/recipes/mussels.jpeg
 title: Mussels
 ---
-<!-- stub -->
-<!-- endstub -->
+

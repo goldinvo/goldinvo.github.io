@@ -4,5 +4,4 @@ images:
 - /assets/recipes/chicken-butter-masala.jpeg
 title: Chicken Butter Masala
 ---
-<!-- stub -->
-<!-- endstub -->
+

@@ -2,8 +2,8 @@
 grade: A
 title: Crème Pâtissière (Pastry Cream)
 ---
-<!-- stub -->
-<!-- endstub -->
+
+
 
 - 260g whole milk (2 cups)
 - Vanilla bean, or extract

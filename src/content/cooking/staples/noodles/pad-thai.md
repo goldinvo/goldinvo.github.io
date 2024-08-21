@@ -4,5 +4,4 @@ images:
 - /assets/recipes/pad-thai.jpeg
 title: Pad Thai
 ---
-<!-- stub -->
-<!-- endstub -->
+

@@ -4,8 +4,8 @@ images:
 - /assets/recipes/tiramisu.jpeg
 title: Tiramisu
 ---
-<!-- stub -->
-<!-- endstub -->
+
+
 
 [NYT Recipe](https://cooking.nytimes.com/recipes/1018684-classic-tiramisu):
 1. With electric beaters, whip 50g sugar and 4 yolks till light and airy.

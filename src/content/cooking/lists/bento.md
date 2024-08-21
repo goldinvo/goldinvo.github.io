@@ -2,9 +2,9 @@
 grade: B
 title: Bento
 ---
-<!-- stub -->
 
-<!-- endstub -->
+
+
 ## Prep day before
 -   karaage
 

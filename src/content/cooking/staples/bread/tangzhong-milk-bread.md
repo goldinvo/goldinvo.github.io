@@ -2,9 +2,9 @@
 grade: D
 title: Tangzhong Milk Bread
 ---
-<!-- stub -->
+
 Tangzhong Milk Bread
-<!-- endstub -->
+
 
 - 40g bread flour
 - 200g water

@@ -5,10 +5,10 @@ images:
 - /assets/recipes/pate-so/2.jpeg
 title: Patê Sô
 ---
-<!-- stub -->
+
 (aka Pâté chaud) A Vietnamese savory pastry made of puff pastry and a pork
 meat filling.
-<!-- endstub -->
+
 
 **Filling:** (Pick and choose from the listed ingredients)
 - Ground pork or a mixture (try to get lean if you can), maybe some wood ear mushroom

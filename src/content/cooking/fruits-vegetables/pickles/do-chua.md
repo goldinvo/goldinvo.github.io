@@ -2,9 +2,9 @@
 grade: D
 title: Đồ Chua
 ---
-<!-- stub -->
+
 Vietnamese pickles
-<!-- endstub -->
+
 
 - 1 cup water
 - 1 1/4 cup white vinegar

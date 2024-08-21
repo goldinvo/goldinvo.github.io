@@ -5,9 +5,9 @@ images:
 - /assets/recipes/chicken-pot-pie/2.jpeg
 title: Chicken Pot Pie
 ---
-<!-- stub -->
+
 A thick chicken and vegetable soup in a pie crust
-<!-- endstub -->
+
 
 - 5 Tbsp butter
 - 1 diced onion

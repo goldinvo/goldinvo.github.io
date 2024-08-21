@@ -1,0 +1,27 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import NotebookFile from '../../layouts/NotebookFile.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('cooking');
+	return posts.map((post) => ({
+		params: { slug: post.slug == 'index' ? undefined : post.slug },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'cooking'>;
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+{ post.id.includes('index') 
+    ? <NotebookFile {...post.data}> 
+        <Content />
+        <footer class="secondary-font"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
+      </NotebookFile>
+    : <NotebookFile {...post.data}> 
+        <Content />
+        <footer class="secondary-font"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
+        { post.data.images && <div id="image-reel">{post.data.images.map((image) => <img src={image}/>)}</div>}
+      </NotebookFile>
+}

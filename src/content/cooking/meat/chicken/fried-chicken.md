@@ -4,5 +4,4 @@ images:
 - /assets/recipes/fried-chicken.JPG
 title: Fried Chicken
 ---
-<!-- stub -->
-<!-- endstub -->
+

@@ -4,7 +4,7 @@ images:
 - /assets/recipes/steak-chimichurri.jpeg
 title: Steak
 ---
-<!-- stub -->
+
 
 | Doneness        | Temp (ºF)   | 
 | -----------     |      ------: |
@@ -14,7 +14,7 @@ title: Steak
 | Medium-well     | 150-155     | 
 | Well            | 160-165     | 
 
-<!-- endstub -->
+
 
 ## Cooking Methods
 

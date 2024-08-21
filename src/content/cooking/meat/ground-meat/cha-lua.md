@@ -7,6 +7,5 @@ images:
 title: Chả Lụa
 ---
 aka giò lụa
-<!-- stub -->
+
 TODO
-<!-- endstub -->

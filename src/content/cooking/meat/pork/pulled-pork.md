@@ -4,9 +4,9 @@ images:
 - /assets/recipes/pulled-pork-sandwich.jpeg
 title: Pulled Pork
 ---
-<!-- stub -->
+
 Slow-cooked BBQ pork shoulder, shredded and dressed in sauce. 
-<!-- endstub -->
+
 
 TODO: traditional methods, especially smoked
 

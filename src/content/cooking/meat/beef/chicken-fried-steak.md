@@ -2,9 +2,9 @@
 grade: A
 title: Chicken-fried Steak
 ---
-<!-- stub -->
+
 Tenderized steak breaded and fried like chicken.
-<!-- endstub -->
+
 
 1. Use tenderized cube steak, or tenderize and pound flat a flavorful cut. Can pound flour into the meat.
 2. Dredge and fry as you would shallow-fried chicken. Either: 
