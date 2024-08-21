@@ -1,0 +1,58 @@
+---
+import Page from '../../layouts/Page.astro';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+const posts = (await getCollection('blog', ({data}) => data.tags?.includes('tools')))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Page title='In-Browser Tools' description='Web-tools for crafting' contentType='mixed'>
+    <h1>In-Browser Tools</h1>
+    <div class="blog-list">
+        <ul>
+            { posts.map( (post) => (
+                <li>
+                    <a id="thumbnail" href={`/blog/${post.slug}`}><img src={post.data.featuredImage}/></a>
+                    <div class="meta">
+                        <a id="title" class="inconsolata" href={`/blog/${post.slug}/`}>{ post.data.title }</a>
+                        <div>{ post.data.description }</div>
+                        <FormattedDate date={post.data.pubDate} />
+                    </div>
+                </li>
+            ))}
+        </ul>
+    </div>
+</Page>
+<style>
+    .blog-list ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .blog-list ul li {
+        margin-bottom: 30px;
+        display: flex;
+        gap: 15px;
+    }
+    .blog-list ul li #thumbnail {
+        flex: 0 2 200px;
+    }
+    .blog-list ul li .meta {
+        flex: 0 3 30rem;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .blog-list ul li .meta #title {
+        font-size: 1.375rem;
+        padding: 0 0.46875rem;
+    }
+    .blog-list ul li .meta #date {
+        font-size: 0.875rem;
+    }
+    .meta a {
+        color: var(--text-color);
+        background-color: var(--accent-color);
+    }
+</style>

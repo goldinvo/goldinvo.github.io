@@ -4,6 +4,8 @@ type: 'long'
 description: 'A stitch counting/pattern tracking app'
 pubDate: '2021-07-22'
 featuredImage: '/2021-07-22/pattern-counter.jpg'
+tags: 
+  - tools
 ---
 A stitch counting/pattern tracking app.
 
