@@ -1,0 +1,49 @@
+---
+// Reference: https://medium.com/@gmainapro/creating-breadcrumbs-in-astro-4c7280d599fa
+// Narrow component; assumes it is used for notebook collections.
+
+import type { ContentEntryMap } from 'astro:content';
+import { getEntry } from 'astro:content';
+
+interface Props {
+	path: string;
+}
+
+const { path } = Astro.props;
+const breadToSlug = (breadcrumb: string) => {
+    let slug = breadcrumb.split("/").filter(Boolean).slice(1).join("/");
+    return slug ? slug : 'index';
+};
+const collection = path.split('/').filter(Boolean).shift()! as keyof ContentEntryMap;
+
+// '/cooking/desserts/tiramisu/' => ['', 'cooking', 'desserts', 'tiramisu']
+let splitPath=path.split('/');
+
+if (path.endsWith("/")) splitPath.pop(); 
+
+let breadcrumbs = [];
+while(splitPath.length>2){ 
+    splitPath.pop();
+    
+    let breadcrumb = splitPath.join('/');
+    // get associated title for linked file
+    const entry = await getEntry(collection, breadToSlug(breadcrumb));
+    breadcrumbs.push({path: breadcrumb, title: entry!.data.title});
+}
+
+breadcrumbs = breadcrumbs.reverse();
+---
+{ breadcrumbs.length !== 0 && <nav class="inconsolata"><span> / </span>
+    { breadcrumbs.map( (breadcrumb) => (
+        <a href={breadcrumb.path}>{breadcrumb.title}</a><span> / </span>
+    ))}
+</nav>
+}
+<style>
+    a {
+        font-size: .9em;
+        color: var(--text-color);
+        background-color: var(--accent-color);
+        padding: 0 5px;
+    }
+</style>
