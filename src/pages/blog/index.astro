@@ -1,0 +1,28 @@
+---
+import Page from '../../layouts/Page.astro';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<Page title='blog' description='View all posts' contentType='mixed'>
+    <div class="blog-list">
+        <ul>
+            {
+                posts.map((post) => (
+                    <li>
+                        <a id="thumbnail" href={`/blog/${post.slug}/`}><img src={post.data.featuredImage}></a>
+                        <div class="meta">
+                            <a id="title" class="link-highlight secondary-font" href={`/blog/${post.slug}/`}>{ post.data.title }</a>
+                            <div>{ post.data.description }</div>
+                            <div id="date"><FormattedDate date={post.data.pubDate} /></div>
+                        </div>
+                    </li>
+                ))
+            }  
+        </ul>
+    </div>
+</Page>

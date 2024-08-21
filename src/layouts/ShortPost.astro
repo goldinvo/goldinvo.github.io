@@ -1,0 +1,25 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Page from './Page.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+
+const { title, description, pubDate, updatedDate} = Astro.props;
+---
+<Page title={title} description={description} contentType='mixed'>
+    <article class="short-post">
+        <div id="short-desc">
+            <h1>{title}</h1>
+            <div><slot /></div>
+            <hr>
+            <FormattedDate date={pubDate}/> { updatedDate && (
+                <div class="last-updated-on">
+                    Updated: <FormattedDate date={updatedDate} />
+                </div>
+            )}
+        </div>
+        <!-- <div id="image-reel">{% for image in page.images %}<img src="{{ image }}">{% endfor %}</div> -->
+    </article>
+</Page>
+

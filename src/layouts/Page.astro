@@ -1,0 +1,39 @@
+---
+import Base from './Base.astro';
+import Navbar from '../components/Navbar.astro';
+
+interface Props {
+	title: string;
+    description: string;
+    contentType: 'text' | 'text-two-columns' | 'media' | 'mixed';
+}
+
+const { title, description, contentType } = Astro.props;
+---
+
+<Base title={title} description={description}>
+    <Navbar />
+    <main class={contentType} >
+        <slot />
+    </main>
+</Base>
+<style>
+    main {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+    /* margin-bottom: 30px; */
+    }
+    main.text {
+        max-width: calc(750rem / 16);
+    }
+    main.text-two-columns {
+        max-width: calc(875rem / 16);
+    }
+    main.media {
+        max-width: 1000px;
+    }
+    main.mixed {
+        max-width: calc(380px + 30rem);
+    }
+</style>
