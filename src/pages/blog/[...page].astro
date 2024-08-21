@@ -3,7 +3,7 @@ import Page from '../../layouts/Page.astro';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 import type { GetStaticPathsOptions } from 'astro';
-import Pagniation from '../../components/Pagniation.astro';
+import Pagination from '../../components/Pagination.astro';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
     const posts = (await getCollection('blog')).sort(
@@ -16,8 +16,8 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
 const { page } = Astro.props;
 ---
 
-<Page title='blog' description='View all posts' contentType='mixed'>
-    <Pagniation page={page} />
+<Page title='Blog' description='View all posts' contentType='mixed'>
+    <Pagination page={page} />
     <div class="blog-list">
         <ul>
             { page.data.map( (post) => (
@@ -32,7 +32,7 @@ const { page } = Astro.props;
             ))}
         </ul>
     </div>
-    <Pagniation page={page} />
+    <Pagination page={page} />
 </Page>
 <style>
     .blog-list ul {
