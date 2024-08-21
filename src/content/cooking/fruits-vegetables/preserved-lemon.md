@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Preserved Lemon
 grade: B
+title: Preserved Lemon
 ---
 <!-- stub -->
 TODO

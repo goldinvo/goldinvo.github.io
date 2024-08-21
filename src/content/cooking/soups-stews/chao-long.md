@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Cháo Lòng 
 grade: B
+title: Cháo Lòng
 ---
 <!-- stub -->
 

@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Phá Lấu
 grade: B
+title: Phá Lấu
 ---
 <!-- stub -->
 TODO

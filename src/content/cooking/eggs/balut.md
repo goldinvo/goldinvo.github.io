@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Balut
 grade: B
+title: Balut
 ---
 <!-- stub -->
 

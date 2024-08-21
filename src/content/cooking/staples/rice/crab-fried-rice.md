@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Crab Fried Rice
 grade: D
+title: Crab Fried Rice
 ---
 <!-- stub -->
 - garlic and thai chilis

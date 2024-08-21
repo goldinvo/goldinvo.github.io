@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Baked Potato
 grade: B
+title: Baked Potato
 ---
 <!-- stub -->
 

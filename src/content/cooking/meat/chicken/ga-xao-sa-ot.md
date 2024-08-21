@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Gà Xào Sả Ớt
 grade: B
+title: Gà Xào Sả Ớt
 ---
 <!-- stub -->
 

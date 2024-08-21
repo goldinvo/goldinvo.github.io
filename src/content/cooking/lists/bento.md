@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Bento
 grade: B
+title: Bento
 ---
 <!-- stub -->
 

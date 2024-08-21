@@ -1,9 +1,7 @@
 ---
-layout: recipe
-title: Speculoos
 grade: B
+title: Speculoos
 ---
 <!-- stub -->
 
 <!-- endstub -->
-

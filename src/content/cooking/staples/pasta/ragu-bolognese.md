@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Ragu Bolognese
 grade: B
+title: Ragu Bolognese
 ---
 <!-- stub -->
 <!-- endstub -->

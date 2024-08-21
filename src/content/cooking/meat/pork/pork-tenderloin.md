@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Pork Tenderloin
 grade: B
 images:
-    - /assets/recipes/pork-tenderloin.jpeg
+- /assets/recipes/pork-tenderloin.jpeg
+title: Pork Tenderloin
 ---
 <!-- stub -->
 <!-- endstub -->

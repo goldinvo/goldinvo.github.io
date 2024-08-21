@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Pâte Sucrée (Sweet Tart Dough)
 grade: A
+title: Pâte Sucrée (Sweet Tart Dough)
 ---
 <!-- stub -->
 A sweet shortbread crust used in tarts.

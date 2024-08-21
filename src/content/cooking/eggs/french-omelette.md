@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: French Omelette
 grade: A
 images:
-    - /assets/recipes/french-omelette.jpeg
+- /assets/recipes/french-omelette.jpeg
+title: French Omelette
 ---
 <!-- stub -->
 A blonde, rolled omelette with a soft (but not runny!) interior.

@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Mustard
 grade: D
+title: Mustard
 ---
 <!-- stub -->
 Whole, broken, or ground mustard seeds mixed with water, vinegar, lemon juice, 

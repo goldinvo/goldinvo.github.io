@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Tangzhong Milk Bread
 grade: D
+title: Tangzhong Milk Bread
 ---
 <!-- stub -->
 Tangzhong Milk Bread

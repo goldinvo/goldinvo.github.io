@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Mashed Potatoes
 grade: D
+title: Mashed Potatoes
 ---
 <!-- stub -->
 - Boiled potatoes

@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Croissants
 grade: B
 images:
-    - /assets/recipes/croissants.jpeg
+- /assets/recipes/croissants.jpeg
+title: Croissants
 ---
 <!-- stub -->
 

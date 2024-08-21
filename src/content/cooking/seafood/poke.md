@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Poke
 grade: B
 images:
-    - /assets/recipes/poke.jpeg
+- /assets/recipes/poke.jpeg
+title: Poke
 ---
 <!-- stub -->
 <!-- endstub -->

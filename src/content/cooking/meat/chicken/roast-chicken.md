@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Roast Chicken
 grade: B
 images:
-    - /assets/recipes/roast-chicken-leg.jpeg
+- /assets/recipes/roast-chicken-leg.jpeg
+title: Roast Chicken
 ---
 <!-- stub -->
 <!-- endstub -->

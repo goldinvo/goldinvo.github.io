@@ -1,10 +1,9 @@
 ---
-layout: recipe
-title: Chicken Pot Pie
 grade: A
 images:
-    - /assets/recipes/chicken-pot-pie/1.jpeg
-    - /assets/recipes/chicken-pot-pie/2.jpeg
+- /assets/recipes/chicken-pot-pie/1.jpeg
+- /assets/recipes/chicken-pot-pie/2.jpeg
+title: Chicken Pot Pie
 ---
 <!-- stub -->
 A thick chicken and vegetable soup in a pie crust
@@ -24,5 +23,3 @@ A thick chicken and vegetable soup in a pie crust
 
 Saute mirepoix, cook in flour, add liquid and simmer until thick. Add chicken and peas.
 Let filling cool before putting into pie crust. Bake at 425ºF for 35-40 min.
-
-

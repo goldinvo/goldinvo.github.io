@@ -1,13 +1,11 @@
 ---
-layout: recipe
-title: Yuk Gae Jang
 grade: B
 images:
-    - /assets/recipes/recipe-file-name/1.jpeg
+- /assets/recipes/recipe-file-name/1.jpeg
+title: Yuk Gae Jang
 ---
 <!-- stub -->
 
 <!-- endstub -->
 
-i crave yukdaejang short rib 
-
+i crave yukdaejang short rib

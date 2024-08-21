@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Bánh Tiêu
 grade: B
+title: Bánh Tiêu
 ---
 <!-- stub -->
 

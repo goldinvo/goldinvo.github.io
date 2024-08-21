@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Croquettes
 grade: B
 images:
-    - /assets/recipes/croquette.jpeg
+- /assets/recipes/croquette.jpeg
+title: Croquettes
 ---
 <!-- stub -->
 

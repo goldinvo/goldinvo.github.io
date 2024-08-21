@@ -1,4 +1,4 @@
 ---
-layout: recipe-nav
-title: "Lists"
+grade: S
+title: Lists
 ---

@@ -1,5 +1,4 @@
 ---
-layout: recipe-nav
-title: Cream and Butter
 grade: S
+title: Cream and Butter
 ---

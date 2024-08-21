@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Đồ Chua
 grade: D
+title: Đồ Chua
 ---
 <!-- stub -->
 Vietnamese pickles
@@ -12,4 +11,3 @@ Vietnamese pickles
 - 1/2 cup sugar
 - carrots, daikon
 Salt and sugar vegetables, squeze water out and rinse.
-

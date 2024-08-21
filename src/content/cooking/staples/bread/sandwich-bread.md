@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Sandwich Bread
 grade: D
+title: Sandwich Bread
 ---
 <!-- stub -->
 A basic grocery-store style (but better) bread

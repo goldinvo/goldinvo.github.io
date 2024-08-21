@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Boiled Egg
 grade: D
+title: Boiled Egg
 ---
 <!-- stub -->
 Cooking times:
@@ -11,6 +10,4 @@ Cooking times:
 <!-- endstub -->
 
 Lower egg into plenty of boiling water and keep at a simmer (to avoid too much agitation). 
-Alternatively, steam the eggs. Shock in ice water or at least under running water. 
-
-
+Alternatively, steam the eggs. Shock in ice water or at least under running water.

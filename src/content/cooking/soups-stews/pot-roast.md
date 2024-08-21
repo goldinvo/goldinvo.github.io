@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Beef Pot Roast
 grade: B
 images:
-    - /assets/recipes/pot-roast.jpeg
+- /assets/recipes/pot-roast.jpeg
+title: Beef Pot Roast
 ---
 <!-- stub -->
 <!-- endstub -->

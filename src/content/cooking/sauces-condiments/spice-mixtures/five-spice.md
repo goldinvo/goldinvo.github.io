@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Five Spice
 grade: D
+title: Five Spice
 ---
 A blend commonly found in Chinese cuisine. 
 

@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Crab Cakes
 grade: B
 images:
-    - /assets/recipes/crab-cakes.jpeg
+- /assets/recipes/crab-cakes.jpeg
+title: Crab Cakes
 ---
 <!-- stub -->
 <!-- endstub -->

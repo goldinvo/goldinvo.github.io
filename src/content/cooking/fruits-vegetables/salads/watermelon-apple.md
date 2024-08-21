@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Watermelon Apple Salad
 grade: D
-images: 
-    - /assets/recipes/watermelon-apple.jpeg
+images:
+- /assets/recipes/watermelon-apple.jpeg
+title: Watermelon Apple Salad
 ---
 <!-- stub -->
 - watermelon, in sticks

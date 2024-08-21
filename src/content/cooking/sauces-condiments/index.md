@@ -1,4 +1,4 @@
 ---
-layout: recipe-nav
-title: "Sauces, Condiments, and Marinades"
+grade: S
+title: Sauces, Condiments, and Marinades
 ---

@@ -1,11 +1,10 @@
 ---
-layout: recipe
-title: Ravioli
 grade: D
 images:
-    - /assets/recipes/ravioli/1.jpeg
-    - /assets/recipes/ravioli/2.jpeg
-    - /assets/recipes/ravioli/3.jpeg
+- /assets/recipes/ravioli/1.jpeg
+- /assets/recipes/ravioli/2.jpeg
+- /assets/recipes/ravioli/3.jpeg
+title: Ravioli
 ---
 <!-- stub -->
 Stuffed pasta. Roll two thin sheets of fresh pasta. Place filling on one sheet,

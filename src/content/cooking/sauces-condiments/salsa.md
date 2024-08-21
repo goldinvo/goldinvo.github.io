@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Salsa
 grade: B
+title: Salsa
 ---
 <!-- stub -->
 TODO

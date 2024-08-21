@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Pasta Carbonara
 grade: D
+title: Pasta Carbonara
 ---
 <!-- stub -->
 - carbonara

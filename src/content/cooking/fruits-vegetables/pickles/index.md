@@ -1,6 +1,4 @@
 ---
-layout: recipe-nav
+grade: S
 title: Pickled Vegetables
 ---
-
-

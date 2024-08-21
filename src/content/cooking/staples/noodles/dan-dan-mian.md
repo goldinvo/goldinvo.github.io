@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Dan Dan Mian
 grade: A
+title: Dan Dan Mian
 ---
 <!-- stub -->
 (担担面) Sichuan street-food noodle, with many variations served dry or as soup, 
@@ -23,4 +22,4 @@ Here is one preparation: (Kenji's *The Wok*):
 - Cook ground pork. Add diced preserved mustard root. Season, with ground sichuan peppercorn, shaoxing wine, light soy sauce, etc.
 - Roasted peanut, scallion, greens, bean sprouts, etc.
 
-Serve on fresh wheat noodle. 
+Serve on fresh wheat noodle.

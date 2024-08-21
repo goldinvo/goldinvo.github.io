@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Ratatouille
 grade: B
+title: Ratatouille
 ---
 <!-- stub -->
 

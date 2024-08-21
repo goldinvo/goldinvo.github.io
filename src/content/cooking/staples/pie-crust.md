@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Pie Crust
 grade: A
+title: Pie Crust
 ---
 NYT (2 9-inch crusts):
 <!-- stub -->

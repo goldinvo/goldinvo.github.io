@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Sweet Tea
 grade: B
+title: Sweet Tea
 ---
 <!-- stub -->
 Brew tea very strong and mix in sugar. Add cold water to cool and 

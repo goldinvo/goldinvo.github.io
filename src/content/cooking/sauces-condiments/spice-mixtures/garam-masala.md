@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Garam Masala
 grade: D
+title: Garam Masala
 ---
 <!-- stub -->A blend of spices, literally meaning "hot spices", used in cuisine 
 from the Indian subcontinent.<!-- endstub --> There are many variations; here is 

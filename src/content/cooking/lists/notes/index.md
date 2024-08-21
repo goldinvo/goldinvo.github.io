@@ -1,9 +1,7 @@
 ---
-layout: recipe-nav
-title: Notes
 grade: S
+title: Notes
 ---
-
 ## Caffeine
 An alkaloid that has many physiological effects:
 - Positive:

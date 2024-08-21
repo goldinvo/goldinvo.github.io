@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Crème Pâtissière (Pastry Cream)
 grade: A
+title: Crème Pâtissière (Pastry Cream)
 ---
 <!-- stub -->
 <!-- endstub -->

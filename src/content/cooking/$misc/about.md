@@ -1,8 +1,6 @@
 ---
-layout: page
+grade: S
 title: Recipes | About
-permalink: /recipes/about
-content-type: text
 ---
 ## About my Recipes
 Hi! Welcome to my recipes page. This is a long-term project where I intend to 

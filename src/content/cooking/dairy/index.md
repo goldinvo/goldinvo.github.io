@@ -1,7 +1,6 @@
 ---
-layout: recipe-nav
-title: Dairy
 grade: S
+title: Dairy
 ---
 ## Notable Components of Milk
 Water

@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Bo Kho
 grade: B
+title: Bo Kho
 ---
 <!-- stub -->
 TODO

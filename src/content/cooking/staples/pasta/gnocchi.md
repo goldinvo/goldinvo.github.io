@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Gnocchi
 grade: B
+title: Gnocchi
 ---
 <!-- stub -->
 

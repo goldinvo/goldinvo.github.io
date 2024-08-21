@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Chicken-fried Steak
 grade: A
+title: Chicken-fried Steak
 ---
 <!-- stub -->
 Tenderized steak breaded and fried like chicken.

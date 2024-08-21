@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Chicken Parmesan
 grade: D
+title: Chicken Parmesan
 ---
 <!-- stub -->
 - 4 chicken cutlets

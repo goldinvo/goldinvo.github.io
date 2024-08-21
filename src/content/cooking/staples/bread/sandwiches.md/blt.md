@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: BLT Sandwich
 grade: B
 images:
-    - /assets/recipes/blt.jpeg
+- /assets/recipes/blt.jpeg
+title: BLT Sandwich
 ---
 <!-- stub -->
 

@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Scallion Pancake
 grade: D
+title: Scallion Pancake
 ---
 <!-- stub -->
 <!-- endstub -->

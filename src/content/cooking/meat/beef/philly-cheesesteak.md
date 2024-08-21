@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Philly Cheesesteak
 grade: B
+title: Philly Cheesesteak
 ---
 <!-- stub -->
 

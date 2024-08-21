@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Bún Riêu
 grade: D
 images:
-    - /assets/recipes/recipe-file-name/1.jpeg
+- /assets/recipes/recipe-file-name/1.jpeg
+title: Bún Riêu
 ---
 <!-- stub -->
 

@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Cream Biscuits
 grade: D
+title: Cream Biscuits
 ---
 A foolproof method of making biscuits that uses cream instead of milk and 
 butter.
@@ -17,4 +16,4 @@ butter.
 Combine wet into dry until dough is barely together. Press/roll and cut into 
 biscuits. Brush with butter and bake 15 minutes at 425ºF
 
-{% include stub.html title="Biscuit Gravy"%} 
+{% include stub.html title="Biscuit Gravy"%}

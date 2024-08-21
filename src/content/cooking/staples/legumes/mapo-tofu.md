@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Mapo Tofu
 grade: B
 images:
-    - /assets/recipes/mapo-tofu.jpeg
+- /assets/recipes/mapo-tofu.jpeg
+title: Mapo Tofu
 ---
 <!-- stub -->
 

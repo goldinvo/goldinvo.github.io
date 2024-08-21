@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Fried Chicken
 grade: B
 images:
-    - /assets/recipes/fried-chicken.JPG
+- /assets/recipes/fried-chicken.JPG
+title: Fried Chicken
 ---
 <!-- stub -->
 <!-- endstub -->

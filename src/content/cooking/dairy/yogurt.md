@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Yogurt
 grade: B
+title: Yogurt
 ---
 <!-- stub -->
 <!-- endstub -->

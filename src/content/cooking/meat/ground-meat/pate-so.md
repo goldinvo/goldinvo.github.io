@@ -1,10 +1,9 @@
 ---
-layout: recipe
-title: Patê Sô
 grade: A
 images:
-    - /assets/recipes/pate-so/1.jpeg
-    - /assets/recipes/pate-so/2.jpeg
+- /assets/recipes/pate-so/1.jpeg
+- /assets/recipes/pate-so/2.jpeg
+title: Patê Sô
 ---
 <!-- stub -->
 (aka Pâté chaud) A Vietnamese savory pastry made of puff pastry and a pork

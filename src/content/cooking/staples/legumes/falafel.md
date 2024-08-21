@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Falafel
 grade: A
 images:
-    - /assets/recipes/falafel.jpeg
+- /assets/recipes/falafel.jpeg
+title: Falafel
 ---
 <!-- stub -->
 Recipe from *Jerusalem*, Ottolenghi:
@@ -20,5 +19,3 @@ Recipe from *Jerusalem*, Ottolenghi:
 4. Refrigerate, covered.
 5. Form into 1 Tbsp sized balls/patties and sprinkle with **sesame seeds**. 
 6. Deep fry in 350º oil, draining in paper-towel lined colander.
-
-

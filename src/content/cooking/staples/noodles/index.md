@@ -1,5 +1,4 @@
 ---
-layout: recipe-nav
-title: Noodles
 grade: B
+title: Noodles
 ---

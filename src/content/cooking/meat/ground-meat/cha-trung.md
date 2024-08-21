@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Chả Trứng
 grade: B
+title: Chả Trứng
 ---
 <!-- stub -->
 <!-- endstub -->

@@ -1,5 +1,4 @@
 ---
-layout: recipe-nav
-title: Soups and Stews
 grade: B
+title: Soups and Stews
 ---

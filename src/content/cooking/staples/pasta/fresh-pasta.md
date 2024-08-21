@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Fresh Pasta
 grade: A
+title: Fresh Pasta
 ---
 <!-- stub -->
 - 8 oz flour

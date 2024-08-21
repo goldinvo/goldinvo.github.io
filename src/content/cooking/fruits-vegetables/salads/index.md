@@ -1,5 +1,4 @@
 ---
-layout: recipe-nav
+grade: S
 title: Salad
 ---
-

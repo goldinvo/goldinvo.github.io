@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Tiramisu
 grade: D
 images:
-    - /assets/recipes/tiramisu.jpeg
+- /assets/recipes/tiramisu.jpeg
+title: Tiramisu
 ---
 <!-- stub -->
 <!-- endstub -->

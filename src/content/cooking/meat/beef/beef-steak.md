@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Steak
 grade: D
 images:
-    - /assets/recipes/steak-chimichurri.jpeg
+- /assets/recipes/steak-chimichurri.jpeg
+title: Steak
 ---
 <!-- stub -->
 
@@ -27,4 +26,3 @@ center reaches ~10º short of desired doneness (120º for medium-rare). Let rest
 then serve. 
 
 ### TODO
-

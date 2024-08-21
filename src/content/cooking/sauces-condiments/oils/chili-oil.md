@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Chili Oil
 grade: B
+title: Chili Oil
 ---
 <!-- stub -->
 TODO

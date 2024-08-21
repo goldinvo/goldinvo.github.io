@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Guacamole
 grade: B
 images:
-    - /assets/recipes/guacamole.jpeg
+- /assets/recipes/guacamole.jpeg
+title: Guacamole
 ---
 <!-- stub -->
 <!-- endstub -->

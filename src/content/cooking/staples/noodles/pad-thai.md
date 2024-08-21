@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Pad Thai
 grade: B
 images:
-    - /assets/recipes/pad-thai.jpeg
+- /assets/recipes/pad-thai.jpeg
+title: Pad Thai
 ---
 <!-- stub -->
 <!-- endstub -->

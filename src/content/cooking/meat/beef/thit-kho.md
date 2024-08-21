@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Thịt Kho
 grade: B
+title: Thịt Kho
 ---
 <!-- stub -->
 <!-- endstub -->

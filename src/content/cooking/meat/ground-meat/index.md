@@ -1,5 +1,4 @@
 ---
-layout: recipe-nav
-title: Ground Meat
 grade: B
+title: Ground Meat
 ---

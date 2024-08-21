@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Frittata
 grade: D
+title: Frittata
 ---
 <!-- stub -->
 An Italian omelette. 

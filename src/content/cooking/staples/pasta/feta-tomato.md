@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Feta and Tomato Sauce
 grade: B
+title: Feta and Tomato Sauce
 ---
 Easy recipe popular on Tiktok
 <!-- stub -->

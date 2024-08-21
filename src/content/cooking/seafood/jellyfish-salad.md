@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Jellyfish Salad
 grade: B
+title: Jellyfish Salad
 ---
 <!-- stub -->
 

@@ -1,9 +1,7 @@
 ---
-layout: recipe-nav
-title: Beef
 grade: B
+title: Beef
 ---
-
 TODO
 - Anatomy, cuts, and properties
 - Quality: marbling, grades

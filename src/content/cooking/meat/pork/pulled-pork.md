@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Pulled Pork
 grade: A
-images: 
-    - /assets/recipes/pulled-pork-sandwich.jpeg
+images:
+- /assets/recipes/pulled-pork-sandwich.jpeg
+title: Pulled Pork
 ---
 <!-- stub -->
 Slow-cooked BBQ pork shoulder, shredded and dressed in sauce. 
@@ -26,5 +25,3 @@ TODO: traditional methods, especially smoked
 4. Remove pork and shred. Dress in sauce:
     - Barbecue sauce
     - Hot sauce
-
-

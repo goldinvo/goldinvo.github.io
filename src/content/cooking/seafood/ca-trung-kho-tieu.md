@@ -1,14 +1,13 @@
 ---
-layout: recipe
-title: Cá Trứng Kho Tiêu
 grade: A
 images:
-    - /assets/recipes/ca-trung-kho-tieu/1.jpeg
-    - /assets/recipes/ca-trung-kho-tieu/2.jpeg
-    - /assets/recipes/ca-trung-kho-tieu/3.jpeg
-    - /assets/recipes/ca-trung-kho-tieu/4.jpeg
-    - /assets/recipes/ca-trung-kho-tieu/5.jpeg
-    - /assets/recipes/ca-trung-kho-tieu/6.jpeg
+- /assets/recipes/ca-trung-kho-tieu/1.jpeg
+- /assets/recipes/ca-trung-kho-tieu/2.jpeg
+- /assets/recipes/ca-trung-kho-tieu/3.jpeg
+- /assets/recipes/ca-trung-kho-tieu/4.jpeg
+- /assets/recipes/ca-trung-kho-tieu/5.jpeg
+- /assets/recipes/ca-trung-kho-tieu/6.jpeg
+title: Cá Trứng Kho Tiêu
 ---
 <!-- stub -->
 Vietnamese braised capelin

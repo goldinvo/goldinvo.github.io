@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Banana Bread
 grade: D
+title: Banana Bread
 ---
 <!-- stub -->
 - 3 banana

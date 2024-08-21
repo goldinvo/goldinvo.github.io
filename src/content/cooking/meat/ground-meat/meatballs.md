@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Meatballs
 grade: D
+title: Meatballs
 ---
 <!-- stub -->
 <!-- endstub -->

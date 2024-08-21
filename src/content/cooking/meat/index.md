@@ -1,4 +1,4 @@
 ---
-layout: recipe-nav
+grade: S
 title: Meat
 ---

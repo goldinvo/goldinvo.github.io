@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Mussels
 grade: B
 images:
-    - /assets/recipes/mussels.jpeg
+- /assets/recipes/mussels.jpeg
+title: Mussels
 ---
 <!-- stub -->
 <!-- endstub -->

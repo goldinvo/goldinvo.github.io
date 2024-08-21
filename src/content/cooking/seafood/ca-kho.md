@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Cá Kho
 grade: B
 images:
-    - /assets/recipes/ca-kho.jpeg
+- /assets/recipes/ca-kho.jpeg
+title: Cá Kho
 ---
 <!-- stub -->
 <!-- endstub -->

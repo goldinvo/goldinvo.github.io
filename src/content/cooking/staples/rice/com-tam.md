@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Cơm Tấm
 grade: B
+title: Cơm Tấm
 ---
 <!-- stub -->
 <!-- endstub -->

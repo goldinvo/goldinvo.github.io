@@ -1,9 +1,8 @@
 ---
-layout: recipe
-title: Dumplings
 grade: B
 images:
-    - /assets/recipes/dumplings.jpeg
+- /assets/recipes/dumplings.jpeg
+title: Dumplings
 ---
 <!-- stub -->
 <!-- endstub -->

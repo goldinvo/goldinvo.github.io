@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Cà Phê Trứng
 grade: B
+title: Cà Phê Trứng
 ---
 <!-- stub -->
 

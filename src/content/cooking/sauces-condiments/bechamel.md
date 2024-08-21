@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Bechamel
 grade: D
+title: Bechamel
 ---
 <!-- stub -->
 - 2 Tbsp butter
@@ -10,4 +9,4 @@ grade: D
 <!-- endstub -->
 
 Cook flour in butter. Gradually add milk, stirring constantly. Continue to 
-cook until thickened and season. 
+cook until thickened and season.

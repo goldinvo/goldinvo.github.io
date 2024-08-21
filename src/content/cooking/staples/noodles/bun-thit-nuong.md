@@ -1,7 +1,6 @@
 ---
-layout: recipe
-title: Bún Thịt Nướng
 grade: B
+title: Bún Thịt Nướng
 ---
 <!-- stub -->
 <!-- endstub -->
