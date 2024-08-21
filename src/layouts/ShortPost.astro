@@ -5,7 +5,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate} = Astro.props;
+const { title, description, images, pubDate, updatedDate} = Astro.props;
 ---
 <Page title={title} description={description} contentType='mixed'>
     <article class="short-post">
@@ -13,13 +13,47 @@ const { title, description, pubDate, updatedDate} = Astro.props;
             <h1>{title}</h1>
             <div><slot /></div>
             <hr>
-            <FormattedDate date={pubDate}/> { updatedDate && (
-                <div class="last-updated-on">
-                    Updated: <FormattedDate date={updatedDate} />
-                </div>
-            )}
+            <FormattedDate date={pubDate} updatedDate={updatedDate}/>
         </div>
-        <!-- <div id="image-reel">{% for image in page.images %}<img src="{{ image }}">{% endfor %}</div> -->
+        <div id="image-reel">{ 
+            images.map((image: string) => <img src={image}/> )
+        }</div>
     </article>
 </Page>
-
+<style>
+    .short-post {
+        width: 100%;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 30px;
+        text-align: justify;
+    }
+    .short-post h1, .short-post h2, .short-post h3, .short-post h4, .short-post h5, .short-post h6 {
+        text-align: left;
+    }
+    .short-post #image-reel {
+        flex: 0 3 350px;
+    }
+    .short-post #image-reel img {
+        margin-bottom: 15px;
+    }
+    .short-post #short-desc {
+        flex: 0 4 30rem;
+    }
+    @media screen and (max-width: 650px) {
+        .short-post {
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .short-post #image-reel, .short-post #short-desc {
+            flex: 0 1 auto;
+        }
+        .short-post img {
+            max-width: min(100%, 350px);
+            margin: 0 auto;
+        }
+    }
+</style>

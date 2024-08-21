@@ -1,11 +1,9 @@
 ---
 title: 'Pattern Counter'
-type: 'short'
+type: 'long'
 description: ''
 pubDate: '2021-07-22'
 featuredImage: '/2021-07-22/pattern-counter.jpg'
-images:
-
 ---
 A stitch counting/pattern tracking app<!--more-->.
 

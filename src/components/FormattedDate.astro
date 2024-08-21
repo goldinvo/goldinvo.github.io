@@ -1,17 +1,35 @@
 ---
 interface Props {
 	date: Date;
+	updatedDate?: Date;
 }
 
-const { date } = Astro.props;
+const { date, updatedDate } = Astro.props;
 ---
 
-<time datetime={date.toISOString()}>
-	{
-		date.toLocaleDateString('en-us', {
-			year: 'numeric',
-			month: 'short',
-			day: 'numeric',
-		})
+<div>
+	<time datetime={date.toISOString()}>
+		{
+			date.toLocaleDateString('en-us', {
+				year: 'numeric',
+				month: 'short',
+				day: 'numeric',
+			})
+		}
+	</time> 
+	{ updatedDate && <time datetime={updatedDate.toISOString()}>
+		&mdash; Updated {
+			updatedDate.toLocaleDateString('en-us', {
+				year: 'numeric',
+				month: 'short',
+				day: 'numeric',
+			})
+		}
+	</time> }
+</div>
+
+<style>
+	time {
+		font-size: calc(14rem / 16);
 	}
-</time>
+</style>

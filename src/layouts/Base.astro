@@ -41,3 +41,9 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
 		<slot />
 	</body>
 </html>
+<style>
+    html {
+        /* prevent content from shifting because of scrollbar */
+        margin-left: calc(100vw - 100%);
+    }
+</style>
