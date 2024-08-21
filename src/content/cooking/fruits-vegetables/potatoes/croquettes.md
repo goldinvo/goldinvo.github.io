@@ -1,7 +1,7 @@
 ---
 grade: B
 images:
-- /assets/recipes/croquette.jpeg
+- /recipes/croquette.jpeg
 title: Croquettes
 ---
 

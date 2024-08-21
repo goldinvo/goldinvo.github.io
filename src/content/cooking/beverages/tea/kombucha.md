@@ -1,7 +1,7 @@
 ---
 grade: A
 images:
-- /assets/recipes/kombucha.jpeg
+- /recipes/kombucha.jpeg
 title: Kombucha
 ---
 

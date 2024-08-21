@@ -1,7 +1,7 @@
 ---
 grade: D
 images:
-- /assets/recipes/tiramisu.jpeg
+- /recipes/tiramisu.jpeg
 title: Tiramisu
 ---
 

@@ -1,7 +1,7 @@
 ---
 grade: A
 images:
-- /assets/recipes/french-omelette.jpeg
+- /recipes/french-omelette.jpeg
 title: French Omelette
 ---
 

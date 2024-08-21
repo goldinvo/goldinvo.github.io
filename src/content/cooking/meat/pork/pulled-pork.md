@@ -1,7 +1,7 @@
 ---
 grade: A
 images:
-- /assets/recipes/pulled-pork-sandwich.jpeg
+- /recipes/pulled-pork-sandwich.jpeg
 title: Pulled Pork
 ---
 

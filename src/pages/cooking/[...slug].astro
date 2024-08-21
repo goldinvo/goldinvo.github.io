@@ -17,11 +17,38 @@ const { Content } = await post.render();
 { post.id.includes('index') 
     ? <NotebookFile {...post.data}> 
         <Content />
-        <footer class="secondary-font"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
+        <footer class="inconsolata"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
       </NotebookFile>
     : <NotebookFile {...post.data}> 
         <Content />
-        <footer class="secondary-font"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
-        { post.data.images && <div id="image-reel">{post.data.images.map((image) => <img src={image}/>)}</div>}
+        <footer class="inconsolata"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
+        { post.data.images && <div class="image-reel">{post.data.images.map((image) => <img src={image}/>)}</div>}
       </NotebookFile>
 }
+<style>
+    footer {
+        text-align: center;
+        font-size: .93em;
+    }
+    footer a {
+        color: var(--accent-darker)
+    }
+    .image-reel {
+        max-width: 600px;
+        margin: 30px auto;
+        column-count: 2;
+        gap: 15px;
+    }
+    .image-reel:has(> img:only-child) {
+        column-count: 1;
+    }
+    @media screen and (max-width: 500px) {
+        .image-reel {
+            column-count: 1;
+        }
+    }
+    .image-reel img {
+        margin-bottom: 15px;
+    }
+ 
+</style>

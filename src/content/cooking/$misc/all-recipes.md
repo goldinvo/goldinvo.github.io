@@ -11,7 +11,7 @@ See also: [Index (Graded)](/recipes/graded)
 {% for node in sorted %}
 {% if node.path contains "recipes" %}
 {% unless node.path contains "$misc" %}
-<li><a href="{{node.url}}">{% if node.path contains "index" %}<img src="/assets/icons/folder.svg">{% endif %}{{node.title}}</a></li>
+<li><a href="{{node.url}}">{% if node.path contains "index" %}<img src="/icons/folder.svg">{% endif %}{{node.title}}</a></li>
 {% endunless %}
 {% endif %}
 {% endfor %}

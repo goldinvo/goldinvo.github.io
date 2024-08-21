@@ -1,7 +1,7 @@
 ---
 grade: D
 images:
-- /assets/recipes/watermelon-apple.jpeg
+- /recipes/watermelon-apple.jpeg
 title: Watermelon Apple Salad
 ---
 

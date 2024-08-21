@@ -1,7 +1,7 @@
 ---
 grade: B
 images:
-- /assets/recipes/guacamole.jpeg
+- /recipes/guacamole.jpeg
 title: Guacamole
 ---
 

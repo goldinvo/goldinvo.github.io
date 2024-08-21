@@ -1,9 +1,9 @@
 ---
 grade: D
 images:
-- /assets/recipes/ravioli/1.jpeg
-- /assets/recipes/ravioli/2.jpeg
-- /assets/recipes/ravioli/3.jpeg
+- /recipes/ravioli/1.jpeg
+- /recipes/ravioli/2.jpeg
+- /recipes/ravioli/3.jpeg
 title: Ravioli
 ---
 

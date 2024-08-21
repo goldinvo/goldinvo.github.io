@@ -1,7 +1,7 @@
 ---
 grade: B
 images:
-- /assets/recipes/pork-tenderloin.jpeg
+- /recipes/pork-tenderloin.jpeg
 title: Pork Tenderloin
 ---
 

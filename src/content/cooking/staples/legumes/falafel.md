@@ -1,7 +1,7 @@
 ---
 grade: A
 images:
-- /assets/recipes/falafel.jpeg
+- /recipes/falafel.jpeg
 title: Falafel
 ---
 

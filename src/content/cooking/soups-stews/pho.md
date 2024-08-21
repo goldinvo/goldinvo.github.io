@@ -1,8 +1,8 @@
 ---
 grade: E
 images:
-- /assets/recipes/pho/1.jpg
-- /assets/recipes/pho/2.jpeg
+- /recipes/pho/1.jpg
+- /recipes/pho/2.jpeg
 title: Phở
 ---
 

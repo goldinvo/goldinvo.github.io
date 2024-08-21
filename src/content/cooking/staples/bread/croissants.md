@@ -1,7 +1,7 @@
 ---
 grade: B
 images:
-- /assets/recipes/croissants.jpeg
+- /recipes/croissants.jpeg
 title: Croissants
 ---
 

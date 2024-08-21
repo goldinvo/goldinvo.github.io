@@ -1,7 +1,7 @@
 ---
 grade: D
 images:
-- /assets/recipes/steak-chimichurri.jpeg
+- /recipes/steak-chimichurri.jpeg
 title: Steak
 ---
 

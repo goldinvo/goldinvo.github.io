@@ -1,7 +1,7 @@
 ---
 grade: D
 images:
-- /assets/recipes/eggs-benedict.jpeg
+- /recipes/eggs-benedict.jpeg
 title: Eggs Benedict
 ---
 

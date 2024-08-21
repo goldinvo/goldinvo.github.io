@@ -1,8 +1,8 @@
 ---
 grade: A
 images:
-- /assets/recipes/fruit-tart/1.jpeg
-- /assets/recipes/fruit-tart/2.jpeg
+- /recipes/fruit-tart/1.jpeg
+- /recipes/fruit-tart/2.jpeg
 title: Fruit Tart
 ---
 

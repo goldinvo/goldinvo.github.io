@@ -1,7 +1,7 @@
 ---
 grade: D
 images:
-- /assets/recipes/recipe-file-name/1.jpeg
+- /recipes/recipe-file-name/1.jpeg
 title: Canh Khổ Qua
 ---
 

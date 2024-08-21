@@ -1,8 +1,8 @@
 ---
 grade: A
 images:
-- /assets/recipes/pate-so/1.jpeg
-- /assets/recipes/pate-so/2.jpeg
+- /recipes/pate-so/1.jpeg
+- /recipes/pate-so/2.jpeg
 title: Patê Sô
 ---
 

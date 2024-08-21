@@ -1,7 +1,7 @@
 ---
 grade: B
 images:
-- /assets/recipes/poke.jpeg
+- /recipes/poke.jpeg
 title: Poke
 ---
 

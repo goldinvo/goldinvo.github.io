@@ -1,8 +1,8 @@
 ---
 grade: A
 images:
-- /assets/recipes/chicken-pot-pie/1.jpeg
-- /assets/recipes/chicken-pot-pie/2.jpeg
+- /recipes/chicken-pot-pie/1.jpeg
+- /recipes/chicken-pot-pie/2.jpeg
 title: Chicken Pot Pie
 ---
 
