@@ -16,7 +16,7 @@ const { title, description, images, pubDate, updatedDate} = Astro.props;
             <FormattedDate date={pubDate} updatedDate={updatedDate}/>
         </div>
         <div id="image-reel">{ 
-            images.map((image: string) => <img src={image}/> )
+            images && images.map((image: string) => <img src={image}/> )
         }</div>
     </article>
 </Page>
