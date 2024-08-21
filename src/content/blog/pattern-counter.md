@@ -1,13 +1,13 @@
 ---
 title: 'Pattern Counter'
 type: 'long'
-description: ''
+description: 'A stitch counting/pattern tracking app'
 pubDate: '2021-07-22'
 featuredImage: '/2021-07-22/pattern-counter.jpg'
 ---
-A stitch counting/pattern tracking app<!--more-->.
+A stitch counting/pattern tracking app.
 
-My favorite thing about knitting and crochet is that they are some of the most simple, relaxing, and meditative hobbies--so much so that the biggest challenge is simply counting stitches and keeping track of your pattern! And while complaining about counting may seem silly, I think most stitchers would agree that having to keep track of stitches (and loosing count of them) can quickly become an incredibly frustrating part of an otherwise idyllic experience. *Pattern Counter* is a tool I made to help allieviate this problem.
+My favorite thing about knitting and crochet is that they are some of the most simple, relaxing, and meditative hobbies--so much so that the biggest challenge is simply counting stitches and keeping track of your pattern! And while complaining about counting may seem silly, I think most stitchers would agree that having to keep track of stitches (and loosing count of them) can quickly become an incredibly frustrating part of an otherwise idyllic experience. *Pattern Counter* is a tool I made to help alleviate this problem.
 
 [Pattern Counter](https://goldinvo.com/pattern-counter) as a reference is a flexible and interactive web application that can interpret your patterns, so that it can hold your place and keep track of stitch/repeat counts as you use it. It's great for those (like me) who like to stitch in short bursts who lose their in between sessions. It is ideal for managing complex patterns, but I find its also nice to use for simple patterns to mark which row/direction I am on.
 

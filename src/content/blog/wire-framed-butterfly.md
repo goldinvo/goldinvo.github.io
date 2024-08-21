@@ -1,15 +1,16 @@
 ---
 title: 'Wire Framed Butterfly'
 type: 'short'
-description: ''
+description: 'A crochet lace butterfly'
 pubDate: '2019-06-10'
 featuredImage: '/2019-06-10/crochet-wire-framed-butterfly.jpg'
+featured: true
 images:
 - /2019-06-10/crochet-wire-framed-butterfly.jpg
 - /2019-06-10/crochet-butterfly-hanging.jpeg
 - /2019-06-10/crochet-butterfly-backside.jpeg
 ---
-A crochet lace butterfly<!--more-->.
+A crochet lace butterfly.
 
 This is a heavily adapted version of a crochet butterfly from the edging of this [Butterfly Night Table Doily](https://www.ravelry.com/patterns/library/butterfly-night-table-doily-s-55) pattern.
 

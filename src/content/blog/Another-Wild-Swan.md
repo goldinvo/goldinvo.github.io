@@ -1,14 +1,15 @@
 ---
 title: 'Another Wild Swan'
 type: 'short'
-description: ''
+description: 'My second go at the Wild Swan Shawl.'
 pubDate: '2024-04-02'
 featuredImage: '/2024-04-02/closeup.jpeg'
 images:
 - /2024-04-02/closeup.jpeg
 - /2024-04-02/shawl.jpeg
+featured: true
 ---
-My [second go]({% post_url blog/2020-02-12-wild-swan-shawl %}) at the Wild Swan Shawl. <!--more-->
+My [second go](/blog/wild-swan-shawl) at the Wild Swan Shawl.
 I went up to size 6 seed beads and again somehow found the willpower to place all 2,000+ of them.
 The yarn is a very nice warm-white single-ply wool/silk blend from my local yarn shop (unfortunately I've lost the tag).
 

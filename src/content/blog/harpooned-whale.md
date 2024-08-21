@@ -1,7 +1,7 @@
 ---
 title: 'Harpooned Whale'
 type: 'short'
-description: ''
+description: 'A whale that I use as a pin cushion'
 pubDate: '2021-08-08'
 featuredImage: '/2021-08-08/whale.jpeg'
 images:

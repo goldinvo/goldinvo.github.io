@@ -1,9 +1,10 @@
 ---
 title: 'Temari'
 type: 'short'
-description: ''
+description: 'Japanese thread balls'
 pubDate: '2022-09-16'
 featuredImage: '/2022-09-16/1.jpeg'
+featured: true
 images:
 - /2022-09-16/1.jpeg
 - /2022-09-16/2.jpeg

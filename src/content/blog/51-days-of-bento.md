@@ -1,9 +1,10 @@
 ---
 title: '51 Days Of Bento'
 type: 'short'
-description: ''
+description: "Some bento boxes I've made the past two semesters"
 pubDate: '2023-05-22'
 featuredImage: '/2023-05-22/19.jpeg'
+featured: true
 images:
 - /2023-05-22/1.jpeg
 - /2023-05-22/2.jpeg
