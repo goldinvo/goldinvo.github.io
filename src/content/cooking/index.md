@@ -1,15 +1,15 @@
 ---
 customFolderOrder:
-- recipes/sauces-condiments/index.md
-- recipes/dairy/index.md
-- recipes/eggs/index.md
-- recipes/fruits-vegetables/index.md
-- recipes/soups-stews/index.md
-- recipes/meat/index.md
-- recipes/seafood/index.md
-- recipes/staples/index.md
-- recipes/desserts/index.md
-- recipes/beverages/index.md
+- sauces-condiments
+- dairy
+- eggs
+- fruits-vegetables
+- soups-stews
+- meat
+- seafood
+- staples
+- desserts
+- beverages
 grade: S
 title: Recipes
 ---

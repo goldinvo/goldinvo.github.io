@@ -1,0 +1,30 @@
+---
+import { getEntry, type ContentEntryMap } from 'astro:content';
+
+interface Props {
+	collection: keyof ContentEntryMap;
+    slug: string;
+}
+
+const { collection, slug } = Astro.props;
+
+const entry = await getEntry(collection, slug);
+---
+
+<div>
+    <a class="inconsolata" href={`/${collection}/${slug}`}>{entry!.data.title}</a>
+    <div class="stub-content">{entry!.data.description}</div>
+</div>
+<style>
+    a {
+        display: inline-block;
+        color: var(--text-color);
+        background-color: var(--accent-color);
+        padding: 0 7.5px;
+        margin-bottom: 7.5px;
+    }
+    .stub-content {
+        padding-left: 7.5px;
+        font-size: 0.9em;
+    }
+</style>

@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
 import NotebookFile from '../../layouts/NotebookFile.astro';
+import NotebookFolder from '../../layouts/NotebookFolder.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('cooking');
@@ -15,10 +16,10 @@ const { Content } = await post.render();
 ---
 
 { post.id.includes('index') 
-    ? <NotebookFile {...post.data}> 
+    ? <NotebookFolder {...post.data} collection={post.collection} slug={post.slug} customFolderOrder={post.data.customFolderOrder}> 
         <Content />
-        <footer class="inconsolata"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
-      </NotebookFile>
+        <footer class="inconsolata" slot="footer"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
+      </NotebookFolder>
     : <NotebookFile {...post.data}> 
         <Content />
         <footer class="inconsolata"><a href="/recipes/all-recipes">Index</a> | <a href="/recipes/about">About my Recipes</a></footer>
