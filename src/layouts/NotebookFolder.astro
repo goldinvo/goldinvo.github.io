@@ -139,3 +139,32 @@ if (customFolderOrder) {
     }
     
 </style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        //
+        // Collapse file index contents in notebooks
+        //
+        const collapseContentButton = document.getElementById('chevron');
+        const content = document.getElementById('content');
+        
+        if (content && collapseContentButton) {
+            const applyCollapse = () => {
+                // Allow closed content option to persist throughout pages (localStorage)
+                let load = localStorage.getItem("collapseContent");
+                let collapseContent = load ? JSON.parse(load) : null;
+                collapseContentButton.classList.toggle('closed', Boolean(collapseContent));
+                content.classList.toggle('closed', Boolean(collapseContent));   
+            }
+
+            collapseContentButton.addEventListener('click', () => {
+                let load = localStorage.getItem("collapseContent")
+                let collapseContent = load ? !JSON.parse(load) : true;
+                localStorage.setItem("collapseContent", JSON.stringify(collapseContent));
+                applyCollapse();
+            });
+            window.addEventListener('pageshow', applyCollapse); // Rerun if e.g. page loaded from cache
+
+            applyCollapse();
+        }
+    });
+</script>
