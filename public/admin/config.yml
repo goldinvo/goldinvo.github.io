@@ -4,12 +4,17 @@ collections:
     folder: "src/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
-      - { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Images", name: "images", widget: "image" }
+      - { label: "Publish Date", name: "pubDate", widget: "datetime" }
+      - { label: "Updated Date", name: "updatedDate", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
 
 media_folder: "src/public/images" # Location where files will be stored in the repo
 public_folder: "src/public/images" # The src attribute for uploaded media
+
+backend:
+  name: git-gateway
+  branch: astro-migration # Branch to update (optional; defaults to master)
