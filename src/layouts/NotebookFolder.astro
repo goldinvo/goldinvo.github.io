@@ -16,7 +16,6 @@ interface Props {
 const { title, description=title, collection, slug, customFolderOrder} = Astro.props;
 
 const curSlug = slug;
-console.log(slug);
 let hasContent = false // cheeky
 const entries = await getCollection(collection, ({ slug, body }) => {
     if (slug === curSlug && body) hasContent = true;
