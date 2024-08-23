@@ -3,18 +3,34 @@ collections:
     label: "Blog" # Used in the UI
     folder: "src/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    extension: mdx
+    format: frontmatter
     fields: # The fields for each document, usually in frontmatter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Featured Image", name: "featuredImage", widget: "image" }
-      - { label: "Images", name: "images", widget: "image" }
-      - { label: "Publish Date", name: "pubDate", widget: "datetime" }
-      - { label: "Updated Date", name: "updatedDate", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Type", name: "type", widget: "select", options: ["short", "long"], default: ["short"] }
+      - { label: "Featured Image", name: "featuredImage", widget: "image", allow_multiple: false, choose_url: false }
+      - { label: "Images", name: "images", widget: "image", choose_url: false, required: false}
+      - { label: "Publish Date", name: "pubDate", widget: "datetime", date_format: YYYY-MM-DD }
+      - { label: "Updated Date", name: "updatedDate", widget: "datetime", required: false }
+      - { label: "Tags", name: "tag", widget: "select", multiple: true, options: ["tools"], required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
-media_folder: "src/public/images" # Location where files will be stored in the repo
-public_folder: "src/public/images" # The src attribute for uploaded media
+media_folder: "src/assets" # Location where files will be stored in the repo
+# public_folder: "src/assets" # The src attribute for uploaded media
+
+# site_url: "https://goldinvo.com"
+# logo_url: "https://goldinvo.com/images/logo.svg"
+
 
 backend:
   name: git-gateway
   branch: astro-migration # Branch to update (optional; defaults to master)
+  commit_messages:
+    create: Decap CMS -- Create {{collection}} “{{slug}}”
+    update: Decap CMS -- Update {{collection}} “{{slug}}”
+    delete: Decap CMS -- Delete {{collection}} “{{slug}}”
+    uploadMedia: Decap CMS -- Upload “{{path}}”
+    deleteMedia: Decap CMS -- Delete “{{path}}”
+    openAuthoring: 'Decap CMS -- {{message}}'
