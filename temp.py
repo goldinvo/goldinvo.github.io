@@ -1,27 +1,47 @@
 import os
-import shutil
 
-def flatten_directory_structure(base_dir):
-    # Walk through the directory tree
-    for root, dirs, files in os.walk(base_dir, topdown=False):
-        for name in files:
-            # Generate the new file path with hyphens
-            relative_path = os.path.relpath(os.path.join(root, name), base_dir)
-            new_name = relative_path.replace(os.sep, '-')
-            new_path = os.path.join(base_dir, new_name)
-
-            # Move the file to the new flattened path
-            shutil.move(os.path.join(root, name), new_path)
-
-        # After moving all files, remove the now empty directories
-        for name in dirs:
-            dir_path = os.path.join(root, name)
-            if not os.listdir(dir_path):  # Check if the directory is empty
-                os.rmdir(dir_path)
+def convert_md_to_mdx(directory):
+    # Traverse the directory and subdirectories
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.md'):
+                # Full path of the current .md file
+                md_file = os.path.join(root, file)
+                # Create the new .mdx file path by replacing the .md extension
+                mdx_file = os.path.splitext(md_file)[0] + '.mdx'
+                
+                # Rename the .md file to .mdx
+                os.rename(md_file, mdx_file)
+                print(f"Converted: {md_file} -> {mdx_file}")
 
 if __name__ == "__main__":
-    base_directory = '/Users/goldinbaokimvo/projects/goldinvo.github.io/src/assets'
-    flatten_directory_structure(base_directory)
+    directory_path = "/Users/goldinbaokimvo/projects/goldinvo.github.io/src/content"  # Replace with the directory you want to start from
+    convert_md_to_mdx(directory_path)
+
+# import os
+# import shutil
+
+# def flatten_directory_structure(base_dir):
+#     # Walk through the directory tree
+#     for root, dirs, files in os.walk(base_dir, topdown=False):
+#         for name in files:
+#             # Generate the new file path with hyphens
+#             relative_path = os.path.relpath(os.path.join(root, name), base_dir)
+#             new_name = relative_path.replace(os.sep, '-')
+#             new_path = os.path.join(base_dir, new_name)
+
+#             # Move the file to the new flattened path
+#             shutil.move(os.path.join(root, name), new_path)
+
+#         # After moving all files, remove the now empty directories
+#         for name in dirs:
+#             dir_path = os.path.join(root, name)
+#             if not os.listdir(dir_path):  # Check if the directory is empty
+#                 os.rmdir(dir_path)
+
+# if __name__ == "__main__":
+#     base_directory = '/Users/goldinbaokimvo/projects/goldinvo.github.io/src/assets'
+#     flatten_directory_structure(base_directory)
 
 # import os
 # import yaml
