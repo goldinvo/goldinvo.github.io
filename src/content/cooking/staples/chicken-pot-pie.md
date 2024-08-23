@@ -1,11 +1,10 @@
 ---
 grade: A
 images:
-- /recipes/chicken-pot-pie/1.jpeg
-- /recipes/chicken-pot-pie/2.jpeg
+- '@assets/recipes-chicken-pot-pie-1.jpeg'
+- '@assets/recipes-chicken-pot-pie-2.jpeg'
 title: Chicken Pot Pie
 ---
-
 A thick chicken and vegetable soup in a pie crust
 
 

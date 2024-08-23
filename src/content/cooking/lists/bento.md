@@ -2,9 +2,6 @@
 grade: B
 title: Bento
 ---
-
-
-
 ## Prep day before
 -   karaage
 

@@ -1,7 +1,6 @@
 ---
 grade: B
 images:
-- /recipes/mussels.jpeg
+- '@assets/recipes-mussels.jpeg'
 title: Mussels
 ---
-

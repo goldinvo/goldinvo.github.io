@@ -1,10 +1,9 @@
 ---
 grade: D
 images:
-- /recipes/recipe-file-name/1.jpeg
+- '@assets/recipes-recipe-file-name-1.jpeg'
 title: Canh Khổ Qua
 ---
-
 - Bitter melon
 - Stock or water
 - Cilantro, scallions

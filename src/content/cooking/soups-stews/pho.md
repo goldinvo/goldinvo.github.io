@@ -1,11 +1,10 @@
 ---
 grade: E
 images:
-- /recipes/pho/1.jpg
-- /recipes/pho/2.jpeg
+- '@assets/recipes-pho-1.jpg'
+- '@assets/recipes-pho-2.jpeg'
 title: Phở
 ---
-
 Vietnamese noodle soup with a clean, aromatic beef broth base.
 
 

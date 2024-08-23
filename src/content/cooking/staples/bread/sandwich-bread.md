@@ -2,7 +2,6 @@
 grade: D
 title: Sandwich Bread
 ---
-
 A basic grocery-store style (but better) bread
 
 - test 9g instant yeast in body temp 3/4 c water and 1/2 c milk

@@ -2,7 +2,6 @@
 grade: D
 title: Bechamel
 ---
-
 - 2 Tbsp butter
 - 2 Tbsp flour
 - 1+ cup milk

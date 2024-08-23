@@ -1,11 +1,9 @@
 ---
 grade: D
 images:
-- /recipes/steak-chimichurri.jpeg
+- '@assets/recipes-steak-chimichurri.jpeg'
 title: Steak
 ---
-
-
 | Doneness        | Temp (ºF)   | 
 | -----------     |      ------: |
 | Rare            | 120-125     | 

@@ -2,7 +2,6 @@
 grade: A
 title: Hollandaise
 ---
-
 - egg yolks
 - lemon juice
 - melted butter

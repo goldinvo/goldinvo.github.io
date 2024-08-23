@@ -2,7 +2,6 @@
 grade: D
 title: Chicken Parmesan
 ---
-
 - 4 chicken cutlets
 - salt and pepper
 - breaded in 1 1/2c. panko, 2tsp oregano, 1/4c. parm (seasoned panko)

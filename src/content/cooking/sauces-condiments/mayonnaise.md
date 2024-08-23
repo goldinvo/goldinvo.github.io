@@ -2,7 +2,6 @@
 grade: D
 title: Mayonnaise
 ---
-
 - 1 egg yolk
 - 2 tsp Dijon mustard
 - 1 cup vegetable/olive oil

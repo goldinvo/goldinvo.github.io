@@ -2,5 +2,3 @@
 grade: B
 title: Speculoos
 ---
-
-

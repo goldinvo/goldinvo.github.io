@@ -2,7 +2,6 @@
 grade: D
 title: Dưa Giá
 ---
-
 Vietnamese pickled bean sprouts
 
 - 1 cup water

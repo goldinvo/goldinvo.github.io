@@ -2,7 +2,6 @@
 grade: D
 title: Frittata
 ---
-
 An Italian omelette. 
 
 

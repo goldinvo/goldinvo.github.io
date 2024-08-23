@@ -2,7 +2,6 @@
 grade: D
 title: Banana Bread
 ---
-
 - 3 banana
 - 1/3c butter melted
 - 1/2tsp baking soda

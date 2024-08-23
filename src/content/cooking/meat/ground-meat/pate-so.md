@@ -1,11 +1,10 @@
 ---
 grade: A
 images:
-- /recipes/pate-so/1.jpeg
-- /recipes/pate-so/2.jpeg
+- '@assets/recipes-pate-so-1.jpeg'
+- '@assets/recipes-pate-so-2.jpeg'
 title: Patê Sô
 ---
-
 (aka Pâté chaud) A Vietnamese savory pastry made of puff pastry and a pork
 meat filling.
 

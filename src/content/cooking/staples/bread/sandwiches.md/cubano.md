@@ -1,8 +1,6 @@
 ---
 grade: B
 images:
-- /recipes/cubano.jpeg
+- '@assets/recipes-cubano.jpeg'
 title: Cubano
 ---
-
-

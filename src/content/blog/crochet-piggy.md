@@ -1,13 +1,13 @@
 ---
-title: 'Crochet Piggy'
-type: 'short'
-description: 'A cute little amigurumi doll for the Year of the Pig'
-pubDate: '2019-05-04'
-featuredImage: '/2019-05-04/crochet-pig.jpg'
+description: A cute little amigurumi doll for the Year of the Pig
 featured: true
+featuredImage: '@assets/2019-05-04-crochet-pig.jpg'
 images:
-- /2019-05-04/crochet-pig.gif
-- /2019-05-04/crochet-pig.jpg
+- '@assets/2019-05-04-crochet-pig.gif'
+- '@assets/2019-05-04-crochet-pig.jpg'
+pubDate: '2019-05-04'
+title: Crochet Piggy
+type: short
 ---
 A cute little amigurumi doll for the Year of the Pig. 
 

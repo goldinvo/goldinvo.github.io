@@ -2,7 +2,6 @@
 grade: D
 title: Boiled Egg
 ---
-
 Cooking times:
 - 6 min: just cooked white; liquid yolk
 - 8 min: jammy yolk

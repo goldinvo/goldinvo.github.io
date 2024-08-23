@@ -2,7 +2,6 @@
 grade: D
 title: Mashed Potatoes
 ---
-
 - Boiled potatoes
 - Milk or cream
 - Butter

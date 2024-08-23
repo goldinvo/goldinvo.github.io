@@ -1,11 +1,11 @@
 ---
-title: 'Pattern Counter'
-type: 'long'
-description: 'A stitch counting/pattern tracking app'
+description: A stitch counting/pattern tracking app
+featuredImage: '@assets/2021-07-22-pattern-counter.jpg'
 pubDate: '2021-07-22'
-featuredImage: '/2021-07-22/pattern-counter.jpg'
-tags: 
-  - tools
+tags:
+- tools
+title: Pattern Counter
+type: long
 ---
 A stitch counting/pattern tracking app.
 
@@ -87,7 +87,3 @@ A few different buttons to traverse the pattern are available, since often we do
 - `Exit Repeat (v)`: finishes the current repeat sequence and drops the repeat's corresponding counter.
 - `Undo (ctrl-z)`: goes to the state previous to the last user action (also works on manual counter changes).
 - `Next Instruction`: goes to the next instruction in the pattern (as delimited by line breaks).
-
-
-
-

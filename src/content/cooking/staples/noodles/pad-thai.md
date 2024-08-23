@@ -1,7 +1,6 @@
 ---
 grade: B
 images:
-- /recipes/pad-thai.jpeg
+- '@assets/recipes-pad-thai.jpeg'
 title: Pad Thai
 ---
-

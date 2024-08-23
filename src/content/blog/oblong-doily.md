@@ -1,15 +1,15 @@
 ---
-title: 'Oblong Doily'
-type: 'short'
-description: 'A torchon lace rectangular doily'
-pubDate: '2022-08-21'
-featuredImage: '/2022-08-21/oblong-doily.jpg'
+description: A torchon lace rectangular doily
 featured: true
+featuredImage: '@assets/2022-08-21-oblong-doily.jpg'
 images:
-- /2022-08-21/oblong-doily.jpg
-- /2022-08-21/wip-1.jpeg
-- /2022-08-21/wip-2.jpeg
-- /2022-08-21/finished.jpg
+- '@assets/2022-08-21-oblong-doily.jpg'
+- '@assets/2022-08-21-wip-1.jpeg'
+- '@assets/2022-08-21-wip-2.jpeg'
+- '@assets/2022-08-21-finished.jpg'
+pubDate: '2022-08-21'
+title: Oblong Doily
+type: short
 ---
 A torchon lace rectangular doily.
 

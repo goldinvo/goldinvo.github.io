@@ -1,11 +1,11 @@
 ---
-title: 'The Daily Texan Collage'
-type: 'short'
-description: 'Repping UT with a collage of The Daily Texan newspapers.'
-pubDate: '2021-10-02'
-featuredImage: '/2021-10-02/collage.jpeg'
+description: Repping UT with a collage of The Daily Texan newspapers.
+featuredImage: '@assets/2021-10-02-collage.jpeg'
 images:
-- /2021-10-02/collage.jpeg
+- '@assets/2021-10-02-collage.jpeg'
+pubDate: '2021-10-02'
+title: The Daily Texan Collage
+type: short
 ---
 Repping UT with a collage of *The Daily Texan* newspapers.
 

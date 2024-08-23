@@ -1,14 +1,14 @@
 ---
-title: 'Wire Framed Butterfly'
-type: 'short'
-description: 'A crochet lace butterfly'
-pubDate: '2019-06-10'
-featuredImage: '/2019-06-10/crochet-wire-framed-butterfly.jpg'
+description: A crochet lace butterfly
 featured: true
+featuredImage: '@assets/2019-06-10-crochet-wire-framed-butterfly.jpg'
 images:
-- /2019-06-10/crochet-wire-framed-butterfly.jpg
-- /2019-06-10/crochet-butterfly-hanging.jpeg
-- /2019-06-10/crochet-butterfly-backside.jpeg
+- '@assets/2019-06-10-crochet-wire-framed-butterfly.jpg'
+- '@assets/2019-06-10-crochet-butterfly-hanging.jpeg'
+- '@assets/2019-06-10-crochet-butterfly-backside.jpeg'
+pubDate: '2019-06-10'
+title: Wire Framed Butterfly
+type: short
 ---
 A crochet lace butterfly.
 

@@ -1,10 +1,9 @@
 ---
 grade: A
 images:
-- /recipes/kombucha.jpeg
+- '@assets/recipes-kombucha.jpeg'
 title: Kombucha
 ---
-
 For half gallon:
 - tea, green or black
 - 6 cups water

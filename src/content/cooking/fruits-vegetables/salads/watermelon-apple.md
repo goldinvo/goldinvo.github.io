@@ -1,10 +1,9 @@
 ---
 grade: D
 images:
-- /recipes/watermelon-apple.jpeg
+- '@assets/recipes-watermelon-apple.jpeg'
 title: Watermelon Apple Salad
 ---
-
 - watermelon, in sticks
 - green apple, in sticks
 - lime zest & juice

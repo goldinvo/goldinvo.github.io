@@ -1,7 +1,6 @@
 ---
 grade: B
 images:
-- /recipes/dumplings.jpeg
+- '@assets/recipes-dumplings.jpeg'
 title: Dumplings
 ---
-

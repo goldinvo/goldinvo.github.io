@@ -2,7 +2,6 @@
 grade: A
 title: Beef Stew
 ---
-
 Classic beef stew. Beef braised in thickened stock with carrots, potatoes, and onion.
 
 

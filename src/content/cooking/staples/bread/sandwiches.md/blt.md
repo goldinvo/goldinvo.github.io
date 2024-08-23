@@ -1,8 +1,6 @@
 ---
 grade: B
 images:
-- /recipes/blt.jpeg
+- '@assets/recipes-blt.jpeg'
 title: BLT Sandwich
 ---
-
-

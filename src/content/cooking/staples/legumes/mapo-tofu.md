@@ -1,8 +1,6 @@
 ---
 grade: B
 images:
-- /recipes/mapo-tofu.jpeg
+- '@assets/recipes-mapo-tofu.jpeg'
 title: Mapo Tofu
 ---
-
-

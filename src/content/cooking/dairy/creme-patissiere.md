@@ -2,9 +2,6 @@
 grade: A
 title: Crème Pâtissière (Pastry Cream)
 ---
-
-
-
 - 260g whole milk (2 cups)
 - Vanilla bean, or extract
 - 115+ g sugar (optionally toast)

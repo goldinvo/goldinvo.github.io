@@ -2,7 +2,6 @@
 grade: A
 title: Fresh Pasta
 ---
-
 - 8 oz flour
 - 2 eggs
 - 5 egg yolks

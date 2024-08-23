@@ -1,10 +1,9 @@
 ---
 grade: A
 images:
-- /recipes/falafel.jpeg
+- '@assets/recipes-falafel.jpeg'
 title: Falafel
 ---
-
 Recipe from *Jerusalem*, Ottolenghi:
 
 1. Soak 1 1/4 cup **dried chickpeas** in water overnight

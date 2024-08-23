@@ -1,13 +1,12 @@
 ---
-title: 'Lace Pattern Maker'
-type: 'long'
-description: 'An interactive canvas designed for making torchon bobbin lace 
-patterns.'
+description: An interactive canvas designed for making torchon bobbin lace patterns.
+featuredImage: '@assets/2024-06-29-screenshot.png'
 pubDate: '2024-06-29'
-updatedDate: 2024-07-09'
-featuredImage: '/2024-06-29/screenshot.png'
 tags:
-    - tools
+- tools
+title: Lace Pattern Maker
+type: long
+updatedDate: 2024-07-09'
 ---
 **Lace Pattern Maker** is an interactive canvas designed for making torchon bobbin lace 
 patterns. This tool allows you to quickly produce, modify, rescale, and reproduce lace patterns.

@@ -2,8 +2,6 @@
 grade: D
 title: Meatballs
 ---
-
-
 Mix 1# beef/lamb, 1# pork, 1T salt, and rest
 
 In 1c buttermilk, hydrate 1/4oz packet gelatin and also soak 4 white bread slices (no crust). 

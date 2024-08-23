@@ -2,7 +2,6 @@
 grade: A
 title: Chicken-fried Steak
 ---
-
 Tenderized steak breaded and fried like chicken.
 
 
