@@ -2,6 +2,7 @@
 import Page from '../../layouts/Page.astro';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
+import { Image } from 'astro:assets';
 
 const posts = (await getCollection('blog', ({data}) => data.tags?.includes('tools')))
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -13,7 +14,7 @@ const posts = (await getCollection('blog', ({data}) => data.tags?.includes('tool
         <ul>
             { posts.map( (post) => (
                 <li>
-                    <a id="thumbnail" href={`/blog/${post.slug}`}><img src={post.data.featuredImage}/></a>
+                    <a id="thumbnail" href={`/blog/${post.slug}`}><Image src={post.data.featuredImage} alt=""/></a>
                     <div class="meta">
                         <a id="title" class="inconsolata" href={`/blog/${post.slug}/`}>{ post.data.title }</a>
                         <div>{ post.data.description }</div>

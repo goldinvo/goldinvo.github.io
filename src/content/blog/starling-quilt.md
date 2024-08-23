@@ -3,12 +3,12 @@ title: 'Starling Quilt'
 type: 'short'
 description: 'My first quilt!'
 pubDate: '2024-07-03'
-featuredImage: '/2024-07-03/quilt.jpeg'
+featuredImage: '@assets/2024-07-03-quilt.jpeg'
 featured: true
 images:
-- /2024-07-03/quilt.jpeg
-- /2024-07-03/binding.jpeg
-- /2024-07-03/cuts.jpeg
+- '@assets/2024-07-03-quilt.jpeg'
+- '@assets/2024-07-03-binding.jpeg'
+- '@assets/2024-07-03-cuts.jpeg'
 ---
 
 My first quilt! It serves as a nice substitute for my down comforter 

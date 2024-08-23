@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from 'astro:content';
 import NotebookFile from '../../layouts/NotebookFile.astro';
 import NotebookFolder from '../../layouts/NotebookFolder.astro';
+import { Image } from 'astro:assets';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('cooking');
@@ -23,7 +24,7 @@ const { Content } = await post.render();
     : <NotebookFile {...post.data}> 
         <Content />
         <footer class="inconsolata"><a href="/cooking/all-posts">Index</a> | <a href="/cooking/about">About this Notebook</a></footer>
-        { post.data.images && <div class="image-reel">{post.data.images.map((image) => <img src={image}/>)}</div>}
+        { post.data.images && <div class="image-reel">{post.data.images.map((image) => <Image src={image} alt=""/>)}</div>}
       </NotebookFile>
 }
 <style>

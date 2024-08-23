@@ -1,7 +1,5 @@
 ---
 grade: D
-images:
-- '@assets/recipes-recipe-file-name-1.jpeg'
 title: Bún Riêu
 ---
 Mom's Recipe:

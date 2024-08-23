@@ -2,6 +2,7 @@
 import Page from '../layouts/Page.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 
 const posts = (await getCollection('blog', ({data}) => data.featured === true))
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -11,7 +12,7 @@ const posts = (await getCollection('blog', ({data}) => data.featured === true))
     <div class="homepage">
     {
         posts.map((post) => (
-            <a href={'/blog/' + post.slug}><img src={post.data.featuredImage}/></a>
+            <a href={'/blog/' + post.slug}><Image src={post.data.featuredImage} alt=""/></a>
         ))
     }
     </div>
