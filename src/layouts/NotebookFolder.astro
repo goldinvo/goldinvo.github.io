@@ -1,0 +1,169 @@
+---
+import Page from './Page.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import type { ContentEntryMap } from 'astro:content';
+import Stub from '../components/Stub.astro';
+
+interface Props {
+    title: string;
+    description?: string;
+    collection: keyof ContentEntryMap;
+    slug: string;
+    customFolderOrder?: Array<string>;
+}
+
+const { title, description=title, collection, slug, customFolderOrder} = Astro.props;
+
+const curSlug = slug;
+let hasContent = false // cheeky
+const entries = await getCollection(collection, ({ slug, body }) => {
+    if (slug === curSlug && body) hasContent = true;
+    let base = curSlug === 'index' ? '' : curSlug + '/';
+    if (!slug.startsWith(base)) return false;
+    return !slug.slice(base.length).includes('/');
+});
+
+const files = entries.filter((entry) => !entry.id.includes('index'));
+let folders = entries.filter((entry) => entry.id.includes('index'));
+if (customFolderOrder) {
+    let temp: typeof folders = [];
+    customFolderOrder.forEach( (curSlug) => {
+        folders.forEach((folder) => {
+            if (folder.slug.includes(curSlug)) temp.push(folder);
+        });
+    });
+    folders = temp;
+}
+---
+
+<Page title={title} description={description} contentType="text-two-columns">
+    <Breadcrumbs path={Astro.url.pathname}/>
+    
+    <h1>{title}</h1>
+    
+    { hasContent && 
+        <div class="divider"><div id="chevron"><img src="/icons/chevron.svg" /></div><hr/></div>
+        <div id="content"><slot /></div>
+    }
+
+    { folders.length > 0 && 
+        <div class="divider"><img src="/icons/folder.svg" /><hr /></div>
+        <ul class="folders">
+        { folders.map( (folder) => <a class="inconsolata" href={`/${collection}/${folder.slug}`}><li>{folder.data.title}</li></a> ) }
+        </ul>
+    }
+
+    { files.length > 0 && 
+        <div class="divider"><img src="/icons/file.svg" /><hr /></div>
+        <ul class="files">
+        { files.map( (file) => <Stub collection={collection} slug={file.slug}/>)}
+        </ul>
+    }
+
+    <slot name="footer"/>
+</Page>
+<style>
+    .divider {
+        display: flex;
+        align-items: baseline;
+    }
+    .divider img {
+        width: 24px;
+    }
+    .divider #chevron {
+        background-color: #ffd700;
+        border: 1px solid #ffd700;
+        box-sizing: border-box;
+    }
+    .divider #chevron img {
+        transform: rotate(90deg);
+    }
+    .divider #chevron:hover {
+        cursor: pointer;
+        border-color: #111;
+    }
+    .divider #chevron.closed img {
+        transform: rotate(0deg);
+    }
+    .divider hr {
+        flex-grow: 1;
+        margin-left: 7.5px;
+    }
+    #content.closed {
+        display: none;
+    }
+    .folders {
+        display: block;
+        list-style-type: none;
+        margin-left: 0;
+        width: 100%;
+        column-count: 2;
+        column-gap: 30px;
+    }
+    @media screen and (max-width: 575px) {
+        .folders {
+            column-count: 1;
+            width: auto;
+            min-width: 50%;
+        }
+    }
+    .folders li {
+        background-color: #ffd700;
+        padding: 7.5px 15px;
+        color: #111;
+    }
+    .folders a {
+        display: block;
+        break-inside: avoid;
+        padding-bottom: 15px;
+    }
+    .files {
+        list-style-type: none;
+        margin-left: 0;
+        width: 100%;
+        column-count: 2;
+    }
+    @media screen and (max-width: 575px) {
+        .files {
+            column-count: 1;
+        }
+    }
+    .files > li {
+        break-inside: avoid;
+        margin-bottom: 15px;
+    }
+    .stub-content li {
+        list-style-type: disc;
+    }
+    
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        //
+        // Collapse file index contents in notebooks
+        //
+        const collapseContentButton = document.getElementById('chevron');
+        const content = document.getElementById('content');
+        
+        if (content && collapseContentButton) {
+            const applyCollapse = () => {
+                // Allow closed content option to persist throughout pages (localStorage)
+                let load = localStorage.getItem("collapseContent");
+                let collapseContent = load ? JSON.parse(load) : null;
+                collapseContentButton.classList.toggle('closed', Boolean(collapseContent));
+                content.classList.toggle('closed', Boolean(collapseContent));   
+            }
+
+            collapseContentButton.addEventListener('click', () => {
+                let load = localStorage.getItem("collapseContent")
+                let collapseContent = load ? !JSON.parse(load) : true;
+                localStorage.setItem("collapseContent", JSON.stringify(collapseContent));
+                applyCollapse();
+            });
+            window.addEventListener('pageshow', applyCollapse); // Rerun if e.g. page loaded from cache
+
+            applyCollapse();
+        }
+    });
+</script>

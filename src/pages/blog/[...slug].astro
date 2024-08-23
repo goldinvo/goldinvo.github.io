@@ -1,0 +1,23 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import ShortPost from '../../layouts/ShortPost.astro';
+import LongPost from '../../layouts/LongPost.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'blog'>;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+{ post.data.type === 'short' 
+	? <ShortPost {...post.data}> <Content /> </ShortPost>
+	: <LongPost {...post.data}> <Content /> </LongPost>
+}
+

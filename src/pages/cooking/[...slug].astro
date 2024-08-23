@@ -1,0 +1,56 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import NotebookFile from '../../layouts/NotebookFile.astro';
+import NotebookFolder from '../../layouts/NotebookFolder.astro';
+import { Image } from 'astro:assets';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('cooking');
+	return posts.map((post) => ({
+		params: { slug: post.slug == 'index' ? undefined : post.slug },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'cooking'>;
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+{ post.id.includes('index') 
+    ? <NotebookFolder {...post.data} collection={post.collection} slug={post.slug} customFolderOrder={post.data.customFolderOrder}> 
+        <Content />
+        <footer class="inconsolata" slot="footer"><a href="/cooking/all-posts">Index</a> | <a href="/cooking/about">About this Notebook</a></footer>
+      </NotebookFolder>
+    : <NotebookFile {...post.data}> 
+        <Content />
+        <footer class="inconsolata"><a href="/cooking/all-posts">Index</a> | <a href="/cooking/about">About this Notebook</a></footer>
+        { post.data.images && <div class="image-reel">{post.data.images.map((image) => <Image src={image} alt=""/>)}</div>}
+      </NotebookFile>
+}
+<style>
+    footer {
+        text-align: center;
+        font-size: .93em;
+    }
+    footer a {
+        color: var(--accent-darker)
+    }
+    .image-reel {
+        max-width: 600px;
+        margin: 30px auto;
+        column-count: 2;
+        gap: 15px;
+    }
+    .image-reel:has(> img:only-child) {
+        column-count: 1;
+    }
+    @media screen and (max-width: 500px) {
+        .image-reel {
+            column-count: 1;
+        }
+    }
+    .image-reel img {
+        margin-bottom: 15px;
+    }
+ 
+</style>

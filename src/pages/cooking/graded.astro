@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content'
+import Page from '../../layouts/Page.astro'
+
+let posts = await getCollection('cooking');
+posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
+---
+<Page
+    title="Index (Graded)"
+    description="Graded Index of Cooking Notebook"
+    contentType="text-two-columns"
+>
+    <!-- I am definitely not using Jekyll tools the way they were supposed to be used here -->
+    <p> See also: <a href="/cooking/all-posts"> Index (Ungraded)</a></p>
+
+    <h1>Index (Graded)</h1>
+
+    <div class="recipes-index">
+    <h3> E: Posts that I'm happy with </h3>
+    <ul>
+        { posts.filter( (post) => post.data.grade === 'E' ).map( 
+            (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
+        )}
+    </ul>
+
+    <h3> A: Meets standard </h3>
+    <ul>
+        { posts.filter( (post) => post.data.grade === 'A' ).map( 
+            (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
+        )}
+    </ul>
+
+    <h3> D: In development </h3>
+    <ul>
+        { posts.filter( (post) => post.data.grade === 'D' ).map( 
+            (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
+        )}
+    </ul>
+
+    <h3> B: On to-do list; no content </h3>
+    <ul>
+        { posts.filter( (post) => post.data.grade === 'B' ).map( 
+            (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
+        )}
+    </ul>
+
+    <h3> S: Stubs </h3>
+    <ul>
+        { posts.filter( (post) => post.data.grade === 'S' ).map( 
+            (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
+        )}
+    </ul>
+    </div>
+</Page>
+<style>
+    ul {
+        column-count: 2;
+        width: 100%;
+    }
+    @media screen and (max-width: 450px) {
+        ul {
+            column-count: 1;
+        }
+    }
+    img {
+        display: inline;
+        margin-right: 0.3em;
+        vertical-align: text-bottom;
+        height: 1.375rem;
+    }
+</style>
+

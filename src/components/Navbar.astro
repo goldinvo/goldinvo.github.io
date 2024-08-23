@@ -1,0 +1,129 @@
+---
+---
+<nav class="inconsolata">
+    <div class="main-card">
+        <a class="title" href="/">goldinvo.com</a>
+        <ul> 
+            <li><a class="nav-item" id="blog">blog</a></li>
+            <li><a class="nav-item" id="notebooks">notebooks</a></li>
+            <li><a class="nav-item" id="about">about</a></li>
+        </ul>
+    </div>
+    <div class="sub-menus"> 
+        <ul class="inner-nav blog" style="margin-right: auto; text-align: start;">
+            <li><a href="/">gallery</a></li>
+            <li><a href="/blog">posts</a></li>
+            <li><a href="/blog/tools">in-browser tools</a></li>
+        </ul>
+        <ul class="inner-nav notebooks" style="margin-left: auto; margin-right: auto; text-align: center;">
+            <li><a href="/cooking">cooking</a></li>
+        </ul>
+        <ul class="inner-nav about" style="margin-left: auto; text-align: end">
+            <li><a href="/about">about page</a></li>
+            <li><a href="/admin/index.html">admin</a></li>
+
+            <!-- <li><a href="#">contact</a></li>
+            <li><a href="#">site map</a></li> -->
+        </ul>
+    </div>
+</nav>
+<style>
+    a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
+    a:not(.title):hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    ul {
+        list-style-type: none;
+    }
+
+    .main-card {
+        width: MIN(calc(100vw - 100px), 500px);
+        margin: 30px auto;
+        padding: 20px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: .7rem;
+        
+        background-color: var(--accent-color);
+    }
+    .main-card .title {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .main-card ul {
+        font-size: 1.3rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        column-gap: 1em;
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .main-card li {
+        flex: 1 1 0;
+        text-align: center;
+    }
+    .main-card a.active {
+        text-decoration: underline;
+    }
+
+    .sub-menus {
+        margin: 30px auto;
+        width: MIN(calc(100vw - 100px), 500px);
+    }
+    .inner-nav {
+        display: none;
+        width: fit-content;
+        margin: 0;
+        margin-top: -15px;
+        list-style-type: none;
+    }
+    .inner-nav.active {
+        display: block;
+    }
+    .sub-menus a {
+        padding: 0 5px;
+        background-color: var(--accent-color);
+        font-size: 1.25rem;
+    }
+</style>
+<script>
+    const navItems = document.querySelectorAll('.nav-item');
+    const subMenus = document.querySelectorAll('.inner-nav')
+    // close all submenus except for e.g. class "blog"
+    const closeNavMenus = (except: string | null) => {
+        navItems.forEach(navItem => {
+            if (navItem.id !== except) navItem.classList.remove('active');
+        });
+        subMenus.forEach(subMenu => {
+            if (!except || !subMenu.classList.contains(except)) subMenu.classList.remove('active');
+        });
+    }
+
+    navItems.forEach(navItem => {
+        navItem.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            closeNavMenus(navItem.id);
+            navItem.classList.toggle('active');
+            document.querySelector(`.inner-nav.${navItem.id}`)!
+                .classList.toggle('active');
+        });
+    });
+    
+    // Close submenus when clicking outside of them
+    document.addEventListener('click', function(e) {
+        if (e.target instanceof HTMLElement 
+            && (!e.target.closest('.nav-item, .inner-nav') || e.target.closest('.inner-nav a'))) {
+            closeNavMenus(null);
+        }
+    });
+</script>

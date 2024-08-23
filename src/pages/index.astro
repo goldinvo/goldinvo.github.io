@@ -1,0 +1,47 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+
+const posts = (await getCollection('blog', ({data}) => data.featured === true))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Page title={SITE_TITLE} description={SITE_DESCRIPTION} contentType='media'>
+    <div class="homepage">
+    {
+        posts.map((post) => (
+            <a href={'/blog/' + post.slug}><Image src={post.data.featuredImage} alt=""/></a>
+        ))
+    }
+    </div>
+</Page>
+<style>
+    .homepage {
+        column-gap: 15px;
+        column-count: 3;
+    }
+    @media screen and (max-width: 850px) {
+        .homepage {
+            column-count: 2;
+        }
+    }
+    @media screen and (max-width: 525px) {
+        .homepage {
+            column-count: 1;
+        }
+    }
+    .homepage img {
+        transition: transform 200ms;
+        will-change: transform;
+    }
+    .homepage img:hover, .homepage img:focus {
+        transform: scale(1.02);
+    }
+    .homepage a {
+        display: block;
+        break-inside: avoid;
+        padding-bottom: 15px;
+    }
+</style>

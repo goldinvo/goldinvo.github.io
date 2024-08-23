@@ -1,0 +1,20 @@
+{
+  "name": "new-blog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/mdx": "^3.1.4",
+    "astro": "^4.14.2",
+    "decap-cms-app": "^3.3.2",
+    "remark-definition-list": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}

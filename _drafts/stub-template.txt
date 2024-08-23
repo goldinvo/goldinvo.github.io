@@ -1,3 +1,0 @@
-{% include stub.html src="relative/path.md"%} 
-    OR
-{% include stub.html title="Title" %}

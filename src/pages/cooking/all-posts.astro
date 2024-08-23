@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content'
+import Page from '../../layouts/Page.astro'
+
+let posts = await getCollection('cooking');
+posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
+---
+
+<Page
+    title="Index"
+    description="Index of Cooking Notebook"
+    contentType="text-two-columns"
+>
+    <p> See also: <a href="/cooking/graded"> Index (Graded)</a></p>
+    <h1>Index</h1>
+
+    <div class="recipes-index">
+        <ul>
+        { posts.map( 
+            (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
+        )}
+        </ul>
+    </div>
+</Page>
+<style>
+    ul {
+        column-count: 2;
+        width: 100%;
+    }
+    @media screen and (max-width: 450px) {
+        ul {
+            column-count: 1;
+        }
+    }
+    img {
+        display: inline;
+        margin-right: 0.3em;
+        vertical-align: text-bottom;
+        height: 1.375rem;
+    }
+</style>
