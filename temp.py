@@ -4,18 +4,18 @@ def convert_md_to_mdx(directory):
     # Traverse the directory and subdirectories
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.endswith('.md'):
+            if file.endswith('.mdx'):
                 # Full path of the current .md file
                 md_file = os.path.join(root, file)
                 # Create the new .mdx file path by replacing the .md extension
-                mdx_file = os.path.splitext(md_file)[0] + '.mdx'
+                mdx_file = os.path.splitext(md_file)[0] + '.md'
                 
                 # Rename the .md file to .mdx
                 os.rename(md_file, mdx_file)
                 print(f"Converted: {md_file} -> {mdx_file}")
 
 if __name__ == "__main__":
-    directory_path = "/Users/goldinbaokimvo/projects/goldinvo.github.io/src/content"  # Replace with the directory you want to start from
+    directory_path = "/Users/goldinbaokimvo/projects/blog/src/content"  # Replace with the directory you want to start from
     convert_md_to_mdx(directory_path)
 
 # import os
