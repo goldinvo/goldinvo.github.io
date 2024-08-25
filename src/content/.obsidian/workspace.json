@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "be5218b23c3ac9a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd82d6ecc631ff0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a93a34d23cdd3df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/meat/chicken/roast-chicken.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fdeeb6cd402fea69",
+    "type": "split",
+    "children": [
+      {
+        "id": "80c5a98dc17b2d1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2e371b6b659c79d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4c791b02c310ada4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[grade:B]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a229bbb18627fc4e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "01bf5bcdaf37e469",
+    "type": "split",
+    "children": [
+      {
+        "id": "c36732681e21b829",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7cb873671598ffb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "cooking/meat/chicken/roast-chicken.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4941352494dfdfb3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "cooking/meat/chicken/roast-chicken.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd1055193f35e321",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4e3f5b298cf88525",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cooking/meat/chicken/roast-chicken.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2a93a34d23cdd3df",
+  "lastOpenFiles": [
+    "cooking/staples/noodles/index.md",
+    "cooking/soups-stews/index.md",
+    "cooking/soups-stews/yuk-gae-jang.md",
+    "cooking/meat/chicken/roast-chicken.md",
+    "cooking/dairy/yogurt.md",
+    "cooking/meat/pork/thit-nuong.md",
+    "cooking/meat/beef/thit-kho.md",
+    "cooking/soups-stews/pot-roast.md",
+    "cooking/staples/pasta/ragu-bolognese.md",
+    "cooking/desserts/speculoos.md",
+    "cooking/sauces-condiments/salsa.md",
+    "cooking/soups-stews/ratatouille.md",
+    "cooking/fruits-vegetables/preserved-lemon.md",
+    "cooking/meat/pork/pork-tenderloin.md",
+    "cooking/seafood/poke.md",
+    "cooking/fruits-vegetables/potatoes/index.md",
+    "cooking/seafood/jellyfish-salad.md",
+    "cooking/meat/beef/index.md",
+    "cooking/meat/ground-meat/index.md",
+    "cooking/sauces-condiments/oils/index.md",
+    "cooking/sauces-condiments/guacamole.md",
+    "cooking/meat/ground-meat/gio-song.md",
+    "cooking/staples/pasta/gnocchi.md",
+    "cooking/meat/chicken/fried-chicken.md",
+    "cooking/meat/chicken/ga-xao-sa-ot.md",
+    "cooking/meat/ground-meat/dumplings.md",
+    "Untitled"
+  ]
+}

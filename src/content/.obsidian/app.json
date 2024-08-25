@@ -1,0 +1,14 @@
+{
+  "livePreview": false,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "source",
+  "showLineNumber": true,
+  "useTab": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "assets",
+  "showInlineTitle": true,
+  "showRibbon": true,
+  "promptDelete": false
+}
