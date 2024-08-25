@@ -7,8 +7,8 @@ interface Props {
 const { date, updatedDate } = Astro.props;
 ---
 
-<div>
-	<time class="inconsolata" datetime={date.toISOString()}>
+<div class="inconsolata">
+	<time datetime={date.toISOString()}>
 		{
 			date.toLocaleDateString('en-us', {
 				year: 'numeric',
@@ -29,7 +29,7 @@ const { date, updatedDate } = Astro.props;
 </div>
 
 <style>
-	time {
+	div {
 		font-size: .97em;
 	}
 </style>

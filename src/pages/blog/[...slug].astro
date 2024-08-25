@@ -32,14 +32,14 @@ const { Content } = await post.render();
 { post.data.type === 'short' 
 	? <ShortPost {...post.data}> <Content />
 		<div class="footer" slot="after">
-			{newer && <div class="left"><NextPost title={newer.data.title} pubDate={newer.data.pubDate} path={'/blog/' + newer.slug} left>(newer)</NextPost></div>}
-			{older && <div class="right"><NextPost title={older.data.title} pubDate={older.data.pubDate} path={'/blog/' + older.slug}>(older)</NextPost></div>}
+			{newer ? <div class="left"><NextPost title={newer.data.title} pubDate={newer.data.pubDate} path={'/blog/' + newer.slug} left/></div> : <div />}
+			{older ? <div class="right"><NextPost title={older.data.title} pubDate={older.data.pubDate} path={'/blog/' + older.slug}/></div> : <div />}
 		</div>
 	  </ShortPost>
 	: <LongPost {...post.data}> <Content /> 
 		<div class="footer" slot="after">
-			{newer && <div class="left"><NextPost title={newer.data.title} pubDate={newer.data.pubDate} path={'/blog/' + newer.slug} left>(newer)</NextPost></div>}
-			{older && <div class="right"><NextPost title={older.data.title} pubDate={older.data.pubDate} path={'/blog/' + older.slug}>(older)</NextPost></div>}
+			{newer ? <div class="left"><NextPost title={newer.data.title} pubDate={newer.data.pubDate} path={'/blog/' + newer.slug} left/></div> : <div />}
+			{older ? <div class="right"><NextPost title={older.data.title} pubDate={older.data.pubDate} path={'/blog/' + older.slug}/></div> : <div />}
 		</div>
 	</LongPost>
 }
@@ -48,9 +48,10 @@ const { Content } = await post.render();
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-between;
+		width: 100%;
 		gap: 35px;
 
-		margin: 35px 0;
+		margin: 30px 0;
 	}
 
 </style>
