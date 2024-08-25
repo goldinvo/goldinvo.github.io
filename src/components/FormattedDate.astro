@@ -8,7 +8,7 @@ const { date, updatedDate } = Astro.props;
 ---
 
 <div>
-	<time datetime={date.toISOString()}>
+	<time class="inconsolata" datetime={date.toISOString()}>
 		{
 			date.toLocaleDateString('en-us', {
 				year: 'numeric',
@@ -30,6 +30,6 @@ const { date, updatedDate } = Astro.props;
 
 <style>
 	time {
-		font-size: calc(14rem / 16);
+		font-size: .97em;
 	}
 </style>

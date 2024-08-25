@@ -15,6 +15,7 @@ const { title, description, images, pubDate, updatedDate} = Astro.props;
             <div><slot /></div>
             <hr>
             <FormattedDate date={pubDate} updatedDate={updatedDate}/>
+            <slot name="after"/>
         </div>
         <div id="image-reel">{ 
             images && images.map((image) => <Image src={image} alt=""/> )

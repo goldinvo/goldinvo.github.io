@@ -1,0 +1,56 @@
+---
+import FormattedDate from './FormattedDate.astro';
+
+interface Props {
+	title: string;
+    path: string;
+	pubDate: Date;
+    left?: boolean;
+}
+
+const { title, path, pubDate, left } = Astro.props;
+---
+
+<a href={path} class={`next-page-button ${left ? 'left' : ''}`}>
+    <div>
+        <div class="inconsolata slot"><slot /></div>
+        <div class="inconsolata title">{title}</div>
+        <div class="date"><FormattedDate date={pubDate} /></div>
+    </div>
+    <img src="/icons/chevron.svg"/>
+</a>
+
+<style>
+    .next-page-button {
+        display: flex;
+        column-gap: .5em;
+        width: fit-content;
+        color: var(--text-color);
+        text-decoration: none;
+
+        flex-flow: row nowrap;
+        text-align: right;
+    }
+    .left {
+        flex-flow: row-reverse nowrap;
+        text-align: left;
+    }
+    .left img {
+        transform: rotate(180deg);
+    }
+    .next-page-button:hover {
+        cursor: pointer;
+    }
+    .next-page-button:hover .title, .next-page-button:hover .date {
+        text-decoration: underline;
+    }
+	.slot, .date {
+        font-size: calc(14rem/16);
+    }
+    .title {
+        font-size: 1rem;
+    }
+    .date {
+        font-size: calc(14rem/16);
+    }
+</style>

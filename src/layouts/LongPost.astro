@@ -16,6 +16,7 @@ const { title, description, featuredImage, pubDate, updatedDate} = Astro.props;
         <slot />
         <hr>
         <FormattedDate date={pubDate} updatedDate={updatedDate}/>
+        <slot name="after"/>
     </article>
 </Page>
 <style>
