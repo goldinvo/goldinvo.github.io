@@ -90,11 +90,10 @@ img {
     height: auto;
 }
 
-pre,
-code {
+pre, code, .astro-code, .github-dark {
     font-size: 15px;
-    border-radius: 3px;
-    background-color: #eef;
+    background-color: rgb(243, 241, 227) !important;
+    color: var(--text-color) !important;
 }
 code {
     padding: 1px 5px;
@@ -102,7 +101,6 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
-    border-radius: 15px;
 }
 pre > code {
     border: 0;
