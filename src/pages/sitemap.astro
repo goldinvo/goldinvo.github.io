@@ -1,0 +1,50 @@
+---
+import FormattedDate from '@components/FormattedDate.astro';
+import Page from '../layouts/Page.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const cooking = (await getCollection('cooking')).sort( (a, b) => a.data.title.localeCompare(b.data.title) );
+---
+
+<Page title="Site Map" description="See all pages of my website" contentType='text'>
+    <h1>Site Map</h1>
+    <ul>
+        <li><a href="/sitemap">Sitemap (You are here!)</a></li>
+        <li><a href="/">Gallery (homepage)</a></li>
+        <li><a href="/about">About</a></li>
+
+    </ul>
+    
+    <h2>Blog</h2>
+    <ul>
+        <li><a href="/blog/">All Posts</a></li>
+        <li><a href="/blog/tools">In-Browser Tools</a></li>
+    </ul>
+    <h3>Posts</h3>
+    <ul>
+        {posts.map( (post) => (<li><div style="display: inline-block"><FormattedDate date={post.data.pubDate}/></div>&emsp13;&emsp13;<a href={'/blog/' + post.slug}>{post.data.title}</a></li>))}
+    </ul>
+    <h2>Notebook: Cooking</h2>
+    <ul>
+        <li><a href="/cooking">Root</a></li>
+        <li><a href="/cooking/about">About</a></li>
+        <li><a href="/cooking/all-posts">Index</a></li>
+        <li><a href="/cooking/graded">Index (Graded)</a></li>
+    </ul>
+    <h3>Posts</h3>
+    <ul>
+        {cooking.map( (post) => (<li><a href={'/cooking/' + post.slug}>{post.data.title}</a></li>))}
+    </ul>
+</Page>
+<style>
+    ul {
+        column-count: 2;
+        width: 100%;
+    }
+    @media screen and (max-width: 450px) {
+        ul {
+            column-count: 1;
+        }
+    }
+</style>
