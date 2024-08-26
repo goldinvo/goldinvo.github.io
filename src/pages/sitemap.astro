@@ -40,9 +40,10 @@ const cooking = (await getCollection('cooking')).sort( (a, b) => a.data.title.lo
 <style>
     ul {
         column-count: 2;
+        column-gap: 30px;
         width: 100%;
     }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 700px) {
         ul {
             column-count: 1;
         }

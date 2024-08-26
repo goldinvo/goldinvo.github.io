@@ -8,7 +8,7 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
 <Page
     title="Index (Graded)"
     description="Graded Index of Cooking Notebook"
-    contentType="text-two-columns"
+    contentType="text"
 >
     <!-- I am definitely not using Jekyll tools the way they were supposed to be used here -->
     <p> See also: <a href="/cooking/all-posts"> Index (Ungraded)</a></p>
@@ -55,9 +55,10 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
 <style>
     ul {
         column-count: 2;
+        column-gap: 30px;
         width: 100%;
     }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 600px) {
         ul {
             column-count: 1;
         }

@@ -9,7 +9,7 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
 <Page
     title="Index"
     description="Index of Cooking Notebook"
-    contentType="text-two-columns"
+    contentType="text"
 >
     <p> See also: <a href="/cooking/graded"> Index (Graded)</a></p>
     <h1>Index</h1>
@@ -25,9 +25,10 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
 <style>
     ul {
         column-count: 2;
+        column-gap: 30px;
         width: 100%;
     }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 600px) {
         ul {
             column-count: 1;
         }
