@@ -79,6 +79,7 @@ kanban-plugin: board
 
 ## Writing (Pre)
 
+- [ ] [Caesar Salad Dressing](../cooking/sauces-condiments/caesar-dressing.md)
 
 
 ## Writing (Post)
@@ -86,7 +87,12 @@ kanban-plugin: board
 - [ ] Coq Au Vin
 
 
-## TODO (Grade D; high priority)
+## Revising
+
+- [ ] [Kombucha](../cooking/beverages/tea/kombucha.md)
+
+
+## Published (D)
 
 - [ ] [Banana Bread](../cooking/desserts/banana-bread.md)
 - [ ] [[Bechamel]]
@@ -96,7 +102,7 @@ kanban-plugin: board
 - [ ] [[Bun Rieu]]
 - [ ] [[Canh Kho Qua]]
 - [ ] [[Chicken Karaage]]
-- [ ] [[chicken parmesan]]
+- [ ] [Chicken Parmesan](../cooking/meat/chicken/chicken-parmesan.md)
 - [ ] [[Chili Powder]]
 - [ ] [[Crab Fried Rice]]
 - [x] [[Sweet Tea]]
@@ -121,6 +127,10 @@ kanban-plugin: board
 - [ ] [[Do Chua]]
 
 
+## D checked
+
+
+
 ## Published (A)
 
 - [ ] [Beef Stew](../cooking/soups-stews/beef-stew.md)
@@ -134,7 +144,6 @@ kanban-plugin: board
 - [ ] fresh pasta
 - [ ] fruit tart
 - [ ] hollandaise
-- [ ] kombucha
 - [ ] lasagna
 - [ ] pate se
 - [ ] pate sucree
@@ -143,9 +152,17 @@ kanban-plugin: board
 - [ ] tea
 
 
+## A checked
+
+
+
 ## Published (E)
 
 - [ ] [Phở](../cooking/soups-stews/pho.md)
+
+
+## E checked
+
 
 
 ***
@@ -157,6 +174,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false,false,true,false,true,null,true]}
 ```
 %%

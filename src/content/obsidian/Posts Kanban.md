@@ -10,12 +10,12 @@ kanban-plugin: board
 
 ## First Draft
 
-- [ ] [Double pleated pants](drafts/Double%20pleated%20pants.md)
 - [ ] [Welted Pockets with Enclosed Pocket Opening Edges](drafts/welted-pockets-enclosed-opening-edges.md)
 
 
 ## Revising
 
+- [ ] [Double pleated pants](drafts/Double%20pleated%20pants.md)
 - [ ] [Marking Fabric](../crafts/sewing/marking-fabric.md)
 - [ ] [Tracing a Sewing Pattern](../crafts/sewing/tracing-patterns.md)
 

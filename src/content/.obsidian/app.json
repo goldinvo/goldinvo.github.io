@@ -10,5 +10,6 @@
   "attachmentFolderPath": "assets",
   "showInlineTitle": true,
   "showRibbon": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

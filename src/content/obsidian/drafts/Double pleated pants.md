@@ -1,3 +1,5 @@
+Welcome to my 
+
 This is a series I'm starting to record my progress on making home-sewn everyday garments. I have made a few garments before but I find that I switch patterns too much. This takes too much time especially when I try and change the fit/redraft each pattern because I am scared I did something wrong. In this series I will keep track of the things I want to improve. This way I can do more iterative improvement. We are going tos tart with a pari of pleated pants. my goal is to have as beautiful of an interior as possible
 
 ## Method
