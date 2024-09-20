@@ -14,7 +14,7 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
     <p> See also: <a href="/cooking/graded"> Index (Graded)</a></p>
     <h1>Index</h1>
 
-    <div class="recipes-index">
+    <div class="hover-underline recipes-index">
         <ul>
         { posts.map( 
             (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>

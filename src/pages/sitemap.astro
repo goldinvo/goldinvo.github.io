@@ -7,7 +7,7 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueO
 const cooking = (await getCollection('cooking')).sort( (a, b) => a.data.title.localeCompare(b.data.title) );
 ---
 
-<Page title="Site Map" description="See all pages of my website" contentType='text'>
+<Page title="Site Map" description="See all pages of my website" contentType='text'><div class="hover-underline">
     <h1>Site Map</h1>
     <ul>
         <li><a href="/sitemap">Sitemap (You are here!)</a></li>
@@ -36,7 +36,7 @@ const cooking = (await getCollection('cooking')).sort( (a, b) => a.data.title.lo
     <ul>
         {cooking.map( (post) => (<li><a href={'/cooking/' + post.slug}>{post.data.title}</a></li>))}
     </ul>
-</Page>
+</div></Page>
 <style>
     ul {
         column-count: 2;

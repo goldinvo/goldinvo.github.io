@@ -15,7 +15,7 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
 
     <h1>Index (Graded)</h1>
 
-    <div class="recipes-index">
+    <div class="hover-underline recipes-index">
     <h3> E: Posts that I'm happy with </h3>
     <ul>
         { posts.filter( (post) => post.data.grade === 'E' ).map( 

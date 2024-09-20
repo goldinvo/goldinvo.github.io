@@ -3,6 +3,8 @@
     --background-color: #ffffe9;
     --accent-color: #ffd700;
     --accent-darker: #ccac00;
+    --link-color: #768844;
+    --link-visited: #8B7E85;
 }
 
 .noto-serif, body {
@@ -110,12 +112,17 @@ pre > code {
 
 
 a {
-    color: var(--accent-darker);
-    text-decoration: none;
+    color: var(--link-color);
 }
 a:visited {
-    color: #998100;
+    color: var(--link-visited);
 }
-a:hover {
+.visited-unchanged a:visited, a.visited-unchanged:visited{
+    color: var(--link-color);
+}
+.hover-underline a, a.hover-underline {
+    text-decoration: none;
+}
+.hover-underline a:hover, a.hover-underline:hover {
     text-decoration: underline;
 }

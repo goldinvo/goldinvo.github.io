@@ -19,11 +19,11 @@ const { Content } = await post.render();
 { post.id.includes('index') 
     ? <NotebookFolder {...post.data} collection={post.collection} slug={post.slug} customFolderOrder={post.data.customFolderOrder}> 
         <Content />
-        <footer class="inconsolata" slot="footer"><a href="/cooking/all-posts">Index</a> | <a href="/cooking/about">About this Notebook</a></footer>
+        <footer class="inconsolata visited-unchanged hover-underline" slot="footer"><a href="/cooking/all-posts">Index</a> | <a href="/cooking/about">About this Notebook</a></footer>
       </NotebookFolder>
     : <NotebookFile {...post.data}> 
         <Content />
-        <footer class="inconsolata"><a href="/cooking/all-posts">Index</a> | <a href="/cooking/about">About this Notebook</a></footer>
+        <footer class="inconsolata visited-unchanged hover-underline"><a href="/cooking/all-posts">Index</a> | <a href="/cooking/about">About this Notebook</a></footer>
         { post.data.images && <div class="image-reel">{post.data.images.map((image) => <Image src={image} alt=""/>)}</div>}
       </NotebookFile>
 }
@@ -31,9 +31,6 @@ const { Content } = await post.render();
     footer {
         text-align: center;
         font-size: .93em;
-    }
-    footer a {
-        color: var(--accent-darker)
     }
     .image-reel {
         max-width: 600px;
