@@ -11,43 +11,15 @@
             "id": "e385d9e9a1ebbbac",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "obsidian/Recipes Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    true,
-                    false,
-                    true,
-                    null,
-                    true
-                  ]
-                }
-              }
-            }
-          },
-          {
-            "id": "b89b677659fb64a4",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/sauces-condiments/caesar-dressing.md",
+                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cooking/sauces-condiments/caesar-dressing.md",
+                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cooking/sauces-condiments/caesar-dressing.md",
+                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cooking/sauces-condiments/caesar-dressing.md"
+                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md"
               }
             }
           }
@@ -172,34 +144,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b89b677659fb64a4",
+  "active": "a2e371b6b659c79d",
   "lastOpenFiles": [
     "obsidian/Recipes Kanban.md",
+    "cooking/desserts/index.md",
+    "crafts/index.md",
+    "cooking/index.md",
+    "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
+    "blog/bobbin-lace-edging-samples.md",
+    "blog/51-days-of-bento.md",
+    "blog/harpooned-whale.md",
+    "cooking/beverages/index.md",
+    "cooking/dairy/index.md",
+    "cooking/eggs/index.md",
+    "cooking/fruits-vegetables/index.md",
+    "cooking/meat/index.md",
+    "cooking/lists/index.md",
+    "obsidian/Posts Kanban.md",
+    "cooking/staples/pie-crust.md",
+    "cooking/staples/index.md",
+    "cooking/staples/bread/index.md",
+    "obsidian/drafts/welted-pockets-enclosed-opening-edges.md",
     "cooking/sauces-condiments/caesar-dressing.md",
     "cooking/sauces-condiments/mayonnaise.md",
     "crafts/sewing/tracing-patterns.md",
     "crafts/sewing/index.md",
-    "obsidian/drafts/welted-pockets-enclosed-opening-edges.md",
     "cooking/soups-stews/pho.md",
-    "cooking/index.md",
     "cooking/sauces-condiments/oils/index.md",
     "cooking/sauces-condiments/spice-mixtures/index.md",
-    "cooking/beverages/tea/index.md",
-    "cooking/beverages/tea/kombucha.md",
-    "cooking/beverages/tea/sweet-tea.md",
-    "obsidian/drafts/Double pleated pants.md",
-    "obsidian/Posts Kanban.md",
-    "Ratatouille.md",
-    "cooking/meat/chicken/chicken-parmesan.md",
-    "chicken parmesan.md",
-    "obsidian/drafts/Untitled.md",
-    "crafts/sewing/marking-fabric.md",
-    "crafts/bobbin-lace/basic-stitches.md",
-    "crafts/index.md",
-    "cooking/desserts/banana-bread.md",
-    "Boiled Egg.md",
-    "cooking/sauces-condiments/bechamel.md",
-    "obsidian/templates/notebook-folder.md",
     "obsidian",
     "crafts/sewing",
     "crafts/bobbin-lace",

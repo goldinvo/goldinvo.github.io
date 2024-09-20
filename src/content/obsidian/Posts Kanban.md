@@ -15,7 +15,7 @@ kanban-plugin: board
 
 ## Revising
 
-- [ ] [Double pleated pants](drafts/Double%20pleated%20pants.md)
+- [ ] [Double Pleated Trousers in Charcoal Cotton Twill](../blog/Double%20Pleated%20Trousers%20in%20Charcoal%20Cotton%20Twill.md)
 - [ ] [Marking Fabric](../crafts/sewing/marking-fabric.md)
 - [ ] [Tracing a Sewing Pattern](../crafts/sewing/tracing-patterns.md)
 
