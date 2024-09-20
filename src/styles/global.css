@@ -1,10 +1,10 @@
 :root {
     --text-color: #111;
-    --background-color: #ffffe9;
+    --background-color: #fffbe9;
     --accent-color: #ffd700;
     --accent-darker: #ccac00;
     --link-color: #768844;
-    --link-visited: #8B7E85;
+    --link-visited: #947b88;
 }
 
 .noto-serif, body {
