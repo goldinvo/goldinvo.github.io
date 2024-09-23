@@ -1,11 +1,25 @@
 ---
 title: Double Pleated Trousers in Charcoal Cotton Twill
-description: A few sample trims from my foray into bobbin lacemaking
-pubDate: '2020-04-02'
-featuredImage: '@assets/2020-04-02-lace-on-bulletin-board.jpeg'
+description: Making a pair of pants for the first post of my Home-Sewn Wardrobe series.
+pubDate: '2024-8-29'
+featuredImage: '@assets/pleated-trousers-4.jpeg'
 type: long
-featured: true
+featured: false
 ---
+
+![](../assets/pleated-trousers-6.jpeg)
+
+![](../assets/pleated-trousers-4.jpeg)
+
+![](../assets/pleated-trousers-3.jpeg)
+
+![](../assets/pleated-trousers-5.jpeg)
+
+![](../assets/pleated-trousers-1.jpeg)
+
+![](../assets/pleated-trousers-2.jpeg)
+
+## About this Series
 
 Welcome to the first post of my *Home-Sewn Wardrobe* series, where I’ll be documenting my journey in creating a basic collection of menswear staples from scratch. Will I succeed in building a complete, functional wardrobe? Or will I throw in the towel, disillusioned by the reality of how time-consuming, expensive, and difficult home sewing is compared to buying ready-made garments? Stick around to find out!
 

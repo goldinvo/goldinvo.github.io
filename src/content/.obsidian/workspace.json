@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dbd0dd733bb97107",
+        "id": "12ea9b02125dcab8",
         "type": "tabs",
         "children": [
           {
-            "id": "e385d9e9a1ebbbac",
+            "id": "fe868d8aa9b2d429",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,13 +144,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a2e371b6b659c79d",
+  "active": "fe868d8aa9b2d429",
   "lastOpenFiles": [
+    "assets/pleated-trousers-5.jpeg",
+    "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
+    "assets/pleated-trousers-2.jpeg",
+    "assets/pleated-trousers-1.jpeg",
+    "assets/pleated-trousers-3.jpeg",
+    "assets/pleated-trousers-4.jpeg",
+    "assets/pleated-trousers-6.jpeg",
     "obsidian/Recipes Kanban.md",
     "cooking/desserts/index.md",
     "crafts/index.md",
     "cooking/index.md",
-    "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
     "blog/bobbin-lace-edging-samples.md",
     "blog/51-days-of-bento.md",
     "blog/harpooned-whale.md",
@@ -171,7 +177,6 @@
     "crafts/sewing/index.md",
     "cooking/soups-stews/pho.md",
     "cooking/sauces-condiments/oils/index.md",
-    "cooking/sauces-condiments/spice-mixtures/index.md",
     "obsidian",
     "crafts/sewing",
     "crafts/bobbin-lace",
