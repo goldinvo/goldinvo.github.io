@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
+                "file": "crafts/bobbin-lace/index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
+                "file": "crafts/bobbin-lace/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
+                "file": "crafts/bobbin-lace/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/Double Pleated Trousers in Charcoal Cotton Twill.md"
+                "file": "crafts/bobbin-lace/index.md"
               }
             }
           }
@@ -144,10 +144,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "fe868d8aa9b2d429",
+  "active": "a2e371b6b659c79d",
   "lastOpenFiles": [
-    "assets/pleated-trousers-5.jpeg",
+    "cooking/index.md",
+    "blog/2024-8-29-double-pleated-trousers.mdx",
     "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
+    "blog/2020-04-02-bobbin-lace-edging-samples.mdx",
+    "blog/2023-05-22-51-days-of-bento.mdx",
+    "blog/2024-04-02-Another-Wild-Swan.mdx",
+    "blog/2022-07-21-bobbin-lace-bookmark.mdx",
+    "blog/2022-02-15-ugly-tapestry.mdx",
+    "blog/2020-06-15-first-table-loom-scarf.mdx",
+    "blog/2019-06-10-wire-framed-butterfly.mdx",
+    "blog/2021-10-02-the-daily-texan-collage.mdx",
+    "blog/2019-02-02-irish-crochet-lace-bag.mdx",
+    "assets/pleated-trousers-5.jpeg",
     "assets/pleated-trousers-2.jpeg",
     "assets/pleated-trousers-1.jpeg",
     "assets/pleated-trousers-3.jpeg",
@@ -156,7 +167,6 @@
     "obsidian/Recipes Kanban.md",
     "cooking/desserts/index.md",
     "crafts/index.md",
-    "cooking/index.md",
     "blog/bobbin-lace-edging-samples.md",
     "blog/51-days-of-bento.md",
     "blog/harpooned-whale.md",
@@ -177,13 +187,7 @@
     "crafts/sewing/index.md",
     "cooking/soups-stews/pho.md",
     "cooking/sauces-condiments/oils/index.md",
-    "obsidian",
-    "crafts/sewing",
-    "crafts/bobbin-lace",
-    "crafts",
     "assets/basic-stitches-bobbin-lace-2.jpg",
-    "assets/basic-stitches-bobbin-lace-1.jpg",
-    "obsidian/drafts",
-    "obsidian/templates"
+    "assets/basic-stitches-bobbin-lace-1.jpg"
   ]
 }

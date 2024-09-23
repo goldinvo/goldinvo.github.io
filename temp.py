@@ -1,87 +1,47 @@
 import os
+import yaml
+import re
 
-def convert_md_to_mdx(directory):
-    # Traverse the directory and subdirectories
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith('.mdx'):
-                # Full path of the current .md file
-                md_file = os.path.join(root, file)
-                # Create the new .mdx file path by replacing the .md extension
-                mdx_file = os.path.splitext(md_file)[0] + '.md'
-                
-                # Rename the .md file to .mdx
-                os.rename(md_file, mdx_file)
-                print(f"Converted: {md_file} -> {mdx_file}")
+# Define the directory containing your .md files
+directory = '/Users/goldinbaokimvo/projects/blog/src/content/blog'
 
-if __name__ == "__main__":
-    directory_path = "/Users/goldinbaokimvo/projects/blog/src/content"  # Replace with the directory you want to start from
-    convert_md_to_mdx(directory_path)
+# Function to extract pubDate from YAML front matter
+def get_pub_date(md_content):
+    try:
+        # Match the YAML front matter
+        yaml_match = re.match(r'^---\n(.*?)\n---', md_content, re.DOTALL)
+        if yaml_match:
+            yaml_content = yaml.safe_load(yaml_match.group(1))
+            return yaml_content.get('pubDate', None)
+    except yaml.YAMLError as e:
+        print(f"Error parsing YAML: {e}")
+    return None
 
-# import os
-# import shutil
+# Process each .md file in the directory
+for filename in os.listdir(directory):
+    if filename.endswith('.md'):
+        file_path = os.path.join(directory, filename)
 
-# def flatten_directory_structure(base_dir):
-#     # Walk through the directory tree
-#     for root, dirs, files in os.walk(base_dir, topdown=False):
-#         for name in files:
-#             # Generate the new file path with hyphens
-#             relative_path = os.path.relpath(os.path.join(root, name), base_dir)
-#             new_name = relative_path.replace(os.sep, '-')
-#             new_path = os.path.join(base_dir, new_name)
+        # Read the file contents
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
 
-#             # Move the file to the new flattened path
-#             shutil.move(os.path.join(root, name), new_path)
-
-#         # After moving all files, remove the now empty directories
-#         for name in dirs:
-#             dir_path = os.path.join(root, name)
-#             if not os.listdir(dir_path):  # Check if the directory is empty
-#                 os.rmdir(dir_path)
-
-# if __name__ == "__main__":
-#     base_directory = '/Users/goldinbaokimvo/projects/goldinvo.github.io/src/assets'
-#     flatten_directory_structure(base_directory)
-
-# import os
-# import yaml
-
-# # Define the directory containing the files to process
-# root_dir = '/Users/goldinbaokimvo/projects/goldinvo.github.io/src/content'
-
-# # Function to fix front matter
-# def fix_front_matter(content):
-#     # Split content into front matter and the rest
-#     if content.startswith('---'):
-#         _, front_matter, body = content.split('---', 2)
-#         front_matter = yaml.safe_load(front_matter.strip())
+        # Extract the pubDate
+        pub_date = get_pub_date(content)
         
-#         if 'images' in front_matter:
-#             front_matter['images'] = ['@assets/'+path.strip('/').replace('/', '-') for path in front_matter['images']]
-#         if 'featuredImage' in front_matter:
-#             front_matter['featuredImage'] = '@assets/'+front_matter['featuredImage'].strip('/').replace('/', '-')
+        # If pubDate is found, rename the file and convert extension to .mdx
+        if pub_date:
+            # Format the new file name
+            new_filename = f"{pub_date}-{filename.replace('.md', '.mdx')}"
+            new_file_path = os.path.join(directory, new_filename)
 
-#         # Convert the updated front matter back to string
-#         new_front_matter_str = yaml.dump(front_matter, default_flow_style=False, allow_unicode=True).strip()
-        
-#         # Combine the updated front matter with the body
-#         new_content = f'---\n{new_front_matter_str}\n---\n{body.strip()}'
-#         return new_content
-#     return content
+            # Write the content to the new .mdx file
+            with open(new_file_path, 'w', encoding='utf-8') as new_file:
+                new_file.write(content)
 
-# # Walk through all files in the directory and subdirectories
-# for dirpath, _, filenames in os.walk(root_dir):
-#     for filename in filenames:
-#         file_path = os.path.join(dirpath, filename)
-        
-#         # Only process markdown files
-#         if file_path.endswith('.md'):
-#             with open(file_path, 'r') as file:
-#                 content = file.read()
-            
-#             # Fix the front matter
-#             new_content = fix_front_matter(content)
-            
-#             # Save the file with the new content
-#             with open(file_path, 'w') as file:
-#                 file.write(new_content)
+            # Optionally, remove the old .md file
+            os.remove(file_path)
+
+            print(f"Converted and renamed: {filename} -> {new_filename}")
+
+print("Conversion completed.")
