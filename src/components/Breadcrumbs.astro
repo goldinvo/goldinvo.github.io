@@ -33,7 +33,7 @@ while(splitPath.length>2){
 
 breadcrumbs = breadcrumbs.reverse();
 ---
-{ breadcrumbs.length !== 0 && <nav class="inconsolata"><span> / </span>
+{ breadcrumbs.length !== 0 && <nav class="hover-underline inconsolata"><span> / </span>
     { breadcrumbs.map( (breadcrumb) => (
         <a href={breadcrumb.path}>{breadcrumb.title}</a><span> / </span>
     ))}

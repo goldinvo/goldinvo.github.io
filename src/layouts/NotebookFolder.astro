@@ -47,6 +47,8 @@ if (customFolderOrder) {
         <div id="content"><slot /></div>
     }
 
+    <div class="hover-underline">
+
     { folders.length > 0 && 
         <div class="divider"><img src="/icons/folder.svg" /><hr /></div>
         <ul class="folders">
@@ -60,6 +62,7 @@ if (customFolderOrder) {
         { files.map( (file) => <Stub collection={collection} slug={file.slug}/>)}
         </ul>
     }
+    </div>
 
     <slot name="footer"/>
 </Page>
@@ -72,16 +75,14 @@ if (customFolderOrder) {
         width: 24px;
     }
     .divider #chevron {
-        background-color: #ffd700;
-        border: 1px solid #ffd700;
-        box-sizing: border-box;
+        background-color: var(--accent-color);
     }
     .divider #chevron img {
         transform: rotate(90deg);
     }
     .divider #chevron:hover {
         cursor: pointer;
-        border-color: #111;
+        outline: 1px solid var(--text-color);
     }
     .divider #chevron.closed img {
         transform: rotate(0deg);
@@ -109,14 +110,14 @@ if (customFolderOrder) {
         }
     }
     .folders li {
-        background-color: #ffd700;
+        background-color: var(--accent-color);
         padding: 7.5px 15px;
-        color: #111;
     }
     .folders a {
         display: block;
         break-inside: avoid;
         padding-bottom: 15px;
+        color: var(--text-color);
     }
     .files {
         list-style-type: none;

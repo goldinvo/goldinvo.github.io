@@ -12,14 +12,14 @@ const path = '/' + page.url.current.split('/')[1]
 ---
 <nav class="inconsolata">
     { page.url.prev 
-        ? <a href={page.url.prev}>Prev</a>
+        ? <a href={page.url.prev} class="hover-underline">Prev</a>
         : <a class="disabled">Prev</a>
     }
     { pageNums.map((i) => (
-        <a href={i === 1 ? path : path + '/' + i} class={page.currentPage === i ? "current" : ""}>{i}</a>
+        <a href={i === 1 ? path : path + '/' + i} class={"hover-underline " + (page.currentPage === i ? "current" : "")}>{i}</a>
     ))}
     { page.url.next 
-        ? <a href={page.url.next}>Next</a>
+        ? <a href={page.url.next} class="hover-underline">Next</a>
         : <a class="disabled">Next</a>
     }
 </nav>
