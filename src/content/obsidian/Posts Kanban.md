@@ -10,7 +10,6 @@ kanban-plugin: board
 
 ## First Draft
 
-- [ ] [Welted Pockets with Enclosed Pocket Opening Edges](drafts/welted-pockets-enclosed-opening-edges.md)
 
 
 ## Revising
@@ -28,6 +27,7 @@ kanban-plugin: board
 ## Published
 
 **Complete**
+- [x] [Welted Pockets with Enclosed Pocket Opening Edges](drafts/welted-pockets-enclosed-opening-edges.md)
 
 
 

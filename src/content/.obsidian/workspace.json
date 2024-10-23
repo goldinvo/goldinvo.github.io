@@ -4,19 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "12ea9b02125dcab8",
+        "id": "fce0cea05cb8897e",
         "type": "tabs",
         "children": [
           {
-            "id": "fe868d8aa9b2d429",
+            "id": "4eb0a34481fc92e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crafts/bobbin-lace/index.md",
+                "file": "blog/2023-05-22-51-days-of-bento.mdx",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2023-05-22-51-days-of-bento"
+            }
+          },
+          {
+            "id": "9e5f44d51aa3fd55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/templates/Image Collection.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Image Collection"
             }
           }
         ]
@@ -39,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +72,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +82,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +115,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
             }
           },
           {
@@ -105,7 +129,9 @@
                 "file": "crafts/bobbin-lace/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -116,7 +142,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,7 +154,9 @@
               "type": "outline",
               "state": {
                 "file": "crafts/bobbin-lace/index.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
             }
           }
         ]
@@ -144,27 +174,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a2e371b6b659c79d",
+  "active": "4eb0a34481fc92e2",
   "lastOpenFiles": [
-    "cooking/index.md",
-    "blog/2024-8-29-double-pleated-trousers.mdx",
-    "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
-    "blog/2020-04-02-bobbin-lace-edging-samples.mdx",
-    "blog/2023-05-22-51-days-of-bento.mdx",
-    "blog/2024-04-02-Another-Wild-Swan.mdx",
+    "blog/2022-09-16-temari.mdx",
+    "blog/2022-08-21-oblong-doily.mdx",
     "blog/2022-07-21-bobbin-lace-bookmark.mdx",
     "blog/2022-02-15-ugly-tapestry.mdx",
-    "blog/2020-06-15-first-table-loom-scarf.mdx",
-    "blog/2019-06-10-wire-framed-butterfly.mdx",
     "blog/2021-10-02-the-daily-texan-collage.mdx",
-    "blog/2019-02-02-irish-crochet-lace-bag.mdx",
+    "blog/2021-07-22-pattern-counter.mdx",
+    "blog/2020-08-13-another-woven-scarf.mdx",
+    "blog/2020-07-10-woven-pillow.mdx",
+    "blog/2020-06-15-first-table-loom-scarf.mdx",
+    "blog/2020-04-02-bobbin-lace-edging-samples.mdx",
+    "blog/2020-03-07-tatted-bookmark.mdx",
+    "obsidian/Recipes Kanban.md",
+    "obsidian/Posts Kanban.md",
+    "blog/pleated-trousers-1.jpeg",
+    "blog/pleated-trousers-6.jpeg",
+    "assets/pleated-trousers-6.jpeg",
     "assets/pleated-trousers-5.jpeg",
+    "assets/pleated-trousers-4.jpeg",
+    "assets/pleated-trousers-3.jpeg",
     "assets/pleated-trousers-2.jpeg",
     "assets/pleated-trousers-1.jpeg",
-    "assets/pleated-trousers-3.jpeg",
-    "assets/pleated-trousers-4.jpeg",
-    "assets/pleated-trousers-6.jpeg",
-    "obsidian/Recipes Kanban.md",
+    "obsidian/templates/Image Collection.md",
+    "blog/pleated-trousers-5.jpeg",
+    "blog/pleated-trousers-4.jpeg",
+    "cooking/index.md",
+    "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
     "cooking/desserts/index.md",
     "crafts/index.md",
     "blog/bobbin-lace-edging-samples.md",
@@ -176,7 +213,6 @@
     "cooking/fruits-vegetables/index.md",
     "cooking/meat/index.md",
     "cooking/lists/index.md",
-    "obsidian/Posts Kanban.md",
     "cooking/staples/pie-crust.md",
     "cooking/staples/index.md",
     "cooking/staples/bread/index.md",
@@ -185,9 +221,6 @@
     "cooking/sauces-condiments/mayonnaise.md",
     "crafts/sewing/tracing-patterns.md",
     "crafts/sewing/index.md",
-    "cooking/soups-stews/pho.md",
-    "cooking/sauces-condiments/oils/index.md",
-    "assets/basic-stitches-bobbin-lace-2.jpg",
-    "assets/basic-stitches-bobbin-lace-1.jpg"
+    "cooking/soups-stews/pho.md"
   ]
 }
