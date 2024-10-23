@@ -1,0 +1,96 @@
+---
+// Refer: https://docs.astro.build/en/recipes/dynamically-importing-images/
+//
+// Usage:
+//
+
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface myImage {
+    src: string;
+    alt: string;
+    caption?: string;
+}
+
+interface Props {
+	images: Array<myImage>;
+}
+
+const { images } = Astro.props;
+const imageGlob = import.meta.glob<{ default: ImageMetadata }>('@assets/*.{jpeg,jpg,png,gif,webp}')
+---
+<div class="collection" data-index="1">
+    <img class="prev" src="/icons/chevron.svg" alt="Previous" />
+    {images.map((image, index) => (
+        <div class="slide" style="display: none;">
+            <div class="image"><Image src={imageGlob[image.src]()} alt={image.alt}/></div>
+            <div class="inconsolata caption">{`${image.caption} (${index + 1}/${images.length})`}</div>
+        </div>
+    ))}
+    <img class="next" src="/icons/chevron.svg" alt="Next" />
+</div>
+<script>   
+    document.addEventListener("DOMContentLoaded", () => {
+        const collections = document.querySelectorAll<HTMLElement>(".collection");
+        collections.forEach(collection => {
+            const defaultWidth = collection.offsetWidth;
+            collection.dataset.index = "1";
+            showSlides(collection);
+
+            const prevButton = collection.querySelector<HTMLElement>(".prev");
+            const nextButton = collection.querySelector<HTMLElement>(".next");
+            prevButton?.addEventListener("click", () => changeSlide(collection, -1));
+            nextButton?.addEventListener("click", () => changeSlide(collection, 1));
+        });
+        
+    });
+
+    function showSlides(collection: HTMLElement) {
+        let index: number = +collection.dataset.index!;
+        const slides = Array.from(collection.querySelectorAll<HTMLElement>(".slide"));
+        
+        slides.forEach(slide => slide.style.display = 'none');        
+        slides[index - 1].style.display = 'block';
+    }
+
+    function changeSlide(collection: HTMLElement, n: number) {
+        let index = +collection.dataset.index!;
+        const slides = collection.querySelectorAll<HTMLElement>(".slide");
+        
+        index += n;
+        if (index > slides.length) index = 1;
+        if (index < 1) index = slides.length;
+
+        collection.dataset.index = String(index);
+        showSlides(collection);
+    }
+</script>
+<style>
+    .collection {
+        display: flex;
+        align-items: center;
+        margin: 15px auto;
+    }
+    .prev, .next {
+        width: 25px;
+        background-color: var(--accent-color);
+        padding: 10px 0px;
+    }
+    .prev:hover, .next:hover {
+        cursor: pointer;
+        outline: 1px solid black;
+    }
+    .prev {
+        transform: rotate(180deg);
+    }
+    .caption {
+        text-align: center;
+        font-size: .8em;
+    }
+    .image {
+        margin: 10px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+</style>
