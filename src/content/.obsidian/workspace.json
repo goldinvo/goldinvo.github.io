@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2023-05-22-51-days-of-bento.mdx",
+                "file": "blog/2024-08-29-double-pleated-trousers.mdx",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2023-05-22-51-days-of-bento"
+              "title": "2024-08-29-double-pleated-trousers"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/templates/Image Collection.md",
+                "file": "blog/2024-09-15-nightshirts.mdx",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Image Collection"
+              "title": "2024-09-15-nightshirts"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,33 +175,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4eb0a34481fc92e2",
+  "active": "9e5f44d51aa3fd55",
   "lastOpenFiles": [
+    "().md",
+    "blog/2024-09-15-nightshirts.mdx",
+    "blog/2024-08-29-double-pleated-trousers.mdx",
+    "Untitled Kanban.md",
+    "obsidian/templates/Image Collection.md",
+    "assets/nightshirts-4.jpeg",
+    "assets/nightshirts-3.jpeg",
+    "assets/nightshirts-5.jpeg",
+    "assets/nightshirt-3.jpeg",
+    "assets/nightshirt-4.jpeg",
+    "assets/nightshirt-5.jpeg",
+    "assets/nightshirts-1.jpeg",
+    "assets/nightshirts-2.jpeg",
+    "blog/2024-07-03-starling-quilt.mdx",
+    "blog/2024-06-29-lace-pattern-maker.mdx",
+    "blog/2023-11-09-chalk-bag-and-bucket.mdx",
+    "blog/2023-06-04-mini-faust.mdx",
     "blog/2022-09-16-temari.mdx",
-    "blog/2022-08-21-oblong-doily.mdx",
-    "blog/2022-07-21-bobbin-lace-bookmark.mdx",
     "blog/2022-02-15-ugly-tapestry.mdx",
-    "blog/2021-10-02-the-daily-texan-collage.mdx",
-    "blog/2021-07-22-pattern-counter.mdx",
     "blog/2020-08-13-another-woven-scarf.mdx",
-    "blog/2020-07-10-woven-pillow.mdx",
     "blog/2020-06-15-first-table-loom-scarf.mdx",
-    "blog/2020-04-02-bobbin-lace-edging-samples.mdx",
-    "blog/2020-03-07-tatted-bookmark.mdx",
+    "blog/Untitled.md",
+    "cooking/index.md",
+    "blog/2024-09-15-nightshirts.md",
     "obsidian/Recipes Kanban.md",
     "obsidian/Posts Kanban.md",
     "blog/pleated-trousers-1.jpeg",
     "blog/pleated-trousers-6.jpeg",
-    "assets/pleated-trousers-6.jpeg",
-    "assets/pleated-trousers-5.jpeg",
-    "assets/pleated-trousers-4.jpeg",
-    "assets/pleated-trousers-3.jpeg",
-    "assets/pleated-trousers-2.jpeg",
-    "assets/pleated-trousers-1.jpeg",
-    "obsidian/templates/Image Collection.md",
-    "blog/pleated-trousers-5.jpeg",
-    "blog/pleated-trousers-4.jpeg",
-    "cooking/index.md",
     "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
     "cooking/desserts/index.md",
     "crafts/index.md",
@@ -217,10 +221,6 @@
     "cooking/staples/index.md",
     "cooking/staples/bread/index.md",
     "obsidian/drafts/welted-pockets-enclosed-opening-edges.md",
-    "cooking/sauces-condiments/caesar-dressing.md",
-    "cooking/sauces-condiments/mayonnaise.md",
-    "crafts/sewing/tracing-patterns.md",
-    "crafts/sewing/index.md",
-    "cooking/soups-stews/pho.md"
+    "cooking/sauces-condiments/caesar-dressing.md"
   ]
 }
