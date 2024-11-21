@@ -5,9 +5,8 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://goldinvo.com',
+  site: 'https://occasionallylemons.com',
   
-  // site: 'https://goldinvo.com',
   integrations: [mdx()],
   markdown: {
     remarkPlugins: [remarkDefinitionList],
