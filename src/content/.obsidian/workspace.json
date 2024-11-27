@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "f1148005f363f258",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
             "id": "9e5f44d51aa3fd55",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +201,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "cd76db16f25101b1",
+  "active": "f1148005f363f258",
   "lastOpenFiles": [
     "assets/coat-1.jpeg",
     "assets/coat-2.jpeg",

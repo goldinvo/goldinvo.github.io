@@ -1,4 +1,6 @@
 import { defineCollection, z } from 'astro:content';
+import { POST_TAGS } from '@constants';
+
 
 const blog = defineCollection({
 	type: 'content',
@@ -12,7 +14,7 @@ const blog = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		featured: z.boolean().optional(),
-		tags: z.array(z.enum(['tools'])).optional(),
+		tags: z.array(z.enum(POST_TAGS)).optional(),
 	}),
 });
 

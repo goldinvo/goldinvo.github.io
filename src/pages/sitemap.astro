@@ -2,6 +2,7 @@
 import FormattedDate from '@components/FormattedDate.astro';
 import Page from '../layouts/Page.astro';
 import { getCollection } from 'astro:content';
+import { POST_TAGS } from '@constants';
 
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const cooking = (await getCollection('cooking')).sort( (a, b) => a.data.title.localeCompare(b.data.title) );
@@ -21,10 +22,23 @@ const cooking = (await getCollection('cooking')).sort( (a, b) => a.data.title.lo
         <li><a href="/blog/">All Posts</a></li>
         <li><a href="/blog/tools">In-Browser Tools</a></li>
     </ul>
-    <h3>Posts</h3>
+    <h3>Posts (All)</h3>
     <ul>
         {posts.map( (post) => (<li><div style="display: inline-block"><FormattedDate date={post.data.pubDate}/></div>&emsp13;&emsp13;<a href={'/blog/' + post.slug}>{post.data.title}</a></li>))}
     </ul>
+    <h3 id="by-tag">Posts (By Tag)</h3>
+    { POST_TAGS.map( (tag) => (
+        <h4> 
+            {/* title case */}
+            {tag.replace(/\w\S*/g,text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase())}
+        </h4>
+        <ul>
+            { posts
+                .filter ((post) => post.data.tags && post.data.tags.includes(tag))
+                .map( (post) => (<li><div style="display: inline-block"><FormattedDate date={post.data.pubDate}/></div>&emsp13;&emsp13;<a href={'/blog/' + post.slug}>{post.data.title}</a></li>))
+            }
+        </ul>
+    ))}
     <h2>Notebook: Cooking</h2>
     <ul>
         <li><a href="/cooking">Root</a></li>

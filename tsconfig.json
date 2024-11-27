@@ -7,6 +7,7 @@
       "@components/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
       "@assets/*": ["src/content/assets/*"],
+      "@constants": ["src/consts.ts"],
     }
   }
 }

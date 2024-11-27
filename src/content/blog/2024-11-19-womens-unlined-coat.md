@@ -13,6 +13,8 @@ images:
 - '@assets/coat-5.jpeg'
 - '@assets/coat-6.jpeg'
 - '@assets/coat-7.jpeg'
+tags:
+- sewing
 ---
 
 This is a coat I made for my mom's birthday. The time constraint meant that I had to improvise a lot on this one!
