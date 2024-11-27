@@ -1,13 +1,13 @@
 ---
+title: Pattern Counter
 description: A stitch counting/pattern tracking app
-featuredImage: '@assets/2021-07-22-pattern-counter.jpg'
 pubDate: '2021-07-22'
+type: long
+featuredImage: '@assets/2021-07-22-pattern-counter.jpg'
 tags:
 - tools
 - knitting
 - crochet
-title: Pattern Counter
-type: long
 ---
 A stitch counting/pattern tracking app.
 

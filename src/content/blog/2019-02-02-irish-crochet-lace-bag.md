@@ -1,6 +1,8 @@
 ---
+title: Irish Crochet Lace Bag
 description: A fun little bag using my Irish Crochet Motifs
-featured: true
+pubDate: '2019-02-02'
+type: short
 featuredImage: '@assets/2019-02-02-background-netting-in-progress.jpg'
 images:
 - '@assets/2019-02-02-motif-arrangement.jpg'
@@ -8,12 +10,10 @@ images:
 - '@assets/2019-02-02-background-netting-in-progress.jpg'
 - '@assets/2019-02-02-irish-crochet-lace-bag.jpg'
 - '@assets/2019-02-02-lace-bag-lining-removed.jpg'
-pubDate: '2019-02-02'
-title: Irish Crochet Lace Bag
-type: short
 tags:
 - crochet
 - lace
+featured: true
 ---
 A fun little bag using my [Irish Crochet Motifs](/blog/irish-crochet-motifs).
 The bag was filled in from the top trim, which is a loop. The netting wrapped 

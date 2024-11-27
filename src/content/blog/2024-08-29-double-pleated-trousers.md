@@ -1,12 +1,14 @@
 ---
 title: Double Pleated Trousers in Charcoal Cotton Twill
-description: "This is the first pair of pants I've made that include front pleats. I'm hoping that the pleats serve as a good way to add some comfort in the upper leg, as I can never seem to find pants that fit my thigh right."
+description: This is the first pair of pants I've made that include front pleats.
+  I'm hoping that the pleats serve as a good way to add some comfort in the upper
+  leg, as I can never seem to find pants that fit my thigh right.
 pubDate: 2024-08-29
-featuredImage: "@assets/pleated-trousers-4.jpeg"
 type: long
-featured: false
+featuredImage: '@assets/pleated-trousers-4.jpeg'
 tags:
 - sewing
+featured: false
 ---
 
 This is the first pair of pants I've made that include front pleats. I'm hoping that the pleats serve as a good way to add some comfort in the upper leg, as I can never seem to find pants that fit my thigh right. 

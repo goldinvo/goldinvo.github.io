@@ -1,11 +1,11 @@
 ---
+title: Tenerife Shawl
 description: Lace crochet shawl with spider motifs
+pubDate: '2018-04-15'
+type: short
 featuredImage: '@assets/2018-04-15-tenerife-shawl.jpg'
 images:
 - '@assets/2018-04-15-tenerife-shawl.jpg'
-pubDate: '2018-04-15'
-title: Tenerife Shawl
-type: short
 tags:
 - crochet
 ---

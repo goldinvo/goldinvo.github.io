@@ -1,11 +1,11 @@
 ---
+title: Ugly Tapestry
 description: An abominable mishmash of projects I didn't care for anymore.
+pubDate: '2022-02-15'
+type: short
 featuredImage: '@assets/2022-02-15-abomination.jpg'
 images:
 - '@assets/2022-02-15-abomination.jpg'
-pubDate: '2022-02-15'
-title: Ugly Tapestry
-type: short
 tags:
 - crochet
 - weaving

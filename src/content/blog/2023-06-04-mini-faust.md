@@ -1,12 +1,12 @@
 ---
+title: Mini Faust
 description: Mini-Faust from Guilty Gear Strive
+pubDate: '2023-06-04'
+type: short
 featuredImage: '@assets/2023-06-04-crochet-mini-faust.jpeg'
 images:
 - '@assets/2023-06-04-crochet-mini-faust.jpeg'
 - '@assets/2023-06-04-GGST_Mini_Faust.webp'
-pubDate: '2023-06-04'
-title: Mini Faust
-type: short
 tags:
 - crochet
 ---

@@ -1,12 +1,12 @@
 ---
+title: Another Woven Scarf
 description: Another simple scarf
+pubDate: '2020-08-13'
+type: short
 featuredImage: '@assets/2020-08-13-maroon-and-yellow-woven-scarf.jpeg'
 images:
 - '@assets/2020-08-13-maroon-and-yellow-woven-scarf.jpeg'
 - '@assets/2020-08-13-maroon-yellow-weave.jpeg'
-pubDate: '2020-08-13'
-title: Another Woven Scarf
-type: short
 tags:
 - weaving
 ---

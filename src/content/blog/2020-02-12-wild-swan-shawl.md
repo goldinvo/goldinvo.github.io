@@ -1,17 +1,17 @@
 ---
+title: Wild Swan Shawl
 description: A beaded lace shawl
-featured: true
+pubDate: '2020-02-12'
+type: short
 featuredImage: '@assets/2020-02-12-wild-swan-shawl.jpg'
 images:
 - '@assets/2020-02-12-wild-swan-shawl.jpg'
 - '@assets/2020-02-12-wild-swan-shawl-back.jpg'
 - '@assets/2020-02-12-wild-swan-shawl-blocking.jpg'
-pubDate: '2020-02-12'
-title: Wild Swan Shawl
-type: short
 tags:
 - knitting
 - lace
+featured: true
 ---
 A beaded lace shawl made using the wonderful [Wild Swan pattern](https://www.ravelry.com/patterns/library/wild-swan) by Anne-Lise Maigaard & Nim Teasdale.
 

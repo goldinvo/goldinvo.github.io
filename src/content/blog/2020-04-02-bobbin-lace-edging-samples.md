@@ -1,17 +1,17 @@
 ---
+title: Bobbin Lace Edging Samples
 description: A few sample trims from my foray into bobbin lacemaking
-featured: true
+pubDate: '2020-04-02'
+type: short
 featuredImage: '@assets/2020-04-02-lace-on-bulletin-board.jpeg'
 images:
 - '@assets/2020-04-02-lace-on-bulletin-board.jpeg'
 - '@assets/2020-04-02-bobbin-lace-samples.jpg'
 - '@assets/2020-04-02-beginning-setup.jpg'
-pubDate: '2020-04-02'
-title: Bobbin Lace Edging Samples
-type: short
 tags:
 - lace
 - bobbin lace
+featured: true
 ---
 A few sample trims from my foray into bobbin lacemaking. All of these patterns are sequential lessons from the book [Lessons in Bobbin Lacemaking](https://books.google.com/books/about/Lessons_in_Bobbin_Lacemaking.html?id=ZH2GwtfD5BUC) by Doris Southard. The lessons that are easy to follow and the pacing/ordering of lessons is very well thought out. I'm so excited to get to the section with doilies.
 

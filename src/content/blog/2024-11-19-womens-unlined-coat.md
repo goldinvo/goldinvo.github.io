@@ -1,10 +1,11 @@
 ---
 title: Women's Unlined Coat in Melton
-description: "This is a coat I made for my mom's birthday. It's the first time that I've set a time constraint for something I've sewn so I had to learn how to improvise quite a bit here."
+description: This is a coat I made for my mom's birthday. It's the first time that
+  I've set a time constraint for something I've sewn so I had to learn how to improvise
+  quite a bit here.
 pubDate: 2024-11-19
-featuredImage: '@assets/coat-1.jpeg'
 type: short
-featured: false
+featuredImage: '@assets/coat-1.jpeg'
 images:
 - '@assets/coat-1.jpeg'
 - '@assets/coat-2.jpeg'
@@ -15,6 +16,7 @@ images:
 - '@assets/coat-7.jpeg'
 tags:
 - sewing
+featured: false
 ---
 
 This is a coat I made for my mom's birthday. The time constraint meant that I had to improvise a lot on this one!

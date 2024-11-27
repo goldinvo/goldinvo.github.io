@@ -1,10 +1,10 @@
 ---
 title: Nightshirts in Seersucker and Brushed Shirting
-description: Simple and economical one-piece sleepwear, in striped seersucker and checked shirting.
+description: Simple and economical one-piece sleepwear, in striped seersucker and
+  checked shirting.
 pubDate: 2024-09-15
-featuredImage: "@assets/nightshirts-1.jpeg"
 type: short
-featured: false
+featuredImage: '@assets/nightshirts-1.jpeg'
 images:
 - '@assets/nightshirts-1.jpeg'
 - '@assets/nightshirts-2.jpeg'
@@ -12,6 +12,7 @@ images:
 - '@assets/nightshirts-4.jpeg'
 tags:
 - sewing
+featured: false
 ---
 
 At first I meant to make a pair of pajamas, but I ended up opting for nightshirts since they are much cheaper and easier to make. They also organize better in the dresser.

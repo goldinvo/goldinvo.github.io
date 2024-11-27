@@ -1,13 +1,13 @@
 ---
+title: Longfellow Cardigan
 description: A simple stockinette cardigan
+pubDate: '2020-02-19'
+type: short
 featuredImage: '@assets/2020-02-19-longfellow-cardigan.jpg'
 images:
 - '@assets/2020-02-19-longfellow-cardigan.jpg'
 - '@assets/2020-02-19-longfellow-caredigan-pocket.jpg'
 - '@assets/2020-02-19-longfellow-cardigan-blocking.jpg'
-pubDate: '2020-02-19'
-title: Longfellow Cardigan
-type: short
 tags:
 - knitting
 ---

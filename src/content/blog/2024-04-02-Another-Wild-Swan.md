@@ -1,15 +1,15 @@
 ---
+title: Another Wild Swan
 description: My second go at the Wild Swan Shawl.
-featured: true
+pubDate: '2024-04-02'
+type: short
 featuredImage: '@assets/2024-04-02-closeup.jpeg'
 images:
 - '@assets/2024-04-02-closeup.jpeg'
 - '@assets/2024-04-02-shawl.jpeg'
-pubDate: '2024-04-02'
-title: Another Wild Swan
-type: short
 tags:
 - knitting
+featured: true
 ---
 My [second go](/blog/wild-swan-shawl) at the Wild Swan Shawl.
 I went up to size 6 seed beads and again somehow found the willpower to place all 2,000+ of them.

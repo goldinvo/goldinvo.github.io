@@ -1,6 +1,8 @@
 ---
+title: 51 Days Of Bento
 description: Some bento boxes I've made the past two semesters
-featured: true
+pubDate: '2023-05-22'
+type: short
 featuredImage: '@assets/2023-05-22-19.jpeg'
 images:
 - '@assets/2023-05-22-1.jpeg'
@@ -54,10 +56,8 @@ images:
 - '@assets/2023-05-22-49.jpeg'
 - '@assets/2023-05-22-50.jpeg'
 - '@assets/2023-05-22-51.jpeg'
-pubDate: '2023-05-22'
-title: 51 Days Of Bento
-type: short
 tags:
 - misc
+featured: true
 ---
 Some bento boxes I've made the past two semesters

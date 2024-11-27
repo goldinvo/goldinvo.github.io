@@ -1,12 +1,12 @@
 ---
+title: First Table Loom Scarf
 description: A simple scarf to get familiar with my new table loom
+pubDate: '2020-06-15'
+type: short
 featuredImage: '@assets/2020-06-15-table-loom-scarf.jpeg'
 images:
 - '@assets/2020-06-15-table-loom-scarf.jpeg'
 - '@assets/2020-06-15-table-loom-scarf-weave.jpeg'
-pubDate: '2020-06-15'
-title: First Table Loom Scarf
-type: short
 tags:
 - weaving
 ---

@@ -1,16 +1,16 @@
 ---
-title: 'Starling Quilt'
-type: 'short'
-description: 'My first quilt!'
+title: Starling Quilt
+description: My first quilt!
 pubDate: '2024-07-03'
+type: short
 featuredImage: '@assets/2024-07-03-quilt.jpeg'
-featured: true
 images:
 - '@assets/2024-07-03-quilt.jpeg'
 - '@assets/2024-07-03-binding.jpeg'
 - '@assets/2024-07-03-cuts.jpeg'
 tags:
 - sewing
+featured: true
 ---
 
 My first quilt! It serves as a nice substitute for my down comforter 

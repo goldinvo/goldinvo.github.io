@@ -1,12 +1,12 @@
 ---
+title: Woven Pillow
 description: A pillow made from some fabric I made that I didn't know what to do with
+pubDate: '2020-07-10'
+type: short
 featuredImage: '@assets/2020-07-10-woven-pillow.jpeg'
 images:
 - '@assets/2020-07-10-woven-pillow.jpeg'
 - '@assets/2020-07-10-pink-weave.jpeg'
-pubDate: '2020-07-10'
-title: Woven Pillow
-type: short
 tags:
 - weaving
 ---
