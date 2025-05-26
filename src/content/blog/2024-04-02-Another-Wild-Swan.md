@@ -16,5 +16,4 @@ I went up to size 6 seed beads and again somehow found the willpower to place al
 The yarn is a very nice warm-white single-ply wool/silk blend from my local yarn shop (unfortunately I've lost the tag).
 
 Ironically the pictures of this shawl make it seem almost identical to the first one.
-I can say that the yarn, colors, and drape are so much nicer though. Pictures
-also really do not do beads justice.
+Though I can say that the color, drape, and luster of the beads are now so much nicer.

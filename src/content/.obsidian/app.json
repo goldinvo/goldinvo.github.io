@@ -9,7 +9,6 @@
   "useMarkdownLinks": true,
   "attachmentFolderPath": "assets",
   "showInlineTitle": true,
-  "showRibbon": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true
 }

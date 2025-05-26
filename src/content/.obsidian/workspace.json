@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fce0cea05cb8897e",
+        "id": "e5678aecc9639b79",
         "type": "tabs",
         "children": [
           {
-            "id": "4eb0a34481fc92e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/2024-09-15-nightshirts.mdx",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2024-09-15-nightshirts"
-            }
-          },
-          {
-            "id": "cd76db16f25101b1",
+            "id": "0c5fe50855b8e44a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,35 +20,8 @@
               "icon": "lucide-file",
               "title": "2024-11-19-womens-unlined-coat"
             }
-          },
-          {
-            "id": "f1148005f363f258",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          },
-          {
-            "id": "9e5f44d51aa3fd55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/2024-07-03-starling-quilt.mdx",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2024-07-03-starling-quilt"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -201,22 +161,46 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f1148005f363f258",
+  "active": "0c5fe50855b8e44a",
   "lastOpenFiles": [
-    "assets/coat-1.jpeg",
+    "blog/2024-09-15-nightshirts.md",
+    "blog/2024-08-29-double-pleated-trousers.md",
+    "blog/2024-12-05-corduroy-overshirt.md",
+    "blog/2024-11-19-womens-unlined-coat.md",
+    "blog/2024-12-06-woven-polo.md",
+    "blog/2024-07-03-starling-quilt.md",
+    "blog/2024-04-02-Another-Wild-Swan.md",
+    "blog/2023-11-23-round-doily.md",
+    "blog/2024-06-29-lace-pattern-maker.md",
+    "blog/2023-11-09-chalk-bag-and-bucket.md",
+    "blog/2023-06-28-square-doily.md",
+    "blog/2023-05-22-51-days-of-bento.md",
+    "blog/2023-06-04-mini-faust.md",
+    "cooking/index.md",
+    "crafts/index.md",
+    "obsidian/drafts/welted-pockets-enclosed-opening-edges.md",
+    "obsidian/drafts/Untitled.md",
+    "obsidian/templates/notebook-file.md",
+    "obsidian/templates/notebook-folder.md",
+    "obsidian/Posts Kanban.md",
+    "obsidian/Recipes Kanban.md",
+    "blog/2022-07-21-bobbin-lace-bookmark.md",
+    "blog/2020-07-10-woven-pillow.md",
+    "blog/2020-02-19-longfellow-cardigan.md",
+    "blog/2019-05-04-crochet-piggy.md",
+    "blog/2018-04-15-tenerife-shawl.md",
+    "assets/2018-12-05-irish-crochet-flowers.jpg",
+    "assets/2018-01-16-first-crochet-scarves-beginner.jpg",
+    "assets/corduroy-overshirt.jpeg",
+    "assets/tea-stained-polo.jpeg",
     "assets/coat-2.jpeg",
+    "assets/tea-stained-polo-2.jpeg",
+    "assets/IMG_2486.jpeg",
+    "assets/IMG_2485.jpeg",
+    "assets/coat-1.jpeg",
     "assets/coat-3.jpeg",
-    "assets/coat-4.jpeg",
-    "assets/coat-5.jpeg",
-    "assets/coat-6.jpeg",
-    "assets/coat-7.jpeg",
     "blog/2024-09-15-nightshirts.mdx",
     "blog/2024-08-29-double-pleated-trousers.mdx",
-    "blog/2024-11-19-womens-unlined-coat.md",
-    "assets/pleated-trousers-6.jpeg",
-    "assets/pleated-trousers-5.jpeg",
-    "assets/pleated-trousers-4.jpeg",
-    "assets/pleated-trousers-3.jpeg",
     "blog/2024-07-03-starling-quilt.mdx",
     "blog/2023-11-23-round-doily.mdx",
     "blog/2024-04-02-Another-Wild-Swan.mdx",
@@ -224,30 +208,6 @@
     "blog/2020-02-12-wild-swan-shawl.mdx",
     "blog/2022-02-15-ugly-tapestry.mdx",
     "blog/2022-07-21-bobbin-lace-bookmark.mdx",
-    "blog/2020-02-19-longfellow-cardigan.mdx",
-    "cooking/sauces-condiments/bechamel.md",
-    "cooking/sauces-condiments/biscuit-gravy.md",
-    "cooking/index.md",
-    "().md",
-    "Untitled Kanban.md",
-    "obsidian/templates/Image Collection.md",
-    "blog/Untitled.md",
-    "blog/2024-09-15-nightshirts.md",
-    "obsidian/Recipes Kanban.md",
-    "obsidian/Posts Kanban.md",
-    "blog/Double Pleated Trousers in Charcoal Cotton Twill.md",
-    "cooking/desserts/index.md",
-    "crafts/index.md",
-    "blog/bobbin-lace-edging-samples.md",
-    "blog/51-days-of-bento.md",
-    "blog/harpooned-whale.md",
-    "cooking/beverages/index.md",
-    "cooking/dairy/index.md",
-    "cooking/eggs/index.md",
-    "cooking/fruits-vegetables/index.md",
-    "cooking/meat/index.md",
-    "cooking/lists/index.md",
-    "cooking/staples/pie-crust.md",
-    "cooking/staples/index.md"
+    "blog/2020-02-19-longfellow-cardigan.mdx"
   ]
 }
