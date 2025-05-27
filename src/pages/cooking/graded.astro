@@ -10,34 +10,33 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
     description="Graded Index of Cooking Notebook"
     contentType="text"
 >
-    <!-- I am definitely not using Jekyll tools the way they were supposed to be used here -->
     <p> See also: <a href="/cooking/all-posts"> Index (Ungraded)</a></p>
 
     <h1>Index (Graded)</h1>
 
     <div class="hover-underline recipes-index">
-    <h3> E: Posts that I'm happy with </h3>
+    <h3> E: Complete </h3>
     <ul>
         { posts.filter( (post) => post.data.grade === 'E' ).map( 
             (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
         )}
     </ul>
 
-    <h3> A: Meets standard </h3>
+    <h3> A: Revision Needed </h3>
     <ul>
         { posts.filter( (post) => post.data.grade === 'A' ).map( 
             (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
         )}
     </ul>
 
-    <h3> D: In development </h3>
+    <h3> D: In Development </h3>
     <ul>
         { posts.filter( (post) => post.data.grade === 'D' ).map( 
             (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
         )}
     </ul>
 
-    <h3> B: On to-do list; no content </h3>
+    <h3> B: No Content </h3>
     <ul>
         { posts.filter( (post) => post.data.grade === 'B' ).map( 
             (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
