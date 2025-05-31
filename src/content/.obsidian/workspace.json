@@ -4,24 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "e5678aecc9639b79",
+        "id": "9497fe1860d3cd58",
         "type": "tabs",
         "children": [
           {
-            "id": "0c5fe50855b8e44a",
+            "id": "527af3ddfcdbe77a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/soups-stews/pho.md",
+                "file": "cooking/staples/pasta/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "pho"
+              "title": "index"
+            }
+          },
+          {
+            "id": "3fc39057cffb01db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/staples/pasta/macaroni-salad.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "macaroni-salad"
+            }
+          },
+          {
+            "id": "cc209220a114627c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,38 +184,37 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "0c5fe50855b8e44a",
+  "active": "3fc39057cffb01db",
   "lastOpenFiles": [
-    "cooking/soups-stews/pot-roast.md",
+    "cooking/staples/pasta/ravioli.md",
+    "cooking/staples/pasta/macaroni-salad.md",
+    "cooking/staples/pasta/index.md",
+    "cooking/staples/pasta/lasagna/index.md",
+    "cooking/meat/ground-meat/index.md",
+    "cooking/meat/ground-meat/cabbage-rolls.md",
     "cooking/soups-stews/pho.md",
-    "cooking/soups-stews/canh-kho-qua.md",
-    "cooking/soups-stews/bun-rieu.md",
-    "cooking/soups-stews/beef-stew.md",
     "cooking/soups-stews/index.md",
-    "cooking/sauces-condiments/caesar-dressing.md",
-    "cooking/sauces-condiments/mayonnaise.md",
-    "cooking/index.md",
-    "blog/2024-12-06-woven-polo.md",
+    "cooking/meat/chicken/index.md",
+    "cooking/meat/ground-meat/dumplings.md",
+    "cooking/meat/ground-meat/cha-lua.md",
     "blog/2018-04-15-tenerife-shawl.md",
-    "blog/2018-01-16-my-first-scarves.md",
-    "blog/2019-02-02-irish-crochet-lace-bag.md",
-    "blog/2019-05-04-crochet-piggy.md",
-    "blog/2019-06-10-wire-framed-butterfly.md",
-    "blog/2020-02-12-wild-swan-shawl.md",
-    "blog/2020-03-07-tatted-bookmark.md",
-    "blog/2020-02-19-longfellow-cardigan.md",
-    "blog/2020-04-02-bobbin-lace-edging-samples.md",
-    "blog/2020-06-15-first-table-loom-scarf.md",
-    "blog/2020-07-10-woven-pillow.md",
-    "blog/2020-08-13-another-woven-scarf.md",
-    "blog/2021-07-22-pattern-counter.md",
-    "blog/2021-10-02-the-daily-texan-collage.md",
-    "blog/2022-02-15-ugly-tapestry.md",
-    "blog/2022-07-21-bobbin-lace-bookmark.md",
+    "cooking/meat/ground-meat/gio-song.md",
+    "cooking/meat/ground-meat/pate-so.md",
+    "cooking/meat/ground-meat/meatballs.md",
+    "cooking/index.md",
+    "cooking/meat/index.md",
+    "cooking/sauces-condiments/index.md",
+    "cooking/soups-stews/bun-rieu.md",
+    "cooking/lists/index.md",
+    "cooking/fruits-vegetables/index.md",
+    "cooking/eggs/index.md",
+    "cooking/desserts/index.md",
+    "cooking/dairy/index.md",
+    "cooking/beverages/index.md",
+    "cooking/soups-stews/pot-roast.md",
     "assets/2018-12-05-irish-crochet-flowers.jpg",
     "assets/2018-01-16-first-crochet-scarves-beginner.jpg",
     "assets/corduroy-overshirt.jpeg",

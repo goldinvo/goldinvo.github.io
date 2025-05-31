@@ -22,14 +22,14 @@ posts = posts.sort( (a, b) => a.data.title.localeCompare(b.data.title) );
         )}
     </ul>
 
-    <h3> A: Revision Needed </h3>
+    <h3> A: Pending Revision </h3>
     <ul>
         { posts.filter( (post) => post.data.grade === 'A' ).map( 
             (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
         )}
     </ul>
 
-    <h3> D: In Development </h3>
+    <h3> D: Work in Progress </h3>
     <ul>
         { posts.filter( (post) => post.data.grade === 'D' ).map( 
             (post) => <li><a href={`/cooking/${post.slug}`}>{ post.id.includes('index') && <img src="/icons/folder.svg" />}{post.data.title}</a></li>
