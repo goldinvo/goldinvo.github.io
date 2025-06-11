@@ -1,16 +1,17 @@
 ---
-import Base from "../layouts/Base.astro";
-
+import Page from "../layouts/Page.astro";
+import {EMAIL} from "@constants";
 ---
 
-<Base title="404" description="404">
+<Page title="404" description="The requested page could not be found." contentType="text">
     <div class="container inconsolata">
     <h1>404</h1>
     
     <p><strong>Page not found :(</strong></p>
-    <p>The requested page could not be found.</p>
+    <p>Please contact me at <a href={`mailto:${EMAIL}`}>{EMAIL}</a> if this is an error.</p>
+    <a href="/">Return to homepage</a>
     </div>
-</Base>
+  </Page>
 <style>
     .container {
       margin: 10px auto;

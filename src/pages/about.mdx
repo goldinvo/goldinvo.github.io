@@ -1,4 +1,5 @@
-import Page from '../layouts/Page.astro'
+import Page from '../layouts/Page.astro';
+import {EMAIL} from '@constants';
 
 <Page
     title='About'
@@ -20,6 +21,6 @@ import Page from '../layouts/Page.astro'
 
     Please feel free to send any comments and feedback my way. I would really appreciate it!    
 
-    Email: <a href="mailto:goldin@goldinvo.com">goldin@goldinvo.com</a>  
+    Email: <a href={`mailto:${EMAIL}`}>{EMAIL}</a>  
     Github: [goldinvo](https://github.com/goldinvo)
 </Page>
