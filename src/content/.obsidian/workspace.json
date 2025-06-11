@@ -8,47 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "527af3ddfcdbe77a",
+            "id": "5ba6a8af2a9fbe09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/staples/pasta/index.md",
+                "file": "blog/2024-04-02-Another-Wild-Swan.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "3fc39057cffb01db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cooking/staples/pasta/macaroni-salad.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "macaroni-salad"
-            }
-          },
-          {
-            "id": "cc209220a114627c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "title": "2024-04-02-Another-Wild-Swan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,34 +160,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fc39057cffb01db",
+  "active": "5ba6a8af2a9fbe09",
   "lastOpenFiles": [
-    "cooking/staples/pasta/ravioli.md",
-    "cooking/staples/pasta/macaroni-salad.md",
-    "cooking/staples/pasta/index.md",
-    "cooking/staples/pasta/lasagna/index.md",
-    "cooking/meat/ground-meat/index.md",
-    "cooking/meat/ground-meat/cabbage-rolls.md",
+    "blog/wild-swan-shawl.md",
+    "blog/2024-04-02-Another-Wild-Swan.md",
+    "blog/2024-06-29-lace-pattern-maker.md",
+    "blog/2024-07-03-starling-quilt.md",
+    "blog/2024-08-29-double-pleated-trousers.md",
+    "blog/2024-09-15-nightshirts.md",
+    "blog/2024-11-19-womens-unlined-coat.md",
+    "blog/2024-12-05-corduroy-overshirt.md",
+    "blog/2024-12-06-woven-polo.md",
+    "cooking/eggs/eggs-benedict.md",
+    "cooking/sauces-condiments/hollandaise.md",
+    "cooking/eggs/french-omelette.md",
+    "cooking/sauces-condiments/index.md",
+    "cooking/staples/bread/index.md",
+    "cooking/staples/pasta/carbonara.md",
+    "cooking/staples/bread/sandwiches/cubano.md",
     "cooking/soups-stews/pho.md",
     "cooking/soups-stews/index.md",
-    "cooking/meat/chicken/index.md",
-    "cooking/meat/ground-meat/dumplings.md",
-    "cooking/meat/ground-meat/cha-lua.md",
-    "blog/2018-04-15-tenerife-shawl.md",
-    "cooking/meat/ground-meat/gio-song.md",
-    "cooking/meat/ground-meat/pate-so.md",
-    "cooking/meat/ground-meat/meatballs.md",
-    "cooking/index.md",
-    "cooking/meat/index.md",
-    "cooking/sauces-condiments/index.md",
-    "cooking/soups-stews/bun-rieu.md",
-    "cooking/lists/index.md",
-    "cooking/fruits-vegetables/index.md",
-    "cooking/eggs/index.md",
-    "cooking/desserts/index.md",
-    "cooking/dairy/index.md",
-    "cooking/beverages/index.md",
     "cooking/soups-stews/pot-roast.md",
+    "cooking/meat/chicken/index.md",
+    "cooking/meat/beef/index.md",
+    "cooking/staples/pasta/index.md",
+    "cooking/staples/bread/sandwiches/hamburgers.md",
+    "cooking/staples/bread/sandwiches/blt.md",
+    "cooking/staples/pasta/macaroni-salad.md",
+    "cooking/staples/bread/sandwiches/index.md",
     "assets/2018-12-05-irish-crochet-flowers.jpg",
     "assets/2018-01-16-first-crochet-scarves-beginner.jpg",
     "assets/corduroy-overshirt.jpeg",

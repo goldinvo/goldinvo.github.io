@@ -32,7 +32,7 @@ For the bowls:
 - *On the side:* Bean sprouts; Thai basil; culantro; lime; hoisin sauce; sriracha sauce; etc.
 
 
-To purify scum, cover bones (and optionally broth meat) in water and bring to a vigorous boil for a couple minutes. Dump water and rinse bones/meat clean. Simmer all broth ingredients for about 5 hours, but take the non-stewing meats out early after 1.5-2 hours and refrigerate covered under cold water to prevent drying out (or wrap in plastic after soaking in water). This meat will not be the most tender; added texture is the goal.
+To purify scum, cover bones (and optionally broth meat) in water and bring to a vigorous boil for a couple minutes. Dump water and rinse bones/meat clean. Simmer all broth ingredients with enough water to submerge for about 5 hours, but take the non-stewing meats out early after 1.5-2 hours and refrigerate covered under cold water to prevent drying out (or wrap in plastic after soaking in water). This meat will not be the most tender; added texture is the goal.
 
 Strain broth. Pick out meat and anything else to serve, including tendons and bones with marrow. Maintain broth at a simmer, season, and reduce/dilute as necessary. 
 
@@ -44,5 +44,5 @@ Notes:
 - Fennel tends to get stuck in meat crevices. If using, keep spices in a sachet.
 - I like to freeze individual portions (without toppings). For one bowl:
     - 480g broth
-    - Portioned stewed meat
+    - Portioned cooked meat
     - 100-130g noodles, frozen separately
