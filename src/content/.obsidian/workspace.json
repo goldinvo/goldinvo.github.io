@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2024-04-02-Another-Wild-Swan.md",
+                "file": "blog/2025-06-11-shorts.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-04-02-Another-Wild-Swan"
+              "title": "2025-06-11-shorts"
+            }
+          },
+          {
+            "id": "852ca660ffb1ac98",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/IMG_0125.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "IMG_0125"
             }
           }
         ]
@@ -162,15 +174,27 @@
   },
   "active": "5ba6a8af2a9fbe09",
   "lastOpenFiles": [
-    "blog/wild-swan-shawl.md",
-    "blog/2024-04-02-Another-Wild-Swan.md",
-    "blog/2024-06-29-lace-pattern-maker.md",
-    "blog/2024-07-03-starling-quilt.md",
-    "blog/2024-08-29-double-pleated-trousers.md",
-    "blog/2024-09-15-nightshirts.md",
-    "blog/2024-11-19-womens-unlined-coat.md",
-    "blog/2024-12-05-corduroy-overshirt.md",
     "blog/2024-12-06-woven-polo.md",
+    "blog/2025-06-11-shorts.md",
+    "assets/tea-stained-polo-2.jpeg",
+    "assets/IMG_0125.jpeg",
+    "assets/IMG_2486.jpeg",
+    "assets/IMG_2485.jpeg",
+    "assets/IMG_0127.jpeg",
+    "assets/IMG_0126.jpeg",
+    "assets/tea-stained-polo.jpeg",
+    "blog/2024-04-02-Another-Wild-Swan.md",
+    "blog/2023-11-23-round-doily.md",
+    "blog/2024-12-05-corduroy-overshirt.md",
+    "blog/2024-11-19-womens-unlined-coat.md",
+    "blog/2024-08-29-double-pleated-trousers.md",
+    "blog/2024-06-29-lace-pattern-maker.md",
+    "blog/2024-09-15-nightshirts.md",
+    "assets/nightshirts-4.jpeg",
+    "assets/nightshirts-2.jpeg",
+    "assets/corduroy-overshirt.jpeg",
+    "blog/wild-swan-shawl.md",
+    "blog/2024-07-03-starling-quilt.md",
     "cooking/eggs/eggs-benedict.md",
     "cooking/sauces-condiments/hollandaise.md",
     "cooking/eggs/french-omelette.md",
@@ -185,19 +209,6 @@
     "cooking/meat/beef/index.md",
     "cooking/staples/pasta/index.md",
     "cooking/staples/bread/sandwiches/hamburgers.md",
-    "cooking/staples/bread/sandwiches/blt.md",
-    "cooking/staples/pasta/macaroni-salad.md",
-    "cooking/staples/bread/sandwiches/index.md",
-    "assets/2018-12-05-irish-crochet-flowers.jpg",
-    "assets/2018-01-16-first-crochet-scarves-beginner.jpg",
-    "assets/corduroy-overshirt.jpeg",
-    "assets/tea-stained-polo.jpeg",
-    "assets/coat-2.jpeg",
-    "assets/tea-stained-polo-2.jpeg",
-    "assets/IMG_2486.jpeg",
-    "assets/IMG_2485.jpeg",
-    "assets/coat-1.jpeg",
-    "assets/coat-3.jpeg",
     "blog/2024-09-15-nightshirts.mdx",
     "blog/2024-08-29-double-pleated-trousers.mdx",
     "blog/2024-07-03-starling-quilt.mdx",
