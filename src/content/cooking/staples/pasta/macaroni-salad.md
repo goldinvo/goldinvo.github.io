@@ -1,6 +1,6 @@
 ---
 title: Macaroni Salad
-description: 'Mayonnaise-dressed pasta salad, served cold'
+description: 'Mayonnaise-dressed pasta salad, served cold.'
 grade: E
 ---
 

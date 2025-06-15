@@ -1,6 +1,7 @@
 ---
+title: Carbonara
+description: "Pasta with cured pork and a rich sauce of egg and cheese."
 grade: E
-title: Pasta Carbonara
 ---
 - Spaghetti or similar pasta
 - Guanciale/pancetta/bacon, cut into lardons

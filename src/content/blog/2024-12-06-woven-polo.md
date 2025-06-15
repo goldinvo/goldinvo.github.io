@@ -9,7 +9,7 @@ images:
 - '@assets/tea-stained-polo-2.jpeg'
 tags:
 - sewing
-featured: false
+featured: true
 ---
 I had quite a bit of white linen yardage I never got around to using. I decided to use it for a few garments, but I needed to dye it first, because I hate wearing pure white.
 

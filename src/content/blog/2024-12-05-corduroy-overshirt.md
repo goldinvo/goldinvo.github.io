@@ -8,7 +8,7 @@ images:
 - '@assets/corduroy-overshirt.jpeg'
 tags:
 - sewing
-featured: false
+featured: true
 ---
 This is a jacket I made a year or so ago but never posted, because I wasn't very happy with the sleeves and cuffs. The cuff interfacing was way too stiff, and the the pattern I used had a slit instead of a sleeve placket. 
 

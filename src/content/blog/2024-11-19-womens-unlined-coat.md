@@ -15,7 +15,7 @@ images:
 - '@assets/coat-7.jpeg'
 tags:
 - sewing
-featured: false
+featured: true
 ---
 
 This is a coat I made for my mom's birthday. The time constraint meant that many of the construction decisions I made were done on the fly. I really had to test my confidence for this one!

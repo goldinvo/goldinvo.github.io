@@ -12,7 +12,7 @@ images:
 - '@assets/nightshirts-4.jpeg'
 tags:
 - sewing
-featured: false
+featured: true
 ---
 
 Initially I planned to make conventional pajamas, but I ended up opting to make nightshirts instead as a cheaper and simpler alternative. I made two identical garments for this project: One is in a lightweight striped seersucker, and the other is a slightly-more-heavy brushed checked cotton shirting.
