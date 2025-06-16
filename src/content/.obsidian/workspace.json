@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/eggs/french-omelette.md",
+                "file": "cooking/meat/chicken/chicken-karaage.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "french-omelette"
+              "title": "chicken-karaage"
+            }
+          },
+          {
+            "id": "e2b2a24bba8b98e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/beverages/tea/kombucha.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "kombucha"
             }
           },
           {
@@ -41,12 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2025-06-11-self-drafted-shorts.md",
+                "file": "cooking/sauces-condiments/hollandaise.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-11-self-drafted-shorts"
+              "title": "hollandaise"
+            }
+          },
+          {
+            "id": "2eb2fdeb28769ef7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/sauces-condiments/hollandaise.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "hollandaise"
             }
           },
           {
@@ -62,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "crafts/bobbin-lace/index.md",
+                "file": "cooking/beverages/tea/kombucha.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +173,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for kombucha"
             }
           },
           {
@@ -201,30 +229,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3dbae5c801fa0bd9",
+  "active": "e2b2a24bba8b98e0",
   "lastOpenFiles": [
+    "cooking/beverages/tea/sweet-tea.md",
+    "cooking/beverages/tea/index.md",
+    "cooking/beverages/tea/kombucha.md",
+    "cooking/meat/chicken/chicken-adobo.md",
+    "cooking/meat/chicken/index.md",
+    "cooking/soups-stews/pho.md",
+    "cooking/soups-stews/index.md",
+    "cooking/dairy/index.md",
+    "cooking/meat/chicken/chicken-butter-masala.md",
+    "cooking/meat/chicken/fried-chicken.md",
+    "cooking/meat/chicken/chicken-karaage.md",
+    "cooking/eggs/index.md",
+    "cooking/eggs/french-omelette.md",
+    "cooking/sauces-condiments/hollandaise.md",
+    "cooking/eggs/eggs-benedict.md",
+    "blog/2025-06-11-self-drafted-shorts.md",
+    "assets/recipes-eggs-benedict.jpeg",
     "blog/2024-12-05-corduroy-overshirt.md",
     "blog/2024-12-06-woven-polo.md",
     "blog/2025-06-15-quilted-keyboard-dust-cover.md",
-    "blog/2025-06-11-self-drafted-shorts.md",
     "blog/2024-11-19-womens-unlined-coat.md",
     "blog/2024-09-15-nightshirts.md",
     "blog/2024-07-03-starling-quilt.md",
     "assets/IMG_0134.jpeg",
     "assets/IMG_0132.jpeg",
     "cooking/eggs/scrambled-eggs.md",
-    "cooking/eggs/index.md",
     "cooking/staples/pasta/carbonara.md",
     "cooking/lists/index.md",
     "cooking/meat/index.md",
-    "cooking/sauces-condiments/index.md",
-    "cooking/staples/pasta/fresh-pasta.md",
-    "cooking/staples/pasta/macaroni-salad.md",
-    "cooking/eggs/french-omelette.md",
-    "cooking/eggs/frittata.md",
-    "cooking/fruits-vegetables/index.md",
-    "cooking/eggs/eggs-benedict.md",
-    "cooking/eggs/boiled-egg.md",
     "assets/tea-stained-polo-2.jpeg",
     "assets/IMG_0125.jpeg",
     "assets/IMG_2486.jpeg",
@@ -232,12 +267,6 @@
     "assets/IMG_0127.jpeg",
     "assets/IMG_0126.jpeg",
     "assets/tea-stained-polo.jpeg",
-    "blog/2024-04-02-Another-Wild-Swan.md",
-    "blog/2023-11-23-round-doily.md",
-    "blog/2024-08-29-double-pleated-trousers.md",
-    "blog/2024-06-29-lace-pattern-maker.md",
-    "assets/nightshirts-4.jpeg",
-    "blog/wild-swan-shawl.md",
     "blog/2024-09-15-nightshirts.mdx",
     "blog/2024-08-29-double-pleated-trousers.mdx",
     "blog/2024-07-03-starling-quilt.mdx",

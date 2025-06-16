@@ -1,21 +1,20 @@
 ---
-grade: A
+title: Kombucha
+description: A fizzy, sweet and sour, fermented tea drink.
 images:
 - '@assets/recipes-kombucha.jpeg'
-title: Kombucha
+grade: E
 ---
-For half gallon:
-- tea, green or black
-- 6 cups water
+For a half gallon brewing jar:
+- Black tea bags, or loose leaf tea.
+- Water
 - 1/2 cup sugar
-- About a cup starter, and pellicle from previous brew (first fermentation)
+- About 1 cup of culture ("SCOBY") from the previous brew, or from store-bought unflavored kombucha (use more). Optionally keep the pellicle as well.
 - **Bottling:** juice, chopped/blended fruit (may need to strain), ginger, herbs, spices, etc. Sugar content boosts carbonation.
 
+Brew strong tea using only a portion of the water needed to fill the brewing vessel. Dissolve sugar while still hot, and let cool to room temp, adding the rest of the cold water to speed things up if needed.
 
-Brew strong tea using half of the water, dissolve sugar, add rest of water and let cool 
-to room temp. Add to jar with starting culture and pellicle. Ferment, covered 
-but still breathable (e.g. coffee filter), for 7-14 days at warm room temp (taste to determine
-when its done).
+Add to the jar with the starting culture and pellicle, and top up with more water if necessary. Cover with something breathable (e.g. a coffee filter) and ferment for 7-14 days at a warm room temp. Taste to determine when it's done.
 
-Distribute into bottles with any additions and seal, fermenting for 2-7 days while
+To bottle, add any flavorings or additions to the bottom of each bottle and siphon/pour the kombucha into each up to the top, leaving a small amount of headspace. Seal with an airtight cap and ferment for 2-7 days while
 watching the bubbles in the bottle. Refrigerate when proper carbonation is reached.

@@ -1,23 +1,16 @@
 ---
-grade: A
 title: Hollandaise
+description: "A rich, creamy sauce made with egg, butter, and lemon juice."
+grade: E
 ---
-- egg yolks
-- lemon juice
-- melted butter
-- cayenne
+- Egg yolks
+    - 1 for 1-2 servings
+- Lemon juice
+- Butter, melted and optionally clarified 
+    - The amount can vary by a lot, but I typically do around 3-4 tbsp per yolk
+- Cayenne or paprika
 
+Whisk egg yolks and lemon juice in a double boiler until beginning to thicken. Gradually
+pour in the melted butter in small amounts (especially at the beginning), whisking constantly. Avoid breaking the sauce, taking off the heat when necessary.
 
-Whisk egg yolks and lemon juice in a double boiler until thickening. Gradually
-pour in melted butter, whisking constantly. Avoid breaking the sauce. Adjust
-consistency and taste with lemon juice, water, salt, and cayenne.
-
-***
-
-Notes:
-- Traditionally done with clarified butter. Alternatively, stop pouring all of 
-the butter when you reach the milk solids at the bottom of the measuring cup.
-- The amount of butter called for in recipes varies wildly. I've seen anywhere from
-2T to a whole stick per yolk. I think it depends on the desired consistency
-and how much butter you are willing to consume. I tend to use **4T per yolk**.
-- Does not store well in the slightest.
+Adjust the taste and consistency with more lemon juice, water, salt, and cayenne.
