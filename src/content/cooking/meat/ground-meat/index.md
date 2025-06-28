@@ -1,4 +1,4 @@
 ---
-grade: B
 title: Ground Meat
+grade: S
 ---

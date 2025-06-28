@@ -1,4 +1,4 @@
 ---
-grade: A
+grade: S
 title: Tea
 ---

@@ -1,8 +1,4 @@
 ---
-grade: B
 title: Beef
+grade: S
 ---
-TODO
-- Anatomy, cuts, and properties
-- Quality: marbling, grades
-- salting, dry-aging
