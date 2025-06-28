@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d24138fd544b4632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cooking/fruits-vegetables/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "ebc005f5bedc029d",
             "type": "leaf",
             "state": {
@@ -36,43 +22,17 @@
             }
           },
           {
-            "id": "3dbae5c801fa0bd9",
+            "id": "83be3be07cb182c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/sauces-condiments/hollandaise.md",
+                "file": "cooking/soups-stews/tomato-soup.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "hollandaise"
-            }
-          },
-          {
-            "id": "2eb2fdeb28769ef7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cooking/sauces-condiments/hollandaise.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "hollandaise"
-            }
-          },
-          {
-            "id": "852ca660ffb1ac98",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/IMG_0125.jpeg"
-              },
-              "icon": "lucide-image",
-              "title": "IMG_0125"
+              "title": "tomato-soup"
             }
           }
         ],
@@ -149,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cooking/soups-stews/ratatouille.md",
+                "file": "cooking/soups-stews/tomato-soup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ratatouille"
+              "title": "Backlinks for tomato-soup"
             }
           },
           {
@@ -215,13 +175,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebc005f5bedc029d",
+  "active": "83be3be07cb182c1",
   "lastOpenFiles": [
-    "cooking/fruits-vegetables/salads/watermelon-apple.md",
     "cooking/soups-stews/ratatouille.md",
+    "cooking/soups-stews/tomato-soup.md",
+    "cooking/soups-stews/beef-stew.md",
+    "cooking/soups-stews/bun-rieu.md",
+    "cooking/soups-stews/canh-kho-qua.md",
+    "cooking/soups-stews/chicken-pot-pie.md",
+    "assets/recipes-chicken-pot-pie-1.jpeg",
+    "cooking/staples/pie-crust.md",
+    "cooking/fruits-vegetables/salads/watermelon-apple.md",
     "cooking/fruits-vegetables/index.md",
     "Untitled",
-    "cooking/staples/pie-crust.md",
     "blog/2025-06-11-self-drafted-shorts.md",
     "cooking/sauces-condiments/spice-mixtures/index.md",
     "cooking/sauces-condiments/index.md",
@@ -239,11 +205,6 @@
     "cooking/staples/pasta/lasagna/lasagna-bolognese.md",
     "cooking/staples/pasta/index.md",
     "cooking/soups-stews/index.md",
-    "cooking/soups-stews/beef-stew.md",
-    "cooking/staples/bread/sandwiches/index.md",
-    "cooking/fruits-vegetables/potatoes/index.md",
-    "cooking/fruits-vegetables/potatoes/boiled-potatoes.md",
-    "cooking/fruits-vegetables/potatoes/mashed-potatoes.md",
     "assets/recipes-eggs-benedict.jpeg",
     "assets/IMG_0134.jpeg",
     "assets/IMG_0132.jpeg",
@@ -253,7 +214,6 @@
     "assets/IMG_2485.jpeg",
     "assets/IMG_0127.jpeg",
     "assets/IMG_0126.jpeg",
-    "assets/tea-stained-polo.jpeg",
     "blog/2024-09-15-nightshirts.mdx",
     "blog/2024-08-29-double-pleated-trousers.mdx",
     "blog/2024-07-03-starling-quilt.mdx",

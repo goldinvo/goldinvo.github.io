@@ -1,7 +1,7 @@
 ---
 title: Ratatouille
 description: "A rustic and rich Provençal vegetable stew featuring summer produce."
-grade: A
+grade: E
 ---
 - Diced or chopped vegetables. Keep separate.
     - Summer squash (yellow squash, zucchini); Eggplant. Optionally salted and drained of excess water.
