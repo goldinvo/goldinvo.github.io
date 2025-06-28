@@ -47,6 +47,8 @@ See `src/content/config.ts` for the authoritative list of tags.
 
 ### Notebook: Cooking
 
+See recipes graded 'E' for style conventions
+
 #### Frontmatter
 
 | Field     | Parameters  | Required?     | Description   |
@@ -57,10 +59,5 @@ See `src/content/config.ts` for the authoritative list of tags.
 | images  | array of image paths  |  N   |  For photo reels at the end of individual recipes |
 | customFolderOrder  | array of folder names  |  N   |  For folders, to force the displayed order of sub-folders |
 
-#### Recipe Style Conventions
 
-- **General structure:** A list of ingredients followed by directions in paragraph format. The recipe may be followed by a horizontal rule and a bulleted "Notes: " section.
-- **For foreign languages:** Titles in different languages may be followed by English in parenthesis if an English name is also common. Titles should always be romanized. Alternate names or scripts may be listed at the beginning of descriptions in parenthesis, separated by commas.
-- List each ingredient first by quantity (optional), then by name, followed by a comma and descriptor (optional). Multiple ingredients may be listed in one bullet point, separated by semicolon. Descriptors applying to all ingredients use an em dash. Non-active descriptors can be in parenthesis next to the name of the ingredient. May be followed by a period and then additional comments. Do not end-punctuate.
-    - e.g. "1 onion (or shallot), chopped; 3 cloves garlic, minced; 1-inch piece ginger (opt.), grated — all sautéed in olive oil"
     
