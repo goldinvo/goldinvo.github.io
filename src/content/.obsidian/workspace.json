@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/desserts/banana-bread.md",
+                "file": "cooking/seafood/moules-marinieres.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "banana-bread"
+              "title": "moules-marinieres"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cooking/desserts/banana-bread.md",
+                "file": "cooking/seafood/moules-marinieres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for banana-bread"
+              "title": "Backlinks for moules-marinieres"
             }
           },
           {
@@ -162,6 +162,7 @@
   },
   "active": "fc4c1d6bed119db3",
   "lastOpenFiles": [
+    "cooking/desserts/banana-bread.md",
     "cooking/meat/chicken/pan-seared-chicken-breast.md",
     "cooking/sauces-condiments/white-wine-pan-sauce.md",
     "cooking/sauces-condiments/index.md",
@@ -178,7 +179,6 @@
     "cooking/seafood/index.md",
     "cooking/soups-stews/index.md",
     "cooking/soups-stews/chicken-pot-pie.md",
-    "cooking/desserts/banana-bread.md",
     "cooking/soups-stews/ratatouille.md",
     "cooking/desserts/fruit-tart.md",
     "cooking/desserts/tiramisu.md",

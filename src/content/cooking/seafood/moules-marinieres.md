@@ -8,7 +8,8 @@ grade: E
 - Leek or fennel (optional); shallot or onion; garlic. All thinly sliced.
 - Bay and/or other hardy herbs
 - Salt and pepper
-- Dry white wine; crème fraîche (optional)
+- Dry white wine
+- Crème fraîche or heavy cream (optional)
 - Lemon juice and zest; parsley leaves, finely chopped
 - *For serving:* Baguette or fries. A thin (i.e. more vinegar) mayonnaise for dipping.
 
