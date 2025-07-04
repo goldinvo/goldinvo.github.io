@@ -8,12 +8,12 @@ images:
 
 - *Mirepoix:* onion, carrots, and celery. Optionally add garlic and/or hardy herbs.
 - Mushrooms (optional)
-- *Gravy:* butter, flour, chicken broth, milk/cream. For a 9-inch pie dish, try 5 Tbsp butter, 1/3 cup flour and a scant 2 cups broth.
+- *Gravy:* butter, flour, chicken broth, milk/cream. For a 9-inch pie dish, try 5 Tbsp butter, 1/3 cup flour, and a scant 2 cups broth.
 - Shredded (cooked) chicken or chopped chicken. Better to precook.
 - Frozen peas
 - salt and pepper; vinegary hot sauce
 - 1 or 2 pie crusts or a sheet of puff pastry; 1 egg for brushing (optional).
 
-Saute the vegetables in the butter for the gravy. Add flour and cook until it no longer smells raw, or even until it browns. Gradually add liquid and simmer until thick. Season. Add chicken, cooking if necessary, and then the frozen peas. Let cool, especially if using a double-crust. 
+Saute the vegetables in the butter for the gravy. Add flour and cook until it no longer smells raw, or even until it browns. Gradually add liquid and simmer until very thick. Season. Add chicken, cooking if necessary, and then the frozen peas. Let cool, especially if using a double-crust. 
 
 Use to fill a double-crust pie, or add to the final serving dish and top with a crust/puff pastry. Cut vents and brush with egg wash. Bake at 400-425ºF, checking after a half hour, until the crust has good color and is cooked through. Let stand before serving.

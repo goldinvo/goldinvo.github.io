@@ -7,7 +7,7 @@ grade: E
     - 1 for 1-2 servings
 - Lemon juice
 - Butter, melted and optionally clarified 
-    - The amount can vary by a lot, but I typically do around 3-4 tbsp per yolk
+    - The amount can vary by a lot, but I typically do around 3-4 tbsp per yolk.
 - Cayenne or paprika
 
 Whisk egg yolks and lemon juice in a double boiler until beginning to thicken. Gradually
