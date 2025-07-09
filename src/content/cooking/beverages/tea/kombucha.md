@@ -1,6 +1,6 @@
 ---
 title: Kombucha
-description: A fizzy, sweet and sour, fermented tea drink.
+description: A fizzy, tart fermented tea drink.
 images:
 - '@assets/recipes-kombucha.jpeg'
 grade: E

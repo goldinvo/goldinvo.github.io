@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "561e86aaa966cd92",
+        "id": "909cb18ec63eaeec",
         "type": "tabs",
         "children": [
           {
-            "id": "fc4c1d6bed119db3",
+            "id": "007807a12174cdd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/seafood/moules-marinieres.md",
+                "file": "cooking/eggs/scrambled-eggs.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "moules-marinieres"
+              "title": "scrambled-eggs"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cooking/seafood/moules-marinieres.md",
+                "file": "cooking/eggs/scrambled-eggs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for moules-marinieres"
+              "title": "Backlinks for scrambled-eggs"
             }
           },
           {
@@ -160,36 +160,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc4c1d6bed119db3",
+  "active": "007807a12174cdd8",
   "lastOpenFiles": [
+    "cooking/soups-stews/chicken-stock.md",
+    "cooking/fruits-vegetables/salads/watermelon-apple.md",
+    "cooking/dairy/creme-patissiere.md",
+    "cooking/dairy/cream-butter.md/index.md",
+    "cooking/soups-stews/chicken-pot-pie.md",
     "cooking/desserts/banana-bread.md",
+    "cooking/staples/rice/risotto.md",
+    "cooking/beverages/tea/index.md",
+    "cooking/meat/chicken/chicken-feet.md",
+    "cooking/beverages/tea/sweet-tea.md",
+    "cooking/beverages/tea/kombucha.md",
+    "cooking/meat/chicken/chicken-adobo.md",
+    "cooking/meat/chicken/index.md",
+    "cooking/seafood/moules-marinieres.md",
     "cooking/meat/chicken/pan-seared-chicken-breast.md",
     "cooking/sauces-condiments/white-wine-pan-sauce.md",
     "cooking/sauces-condiments/index.md",
     "cooking/staples/bread/cream-biscuits.md",
     "cooking/sauces-condiments/sausage-gravy.md",
-    "cooking/meat/chicken/index.md",
     "sauces-condiments/white-wine-pan-sauce.md",
     "sauces-condiments",
     "cooking/meat/index.md",
     "cooking/sauces-condiments/hollandaise.md",
-    "cooking/seafood/moules-marinieres.md",
     "cooking/seafood/ca-trung-kho-tieu.md",
     "cooking/seafood/mussels.md",
     "cooking/seafood/index.md",
     "cooking/soups-stews/index.md",
-    "cooking/soups-stews/chicken-pot-pie.md",
-    "cooking/soups-stews/ratatouille.md",
-    "cooking/desserts/fruit-tart.md",
-    "cooking/desserts/tiramisu.md",
-    "cooking/soups-stews/pot-roast.md",
-    "cooking/soups-stews/tomato-soup.md",
-    "cooking/soups-stews/chicken-stock.md",
-    "cooking/soups-stews/beef-stew.md",
-    "cooking/soups-stews/bun-rieu.md",
-    "cooking/soups-stews/canh-kho-qua.md",
     "assets/recipes-chicken-pot-pie-1.jpeg",
-    "cooking/staples/pie-crust.md",
     "Untitled",
     "assets/recipes-eggs-benedict.jpeg",
     "assets/IMG_0134.jpeg",

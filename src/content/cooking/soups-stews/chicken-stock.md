@@ -11,4 +11,5 @@ grade: E
 
 Add everything to a stockpot and cover with water. Simmer for multiple hours, occasionally skimming scum from the surface. Strain and reduce/dilute/season as necessary. Optionally remove fat, either by a fat separator or by skimming after refrigerating.
 
-*To use a pressure cooker:* Cook on high pressure for almost an hour. Allow pressure to release naturally to prevent boiling. 
+## Pressure Cooker Method
+Cook on high pressure for almost an hour. Allow pressure to release naturally to prevent boiling. 
