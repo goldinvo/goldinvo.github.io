@@ -1,4 +1,4 @@
 ---
-grade: S
 title: Beverages
+grade: S
 ---

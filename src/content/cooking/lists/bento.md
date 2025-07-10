@@ -1,6 +1,7 @@
 ---
-grade: B
 title: Bento
+grade: B
+updatedDate: '2000-01-01'
 ---
 ## Prep day before
 -   karaage

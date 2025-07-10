@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Canh Khổ Qua
+grade: D
+updatedDate: '2000-01-01'
 ---
 - Bitter melon
 - Stock or water

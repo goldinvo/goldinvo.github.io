@@ -1,7 +1,8 @@
 ---
 title: Chicken Adobo
-description: "A sour, flavorful Filipno braised chicken dish."
+description: A sour, flavorful Filipno braised chicken dish.
 grade: E
+updatedDate: '2025-07-09'
 ---
 
 - Chicken legs and thighs, with bone and skin; salt; oil

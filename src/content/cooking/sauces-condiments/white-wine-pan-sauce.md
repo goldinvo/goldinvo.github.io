@@ -1,7 +1,8 @@
 ---
 title: White Wine Pan Sauce
-description: "A simple white wine pan sauce. Goes great with pan-seared chicken."
+description: A simple white wine pan sauce. Goes great with pan-seared chicken.
 grade: E
+updatedDate: '2025-07-09'
 ---
 - Butter
 - Shallot or onion; and/or garlic

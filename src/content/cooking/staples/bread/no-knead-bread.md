@@ -1,6 +1,7 @@
 ---
-grade: D
 title: No-Knead Bread
+grade: D
+updatedDate: '2000-01-01'
 ---
 Jim Lahey's popular no-knead bread recipe that doesn't require any attention 
 during bulk fermentation. 

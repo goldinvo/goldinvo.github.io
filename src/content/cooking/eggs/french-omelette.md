@@ -1,9 +1,10 @@
 ---
 title: French Omelette
-description: "A blonde, rolled omelette with a creamy, soft interior."
+description: A blonde, rolled omelette with a creamy, soft interior.
+grade: E
 images:
 - '@assets/recipes-french-omelette.jpeg'
-grade: E
+updatedDate: '2025-07-09'
 ---
 
 - 3 Eggs; cream or milk (opt.); chopped herbs (opt.); salt

@@ -1,6 +1,7 @@
 ---
+title: BLT Sandwich
 grade: B
 images:
 - '@assets/recipes-blt.jpeg'
-title: BLT Sandwich
+updatedDate: '2000-01-01'
 ---

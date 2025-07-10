@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Mustard
+grade: D
+updatedDate: '2000-01-01'
 ---
 Whole, broken, or ground mustard seeds mixed with water, vinegar, lemon juice, 
 wine, and/or other flavorings.

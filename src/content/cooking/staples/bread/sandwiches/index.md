@@ -1,4 +1,4 @@
 ---
-grade: S
 title: Sandwiches
+grade: S
 ---

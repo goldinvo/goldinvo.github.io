@@ -1,6 +1,7 @@
 ---
+title: Crab Cakes
 grade: B
 images:
 - '@assets/recipes-crab-cakes.jpeg'
-title: Crab Cakes
+updatedDate: '2000-01-01'
 ---

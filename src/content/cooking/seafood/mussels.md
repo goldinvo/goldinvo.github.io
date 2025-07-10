@@ -1,6 +1,7 @@
 ---
+title: Mussels
 grade: B
 images:
 - '@assets/recipes-mussels.jpeg'
-title: Mussels
+updatedDate: '2000-01-01'
 ---

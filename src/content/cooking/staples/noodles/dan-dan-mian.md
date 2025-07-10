@@ -1,6 +1,7 @@
 ---
-grade: A
 title: Dan Dan Mian
+grade: A
+updatedDate: '2000-01-01'
 ---
 (担担面) Sichuan street-food noodle, with many variations served dry or as soup, 
 categorized by pickled vegetable, minced pork, chili oil, and Sichuan peppercorn.

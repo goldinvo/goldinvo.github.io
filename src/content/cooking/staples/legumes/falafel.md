@@ -1,8 +1,9 @@
 ---
+title: Falafel
 grade: A
 images:
 - '@assets/recipes-falafel.jpeg'
-title: Falafel
+updatedDate: '2000-01-01'
 ---
 Recipe from *Jerusalem*, Ottolenghi:
 

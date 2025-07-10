@@ -1,7 +1,8 @@
 ---
 title: Moules Marinières
-description: "Classic mussels in a white wine sauce."
+description: Classic mussels in a white wine sauce.
 grade: E
+updatedDate: '2025-07-09'
 ---
 - Mussels, scrubbed clean
 - Butter 

@@ -1,6 +1,7 @@
 ---
-grade: A
 title: Fresh Pasta
+grade: A
+updatedDate: '2000-01-01'
 ---
 - 8 oz flour
 - 2 eggs

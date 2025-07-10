@@ -1,7 +1,8 @@
 ---
 title: Risotto
-description: "A creamy and savory Italian dish of starchy rice cooked in broth."
+description: A creamy and savory Italian dish of starchy rice cooked in broth.
 grade: E
+updatedDate: '2025-07-09'
 ---
 - Onion or shallot; olive oil
 - Starchy Italian rice (e.g. arborio, carnaroli, vialone nano)

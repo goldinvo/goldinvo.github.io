@@ -1,6 +1,7 @@
 ---
-grade: A
 title: Lasagna
+grade: A
+updatedDate: '2000-01-01'
 ---
 In a baking dish, layer lasagna noodles, sauce, and cheese/bechamel. On the bottom 
 leave a layer of sauce and on the top give a generous layer of cheese. You can

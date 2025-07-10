@@ -1,6 +1,7 @@
 ---
+title: Pad Thai
 grade: B
 images:
 - '@assets/recipes-pad-thai.jpeg'
-title: Pad Thai
+updatedDate: '2000-01-01'
 ---

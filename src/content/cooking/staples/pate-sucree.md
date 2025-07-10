@@ -1,6 +1,7 @@
 ---
-grade: A
 title: Pâte Sucrée (Sweet Tart Dough)
+grade: A
+updatedDate: '2000-01-01'
 ---
 A sweet shortbread crust used in tarts.
 

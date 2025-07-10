@@ -1,8 +1,9 @@
 ---
+title: Watermelon Apple Salad
 grade: D
 images:
 - '@assets/recipes-watermelon-apple.jpeg'
-title: Watermelon Apple Salad
+updatedDate: '2000-01-01'
 ---
 - watermelon, in sticks
 - green apple, in sticks

@@ -1,8 +1,9 @@
 ---
+title: Steak
 grade: D
 images:
 - '@assets/recipes-steak-chimichurri.jpeg'
-title: Steak
+updatedDate: '2000-01-01'
 ---
 | Doneness        | Temp (ºF)   | 
 | -----------     |      ------: |

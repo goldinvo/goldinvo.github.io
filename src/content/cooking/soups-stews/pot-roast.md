@@ -1,6 +1,7 @@
 ---
+title: Beef Pot Roast
 grade: B
 images:
 - '@assets/recipes-pot-roast.jpeg'
-title: Beef Pot Roast
+updatedDate: '2000-01-01'
 ---

@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Sandwich Bread
+grade: D
+updatedDate: '2000-01-01'
 ---
 A basic grocery-store style (but better) bread
 

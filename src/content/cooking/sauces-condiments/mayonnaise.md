@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Mayonnaise
+grade: D
+updatedDate: '2000-01-01'
 ---
 - 1 egg yolk
 - 2 tsp Dijon mustard

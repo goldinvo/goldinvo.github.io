@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Dưa Giá
+grade: D
+updatedDate: '2000-01-01'
 ---
 Vietnamese pickled bean sprouts
 

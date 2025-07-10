@@ -1,10 +1,11 @@
 ---
+title: Phở
+description: Vietnamese noodle soup with a clean, aromatic beef broth base.
 grade: E
 images:
 - '@assets/recipes-pho-1.jpg'
 - '@assets/recipes-pho-2.jpeg'
-title: Phở
-description: Vietnamese noodle soup with a clean, aromatic beef broth base.
+updatedDate: '2025-07-09'
 ---
 For the broth (1 stockpot):
 - 2 onions; 1 hand of ginger, bruised — All well-charred by flame or broiler and rinsed of blackened bits

@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Đồ Chua
+grade: D
+updatedDate: '2000-01-01'
 ---
 Vietnamese pickles
 

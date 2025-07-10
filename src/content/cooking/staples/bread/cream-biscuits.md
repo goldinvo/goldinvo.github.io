@@ -1,7 +1,8 @@
 ---
 title: Cream Biscuits
-description: "An easier method of making biscuits by using cream."
+description: An easier method of making biscuits by using cream.
 grade: E
+updatedDate: '2025-07-09'
 ---
 - 300 g flour; 1 heaping tbsp baking powder; 1 hearty pinch of salt
 - *Optional:* 1-3 tbsp sugar

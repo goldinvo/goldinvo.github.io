@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Banana Bread
+grade: D
+updatedDate: '2000-01-01'
 ---
 - ~3 very ripe bananas
 - 6-8 Tbsp butter, softened or melted/browned

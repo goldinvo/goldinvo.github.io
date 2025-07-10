@@ -1,9 +1,10 @@
 ---
 title: Kombucha
 description: A fizzy, tart fermented tea drink.
+grade: E
 images:
 - '@assets/recipes-kombucha.jpeg'
-grade: E
+updatedDate: '2025-07-09'
 ---
 For a half gallon brewing jar:
 - Black tea bags, or loose leaf tea.

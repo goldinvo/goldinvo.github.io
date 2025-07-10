@@ -1,7 +1,8 @@
 ---
 title: Sausage Gravy
-description: "A hearty white gravy with sausage and onion."
+description: A hearty white gravy with sausage and onion.
 grade: E
+updatedDate: '2025-07-09'
 ---
 - Butter
 - 1 lb sausage meat

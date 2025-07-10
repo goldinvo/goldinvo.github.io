@@ -1,6 +1,7 @@
 ---
+title: Croquettes
 grade: B
 images:
 - '@assets/recipes-croquette.jpeg'
-title: Croquettes
+updatedDate: '2000-01-01'
 ---

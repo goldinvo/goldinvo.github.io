@@ -1,8 +1,9 @@
 ---
+title: Pulled Pork
 grade: A
 images:
 - '@assets/recipes-pulled-pork-sandwich.jpeg'
-title: Pulled Pork
+updatedDate: '2000-01-01'
 ---
 Slow-cooked BBQ pork shoulder, shredded and dressed in sauce. 
 

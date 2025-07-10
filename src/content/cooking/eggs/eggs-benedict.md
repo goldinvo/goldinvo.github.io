@@ -1,7 +1,9 @@
 ---
 title: Eggs Benedict
-description: "Decadent brunch staple of an English muffin, Canadian bacon, poached egg, and hollandaise sauce."
+description: Decadent brunch staple of an English muffin, Canadian bacon, poached
+  egg, and hollandaise sauce.
 grade: E
+updatedDate: '2025-07-09'
 ---
 - [Hollandaise](../sauces-condiments/hollandaise)
     - Egg yolk; lemon juice; butter; salt; cayenne  

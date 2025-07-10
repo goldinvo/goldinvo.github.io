@@ -1,6 +1,7 @@
 ---
+title: Cubano
 grade: B
 images:
 - '@assets/recipes-cubano.jpeg'
-title: Cubano
+updatedDate: '2000-01-01'
 ---

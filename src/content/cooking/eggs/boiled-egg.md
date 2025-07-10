@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Boiled Egg
+grade: D
+updatedDate: '2000-01-01'
 ---
 Cooking times:
 - 6 min: just cooked white; liquid yolk

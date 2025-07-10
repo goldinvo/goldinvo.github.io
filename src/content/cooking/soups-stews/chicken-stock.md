@@ -1,7 +1,8 @@
 ---
 title: Chicken Stock
-description: "A basic chicken stock to use as a rich, savory base."
+description: A basic chicken stock to use as a rich, savory base.
 grade: E
+updatedDate: '2025-07-09'
 ---
 
 - Chicken parts and scraps, optionally roasted

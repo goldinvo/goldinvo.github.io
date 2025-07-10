@@ -1,7 +1,8 @@
 ---
 title: Macaroni Salad
-description: 'Mayonnaise-dressed pasta salad, served cold.'
+description: Mayonnaise-dressed pasta salad, served cold.
 grade: E
+updatedDate: '2025-07-09'
 ---
 
 - Macaroni, cooked in salted water and rinsed until cool

@@ -1,4 +1,4 @@
 ---
-grade: S
 title: Staples
+grade: S
 ---

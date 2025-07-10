@@ -1,6 +1,7 @@
 ---
+title: Poke
 grade: B
 images:
 - '@assets/recipes-poke.jpeg'
-title: Poke
+updatedDate: '2000-01-01'
 ---

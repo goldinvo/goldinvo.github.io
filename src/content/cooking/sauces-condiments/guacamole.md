@@ -1,6 +1,7 @@
 ---
+title: Guacamole
 grade: B
 images:
 - '@assets/recipes-guacamole.jpeg'
-title: Guacamole
+updatedDate: '2000-01-01'
 ---

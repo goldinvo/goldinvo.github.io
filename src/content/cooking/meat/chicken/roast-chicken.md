@@ -1,6 +1,7 @@
 ---
+title: Roast Chicken
 grade: B
 images:
 - '@assets/recipes-roast-chicken-leg.jpeg'
-title: Roast Chicken
+updatedDate: '2000-01-01'
 ---

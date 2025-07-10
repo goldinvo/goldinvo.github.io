@@ -1,6 +1,7 @@
 ---
+title: Cá Kho
 grade: B
 images:
 - '@assets/recipes-ca-kho.jpeg'
-title: Cá Kho
+updatedDate: '2000-01-01'
 ---

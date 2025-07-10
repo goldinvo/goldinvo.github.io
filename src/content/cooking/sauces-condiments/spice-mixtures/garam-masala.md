@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Garam Masala
+grade: D
+updatedDate: '2000-01-01'
 ---
 A blend of spices, literally meaning "hot spices", used in cuisine 
 from the Indian subcontinent. There are many variations; here is 

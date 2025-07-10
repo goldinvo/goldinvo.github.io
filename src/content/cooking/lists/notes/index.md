@@ -1,6 +1,6 @@
 ---
-grade: S
 title: Notes
+grade: S
 ---
 ## Caffeine
 An alkaloid that has many physiological effects:

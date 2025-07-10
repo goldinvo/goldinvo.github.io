@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Frittata
+grade: D
+updatedDate: '2000-01-01'
 ---
 An Italian omelette. 
 

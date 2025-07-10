@@ -1,7 +1,8 @@
 ---
 title: Scrambled Eggs
-description: "French or American style scrambled eggs."
+description: French or American style scrambled eggs.
 grade: E
+updatedDate: '2025-07-09'
 ---
 
 - Butter

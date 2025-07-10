@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Chicken Parmesan
+grade: D
+updatedDate: '2000-01-01'
 ---
 - 4 chicken cutlets
 - salt and pepper

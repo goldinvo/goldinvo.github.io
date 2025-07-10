@@ -1,6 +1,7 @@
 ---
+title: Mapo Tofu
 grade: B
 images:
 - '@assets/recipes-mapo-tofu.jpeg'
-title: Mapo Tofu
+updatedDate: '2000-01-01'
 ---

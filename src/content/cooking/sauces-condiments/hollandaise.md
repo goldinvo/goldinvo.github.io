@@ -1,7 +1,8 @@
 ---
 title: Hollandaise
-description: "A rich, creamy sauce made with egg, butter, and lemon juice."
+description: A rich, creamy sauce made with egg, butter, and lemon juice.
 grade: E
+updatedDate: '2025-07-09'
 ---
 - Egg yolks
     - 1 for 1-2 servings

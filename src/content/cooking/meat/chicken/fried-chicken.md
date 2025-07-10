@@ -1,6 +1,7 @@
 ---
+title: Fried Chicken
 grade: B
 images:
 - '@assets/recipes-fried-chicken.JPG'
-title: Fried Chicken
+updatedDate: '2000-01-01'
 ---

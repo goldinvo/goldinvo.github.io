@@ -1,9 +1,10 @@
 ---
+title: Fruit Tart
 grade: A
 images:
 - '@assets/recipes-fruit-tart-1.jpeg'
 - '@assets/recipes-fruit-tart-2.jpeg'
-title: Fruit Tart
+updatedDate: '2000-01-01'
 ---
 Custard in a shortbread crust, with a fruit arrangement on top.
 

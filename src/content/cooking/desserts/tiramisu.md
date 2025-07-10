@@ -1,8 +1,9 @@
 ---
+title: Tiramisu
 grade: D
 images:
 - '@assets/recipes-tiramisu.jpeg'
-title: Tiramisu
+updatedDate: '2000-01-01'
 ---
 [NYT Recipe](https://cooking.nytimes.com/recipes/1018684-classic-tiramisu):
 1. With electric beaters, whip 50g sugar and 4 yolks till light and airy.

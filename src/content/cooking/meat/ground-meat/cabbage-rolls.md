@@ -1,7 +1,8 @@
 ---
 title: Cabbage Rolls
-description: 'Meat filling wrapped in cabbage leaves, braised in a tomato sauce'
+description: Meat filling wrapped in cabbage leaves, braised in a tomato sauce
 grade: A
+updatedDate: '2000-01-01'
 ---
 
 To wrap with:

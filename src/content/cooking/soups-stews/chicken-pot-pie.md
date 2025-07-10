@@ -1,9 +1,10 @@
 ---
 title: Chicken Pot Pie
-description: "A classic comfort dish made with chicken, creamy gravy, and a flaky crust."
+description: A classic comfort dish made with chicken, creamy gravy, and a flaky crust.
 grade: E
 images:
 - '@assets/recipes-chicken-pot-pie-2.jpeg'
+updatedDate: '2025-07-09'
 ---
 
 - *Mirepoix:* onion, carrots, and celery. Optionally add garlic and/or hardy herbs.

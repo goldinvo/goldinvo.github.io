@@ -1,6 +1,7 @@
 ---
-grade: A
 title: Crème Pâtissière (Pastry Cream)
+grade: A
+updatedDate: '2000-01-01'
 ---
 - 260g whole milk (2 cups)
 - Vanilla bean, or extract

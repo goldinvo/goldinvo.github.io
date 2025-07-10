@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Mashed Potatoes
+grade: D
+updatedDate: '2000-01-01'
 ---
 - Boiled potatoes
 - Milk or cream

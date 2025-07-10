@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Chicken Karaage
+grade: D
+updatedDate: '2000-01-01'
 ---
 japanese book:
 - chicken thigh chunks

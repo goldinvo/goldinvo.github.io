@@ -1,7 +1,8 @@
 ---
 title: Pan-seared Chicken Breast
-description: "A simple and healthy protein option."
+description: A simple and healthy protein option.
 grade: E
+updatedDate: '2025-07-09'
 ---
 
 - Chicken breast, thin-sliced and optionally pounded even. Optionally brined.

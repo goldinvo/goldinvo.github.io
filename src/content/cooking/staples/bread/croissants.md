@@ -1,6 +1,7 @@
 ---
+title: Croissants
 grade: B
 images:
 - '@assets/recipes-croissants.jpeg'
-title: Croissants
+updatedDate: '2000-01-01'
 ---

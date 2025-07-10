@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Meatballs
+grade: D
+updatedDate: '2000-01-01'
 ---
 Mix 1# beef/lamb, 1# pork, 1T salt, and rest
 

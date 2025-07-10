@@ -1,6 +1,7 @@
 ---
-grade: D
 title: Bechamel
+grade: D
+updatedDate: '2000-01-01'
 ---
 - 2 Tbsp butter
 - 2 Tbsp flour

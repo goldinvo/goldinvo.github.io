@@ -1,7 +1,8 @@
 ---
 title: Pie Crust
-description: "An all-butter flaky pie crust"
+description: An all-butter flaky pie crust
 grade: E
+updatedDate: '2025-07-09'
 ---
 Ratios from [NYT Cooking](https://cooking.nytimes.com/recipes/448-pie-crust) (2 x 9-inch pie pan crusts):
 
