@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/eggs/scrambled-eggs.md",
+                "file": "cooking/seafood/ca-kho.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "scrambled-eggs"
+              "title": "ca-kho"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cooking/eggs/scrambled-eggs.md",
+                "file": "cooking/seafood/ca-kho.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for scrambled-eggs"
+              "title": "Backlinks for ca-kho"
             }
           },
           {
@@ -162,7 +162,17 @@
   },
   "active": "007807a12174cdd8",
   "lastOpenFiles": [
+    "assets/IMG_0148.jpeg",
+    "assets/A6F1094C-7A4A-4544-A720-83C8842DC8F5_1_201_a.heic",
+    "cooking/seafood/ca-trung-kho-tieu.md",
+    "cooking/seafood/ca-kho.md",
+    "cooking/seafood/crab-cakes.md",
+    "cooking/staples/noodles/dan-dan-mian.md",
     "cooking/soups-stews/chicken-stock.md",
+    "cooking/soups-stews/pho.md",
+    "cooking/soups-stews/ratatouille.md",
+    "cooking/eggs/index.md",
+    "cooking/eggs/scrambled-eggs.md",
     "cooking/fruits-vegetables/salads/watermelon-apple.md",
     "cooking/dairy/creme-patissiere.md",
     "cooking/dairy/cream-butter.md/index.md",
@@ -179,16 +189,7 @@
     "cooking/meat/chicken/pan-seared-chicken-breast.md",
     "cooking/sauces-condiments/white-wine-pan-sauce.md",
     "cooking/sauces-condiments/index.md",
-    "cooking/staples/bread/cream-biscuits.md",
-    "cooking/sauces-condiments/sausage-gravy.md",
-    "sauces-condiments/white-wine-pan-sauce.md",
     "sauces-condiments",
-    "cooking/meat/index.md",
-    "cooking/sauces-condiments/hollandaise.md",
-    "cooking/seafood/ca-trung-kho-tieu.md",
-    "cooking/seafood/mussels.md",
-    "cooking/seafood/index.md",
-    "cooking/soups-stews/index.md",
     "assets/recipes-chicken-pot-pie-1.jpeg",
     "Untitled",
     "assets/recipes-eggs-benedict.jpeg",
@@ -206,7 +207,6 @@
     "blog/2023-11-23-round-doily.mdx",
     "blog/2024-04-02-Another-Wild-Swan.mdx",
     "blog/2024-06-29-lace-pattern-maker.mdx",
-    "blog/2020-02-12-wild-swan-shawl.mdx",
-    "blog/2022-02-15-ugly-tapestry.mdx"
+    "blog/2020-02-12-wild-swan-shawl.mdx"
   ]
 }
