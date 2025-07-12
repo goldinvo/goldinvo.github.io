@@ -5,9 +5,9 @@ grade: E
 updatedDate: '2025-07-09'
 ---
 
-- Butter
-- Eggs; cream or milk (optional); salt
-- *Garnish:* Chives, black pepper, parsley, etc.
+- **Butter**
+- **Eggs**; **cream** or milk (optional); **salt**
+- *Garnish:* **Chives, black pepper, parsley, etc.**
 
 ## French Style
 Add eggs and a generous amount of butter to a cold saucier or double boiler. Season. Heat very gently while whisking constantly. Once smooth and custardy, remove from heat and serve, accounting for carryover cooking.

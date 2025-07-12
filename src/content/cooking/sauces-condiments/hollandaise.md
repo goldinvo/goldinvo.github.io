@@ -4,12 +4,12 @@ description: A rich, creamy sauce made with egg, butter, and lemon juice.
 grade: E
 updatedDate: '2025-07-09'
 ---
-- Egg yolks
+- **Egg yolks**
     - 1 for 1-2 servings
-- Lemon juice
-- Butter, melted and optionally clarified 
+- **Lemon juice**
+- **Butter**, melted and optionally clarified 
     - The amount can vary by a lot, but I typically do around 3-4 tbsp per yolk.
-- Cayenne or paprika
+- **Cayenne** or paprika; **salt**
 
 Whisk egg yolks and lemon juice in a double boiler until beginning to thicken. Gradually
 pour in the melted butter in small amounts (especially at the beginning), whisking constantly. Avoid breaking the sauce, taking off the heat when necessary.

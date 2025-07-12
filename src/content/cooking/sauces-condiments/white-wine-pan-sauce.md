@@ -4,12 +4,12 @@ description: A simple white wine pan sauce. Goes great with pan-seared chicken.
 grade: E
 updatedDate: '2025-07-09'
 ---
-- Butter
-- Shallot or onion; and/or garlic
-- Dry white wine
-- Lemon; mustard; salt & pepper 
-- Crème fraîche, heavy cream, or more cold butter (optional)
-- Fresh herbs, finely chopped
+- **Butter**
+- **Shallot** or onion; and/or **garlic**
+- Dry **white wine**
+- **Lemon**; **mustard**; **salt** and **pepper** 
+- **Crème fraîche**, heavy cream, or more cold butter (optional)
+- Fresh **herbs**, finely chopped
 
 Start with pan that has had fond built up after cooking. Should be fairly dry. 
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/seafood/ca-kho.md",
+                "file": "cooking/sauces-condiments/white-wine-pan-sauce.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ca-kho"
+              "title": "white-wine-pan-sauce"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[grade:B]",
+                "query": "white wine pan sauce",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cooking/seafood/ca-kho.md",
+                "file": "cooking/staples/pasta/macaroni-salad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ca-kho"
+              "title": "Backlinks for macaroni-salad"
             }
           },
           {
@@ -162,33 +163,34 @@
   },
   "active": "007807a12174cdd8",
   "lastOpenFiles": [
+    "cooking/eggs/scrambled-eggs.md",
+    "cooking/sauces-condiments/sausage-gravy.md",
+    "cooking/staples/rice/risotto.md",
+    "cooking/staples/pie-crust.md",
+    "cooking/soups-stews/ratatouille.md",
+    "cooking/soups-stews/chicken-pot-pie.md",
+    "cooking/soups-stews/pho.md",
+    "cooking/meat/chicken/pan-seared-chicken-breast.md",
+    "cooking/staples/pasta/macaroni-salad.md",
+    "cooking/seafood/moules-marinieres.md",
+    "cooking/beverages/tea/kombucha.md",
+    "cooking/beverages/tea/Untitled.md",
+    "cooking/sauces-condiments/hollandaise.md",
+    "cooking/eggs/french-omelette.md",
+    "cooking/eggs/eggs-benedict.md",
+    "cooking/staples/noodles/dan-dan-mian.md",
+    "cooking/staples/bread/cream-biscuits.md",
+    "cooking/soups-stews/chicken-stock.md",
+    "cooking/meat/chicken/chicken-adobo.md",
+    "cooking/staples/pasta/carbonara.md",
+    "cooking/seafood/ca-kho.md",
     "assets/IMG_0148.jpeg",
     "assets/A6F1094C-7A4A-4544-A720-83C8842DC8F5_1_201_a.heic",
     "cooking/seafood/ca-trung-kho-tieu.md",
-    "cooking/seafood/ca-kho.md",
     "cooking/seafood/crab-cakes.md",
-    "cooking/staples/noodles/dan-dan-mian.md",
-    "cooking/soups-stews/chicken-stock.md",
-    "cooking/soups-stews/pho.md",
-    "cooking/soups-stews/ratatouille.md",
     "cooking/eggs/index.md",
-    "cooking/eggs/scrambled-eggs.md",
     "cooking/fruits-vegetables/salads/watermelon-apple.md",
     "cooking/dairy/creme-patissiere.md",
-    "cooking/dairy/cream-butter.md/index.md",
-    "cooking/soups-stews/chicken-pot-pie.md",
-    "cooking/desserts/banana-bread.md",
-    "cooking/staples/rice/risotto.md",
-    "cooking/beverages/tea/index.md",
-    "cooking/meat/chicken/chicken-feet.md",
-    "cooking/beverages/tea/sweet-tea.md",
-    "cooking/beverages/tea/kombucha.md",
-    "cooking/meat/chicken/chicken-adobo.md",
-    "cooking/meat/chicken/index.md",
-    "cooking/seafood/moules-marinieres.md",
-    "cooking/meat/chicken/pan-seared-chicken-breast.md",
-    "cooking/sauces-condiments/white-wine-pan-sauce.md",
-    "cooking/sauces-condiments/index.md",
     "sauces-condiments",
     "assets/recipes-chicken-pot-pie-1.jpeg",
     "Untitled",
@@ -200,7 +202,6 @@
     "assets/IMG_2486.jpeg",
     "assets/IMG_2485.jpeg",
     "assets/IMG_0127.jpeg",
-    "assets/IMG_0126.jpeg",
     "blog/2024-09-15-nightshirts.mdx",
     "blog/2024-08-29-double-pleated-trousers.mdx",
     "blog/2024-07-03-starling-quilt.mdx",

@@ -7,9 +7,9 @@ images:
 updatedDate: '2025-07-09'
 ---
 
-- 3 Eggs; cream or milk (opt.); chopped herbs (opt.); salt
-- Butter (be generous)
-- *Filling suggestions:* Cheese, smoked salmon, mushrooms, etc.
+- 3 **Eggs**; **cream** or milk (opt.); chopped **herbs** (opt.); **salt**
+- **Butter** (be generous)
+- *Filling suggestions:* **Cheese, smoked salmon, mushrooms, etc.**
 
 Whisk eggs, cream, and herbs very well. Season.
 

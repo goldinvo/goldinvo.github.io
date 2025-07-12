@@ -7,11 +7,11 @@ images:
 updatedDate: '2025-07-09'
 ---
 For a half gallon brewing jar:
-- Black tea bags, or loose leaf tea.
-- Water
-- 1/2 cup sugar
-- About 1 cup of culture ("SCOBY") from the previous brew, or from store-bought unflavored kombucha (use more). Optionally keep the pellicle as well.
-- **Bottling:** juice, chopped/blended fruit (may need to strain), ginger, herbs, spices, etc. Sugar content boosts carbonation.
+- **Black tea bags**, or loose leaf tea.
+- **Water**
+- 1/2 cup **sugar**
+- About 1 cup of **culture** ("SCOBY") from the previous brew, or from store-bought unflavored kombucha (use more). Optionally keep the pellicle as well.
+- *For bottling (optional):* **juice**, chopped/blended **fruit** (may need to strain), **ginger**, **herbs**, **spices**, **etc**. Sugar content boosts carbonation.
 
 Brew strong tea using only a portion of the water needed to fill the brewing vessel. Dissolve sugar while still hot, and let cool to room temp, adding the rest of the cold water to speed things up if needed.
 

@@ -6,11 +6,11 @@ grade: E
 updatedDate: '2025-07-09'
 ---
 - [Hollandaise](../sauces-condiments/hollandaise)
-    - Egg yolk; lemon juice; butter; salt; cayenne  
-- Eggs, to poach
-- English muffins, halved
-- Canadian bacon or sliced ham; butter
-- S&P; Chives or parsley
+    - **Egg yolk**, **lemon juice**, **butter**, **salt**, **cayenne**  
+- **Eggs**, to poach
+- **English muffins**, halved
+- **Canadian bacon** or sliced ham; **butter**
+- **Salt** and **pepper**; **chives** or parsley
 
 Heat a medium pot of water and make hollandaise. 
 

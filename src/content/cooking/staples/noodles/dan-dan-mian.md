@@ -5,19 +5,19 @@ grade: E
 updatedDate: '2025-07-09'
 ---
 - Meat mixture:
-    - Ground pork; oil
-    - Shaoxing wine; light and dark soy sauce; Sichuan peppercorn; etc.
-    - Ya cai (芽菜) preserved mustard greens
+    - **Ground pork**, **oil**
+    - **Shaoxing wine**, light and dark **soy sauce**, **Sichuan peppercorn**, **etc.**
+    - **Ya cai** (芽菜 preserved mustard greens)
 - Sauce:
-    - ~2 Tbsp sesame paste or peanut butter
-    - ~2 Tbsp light soy sauce
-    - ~2 Tbsp zhenjiang vinegar
-    - 1/2 cup homemade chili oil (with solids)
-    - Sugar
-    - Sichuan peppercorn, toasted whole and ground
-    - Garlic, minced
-- Fresh Chinese-style wheat noodle. Not too thin.
-- *Topping suggestions:* Roasted peanut; green onions; bean sprouts; other vegetables; Sichuan peppercorn; etc.
+    - ~2 Tbsp **sesame paste** or peanut butter
+    - ~2 Tbsp light **soy sauce**
+    - ~2 Tbsp **zhenjiang vinegar**
+    - 1/2 cup homemade **chili oil** (with solids)
+    - **Sugar**
+    - **Sichuan peppercorn**, toasted whole and ground
+    - **Garlic**, minced
+- Fresh Chinese-style **wheat noodles**. Not too thin.
+- *Topping suggestions:* **Roasted peanut, green onions, bean sprouts, other vegetables, Sichuan peppercorn, etc.**
 
 For the meat mixture, stir fry the ground pork, boiling off all liquid when adding seasonings. Mix in ya cai. 
 
