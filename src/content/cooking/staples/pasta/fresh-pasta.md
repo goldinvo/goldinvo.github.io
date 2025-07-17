@@ -1,6 +1,6 @@
 ---
 title: Fresh Pasta
-grade: A
+grade: D
 updatedDate: '2000-01-01'
 ---
 - 8 oz flour

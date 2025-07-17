@@ -1,6 +1,6 @@
 ---
 title: Pulled Pork
-grade: A
+grade: D
 images:
 - '@assets/recipes-pulled-pork-sandwich.jpeg'
 updatedDate: '2000-01-01'

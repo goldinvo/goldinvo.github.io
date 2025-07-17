@@ -1,6 +1,6 @@
 ---
 title: Falafel
-grade: A
+grade: D
 images:
 - '@assets/recipes-falafel.jpeg'
 updatedDate: '2000-01-01'

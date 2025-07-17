@@ -1,6 +1,6 @@
 ---
 title: Patê Sô
-grade: A
+grade: D
 images:
 - '@assets/recipes-pate-so-1.jpeg'
 - '@assets/recipes-pate-so-2.jpeg'

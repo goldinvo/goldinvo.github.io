@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/sauces-condiments/white-wine-pan-sauce.md",
+                "file": "cooking/meat/ground-meat/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "white-wine-pan-sauce"
+              "title": "index"
+            }
+          },
+          {
+            "id": "db13cae10f19304f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/meat/pork/pulled-pork.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "pulled-pork"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "white wine pan sauce",
+                "query": "pulled pork",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,36 +176,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "007807a12174cdd8",
+  "active": "db13cae10f19304f",
   "lastOpenFiles": [
+    "cooking/staples/pate-sucree.md",
+    "cooking/meat/ground-meat/pate-so.md",
+    "cooking/staples/pasta/lasagna.md",
+    "cooking/desserts/fruit-tart.md",
+    "cooking/staples/pasta/fresh-pasta.md",
+    "cooking/staples/legumes/falafel.md",
+    "cooking/dairy/creme-patissiere.md",
+    "cooking/meat/beef/chicken-fried-steak.md",
+    "cooking/meat/ground-meat/cabbage-rolls.md",
+    "cooking/seafood/ca-trung-kho-tieu.md",
+    "cooking/soups-stews/beef-stew.md",
+    "cooking/meat/ground-meat/salisbury-steak.md",
+    "cooking/meat/ground-meat/meatballs.md",
+    "cooking/meat/ground-meat/index.md",
+    "cooking/meat/index.md",
+    "cooking/fruits-vegetables/potatoes/mashed-potatoes.md",
+    "cooking/fruits-vegetables/potatoes/boiled-potatoes.md",
+    "cooking/fruits-vegetables/potatoes/index.md",
+    "cooking/desserts/tiramisu.md",
     "cooking/eggs/scrambled-eggs.md",
+    "cooking/staples/pasta/carbonara.md",
+    "cooking/staples/noodles/dan-dan-mian.md",
+    "cooking/sauces-condiments/white-wine-pan-sauce.md",
     "cooking/sauces-condiments/sausage-gravy.md",
     "cooking/staples/rice/risotto.md",
     "cooking/staples/pie-crust.md",
-    "cooking/soups-stews/ratatouille.md",
-    "cooking/soups-stews/chicken-pot-pie.md",
-    "cooking/soups-stews/pho.md",
-    "cooking/meat/chicken/pan-seared-chicken-breast.md",
-    "cooking/staples/pasta/macaroni-salad.md",
-    "cooking/seafood/moules-marinieres.md",
-    "cooking/beverages/tea/kombucha.md",
-    "cooking/beverages/tea/Untitled.md",
-    "cooking/sauces-condiments/hollandaise.md",
-    "cooking/eggs/french-omelette.md",
-    "cooking/eggs/eggs-benedict.md",
-    "cooking/staples/noodles/dan-dan-mian.md",
-    "cooking/staples/bread/cream-biscuits.md",
-    "cooking/soups-stews/chicken-stock.md",
-    "cooking/meat/chicken/chicken-adobo.md",
-    "cooking/staples/pasta/carbonara.md",
-    "cooking/seafood/ca-kho.md",
     "assets/IMG_0148.jpeg",
     "assets/A6F1094C-7A4A-4544-A720-83C8842DC8F5_1_201_a.heic",
-    "cooking/seafood/ca-trung-kho-tieu.md",
-    "cooking/seafood/crab-cakes.md",
-    "cooking/eggs/index.md",
-    "cooking/fruits-vegetables/salads/watermelon-apple.md",
-    "cooking/dairy/creme-patissiere.md",
     "sauces-condiments",
     "assets/recipes-chicken-pot-pie-1.jpeg",
     "Untitled",

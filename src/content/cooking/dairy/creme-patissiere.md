@@ -1,6 +1,6 @@
 ---
 title: Crème Pâtissière (Pastry Cream)
-grade: A
+grade: D
 updatedDate: '2000-01-01'
 ---
 - 260g whole milk (2 cups)

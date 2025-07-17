@@ -9,7 +9,7 @@ updatedDate: '2025-07-09'
     - **Shaoxing wine**, light and dark **soy sauce**, **Sichuan peppercorn**, **etc.**
     - **Ya cai** (芽菜 preserved mustard greens)
 - Sauce:
-    - ~2 Tbsp **sesame paste** or peanut butter
+    - ~2 Tbsp **sesame paste** or peanut butter and sesame oil
     - ~2 Tbsp light **soy sauce**
     - ~2 Tbsp **zhenjiang vinegar**
     - 1/2 cup homemade **chili oil** (with solids)
@@ -26,6 +26,6 @@ Combine all ingredients for the sauce, being sure to properly break up the sesam
 When ready to serve, boil the noodles. Mix in with the sauce in the bowls, adding some of the water from boiling to thin as necessary. Top with meat mixture and any additional toppings and serve.
 
 ## Hong Kong Style
-TODO: Served as a noodle soup instead of dry. Peanut/sesame forward. I haven't gotten around to trying to make this yet. 
+TODO: Served as a noodle soup instead of dry. Peanut/sesame forward. I haven't gotten around to trying this one yet. 
 - [https://www.youtube.com/watch?v=hlfegCjQhIw](https://www.youtube.com/watch?v=hlfegCjQhIw)
 - [https://www.youtube.com/watch?v=8VS3B0D_Pv8](https://www.youtube.com/watch?v=8VS3B0D_Pv8)

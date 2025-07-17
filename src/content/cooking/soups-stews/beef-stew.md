@@ -1,6 +1,6 @@
 ---
 title: Beef Stew
-grade: A
+grade: D
 updatedDate: '2000-01-01'
 ---
 Classic beef stew. Beef braised in thickened stock with carrots, potatoes, and onion.

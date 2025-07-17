@@ -1,13 +1,21 @@
 ---
 title: Tiramisu
-grade: D
-images:
-- '@assets/recipes-tiramisu.jpeg'
-updatedDate: '2000-01-01'
+description: "A classic Italian dessert made with espresso-soaked ladyfingers, mascarpone cream, and a dusting of cocoa powder."
+grade: E
+updatedDate: '2025-07-16'
 ---
-[NYT Recipe](https://cooking.nytimes.com/recipes/1018684-classic-tiramisu):
-1. With electric beaters, whip 50g sugar and 4 yolks till light and airy.
-2. Whip 50g sugar and 3/4 cup heavy cream to soft peaks. Add 8oz mascarpone and whip to medium peaks.
-3. Fold mascarpone mixture into yolks.
-4. Make 2 cups of coffee/espresso and add rum.
-5. For the assembly, dust bottom of pan with cocoa powder. Make a layer of coffee-soaked ladyfingers and then a layer of cream, twice. Dust with cocoa and top with shaved chocolate. Chill covered for a day.
+- *For the cream:*
+    - 8 oz container of **mascarpone**
+    - 80-100g **sugar**, divided
+    - 3-4 **egg** yolks, 2-3 whites
+- **Espresso** or strong coffee, cooled, with a dash of **rum**/cognac/etc.
+- **Ladyfingers** ("savoiardi")
+- **Cocoa powder**; bittersweet **chocolate** (opt.)
+
+Whip egg yolks and half of the sugar until light and airy. Add the mascarpone and whip until smooth. In a separate bowl with clean beaters, whip egg whites and remaining sugar to stiff peaks. Gently fold the meringue into the cream.
+
+Quickly dip ladyfingers into espresso and arrange them in a single layer in the serving dish. Spread a layer of cream, and optionally a cocoa dusting. Repeat for another layer. Smooth the top and dust with cocoa powder. Rest in the refrigerator before serving. Optionally top with shaved chocolate.
+
+## Notes
+
+**Using heavy cream:** Replace the egg whites with 3/4 cup of heavy cream, similarly whipping to stiff peaks.

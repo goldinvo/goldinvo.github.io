@@ -1,6 +1,6 @@
 ---
 title: Lasagna
-grade: A
+grade: D
 updatedDate: '2000-01-01'
 ---
 In a baking dish, layer lasagna noodles, sauce, and cheese/bechamel. On the bottom 

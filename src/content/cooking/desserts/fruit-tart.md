@@ -1,6 +1,6 @@
 ---
 title: Fruit Tart
-grade: A
+grade: D
 images:
 - '@assets/recipes-fruit-tart-1.jpeg'
 - '@assets/recipes-fruit-tart-2.jpeg'

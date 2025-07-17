@@ -1,6 +1,6 @@
 ---
 title: Carbonara
-description: Pasta with cured pork and a rich sauce of egg and cheese.
+description: Pasta with cured pork and a rich egg and cheese sauce.
 grade: E
 updatedDate: '2025-07-09'
 ---
