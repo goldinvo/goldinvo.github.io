@@ -13,7 +13,7 @@ updatedDate: '2025-07-12'
 
 Marinade the fish with seasonings and a generous dressing of fish sauce. Aromatics can be added to the marinade as well. Set aside.
 
-In a shallow pot with a base just wide enough to fit fish in a single layer, add a bit of oil and enough sugar to lightly cover the base. Caramelize the sugar, stirring if needed, very deeply until just before it will burn. Carefully add some water or marinade to stop the cooking and cover while it sputters violently. Add everything to the pot, including the marinade, arranging the fish in a single layer. Cover and let the fish briefly steam as it releases liquid. Add water or coconut water to cover 3/4th's of the fish if necessary. Braise, covered, for half an hour. 
+In a shallow pot with a base just wide enough to fit fish in a single layer, add a bit of oil and enough sugar to lightly cover the base. Caramelize the sugar, stirring if needed, very deeply until just before it will burn. Carefully add some water or marinade to stop the cooking and quickly cover to contain sputtering. Add everything to the pot, including the marinade, arranging the fish in a single layer. Cover and let the fish briefly steam as it releases liquid. Add water or coconut water to cover 3/4th's of the fish if necessary. Braise, covered, for half an hour. 
 
 Carefully flip the fish and continue to braise uncovered until the liquid reduces into a sauce. Occasionally baste the fish if you have the time. It should be deeply colored on both sides, fatty, and have a strong sweet and savory flavor. Serve with rice and accompanying dishes to balance it out.
 

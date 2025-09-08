@@ -9,4 +9,4 @@ updatedDate: '2025-07-09'
 - 350 g **heavy cream**; ~½ stick melted **butter** (divided)
 - *Serving Suggestion:* [Sausage Gravy](../../sauces-condiments/sausage-gravy)
 
-Whisk dry ingredients together.  Stir in heavy cream and a heavy dash of melted butter until combined. Gently knead on a floured worktop only until uniform. Press/roll the dough into a thick sheet and cut into biscuits. Brush with remaining butter and bake for about 15 minutes at 425ºF until risen and lightly colored.
+Whisk dry ingredients together.  Stir in heavy cream and a heavy dash of melted butter until combined. Gently knead on a floured worktop only until uniform. It should not be sticky at this point. Press/roll the dough into a thick sheet and cut into biscuits. Brush with remaining butter and bake for about 15 minutes at 425ºF until risen and lightly colored.
