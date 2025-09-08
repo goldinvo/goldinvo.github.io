@@ -1,6 +1,5 @@
 ---
 title: Tracing a Sewing Pattern
-description: "How to copy a pattern onto a new sheet of paper"
 ---
 Methods of tracing/copying a pattern (such as the tissue from a pattern envelope) to a another piece of paper:
 1. Transparent paper:

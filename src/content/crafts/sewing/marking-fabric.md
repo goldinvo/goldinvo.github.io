@@ -1,6 +1,5 @@
 ---
 title: Marking Fabric
-description: "Transfering the markings from a pattern piece to the main fabric"
 ---
 ## Marking Tools
 Thread Tracing

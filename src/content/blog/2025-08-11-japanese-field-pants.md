@@ -11,7 +11,7 @@ tags:
 - sewing
 featured: false
 ---
-These tie-style pants are Folkwear's [112 Japanese Field Pants](https://www.folkwear.com/products/japanese-field-clothing). Frankly, the quality of the patterns (both the pants and the hippari) are very poor, but the garments are simple enough that it doesn't matter.
+These tie-style pants are Folkwear's [112 Japanese Field Pants](https://www.folkwear.com/products/japanese-field-clothing).
 
 I pieced together some linen left over from a shirt project gone south, as well as extra [tea stained linen](2024-12-06-woven-polo) to supplement. Coincidentally, the curve on the tail of the shirt I used created a nice pattern on the back legs.
 
