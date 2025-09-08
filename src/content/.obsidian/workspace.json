@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crafts/bobbin-lace/basic-stitches.md",
+                "file": "crafts/sewing/tracing-patterns.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "basic-stitches"
+              "title": "tracing-patterns"
+            }
+          },
+          {
+            "id": "aa1e977ce8806ccb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "crafts/sewing/buttonholes.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "buttonholes"
+            }
+          },
+          {
+            "id": "4b298a819997df4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "crafts/sewing/flat-felled-split-seam.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "flat-felled-split-seam"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,10 +190,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad396077a9d9ed70",
+  "active": "4b298a819997df4d",
   "lastOpenFiles": [
+    "crafts/sewing/buttonholes.md",
+    "crafts/sewing/flat-felled-split-seam.md",
     "crafts/sewing/marking-fabric.md",
     "crafts/sewing/tracing-patterns.md",
+    "assets/basic-stitches-bobbin-lace-1.jpg",
+    "assets/basic-stitches-bobbin-lace-2.jpg",
+    "crafts/bobbin-lace/basic-stitches.md",
+    "crafts/bobbin-lace/index.md",
     "blog/2025-08-18-samue.md",
     "blog/2025-08-11-japanese-field-pants.md",
     "blog/2025-06-15-quilted-keyboard-dust-cover.md",
@@ -186,10 +221,6 @@
     "cooking/fruits-vegetables/caramelized-onions.md",
     "cooking/staples/pasta/macaroni-salad.md",
     "cooking/soups-stews/tomato-soup.md",
-    "cooking/soups-stews/ratatouille.md",
-    "cooking/soups-stews/pho.md",
-    "cooking/fruits-vegetables/salads/watermelon-apple.md",
-    "blog/2024-12-06-woven-polo.md",
     "assets/IMG_0172.jpeg",
     "assets/IMG_0174.jpeg",
     "assets/IMG_0173.jpeg",
@@ -200,8 +231,6 @@
     "sauces-condiments",
     "assets/recipes-chicken-pot-pie-1.jpeg",
     "Untitled",
-    "assets/recipes-eggs-benedict.jpeg",
-    "assets/IMG_0134.jpeg",
     "blog/2024-09-15-nightshirts.mdx",
     "blog/2024-08-29-double-pleated-trousers.mdx",
     "blog/2024-07-03-starling-quilt.mdx",
