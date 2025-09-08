@@ -25,7 +25,7 @@ const entries = await getCollection(collection, ({ slug, body }) => {
 });
 
 const files = entries.filter((entry) => !entry.id.includes('index'));
-let folders = entries.filter((entry) => entry.id.includes('index'));
+let folders = entries.filter((entry) => entry.id !== "index.md" && entry.id.includes('index'));  // all folders except itself
 if (customFolderOrder) {
     let temp: typeof folders = [];
     customFolderOrder.forEach( (curSlug) => {

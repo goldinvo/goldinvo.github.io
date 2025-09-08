@@ -29,4 +29,12 @@ const cooking = defineCollection( {
 	}),
 });
 
-export const collections = { blog, cooking };
+const crafts = defineCollection( {
+	type: 'content',
+	schema: () => z.object({
+		title: z.string(),
+		customFolderOrder: z.array(z.string()).optional(),
+	}),
+});
+
+export const collections = { blog, cooking, crafts };

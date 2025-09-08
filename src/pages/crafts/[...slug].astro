@@ -1,0 +1,26 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import NotebookFile from '../../layouts/NotebookFile.astro';
+import NotebookFolder from '../../layouts/NotebookFolder.astro';
+import { Image } from 'astro:assets';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('crafts');
+	return posts.map((post) => ({
+		params: { slug: post.slug == 'index' ? undefined : post.slug },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'crafts'>;
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+{ post.id.includes('index') 
+    ? <NotebookFolder {...post.data} collection={post.collection} slug={post.slug} customFolderOrder={post.data.customFolderOrder}> 
+        <Content />
+      </NotebookFolder>
+    : <NotebookFile {...post.data}> 
+        <Content />
+      </NotebookFile>
+}
