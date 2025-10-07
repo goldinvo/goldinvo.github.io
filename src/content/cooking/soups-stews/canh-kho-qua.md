@@ -1,27 +1,24 @@
 ---
 title: Canh Khổ Qua
-grade: D
-updatedDate: '2000-01-01'
+description: Vietnamese stuffed bitter melon soup.
+grade: E
+updatedDate: '2025-09-17'
 ---
-- Bitter melon
-- Stock or water
-- Cilantro, scallions
+- *For the filling:*
+    - **Ground pork**
+    - **Bean thread noodles** and **wood ear fungus**, soaked and roughly chopped
+    - **Salt, pepper, sugar, fish sauce** 
+    - *Optional:* diced **onion**/shallot, carrot, garlic, chicken powder or MSG, etc.
+- **Bitter melon**
+- Pork/chicken stock or water
+- *Garnish:* Cilantro or green onions
 
-Filling:
-- Ground pork
-- Bean thread noodles and wood ear fungus, soaked and roughly chopped
-- Fish sauce, sugar, salt, pepper
-    - *about 1 tsp fish sauce, 1/4 tsp salt per pound pork*
-- (Onions, garlic, soy sauce, etc.)
+Combine the ingredients for the filling and mix well (meat should be somewhat bouncy when cooked). Cook a small piece to taste and adjust filling.
 
+Cut a seam down the length of the bitter melon and scoop out the seeds. Stuff with filling.
 
-1. Combine filling ingredients and mix well (product should be bouncy).
-2. Cut a seam into the bitter melon and scoop out the seeds. Stuff
-with filling.
-3. Using just enough water to cover, boil the stuffed bitter melon until tender, 
-upwards of half an hour. Season.
+In a pot, cover the stuffed gourds with stock or water. Simmer for upwards of half an hour until tender, flipping halfway through. Season the broth to taste with salt, pepper, (rock) sugar, fish sauce, and/or chicken powder.
 
-Notes:
-- Curb bitterness with sugar, amount of water, or by parboiling the bitter melon (discarding water).
+Cut the gourd into segments and serve with the broth.
 
-TODO: check out Andrea Nguyen's recipe
+***Less Bitter:*** Blanch the bitter melon before filling, and/or add additional sugar/water.

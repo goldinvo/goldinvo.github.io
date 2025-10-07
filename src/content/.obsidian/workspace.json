@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad396077a9d9ed70",
+            "id": "214be19e6f85e5ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crafts/sewing/tracing-patterns.md",
+                "file": "cooking/soups-stews/french-onion-soup.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "tracing-patterns"
+              "title": "french-onion-soup"
             }
           },
           {
-            "id": "aa1e977ce8806ccb",
+            "id": "0e2e0fff0380630f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crafts/sewing/buttonholes.md",
+                "file": "cooking/soups-stews/thit-kho.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "buttonholes"
-            }
-          },
-          {
-            "id": "4b298a819997df4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "crafts/sewing/flat-felled-split-seam.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "flat-felled-split-seam"
+              "title": "thit-kho"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,10 +176,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b298a819997df4d",
+  "active": "0e2e0fff0380630f",
   "lastOpenFiles": [
-    "crafts/sewing/buttonholes.md",
+    "cooking/soups-stews/french-onion-soup.md",
+    "cooking/soups-stews/thit-kho.md",
+    "cooking/beverages/index.md",
+    "cooking/beverages/tea/kombucha.md",
+    "cooking/meat/ground-meat/pate-so.md",
+    "cooking/eggs/index.md",
+    "cooking/dairy/creme-patissiere.md",
+    "cooking/dairy/index.md",
+    "cooking/soups-stews/index.md",
+    "cooking/soups-stews/canh-kho-qua.md",
+    "cooking/soups-stews/bun-rieu.md",
+    "cooking/soups-stews/chicken-pot-pie.md",
+    "cooking/fruits-vegetables/caramelized-onions.md",
+    "cooking/meat/chicken/coq-au-vin.md",
+    "cooking/soups-stews/chicken-soup.md",
     "crafts/sewing/flat-felled-split-seam.md",
+    "crafts/sewing/buttonholes.md",
     "crafts/sewing/marking-fabric.md",
     "crafts/sewing/tracing-patterns.md",
     "assets/basic-stitches-bobbin-lace-1.jpg",
@@ -205,22 +206,7 @@
     "blog/2025-06-15-quilted-keyboard-dust-cover.md",
     "blog/2025-06-11-self-drafted-shorts.md",
     "cooking/lists/notes/on-food-and-cooking-ch-1.md",
-    "cooking/lists/bento.md",
-    "cooking/lists/notes/index.md",
-    "cooking/meat/duck-confit.md",
-    "cooking/lists/index.md",
-    "obsidian/templates/notebook-folder.md",
-    "obsidian/templates/notebook-file.md",
-    "cooking/beverages/tea/kombucha.md",
-    "cooking/meat/chicken/roast-chicken.md",
     "assets/IMG_0160.jpeg",
-    "cooking/meat/chicken/chicken-adobo.md",
-    "cooking/meat/index.md",
-    "cooking/fruits-vegetables/index.md",
-    "cooking/meat/chicken/index.md",
-    "cooking/fruits-vegetables/caramelized-onions.md",
-    "cooking/staples/pasta/macaroni-salad.md",
-    "cooking/soups-stews/tomato-soup.md",
     "assets/IMG_0172.jpeg",
     "assets/IMG_0174.jpeg",
     "assets/IMG_0173.jpeg",

@@ -1,24 +1,24 @@
 ---
 title: Patê Sô
-grade: D
+description: "[Pâté chaud] Vietnamese puff pastry meat pie."
+grade: A
 images:
 - '@assets/recipes-pate-so-1.jpeg'
 - '@assets/recipes-pate-so-2.jpeg'
-updatedDate: '2000-01-01'
+updatedDate: '2025-09-17'
 ---
-(aka Pâté chaud) A Vietnamese savory pastry made of puff pastry and a pork
-meat filling.
+- *For the filling:*
+    - **Ground pork**
+    - **Onion**
+    - **Salt, pepper, sugar**
+    - *Optional:* garlic, MSG, wood ear mushroom, pate, fish sauce, cognac, breadcrumbs, egg, etc.
+- **Puff pastry**, gently thawed
+- **Egg wash**
 
+Combine the ingredients for the filling and mix well for a bouncy final texture. Cook a small piece to adjust seasoning to taste.
 
-**Filling:** (Pick and choose from the listed ingredients)
-- Ground pork or a mixture (try to get lean if you can), maybe some wood ear mushroom
-- Minced onion (sweated), garlic
-- Salt, sugar, pepper, MSG, pate, fish sauce, cognac, etc.
-- Potato starch, corn starch, or bread crumbs (optional), both for texture and reducing moisture
+Cut puff pastry into circles/squares. Place filling in the center, brush the edges with water or egg wash, and place a second piece on top. Gently crimp together with a fork. Place on a baking sheet and briefly chill them.
 
-Mix filling well (final result should be somewhat bouncy) and microwave to test
-seasonings. I try to avoid too much liquid and fat because it will leak out the bottom when baking.
+Preheat the oven to medium-hot. When ready, remove from the fridge, brush with the egg wash and bake for 20-30 minutes until cooked, puffed, and golden-brown.
 
-Cut puff pastry into circles/squares. Place filling, brush edges with egg wash/whites/water and
-put second piece on top. Crimp with fork (crimp less or skip for more puff). Brush with egg wash/yolk.
-Bake at moderate to moderate-hot heat for about 20-30 minutes until golden-brown.
+***Drier Filling:*** [Hungry Huy](https://www.hungryhuy.com/pate-chaud/) suggests sauteing and cooling the onion before adding to the filling, as well as adding potato starch or bread crumbs to make it drier and improve the rise of the puff pastry.

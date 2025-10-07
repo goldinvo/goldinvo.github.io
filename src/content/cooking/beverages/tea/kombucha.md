@@ -4,18 +4,22 @@ description: A fizzy, tart fermented tea drink.
 grade: E
 images:
 - '@assets/recipes-kombucha.jpeg'
-updatedDate: '2025-07-09'
+updatedDate: '2025-09-24'
 ---
-For a half gallon brewing jar:
-- **Black tea bags**, or loose leaf tea.
+
+*I'd say it's better to buy this. Homemade batches are good, but the amount that is convenient to make exceeds the amount you would want to drink. I also would hesitate to drink something this acidic on a regular basis.*
+
+- **Black tea bags**, or loose leaf tea
 - **Water**
-- 1/2 cup **sugar**
-- About 1 cup of **culture** ("SCOBY") from the previous brew, or from store-bought unflavored kombucha (use more). Optionally keep the pellicle as well.
-- *For bottling (optional):* **juice**, chopped/blended **fruit** (may need to strain), **ginger**, **herbs**, **spices**, **etc**. Sugar content boosts carbonation.
+- **Sugar**
+- **Starting culture** (some of the previous brew, before bottling), or store-bought unflavored kombucha. Optionally keep the pellicle as well.
+- *For bottling (optional):* **juice**, chopped/blended **fruit**, **ginger**, **herbs**, **spices**, **etc**. The sugar content contributes to carbonation.
+- *Special equipment:* Fermentation bottles, siphon (opt.).
 
-Brew strong tea using only a portion of the water needed to fill the brewing vessel. Dissolve sugar while still hot, and let cool to room temp, adding the rest of the cold water to speed things up if needed.
+Brew strong tea using only a portion of the water. Dissolve sugar while still hot and let cool to room temp, adding more water or ice to speed things up.
 
-Add to the jar with the starting culture and pellicle, and top up with more water if necessary. Cover with something breathable (e.g. a coffee filter) and ferment for 7-14 days at a warm room temp. Taste to determine when it's done.
+Add to the jar with the starting culture and pellicle, and add more water if necessary. Cover with something breathable (e.g. a coffee filter) and ferment for 7-14 days at a warm room temp. Taste to determine when it's done.
 
-To bottle, add any flavorings or additions to the bottom of each bottle and siphon/pour the kombucha into each up to the top, leaving a small amount of headspace. Seal with an airtight cap and ferment for 2-7 days while
-watching the bubbles in the bottle. Refrigerate when proper carbonation is reached.
+To bottle, add juice and/or other additions to the bottom of each bottle and siphon/pour in the kombucha, leaving a small amount of headspace. Cap and ferment for 2-7 days. Refrigerate when proper carbonation is reached, gauged by the bubbles in the bottle. Drink chilled.
+
+***Example ratio:*** Use 1/2 cup of sugar for the sweet tea and 1 cup of the starting culture. Use enough water by the end to fill a 1/2 gallon mason jar for fermentation.
