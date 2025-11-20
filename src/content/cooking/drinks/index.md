@@ -1,4 +1,4 @@
 ---
-title: Tea
+title: Drinks
 grade: S
 ---

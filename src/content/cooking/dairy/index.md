@@ -1,4 +1,0 @@
----
-title: Dairy
-grade: S
----

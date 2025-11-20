@@ -2,15 +2,15 @@
 title: 'Notebook: Cooking'
 grade: S
 customFolderOrder:
-- sauces-condiments
-- dairy
+# - sauces-condiments
+# - dairy
 - eggs
-- fruits-vegetables
+# - fruits-vegetables
 - soups-stews
 - meat
 - seafood
 - staples
 - desserts
-- beverages
+- drinks
 ---
 **To any visitors:** This notebook is a long-term project that is still in its early stages. Feel free to visit the [graded index](/cooking/graded) or explore as you wish, but I make no promises regarding quality at this stage!

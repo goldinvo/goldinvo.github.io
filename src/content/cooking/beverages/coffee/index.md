@@ -1,4 +1,0 @@
----
-title: Coffee
-grade: S
----

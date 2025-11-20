@@ -27,16 +27,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/soups-stews/thit-kho.md",
+                "file": "cooking/drinks/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "thit-kho"
+              "title": "index"
+            }
+          },
+          {
+            "id": "1b28c30820fbe63e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/drinks/cocktails/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "b9d9d8ec27efa4f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/soups-stews/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "5e9471294e92dbd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/soups-stews/bigos.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "bigos"
+            }
+          },
+          {
+            "id": "b09836eaf6eb38a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/soups-stews/bigos.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "bigos"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -176,36 +232,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e2e0fff0380630f",
+  "active": "b09836eaf6eb38a1",
   "lastOpenFiles": [
-    "cooking/soups-stews/french-onion-soup.md",
-    "cooking/soups-stews/thit-kho.md",
-    "cooking/beverages/index.md",
-    "cooking/beverages/tea/kombucha.md",
-    "cooking/meat/ground-meat/pate-so.md",
-    "cooking/eggs/index.md",
-    "cooking/dairy/creme-patissiere.md",
-    "cooking/dairy/index.md",
     "cooking/soups-stews/index.md",
-    "cooking/soups-stews/canh-kho-qua.md",
-    "cooking/soups-stews/bun-rieu.md",
-    "cooking/soups-stews/chicken-pot-pie.md",
-    "cooking/fruits-vegetables/caramelized-onions.md",
+    "cooking/soups-stews/bigos.md",
+    "cooking/drinks/cocktails/negroni.md",
+    "cooking/drinks/cocktails/margarita.md",
+    "cooking/sauces-condiments/sausage-gravy.md",
+    "cooking/drinks/cocktails/index.md",
+    "cooking/drinks/kombucha.md",
+    "cooking/drinks/index.md",
+    "cooking/drinks/Untitled/Untitled.base",
+    "cooking/soups-stews/thit-kho.md",
+    "cooking/drinks/cocktails",
+    "cooking/index.md",
+    "cooking/meat/chicken/butter-chicken.md",
+    "cooking/meat/chicken/chicken-adobo.md",
+    "cooking/meat/index.md",
+    "cooking/meat/chicken/chicken-karaage.md",
+    "cooking/meat/chicken/index.md",
+    "cooking/meat/chicken/roast-chicken.md",
+    "cooking/meat/chicken/pan-seared-chicken-breast.md",
+    "cooking/meat/chicken/fried-chicken.md",
     "cooking/meat/chicken/coq-au-vin.md",
-    "cooking/soups-stews/chicken-soup.md",
-    "crafts/sewing/flat-felled-split-seam.md",
-    "crafts/sewing/buttonholes.md",
-    "crafts/sewing/marking-fabric.md",
-    "crafts/sewing/tracing-patterns.md",
+    "cooking/meat/chicken/fish-sauce-chicken-wings.md",
+    "cooking/meat/chicken/chicken-parmesan.md",
+    "blog/2025-06-11-self-drafted-shorts.md",
+    "blog/2025-06-15-quilted-keyboard-dust-cover.md",
+    "blog/2025-08-11-japanese-field-pants.md",
+    "blog/2025-08-18-samue.md",
+    "cooking/soups-stews/french-onion-soup.md",
     "assets/basic-stitches-bobbin-lace-1.jpg",
     "assets/basic-stitches-bobbin-lace-2.jpg",
-    "crafts/bobbin-lace/basic-stitches.md",
-    "crafts/bobbin-lace/index.md",
-    "blog/2025-08-18-samue.md",
-    "blog/2025-08-11-japanese-field-pants.md",
-    "blog/2025-06-15-quilted-keyboard-dust-cover.md",
-    "blog/2025-06-11-self-drafted-shorts.md",
-    "cooking/lists/notes/on-food-and-cooking-ch-1.md",
     "assets/IMG_0160.jpeg",
     "assets/IMG_0172.jpeg",
     "assets/IMG_0174.jpeg",
@@ -216,13 +274,11 @@
     "assets/A6F1094C-7A4A-4544-A720-83C8842DC8F5_1_201_a.heic",
     "sauces-condiments",
     "assets/recipes-chicken-pot-pie-1.jpeg",
-    "Untitled",
     "blog/2024-09-15-nightshirts.mdx",
     "blog/2024-08-29-double-pleated-trousers.mdx",
     "blog/2024-07-03-starling-quilt.mdx",
     "blog/2023-11-23-round-doily.mdx",
     "blog/2024-04-02-Another-Wild-Swan.mdx",
-    "blog/2024-06-29-lace-pattern-maker.mdx",
-    "blog/2020-02-12-wild-swan-shawl.mdx"
+    "blog/2024-06-29-lace-pattern-maker.mdx"
   ]
 }

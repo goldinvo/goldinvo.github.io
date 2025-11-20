@@ -1,4 +1,4 @@
 ---
-title: Beverages
+title: Cocktails
 grade: S
 ---
