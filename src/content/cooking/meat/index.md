@@ -1,4 +1,4 @@
 ---
-title: Meat & Entrées
+title: Meat
 grade: S
 ---

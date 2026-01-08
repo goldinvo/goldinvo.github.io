@@ -1,4 +1,4 @@
 ---
-title: Eggs
+title: Plates
 grade: S
 ---

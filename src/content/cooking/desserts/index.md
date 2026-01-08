@@ -1,4 +1,4 @@
 ---
-title: Sweets and Desserts
+title: Desserts
 grade: S
 ---

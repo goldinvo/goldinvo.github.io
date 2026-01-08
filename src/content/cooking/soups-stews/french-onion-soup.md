@@ -5,7 +5,7 @@ grade: E
 updatedDate: 2025-09-16
 ---
 
-- 1 potful of sliced **onions** and **butter**, to [caramelize](../fruits-vegetables/caramelized-onions)
+- 1 potful of sliced **onions** and **butter**, to [caramelize](../vegetables/caramelized-onions.md)
 - Dry **sherry**, brandy/cognac, port, vermouth, red wine, or white wine.
 - *Optional:* flour
 - **Beef broth** or chicken broth

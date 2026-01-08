@@ -3,13 +3,13 @@ title: 'Notebook: Cooking'
 grade: S
 customFolderOrder:
 # - sauces-condiments
-# - dairy
-- eggs
-# - fruits-vegetables
+- eggs-dairy
+# - vegetables
 - soups-stews
 - meat
 - seafood
 - staples
+- plates
 - desserts
 - drinks
 ---

@@ -83,16 +83,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cooking/soups-stews/bigos.md",
+                "file": "cooking/meat/ground-meat/cabbage-rolls.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "bigos"
+              "title": "cabbage-rolls"
+            }
+          },
+          {
+            "id": "93be60fc6a1ecc6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/plates/goi-cuon.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "goi-cuon"
+            }
+          },
+          {
+            "id": "e241b8c64025929a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cooking/plates/goi-cuon.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "goi-cuon"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -232,36 +260,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b09836eaf6eb38a1",
+  "active": "e241b8c64025929a",
   "lastOpenFiles": [
+    "cooking/staples/Untitled.md",
+    "cooking/plates/goi-cuon.md",
+    "cooking/plates/index.md",
+    "cooking/index.md",
+    "cooking/vegetables/index.md",
+    "cooking/eggs-dairy/index.md",
+    "cooking/eggs-dairy/frittata.md",
+    "cooking/meat/ground-meat/cabbage-rolls.md",
+    "cooking/meat/beef/index.md",
+    "cooking/desserts/index.md",
+    "cooking/staples/index.md",
+    "cooking/meat/index.md",
     "cooking/soups-stews/index.md",
+    "cooking/plates",
+    "cooking/meat/beef/beef-steak.md",
+    "cooking/meat/beef/chicken-fried-steak.md",
+    "cooking/drinks/sweet-tea.md",
+    "cooking/drinks/kombucha.md",
     "cooking/soups-stews/bigos.md",
     "cooking/drinks/cocktails/negroni.md",
     "cooking/drinks/cocktails/margarita.md",
     "cooking/sauces-condiments/sausage-gravy.md",
     "cooking/drinks/cocktails/index.md",
-    "cooking/drinks/kombucha.md",
     "cooking/drinks/index.md",
     "cooking/drinks/Untitled/Untitled.base",
     "cooking/soups-stews/thit-kho.md",
     "cooking/drinks/cocktails",
-    "cooking/index.md",
     "cooking/meat/chicken/butter-chicken.md",
     "cooking/meat/chicken/chicken-adobo.md",
-    "cooking/meat/index.md",
-    "cooking/meat/chicken/chicken-karaage.md",
-    "cooking/meat/chicken/index.md",
-    "cooking/meat/chicken/roast-chicken.md",
-    "cooking/meat/chicken/pan-seared-chicken-breast.md",
-    "cooking/meat/chicken/fried-chicken.md",
-    "cooking/meat/chicken/coq-au-vin.md",
-    "cooking/meat/chicken/fish-sauce-chicken-wings.md",
-    "cooking/meat/chicken/chicken-parmesan.md",
-    "blog/2025-06-11-self-drafted-shorts.md",
-    "blog/2025-06-15-quilted-keyboard-dust-cover.md",
-    "blog/2025-08-11-japanese-field-pants.md",
-    "blog/2025-08-18-samue.md",
-    "cooking/soups-stews/french-onion-soup.md",
     "assets/basic-stitches-bobbin-lace-1.jpg",
     "assets/basic-stitches-bobbin-lace-2.jpg",
     "assets/IMG_0160.jpeg",
@@ -278,7 +307,6 @@
     "blog/2024-08-29-double-pleated-trousers.mdx",
     "blog/2024-07-03-starling-quilt.mdx",
     "blog/2023-11-23-round-doily.mdx",
-    "blog/2024-04-02-Another-Wild-Swan.mdx",
-    "blog/2024-06-29-lace-pattern-maker.mdx"
+    "blog/2024-04-02-Another-Wild-Swan.mdx"
   ]
 }
